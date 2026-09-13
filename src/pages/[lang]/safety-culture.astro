@@ -7,7 +7,7 @@ export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
 const lang = Astro.params.lang as Lang;
 const h = getHome(lang);
 const { maturity, noBlame, closing } = h;
-const photo = '/img/gallery/leading-his-team-to-greatness-2026-03-25-06-32-55-utc.jpg';
+const photo = '/img/stock/header-team.jpg';
 ---
 <Base
   lang={lang}
