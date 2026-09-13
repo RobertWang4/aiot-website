@@ -1,0 +1,47 @@
+{
+  "id": "verification-of-the-accuracy-of-existing-technical-documentation",
+  "category": "machinery",
+  "menuLabel": "Weryfikacja poprawności posiadanej dokumentacji technicznej;",
+  "hasPage": true,
+  "title": "Weryfikacja poprawności posiadanej dokumentacji technicznej;",
+  "description": "Proces ten jest absolutnie konieczny na trzech kluczowych etapach życia projektu:",
+  "sourceUrl": "https://recon.org.pl/weryfikacja-poprawnosci-posiadanej-dokumentacji-technicznej/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "FUNDAMENT INWESTYCJI",
+      "text": "Dlaczego sprawdzamy dokumentację techniczną?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bezpieczeństwo i zgodność z normami: Gwarantujemy, że projekt spełnia aktualne normy branżowe, rygorystyczne warunki techniczne, przepisy przeciwpożarowe oraz wymogi bezpieczeństwa (w tym certyfikację CE).",
+        "Uniknięcie błędów i realne oszczędności: Sprawdzenie „papierów” przed startem prac pozwala wyłapać sprzeczności, niejasności i błędy projektowe. Dzięki temu unikasz absurdalnie drogich poprawek na etapie wykonawstwa.",
+        "Kompletność i brak kolizji: Upewniamy się, że wszystkie elementy projektu (konstrukcyjne, instalacyjne, automatyka) idealnie do siebie pasują i nie wchodzą sobie w drogę.",
+        "Wymogi formalno-prawne: Weryfikacja to Twoja przepustka do uzyskania niezbędnych pozwoleń. Stanowi też żelazną bazę dla organów kontrolnych, inżynierów i przyszłych operatorów.",
+        "Optymalizacja kosztów: Wychwytujemy miejsca, w których można z powodzeniem wprowadzić bezpieczne rozwiązania zamienne, co zauważalnie obniża całkowity budżet inwestycji."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "PEŁEN CYKL",
+      "text": "Na jakich etapach sprawdzamy projekty?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Proces ten jest absolutnie konieczny na trzech kluczowych etapach życia projektu:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Przed rozpoczęciem inwestycji (aby wyeliminować błędy konstrukcyjne jeszcze na papierze).",
+        "W trakcie realizacji (jako szczegółowa weryfikacja dokumentacji powykonawczej).",
+        "Przed każdą modernizacją (aby mieć pewność, że planowana przebudowa ma sens i jest w pełni bezpieczna)."
+      ]
+    }
+  ]
+}

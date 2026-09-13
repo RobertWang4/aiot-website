@@ -1,0 +1,63 @@
+{
+  "id": "thermal-imaging-of-electrical-installations-transformers-and-switchboards",
+  "category": "machinery",
+  "menuLabel": "Zdjecia kamerą termowizyjną instalcji elektrycznej, transformatorów, szaf elektrycznych",
+  "hasPage": true,
+  "title": "Zdjecia kamerą termowizyjną instalcji elektrycznej, transformatorów, szaf elektrycznych",
+  "description": "Podsumowanie: Najlepsze i najbardziej wiarygodne zdjęcia to te wykonane pod realnym obciążeniem, prostopadle do obiektu i z poprawnie ustawioną emisyjnością…",
+  "sourceUrl": "https://recon.org.pl/zdjecia-kamera-termowizyjna-instalcji-elektrycznej-transformatorow-szaf-elektrycznych/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "PREWENCJA I DIAGNOSTYKA",
+      "text": "Dlaczego badamy instalacje kamerą termowizyjną?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ochrona przed pożarami: Przegrzewające się elementy to najczęstsza przyczyna pożarów na produkcji. Wczesne wykrycie usterki ratuje zakład przed tragedią i kosztownym przestojem.",
+        "Wykrywanie luźnych połączeń i przeciążeń: Luźne styki lub przeciążone obwody generują opór i niszczycielskie ciepło. Termowizja błyskawicznie namierza te \"gorące punkty\", zanim dojdzie do trwałego uszkodzenia kabli czy wyłączników.",
+        "Utrzymanie ruchu (Predykcja): Wymieniamy wadliwe elementy tuż przed ich fizyczną awarią. Pozwala to na planowanie napraw i drastyczne obniżenie kosztów serwisu.",
+        "Bezinwazyjność i brak przestojów: Pomiary są w 100% bezpieczne, wykonywane na odległość i nie wymagają wyłączania maszyn (kontrolę przeprowadza się podczas normalnej pracy zakładu).",
+        "Wymogi ubezpieczycieli: Regularne badania termowizyjne są dziś standardowym wymogiem firm ubezpieczeniowych w celu weryfikacji bezpieczeństwa pożarowego budynku."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "RYGORYSTYCZNA METODOLOGIA",
+      "text": "Jak w praktyce robimy zdjęcia termowizyjne?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Praca pod obciążeniem: To absolutna podstawa skutecznego badania. Instalacja musi być pod napięciem i obciążona w minimum 40-50%, aby kamera miała szansę wyłapać realne różnice temperatur.",
+        "Bezpośredni dostęp i bezpieczeństwo: Kamery nie widzą przez metal. Otwieramy osłony szaf sterowniczych, zachowując przy tym najwyższe standardy bezpieczeństwa (używamy ŚOI: okularów, rękawic dielektrycznych, odzieży trudnopalnej).",
+        "Precyzyjne ustawienia aparatury: Zawsze kalibrujemy emisyjność pod konkretny materiał (czysta miedź \"świeci\" na podczerwieni inaczej niż taśma izolacyjna). Odrzucamy fałszywe odblaski i dobieramy optymalny zakres temperatur.",
+        "Technika fotografowania (Podwójne zdjęcia): Ustawiamy obiektyw prostopadle do obiektu, skanując układ systematycznie od zasilania głównego w dół. Zawsze wykonujemy termogram oraz zwykłe zdjęcie cyfrowe tego samego elementu, aby klient mógł łatwo zidentyfikować usterkę w raporcie."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "DIAGNOSTYKA USTEREK",
+      "text": "Czego szukamy na zebranych termogramach?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Porównywanie faz (Delta T): Nie interesuje nas tylko sucha, bezwzględna temperatura. Szukamy różnic (Delta T) między podejrzanym elementem a sąsiednią, chłodniejszą fazą referencyjną.",
+        "Rozróżnianie typów anomalii: Precyzyjnie identyfikujemy problem. “Hot spot” na samym zacisku to zazwyczaj luźne połączenie. Równomierny wzrost temperatury na całym kablu to z kolei ewidentne przeciążenie obwodu. Wyłapujemy też asymetrię zasilania.",
+        "Kategoryzacja ryzyka: Zgodnie z normami, wyższe temperatury to wyższe ryzyko pożaru. W gotowym raporcie szeregujemy wykryte usterki od krytycznych (wymagających natychmiastowej interwencji) do drobnych, które wystarczy tylko obserwować."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Podsumowanie: Najlepsze i najbardziej wiarygodne zdjęcia to te wykonane pod realnym obciążeniem, prostopadle do obiektu i z poprawnie ustawioną emisyjnością materiału. Tylko wtedy pokazują faktyczny stan Twojej instalacji."
+    }
+  ]
+}

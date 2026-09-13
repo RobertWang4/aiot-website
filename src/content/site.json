@@ -1,0 +1,87 @@
+{
+  "brand": {
+    "name": "AIoT P.S.A.",
+    "logo": "/img/logo.jpg",
+    "colors": {
+      "navy": "#0B1B4A",
+      "blue": "#2F6BFF"
+    }
+  },
+  "contact": {
+    "email": "office@recon.org.pl",
+    "phone": "+48 691 741 999",
+    "address": "ul. Strzelińska 6, 58-100 Świdnica, Poland"
+  },
+  "social": {},
+  "languages": [
+    "pl",
+    "en"
+  ],
+  "defaultLanguage": "pl",
+  "nav": {
+    "pl": [
+      {
+        "id": "home",
+        "label": "Strona główna",
+        "href": "/pl/"
+      },
+      {
+        "id": "about",
+        "label": "O Firmie",
+        "href": "/pl/about/"
+      },
+      {
+        "id": "services",
+        "label": "Oferta",
+        "href": "/pl/services/"
+      },
+      {
+        "id": "gallery",
+        "label": "Galeria",
+        "href": "/pl/gallery/"
+      },
+      {
+        "id": "clients",
+        "label": "Zaufali nam",
+        "href": "/pl/clients/"
+      },
+      {
+        "id": "contact",
+        "label": "Kontakt",
+        "href": "/pl/contact/"
+      }
+    ],
+    "en": [
+      {
+        "id": "home",
+        "label": "Homepage",
+        "href": "/en/"
+      },
+      {
+        "id": "about",
+        "label": "About Us",
+        "href": "/en/about/"
+      },
+      {
+        "id": "services",
+        "label": "Services",
+        "href": "/en/services/"
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "href": "/en/gallery/"
+      },
+      {
+        "id": "clients",
+        "label": "Trusted us",
+        "href": "/en/clients/"
+      },
+      {
+        "id": "contact",
+        "label": "Contact",
+        "href": "/en/contact/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+import Blocks from '../../components/Blocks.astro';
+import { LANGS, getPage, type Lang } from '../../lib/content';
+export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+const p = getPage(lang, 'about');
+---
+<Base lang={lang} title={p.title} description={p.description}>
+  <section class="pb-24 pt-36"><Blocks blocks={p.blocks} /></section>
+</Base>

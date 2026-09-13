@@ -1,0 +1,33 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { LANGS, getPage, getServiceIndex, getService, type Lang } from '../../../lib/content';
+export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+const p = getPage(lang, 'services');
+const idx = getServiceIndex(lang);
+const cats = idx.categories.map((c) => ({ ...c, items: c.services.map((id) => getService(lang, id)) }));
+---
+<Base lang={lang} title={p.title} description={p.description}>
+  <section class="mx-auto max-w-7xl px-6 pb-24 pt-36">
+    <h1 class="text-5xl font-bold tracking-tight text-navy">{p.title}</h1>
+    <div class="mt-16 space-y-20">
+      {cats.map((c, i) => (
+        <div id={c.id} class="reveal grid gap-8 md:grid-cols-[1fr_2fr]">
+          <div>
+            <span class="text-xs text-blue">{String(i + 1).padStart(2, '0')}</span>
+            <h2 class="mt-2 text-2xl font-semibold text-navy">{c.label}</h2>
+          </div>
+          <ul class="divide-y divide-ink/10">
+            {c.items.map((s) => (
+              <li class="py-4">
+                {s.hasPage
+                  ? <a href={`/${lang}/services/${s.id}/`} class="text-lg hover:text-blue">{s.menuLabel ?? s.title}</a>
+                  : <span class="text-lg text-ink/70">{s.title}</span>}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  </section>
+</Base>

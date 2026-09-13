@@ -1,0 +1,63 @@
+{
+  "id": "fire-safety-instructions-fsi",
+  "category": "fire-safety",
+  "menuLabel": "Instrukcja bezpieczeństwa PPOŻ",
+  "hasPage": true,
+  "title": "Instrukcja Bezpieczeństwa Pożarowego (IBP)",
+  "description": "Instrukcja Bezpieczeństwa Pożarowego to kluczowy dokument wymagany dla budynków użyteczności publicznej, produkcyjnych, magazynowych oraz zamieszkania…",
+  "sourceUrl": "https://recon.org.pl/instrukcja-bezpieczenstwa-pozarowego-ibp/",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Instrukcja Bezpieczeństwa Pożarowego to kluczowy dokument wymagany dla budynków użyteczności publicznej, produkcyjnych, magazynowych oraz zamieszkania zbiorowego. Brak aktualnej instrukcji skutkuje odpowiedzialnością karną i administracyjną podczas kontroli Państwowej Straży Pożarnej."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pamiętaj: Dokument musi być aktualizowany co najmniej raz na 2 lata lub przy każdej istotnej zmianie sposobu użytkowania obiektu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "WARTOŚĆ DLA OBIEKTU",
+      "text": "Dlaczego rzetelne IBP jest niezbędne?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Współpraca z RECON przy tworzeniu IBP gwarantuje pełne bezpieczeństwo na wielu płaszczyznach:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bezpieczeństwo ludzi: Precyzyjne określenie procedur postępowania na wypadek pożaru oraz wyznaczenie jasnych zasad ewakuacji.",
+        "Organizacyjna ochrona ppoż.: Definicja zasad korzystania z instalacji, zabezpieczania prac pożarowo niebezpiecznych oraz harmonogramów przeglądów urządzeń.",
+        "Wsparcie służb ratowniczych: Profesjonalna instrukcja dostarcza Straży Pożarnej niezbędnych danych taktycznych podczas prowadzenia działań gaśniczych."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "ZAWARTOŚĆ DOKUMENTACJI",
+      "text": "Co przygotowujemy w ramach IBP?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Przygotowywana przez nas dokumentacja zawiera kompletną analizę obiektu, w tym:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "– Warunki ochrony przeciwpożarowej i ocenę zagrożenia wybuchem.",
+        "– Wykaz urządzeń przeciwpożarowych wraz z planami ich rozmieszczenia.",
+        "– Sposoby postępowania na wypadek pożaru i innego zagrożenia.",
+        "– Plany ewakuacji i graficzne plany obiektu (niezbędne dla PSP)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "PPOŻ"
+    }
+  ]
+}

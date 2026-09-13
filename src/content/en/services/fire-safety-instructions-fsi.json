@@ -1,0 +1,63 @@
+{
+  "id": "fire-safety-instructions-fsi",
+  "category": "fire-safety",
+  "menuLabel": "Fire safety instructions",
+  "hasPage": true,
+  "title": "Fire safety instructions (FSI)",
+  "description": "This is a document required for public buildings, collective accommodation, production facilities and warehouses of a specified volume (usually above a…",
+  "sourceUrl": "https://recon.org.pl/en/fire-safety-instructions-fsi/",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "This is a document required for public buildings, collective accommodation, production facilities and warehouses of a specified volume (usually above a certain threshold). The absence of instructions may result in criminal and administrative liability during inspections by the State Fire Service."
+    },
+    {
+      "type": "paragraph",
+      "text": "Remember: It must be updated at least once every two years, or whenever there are changes to the way the premises are used."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "VALUE FOR THE FACILITY",
+      "text": "Main objectives and reasons for creating fire safety instructions:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Here are the main reasons why it is worth working with our fire safety team on the creation of instructions:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Human safety: It sets out procedures to follow in the event of a fire and evacuation rules.",
+        "Organisational fire safety: It defines the rules for using utility systems, methods for safeguarding work that poses a fire hazard, and inspections of fire safety equipment.",
+        "Guidelines for the fire service: The manual is essential for emergency services during operations."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "DOCUMENTATION CONTENT",
+      "text": "What do we prepare as part of the FSI?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The documentation we prepare includes a complete analysis of the facility, including:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "– Fire safety conditions and explosion risk assessment.",
+        "– A list of fire protection equipment along with their layout plans.",
+        "– Procedures to follow in the event of a fire or other emergency.",
+        "– Evacuation plans and graphic facility plans (required for the State Fire Service)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "PPOŻ"
+    }
+  ]
+}

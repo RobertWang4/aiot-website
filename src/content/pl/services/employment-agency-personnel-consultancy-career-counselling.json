@@ -1,0 +1,32 @@
+{
+  "id": "employment-agency-personnel-consultancy-career-counselling",
+  "category": "employment-agency",
+  "menuLabel": "Pośrednictwo pracy, doradztwo personalne, poradnictwo zawodowe",
+  "hasPage": true,
+  "title": "Pośrednictwo pracy, doradztwo personalne, poradnictwo zawodowe",
+  "description": "",
+  "sourceUrl": "https://recon.org.pl/posrednictwo-pracy-doradztwo-personalne-poradnictwo-zawodowe/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "ZARZĄDZANIE KAPITAŁEM LUDZKIM",
+      "text": "Elastyczne wsparcie kadrowe dla Twojej firmy"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Pośrednictwo i rekrutacja: Działamy jako profesjonalny łącznik między Twoim przedsiębiorstwem a kandydatami. Przejmujemy cały proces poszukiwania i selekcji personelu, dopasowując kompetencje pracowników do specyfiki Twojej branży.",
+        "Pełna obsługa kadrowo-płacowa: Bierzemy na siebie wszystkie formalności administracyjne – od przygotowania umów, przez zgłoszenia do ZUS, aż po naliczanie i wypłatę wynagrodzeń.",
+        "Model pracy tymczasowej: Jako agencja stajemy się formalnym pracodawcą delegowanych osób. Takie rozwiązanie zapewnia Twojej firmie maksymalną elastyczność kadrową i pozwala szybko reagować na sezonowe skoki zapotrzebowania na personel.",
+        "Doradztwo i poradnictwo zawodowe: Wspieramy rozwój Twojego zespołu poprzez profesjonalne doradztwo personalne, pomagając w optymalizacji struktury zatrudnienia i planowaniu ścieżek kariery."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "/img/employment-agency-personnel-consultancy-career-counselling/obraz_2026-03-16_154838190.png",
+      "alt": ""
+    }
+  ]
+}

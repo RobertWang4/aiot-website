@@ -1,0 +1,100 @@
+{
+  "id": "premium-training-for-management-on-health-and-safety-awareness",
+  "category": "ohs",
+  "menuLabel": "Premium training for management on health and safety awareness",
+  "hasPage": true,
+  "title": "Premium training for management on health and safety awareness",
+  "description": "The aim is to prepare management to organise work correctly in accordance with regulations, identify hazards, assess risks and raise awareness of legal…",
+  "sourceUrl": "https://recon.org.pl/en/premium-training-for-management-on-health-and-safety-awareness/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "OHS FOR MANAGEMENT",
+      "text": "Three hours of training will change the way the CEO, director and management view health and safety"
+    },
+    {
+      "type": "paragraph",
+      "text": "The aim is to prepare management to organise work correctly in accordance with regulations, identify hazards, assess risks and raise awareness of legal liability for breaches of health and safety rules."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Training sessions organised at the client’s premises, at Recon’s premises, or, upon request, fully organised at any resort.",
+        "Zero accidents. An unrealistic vision or a realistic goal?"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "WORKSHOPS AND ANALYSIS",
+      "text": "How to detect hazards and respond to errors?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Theoretical concepts supported by practical exercises:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Psychology and errors [60 mins]: Hazard or human error? 4 groups of critical human errors. Three sources of unexpected events. Safety culture matrix. Technical problem vs Behavioural problem?",
+        "Influence of attitudes on safety [30 mins]: How might my personal state affect my safety behaviour? (emotions, attitudes).",
+        "Proactivity and the leader's role [45 mins]: Proactivity – you have a role to play. What is allowed and what is not?",
+        "Production hall audit [35 mins]: Observe and identify hazards – take photos – corrective and preventive actions."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "LABOUR CODE AND PENALTIES",
+      "text": "Management’s scope of responsibility for workplace safety"
+    },
+    {
+      "type": "paragraph",
+      "text": "Civil, criminal (imprisonment for up to 5 years) and administrative liability."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Legal basis for health and safety responsibilities"
+    },
+    {
+      "type": "paragraph",
+      "text": "Section 207 of the Labour Code – the employer’s fundamental duty. Section 212 of the Labour Code – tasks and duties of those managing employees. Consequences of breaches (fines, accidents at work, occupational diseases)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Work organisation and safety"
+    },
+    {
+      "type": "paragraph",
+      "text": "Supervision of the use of personal and collective protective equipment. On-the-job induction and periodic training – the role of the supervisor. Admitting to work only those who have been properly trained and have undergone medical examinations."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Occupational risk assessment and preventive measures"
+    },
+    {
+      "type": "paragraph",
+      "text": "Identification of hazards posed by harmful and dangerous factors. Methods for assessing occupational risks and documenting actions. Planning and implementing risk mitigation measures. Particularly hazardous work – principles of direct supervision."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Case Study"
+    },
+    {
+      "type": "paragraph",
+      "text": "Analysis of court rulings: Analysis of real-life accidents (case studies). Exemptions from liability for those managing employees."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "HEALTH AND SAFETY"
+    }
+  ]
+}

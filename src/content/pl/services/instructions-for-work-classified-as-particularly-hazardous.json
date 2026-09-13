@@ -1,0 +1,181 @@
+{
+  "id": "instructions-for-work-classified-as-particularly-hazardous",
+  "category": "ohs",
+  "menuLabel": "Instrukcje prac zaklasyfikowanych jako szczególnie niebezpieczne",
+  "hasPage": true,
+  "title": "Instrukcje prac zaklasyfikowanych jako szczególnie niebezpieczne",
+  "description": "Instrukcje prac szczególnie niebezpiecznych (PSzN) to dokumentacja BHP, która musi być opracowana przed rozpoczęciem prac o podwyższonym ryzyku wypadkowym,…",
+  "sourceUrl": "https://recon.org.pl/instrukcje-prac-zaklasyfikowanych-jako-szczegolnie-niebezpieczne/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "BEZPIECZEŃSTWO PRAC WYSOKIEGO RYZYKA",
+      "text": "Instrukcje prac szczególnie niebezpiecznych (PSzN)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Instrukcje prac szczególnie niebezpiecznych (PSzN) to dokumentacja BHP, która musi być opracowana przed rozpoczęciem prac o podwyższonym ryzyku wypadkowym, zgodnie z przepisami (głównie rozporządzeniem MPiPS w sprawie ogólnych przepisów BHP). Instrukcja pozwala pracownikom zapoznać się ze specyficznymi warunkami pracy, a w razie sytuacji awaryjnej – określa procedury ratunkowe."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "GŁÓWNE CELE",
+      "text": "Co zyskujesz dzięki współpracy z RECON?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Identyfikacja zagrożeń i ich eliminacja: Dokładne określenie, jakie niebezpieczeństwa występują (np. upadek, porażenie, zatrucie) i jak im zapobiegać.",
+        "Wskazanie środków ochrony: Określenie niezbędnych środków ochrony zbiorowej (np. balustrady) i indywidualnej (np. szelki, maski).",
+        "Procedury i kolejność działań: Ustalenie imiennego podziału pracy, kolejności wykonywania zadań oraz instruktażu dla pracowników.",
+        "Formalny wymóg prawny: Pracodawca ma obowiązek określić szczegółowe wymagania BHP i zaktualizować wykaz takich prac.",
+        "Dokumentowanie i nadzór: Ustanowienie zasad bezpośredniego nadzoru nad pracami oraz obiegu dokumentów (np. poleceń pisemnych)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "KROK 1",
+      "text": "Identyfikacja i klasyfikacja prac"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pracodawca ma obowiązek zidentyfikować prace szczególnie niebezpieczne i stworzyć ich wykaz. Najczęściej spotykamy:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Prace Budowlane i Montażowe"
+    },
+    {
+      "type": "paragraph",
+      "text": "Roboty budowlane, rozbiórkowe i montażowe prowadzone bez wstrzymania ruchu zakładu pracy."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Przestrzenie Zamknięte"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prace w zbiornikach, kanałach, wnętrzach urządzeń technicznych i w niebezpiecznych przestrzeniach zamkniętych."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Prace na Wysokości"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prace wykonywane na rusztowaniach, drabinach, podestach ruchomych czy dachach."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Materiały Niebezpieczne"
+    },
+    {
+      "type": "paragraph",
+      "text": "Czynności wymagające kontaktu z substancjami chemicznymi, toksycznymi, żrącymi lub łatwopalnymi."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "KROK 2",
+      "text": "Opracowanie instrukcji (IBWR)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Instrukcja ta jest zazwyczaj formą Instrukcji Bezpiecznego Wykonywania Robót (IBWR), którą opracowuje wykonawca. Obowiązkowa struktura instrukcji:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "CEL: Określenie zasad organizacji, prowadzenia i dokumentowania prac.",
+        "PRZEDMIOT I ZAKRES: Dokładny opis, jakiej pracy dotyczy (np. „spawanie wewnątrz zbiornika X”).",
+        "CZYNNOŚCI PRZED ROZPOCZĘCIEM: Sprawdzenie kwalifikacji, badań lekarskich, przygotowanie miejsca, zapewnienie środków ochrony zbiorowej i indywidualnej (SOI).",
+        "ZASADY BEZPIECZNEGO WYKONYWANIA: Kolejność zadań, techniki pracy, imienny podział pracy.",
+        "CZYNNOŚCI PO ZAKOŃCZENIU: Uporządkowanie miejsca, przekazanie urządzeń, zamknięcie prac.",
+        "SYTUACJE AWARYJNE: Procedury postępowania w przypadku wypadku, pożaru itp."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "KROK 3",
+      "text": "Wymagania organizacyjne i formalne"
+    },
+    {
+      "type": "paragraph",
+      "text": "Instrukcja musi zapewniać:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Bezpośredni nadzór"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wyznaczenie osoby nadzorującej prace."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Pisemne polecenie (pozwolenie)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wypełnienie zezwolenia na pracę, które zawiera analizę zagrożeń (JSA - Job Safety Analysis)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Instruktaż pracowników"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zapoznanie pracowników z IBWR, imienny podział pracy i kolejność czynności."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Zabezpieczenie terenu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Oznakowanie i odgrodzenie miejsca prac."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "KROK 4",
+      "text": "Co powinna zawierać dokumentacja?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Oprócz samej instrukcji, pakiet dokumentów powinien zawierać:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Zezwolenie na prace szczególnie niebezpieczne (polecenie pisemne).",
+        "Analizę ryzyka zawodowego (często JSA).",
+        "Protokół zabezpieczenia prac (np. przeciwpożarowych).",
+        "Listę pracowników z ich podpisami potwierdzającymi zaznajomienie się z instrukcją."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Kluczowe jest, aby instrukcja była zrozumiała dla wykonawców i dostępna na miejscu prac."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "PROCEDURY I RYZYKO"
+    }
+  ]
+}

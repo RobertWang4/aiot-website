@@ -1,0 +1,175 @@
+{
+  "id": "organisational-procedures-relating-to-health-and-safety-and-environmental-protection",
+  "category": "ohs",
+  "menuLabel": "Organisational procedures relating to health and safety and environmental protection",
+  "hasPage": true,
+  "title": "Organisational procedures relating to health and safety and environmental protection",
+  "description": "Health and safety procedures turn safety into a practical system, rather than just ‘red tape’. The main benefits are:",
+  "sourceUrl": "https://recon.org.pl/en/organisational-procedures-relating-to-health-and-safety-and-environmental-protection/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "OUR PROCESS",
+      "text": "Here is how we prepare health and safety and environmental protection procedures step by step:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Analysis and identification: Risk analysis and hazard identification: The foundation is an assessment of workstations, technological processes and chemical substances in terms of risks to employees’ health and the environment, and identification of legal requirements.",
+        "Drafting the procedure: We write procedures clearly and, based on the risk analysis.",
+        "Consultation and implementation: Procedures should be discussed with employees and approved by senior management, and familiarising employees with the procedures through training.",
+        "Monitoring and updating: Regularly reviewing the effectiveness of procedures and updating them as processes change."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "VALUE FOR THE ORGANIZATION",
+      "text": "Here are the main objectives and benefits of creating health and safety procedures:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Health and safety procedures turn safety into a practical system, rather than just ‘red tape’. The main benefits are:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Protection and Standardisation: Risk minimisation and health protection – procedures enable the identification of hazards and specify how to proceed to avoid accidents. Standardisation of activities describes, step by step, how to perform tasks safely.",
+        "Legal requirement and avoidance of penalties: Employers are legally obliged to organise work in a way that ensures safe conditions. Implementing procedures protects against financial penalties during inspections.",
+        "Faster training and onboarding: Clear procedures help new employees learn safe working methods immediately. Increased work efficiency: A safe environment reduces sick leave and production downtime.",
+        "Proof of compliance: In the event of an accident, documented procedures serve as proof that the employer has done everything possible to ensure safety."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "DOCUMENTATION STANDARD",
+      "text": "Structure of a procedure (what it should contain)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each procedure should consist of the following elements:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Purpose and scope"
+    },
+    {
+      "type": "paragraph",
+      "text": "Purpose of the procedure (what we aim to achieve) and scope of application (who and what the procedure applies to)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Responsibility"
+    },
+    {
+      "type": "paragraph",
+      "text": "Who is responsible for implementation, supervision and compliance."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Procedure (step-by-step)"
+    },
+    {
+      "type": "paragraph",
+      "text": "A detailed description of the actions, including emergencies (what to do if something goes wrong)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Documentation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Records, log sheets. Terminology: Explanation of difficult terms."
+    },
+    {
+      "type": "paragraph",
+      "text": "A detailed description of the actions, including emergencies (what to do if something goes wrong)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "AREAS OF SUPPORT",
+      "text": "Organisational health and safety procedures"
+    },
+    {
+      "type": "paragraph",
+      "text": "Health and Safety Procedures – Key Areas include, amongst others:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Health and safety management system: General principles and health and safety policy.",
+        "Health and safety training: Induction and periodic training (briefings).",
+        "Hazardous work: Procedures (e.g. work at height, hot work).",
+        "Personal protective equipment: Rules for allocation and use.",
+        "Inspections of machinery and equipment."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "ENVIRONMENTAL RESPONSIBILITY",
+      "text": "Environmental protection procedures"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pomagamy minimalizować wpływ firmy na otoczenie poprzez procedury:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Waste management"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sorting, storage and disposal of waste (including hazardous waste)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Emission control"
+    },
+    {
+      "type": "paragraph",
+      "text": "Control of emissions from technological processes and control of wastewater and water consumption."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Procedures in the event of an environmental incident:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Spill or fire response plan."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "OUR APPROACH",
+      "text": "Good practice"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "– Accessibility: Procedures must not simply be ‘documents gathering dust in a drawer’",
+        "– Involvement: We involve employees in drawing up procedures – they know the specifics of their work best.",
+        "– Visualisation: We encourage the use of graphical workstation instructions next to machinery."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "HEALTH AND SAFETY"
+    }
+  ]
+}

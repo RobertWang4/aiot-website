@@ -1,0 +1,182 @@
+{
+  "id": "occupational-risk-assessment-for-processes-workstations-activities-etc",
+  "category": "ohs",
+  "menuLabel": "Occupational risk assessment for processes, workstations, activities, etc.",
+  "hasPage": true,
+  "title": "Occupational risk assessment for processes, workstations, activities, etc.",
+  "description": "Check us out in your chosen methodology:",
+  "sourceUrl": "https://recon.org.pl/en/occupational-risk-assessment-for-processes-workstations-activities-etc/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "EXPERT ANALYSIS",
+      "text": "Methodologies and the risk estimation process"
+    },
+    {
+      "type": "paragraph",
+      "text": "Check us out in your chosen methodology:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Risk analysis methods (PHA, Risk Score, Risk Matrix, Five-Step Method, FMEA, HAZOP, CHL, What If, …)",
+        "Risk assessment methodology according to PN-EN ISO 12100, PN-EN ISO 13849, PN-EN IEC 62061"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Risk assessment – a process used to establish a measure of the level of risk under consideration. Risk assessment consists of the following steps: frequency analysis, consequence analysis and their combination."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "ENGINEERING APPROACH",
+      "text": "Inductive and deductive hazard investigation"
+    },
+    {
+      "type": "paragraph",
+      "text": "There are many methods for assessing risk:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Inductive method: an event is assumed (e.g., damage to a machine component) that leads to subsequent events caused by this failure.",
+        "Deductive method: This method assumes a final event and seeks the causes (events) that may have led to it."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These methods can be classified according to: The method of analysis (deductive, inductive), Nature of the analysis (qualitative, quantitative), Type of losses analysed (human, material, environmental), Level of complexity (simple, complex)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "BUSINESS VALUE",
+      "text": "Main reasons for carrying out a risk assessment:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ochrona życia i zdrowia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Identyfikujemy zagrożenia, by realnie zapobiegać wypadkom i chorobom zawodowym."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Zgodność prawna"
+    },
+    {
+      "type": "paragraph",
+      "text": "Spełniamy wymogi Kodeksu pracy oraz Dyrektyw unijnych (89/391/EWG, 98/24/WE, 1999/38/WE)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Działania profilaktyczne"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pomagamy dobrać optymalne środki ochrony (SOI) oraz zorganizować pracę w sposób bezpieczniejszy"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Efektywność ekonomiczna"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mniejsza liczba wypadków to niższe odszkodowania, brak przestojów i rzadsze kontrole organów nadzoru (PIP, Sanepid)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "WHEN TO ACT?",
+      "text": "When should a risk assessment be carried out?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A risk assessment is not a one-off document, but an ongoing process that must be updated when working conditions or technologies change, or when accidents occur."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "When designing workstations",
+        "When changes are made to workstations (technological or organisational changes), e.g. modernisation",
+        "Following a change in the requirements relating to the workstation",
+        "Wdrożono nowe środki ochronne lub doszło do zdarzenia wypadkowego."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "BAZA DANYCH",
+      "text": "Źródła informacji wykorzystywane do oceny"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rzetelna ocena opiera się na twardych danych. Analizujemy m.in.:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Dokumentację techniczną: DTR maszyn, instrukcje stanowiskowe, karty charakterystyki substancji chemicznych.",
+        "Dane pomiarowe: Wyniki badań czynników szkodliwych i uciążliwych w środowisku pracy.",
+        "Historię zakładu: Rejestry wypadków i chorób zawodowych.",
+        "Wymagania lokalne: Lokalizację stanowisk oraz specyficzne potrzeby grup wrażliwych (kobiety w ciąży, osoby niepełnosprawne)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "NARZĘDZIA BADAWCZE",
+      "text": "Metody Analizy I Oceny Ryzyka"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Metody szacunkowe"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Matryca ryzyka (PN-N-18002:2000)",
+        "PHA – wstępna analiza zagrożeń",
+        "Risk Assessment Code",
+        "Risk Score",
+        "Metoda pięciu kroków",
+        "Wskaźnik ryzyka (WRP)",
+        "Grafy ryzyka"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Metody zaawansowane"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "FMEA (Failure Mode and Effects Analysis)",
+        "Kalkulatory ryzyka",
+        "HAZOP (Hazard and Operability Study)",
+        "Metoda List Kontrolnych – CHL",
+        "Metoda „co jeśli” (What-if)"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "HEALTH AND SAFETY"
+    }
+  ]
+}

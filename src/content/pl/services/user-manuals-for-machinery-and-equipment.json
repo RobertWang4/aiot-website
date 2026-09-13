@@ -1,0 +1,140 @@
+{
+  "id": "user-manuals-for-machinery-and-equipment",
+  "category": "machinery",
+  "menuLabel": "Instrukcje obsługi dla użytkownika maszyny, urządzenia",
+  "hasPage": true,
+  "title": "Instrukcje obsługi dla użytkownika maszyny, urządzenia",
+  "description": "Nasze instrukcje (niezależnie czy w formie papierowej, czy cyfrowej) projektujemy tak, aby pozwalały na błyskawiczne znalezienie informacji bez wertowania…",
+  "sourceUrl": "https://recon.org.pl/instrukcje-obslugi-dla-uzytkownika-maszyny-urzadzenia/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "GŁÓWNE CELE RECON",
+      "text": "Dlaczego profesjonalna instrukcja jest tak ważna?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nasze instrukcje (niezależnie czy w formie papierowej, czy cyfrowej) projektujemy tak, aby pozwalały na błyskawiczne znalezienie informacji bez wertowania ścian tekstu. Główne korzyści to:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bezpieczeństwo (BHP): Jasne informowanie o zasadach bezpiecznego użytkowania, co jest podstawą zapobiegania wypadkom.",
+        "Poprawna eksploatacja: Prowadzenie operatora krok po kroku, co drastycznie ułatwia pierwszą instalację i codzienną obsługę.",
+        "Wymogi prawne: Zapewnienie pełnej dokumentacji technicznej, absolutnie niezbędnej przy legalnym wprowadzaniu maszyny na rynek.",
+        "Minimalizacja awarii: Wskazówki dotyczące regularnej konserwacji, które realnie wydłużają żywotność urządzenia.",
+        "Redukcja kosztów wsparcia: Dobrze napisana instrukcja sprawia, że pomoc techniczna jest rzadziej potrzebna – użytkownik sam znajduje odpowiedzi na swoje pytania."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "KOMPLETNA DOKUMENTACJA",
+      "text": "Co dokładnie zawiera nasza instrukcja?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prowadzimy użytkownika przez każdy etap pracy z urządzeniem. Struktura obejmuje:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Wstęp i identyfikację: Strona tytułowa (dane, model, znak CE), przeznaczenie maszyny oraz Deklaracja Zgodności WE.",
+        "Bezpieczeństwo (Kluczowy dział): Ostrzeżenia, piktogramy, opis ryzyka resztkowego i wykaz wymaganych środków ochrony indywidualnej (ŚOI).",
+        "Opis techniczny: Budowa, zasada działania, parametry oraz czytelne schematy i rysunki.",
+        "Logistykę i start: Zasady transportu, montaż, podłączenie do mediów (prąd, powietrze) oraz pierwsze uruchomienie.",
+        "Codzienną obsługę: Procedury włączania/wyłączania, praca w trybie normalnym i reagowanie na sytuacje nietypowe.",
+        "Utrzymanie ruchu: Rutynowa konserwacja, regulacje, wykaz części zamiennych oraz sekcja Troubleshooting (tabela awarii i sposoby ich usuwania).",
+        "Koniec cyklu życia: Bezpieczne wycofanie z eksploatacji i utylizacja."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Instrukcja ta jest zazwyczaj formą Instrukcji Bezpiecznego Wykonywania Robót (IBWR), którą opracowuje wykonawca. Obowiązkowa struktura instrukcji:"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "STANDARDY TWORZENIA",
+      "text": "Jak piszemy, żeby użytkownik zrozumiał?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Prosty język i struktura: Unikamy zbędnego żargonu. Piszemy zwięźle, stosując listy numerowane dla procedur i wypunktowania dla cech. Dopasowujemy język do odbiorcy (inny dla operatora, inny dla serwisanta).",
+        "Maksimum wizualizacji: Długie opisy zastępujemy zdjęciami, rysunkami technicznymi i piktogramami.",
+        "Wyraźne ostrzeżenia: Zagrożenia dla życia lub zdrowia są natychmiast widoczne (ramki, czerwony kolor, hasło \"NIEBEZPIECZEŃSTWO\").",
+        "Zgodność z prawem UE: Gwarantujemy dostępność w języku kraju docelowego (np. polskim) oraz pełną zgodność z Dyrektywą Maszynową 2006/42/WE (oraz nowym Rozporządzeniem UE 2023/1230 wchodzącym od 2027 r.). Obowiązkowo uwzględniamy też punkt o „przewidywalnym niewłaściwym użytkowaniu”."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "OD ZERA DO PUBLIKACJI",
+      "text": "Etapy tworzenia instrukcji krok po kroku"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Analiza"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rozmowy z konstruktorami i operatorami w celu pełnego zrozumienia maszyny."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Szkicowanie"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zgromadzenie wszystkich dostępnych rysunków, schematów i dokumentacji źródłowej."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Pisanie (najlepiej w akcji)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tworzenie treści podczas fizycznego testowania maszyny, co pozwala od razu wyłapać ewentualne nieścisłości."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Wizualizacja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dodanie dedykowanych zdjęć, schematów i naniesienie na nie czytelnych opisów."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Weryfikacja"
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Crash-test\" instrukcji przez osobę trzecią (np. specjalistę BHP lub innego operatora)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Publikacja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wygenerowanie gotowego pliku PDF lub wersji do druku, która trafia prosto do urządzenia."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "MASZYNY/ URZĄDZENIA"
+    }
+  ]
+}

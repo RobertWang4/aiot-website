@@ -1,0 +1,91 @@
+{
+  "id": "risk-assessment",
+  "category": "machinery",
+  "menuLabel": "Risk assessment of machinery already in use by the employer",
+  "hasPage": true,
+  "title": "Risk assessment of machinery already in use by the employer",
+  "description": "– Protection of health and life: The main objective is to prevent workplace accidents and occupational diseases by early identification of hazards (e.g.,…",
+  "sourceUrl": "https://recon.org.pl/en/risk-assessment/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "SAFETY TERMINOLOGY",
+      "text": "Key concepts in risk management"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Risk analysis: The systematic use of available information to identify hazards and assess the risks to individuals, populations, property or the environment.",
+        "Risk estimation: A process used to establish a measure of the level of the risk being analysed. Risk estimation consists of the following steps: frequency analysis, consequence analysis and their combination.",
+        "Risk determination: A process in which, based on risk analysis, risk acceptability assessments are made, and factors such as socio-economic and environmental aspects are taken into account.",
+        "Risk assessment: The process of analysing risks and determining risk acceptability.",
+        "Risk control: The process of making decisions aimed at managing and/or reducing risks; its application, improvement and periodic reassessment, using the results of the risk assessment as input."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "SAFETY AND LAW",
+      "text": "Why is risk assessment necessary?"
+    },
+    {
+      "type": "paragraph",
+      "text": "– Protection of health and life: The main objective is to prevent workplace accidents and occupational diseases by early identification of hazards (e.g., mechanical, electrical, noise)."
+    },
+    {
+      "type": "paragraph",
+      "text": "– Legal requirements: In accordance with Section 226 of the Labour Code, the employer is obliged to assess and document occupational risks at workstations, including when operating machinery."
+    },
+    {
+      "type": "paragraph",
+      "text": "– Compliance with standards: The process is based on the EN ISO 12100:2010 standard, which sets out the principles of safe design."
+    },
+    {
+      "type": "paragraph",
+      "text": "– Cost savings and production continuity: Early detection of hazards prevents machine breakdowns, thereby extending their service life and reducing downtime."
+    },
+    {
+      "type": "paragraph",
+      "text": "– Life cycle analysis: This covers not only normal operation, but also commissioning, maintenance, repair and decommissioning of the machine."
+    },
+    {
+      "type": "paragraph",
+      "text": "– Reduced liability: Risk assessment documentation is crucial for employers and manufacturers in the event of an inspection or accident."
+    },
+    {
+      "type": "paragraph",
+      "text": "– Informing employees: The employer is obliged to inform operators of the machine’s risks and safety rules."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "PRACTICAL APPLICATION",
+      "text": "When and how do we assess machines?"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "When is it required?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Risk assessment is essential for both existing, already-in-use machinery and plans to modernise existing equipment."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "What exactly does it cover?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Risk assessment covers both the machine's physical safeguards and the manner in which it is used under specific workplace conditions."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "MACHINERY / EQUIPMENT"
+    }
+  ]
+}

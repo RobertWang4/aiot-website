@@ -1,0 +1,26 @@
+{
+  "id": "explosion-risk-assessment-the-fire-safety-report-conformity-assessment-in-relation-to-the-atex-directive",
+  "category": "fire-safety",
+  "menuLabel": "Explosion risk assessment / The fire safety report / Conformity assessment in relation to the ATEX Directive",
+  "hasPage": true,
+  "title": "Explosion risk assessment / The fire safety report / Conformity assessment in relation to the ATEX Directive",
+  "description": "",
+  "sourceUrl": "https://recon.org.pl/en/explosion-risk-assessment-the-fire-safety-report-conformity-assessment-in-relation-to-the-atex-directive/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "PROCESS SAFETY",
+      "text": "Explosion and fire risk management"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Explosion risk assessment (ERA): An explosion risk assessment (ERA) is carried out to identify, analyse and classify areas where an explosive atmosphere (gases, vapours, dusts) may form, enabling the implementation of appropriate safety measures, minimising the risk of accidents and protecting human life and property. This is a legal requirement (including the Ministry of the Interior and Administration regulation), essential for defining hazard zones (ATEX) and selecting appropriate equipment.",
+        "Conformity assessment in relation to the ATEX Directive: Comprehensive verification of machinery and installations operating in explosion hazard zones. We check whether the equipment meets stringent technical standards, guaranteeing safe operation in difficult conditions.",
+        "The fire safety report: is drawn up primarily to obtain the legally required permit for the collection, storage or processing of waste. This document sets out fire safety conditions, analyses fire risks and defines procedures, enabling the activity to be approved by the Chief of the State Fire Service."
+      ]
+    }
+  ]
+}

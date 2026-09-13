@@ -1,0 +1,101 @@
+{
+  "categories": [
+    {
+      "id": "machinery",
+      "label": "MACHINERY, EQUIPMENT",
+      "services": [
+        "safety-audits-of-machinery-production-lines-machine-assemblies-and-equipment",
+        "risk-assessment",
+        "review-of-the-risk-assessment-provided-by-the-machine-manufacturer-at-the-design-stage",
+        "defining-the-necessary-safety-functions-of-the-machine-control-system-in-accordance-with-the-risk-analysis-and-iso-13849-1",
+        "assessment-of-the-machine-design",
+        "assessment-of-information-for-machine-users-rectifying-omissions",
+        "physical-adaptation-of-machinery-to-minimum-requirements-equipment-directive-and-essential-requirements-machinery-directive",
+        "comprehensive-modernisation-of-machinery-in-the-area-of-safety-covering-mechanical-electrical-and-automation-systems",
+        "functional-testing-of-safety-equipment",
+        "user-manuals-for-machinery-and-equipment",
+        "reconstruction-of-a-machines-technical-documentation",
+        "verification-of-the-accuracy-of-existing-technical-documentation",
+        "safety-measurements-measurements-of-stopping-time-speed-force-and-pressure",
+        "electrical-measurements",
+        "leak-testing-of-compressed-air-systems",
+        "thermal-imaging-of-electrical-installations-transformers-and-switchboards"
+      ]
+    },
+    {
+      "id": "environment",
+      "label": "ENVIRONMENT",
+      "services": [
+        "full-reporting",
+        "preparation-of-environmental-documentation",
+        "environmental-laboratory",
+        "anchor-konsultacje-biez",
+        "anchor-audyt-wew"
+      ]
+    },
+    {
+      "id": "parts-processing",
+      "label": "PARTS PROCESSING",
+      "services": [
+        "precision-materials-processing-and-component-production"
+      ]
+    },
+    {
+      "id": "occupational-medicine",
+      "label": "OCCUPATIONAL MEDICINE",
+      "services": [
+        "occupational-health-examinations"
+      ]
+    },
+    {
+      "id": "employment-agency",
+      "label": "EMPLOYMENT AGENCY",
+      "services": [
+        "employment-agency-personnel-consultancy-career-counselling"
+      ]
+    },
+    {
+      "id": "workplace-measurements",
+      "label": "PHYSICAL WORKING ENVIRONMENT – MEASUREMENTS",
+      "services": [
+        "workplace-measurements"
+      ]
+    },
+    {
+      "id": "ohs",
+      "label": "HEALTH AND SAFETY",
+      "services": [
+        "organisational-procedures-relating-to-health-and-safety-and-environmental-protection",
+        "occupational-risk-assessment-for-processes-workstations-activities-etc",
+        "instructions-for-work-classified-as-particularly-hazardous",
+        "workstation-instructions",
+        "user-manuals-for-machinery-and-equipment-2",
+        "lockout-tagout",
+        "establishing-the-pillars-for-building-a-safety-culture",
+        "premium-training-for-management-on-health-and-safety-awareness"
+      ]
+    },
+    {
+      "id": "fire-safety",
+      "label": "FIRE SAFETY",
+      "services": [
+        "fire-safety-instructions-fsi",
+        "explosion-risk-assessment-the-fire-safety-report-conformity-assessment-in-relation-to-the-atex-directive"
+      ]
+    },
+    {
+      "id": "iso",
+      "label": "ISO",
+      "services": [
+        "implementation-of-iso-45001-health-and-safety-and-14001-environment-internal-audits-of-iso-45001-occupational-health-and-safety-and-14001-environment"
+      ]
+    },
+    {
+      "id": "adr",
+      "label": "ADR",
+      "services": [
+        "comprehensive-logistics-and-training-support"
+      ]
+    }
+  ]
+}

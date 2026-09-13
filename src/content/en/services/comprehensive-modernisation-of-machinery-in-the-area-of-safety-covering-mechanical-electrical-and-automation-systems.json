@@ -1,0 +1,109 @@
+{
+  "id": "comprehensive-modernisation-of-machinery-in-the-area-of-safety-covering-mechanical-electrical-and-automation-systems",
+  "category": "machinery",
+  "menuLabel": "Comprehensive modernisation of machinery in the area of safety, covering mechanical, electrical and automation systems",
+  "hasPage": true,
+  "title": "Comprehensive modernisation of machinery in the area of safety, covering mechanical, electrical and automation systems",
+  "description": "Comprehensive modernisation (so-called retrofit) is the perfect combination of workplace safety and technical optimisation. We make old machines operate and…",
+  "sourceUrl": "https://recon.org.pl/en/comprehensive-modernisation-of-machinery-in-the-area-of-safety-covering-mechanical-electrical-and-automation-systems/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "RECON PRIORITY",
+      "text": "Health protection and hazard elimination"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Compliance with standards and directives: Unfortunately, even new machines often fail to meet current legal requirements. We verify and fix this.",
+        "Hazard elimination: Installation of physical mechanical guards, light curtains, laser scanners and safety interlocks that effectively prevent access to hazardous areas.",
+        "Modern control systems: Implementation of safe PLCs and drive systems that guarantee the proper operation of safety functions (e.g. immediate, safe stop).",
+        "Safety audit: Every comprehensive modernisation is preceded by a rigorous risk assessment to flawlessly identify and eliminate weak points."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "TECHNOLOGICAL LEAP",
+      "text": "Transition to modern control systems"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Replacement of obsolete components: We remove old, difficult-to-maintain systems. We replace them with the latest PLCs, intuitive HMI panels, sensors and inverters",
+        "Integration with Industry 4.0: We prepare the machinery park for seamless data exchange with higher-level systems (MES/ERP). This opens the way for real-time diagnostics and remote servicing",
+        "Rapid diagnostics: Modern automation enables faster diagnosis of fault causes in seconds, drastically reducing downtime."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "SECOND LIFE FOR EQUIPMENT",
+      "text": "Greater efficiency and work precision"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Increased efficiency: Mechanical modernisation enables the machine to operate faster and much more accurately.",
+        "Extended service life: We replace critical, worn parts (guides, drives, hydraulics), so you avoid the massive costs of purchasing a new machine.",
+        "Comprehensive refurbishment: We thoroughly refurbish old, worn-out machines, restoring them to 100% of their original technical working order."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "MACHINE RETROFIT",
+      "text": "Old machines, new standards"
+    },
+    {
+      "type": "paragraph",
+      "text": "Comprehensive modernisation (so-called retrofit) is the perfect combination of workplace safety and technical optimisation. We make old machines operate and look like new, whilst meeting the most stringent technical and legal standards."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "RETURN ON INVESTMENT",
+      "text": "Legality, savings and production continuity"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "CE marking and legality"
+    },
+    {
+      "type": "paragraph",
+      "text": "Modernisation allows the updating or issuance of a completely new CE marking. Thanks to this, the machine can legally operate throughout the EU."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Lower operating costs"
+    },
+    {
+      "type": "paragraph",
+      "text": "New, energy-efficient components noticeably reduce electricity bills and minimise expenses on continuous maintenance."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Production continuity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Modernised equipment simply does not break down. No breakdowns mean no downtime and peaceful execution of production plans"
+    },
+    {
+      "type": "paragraph",
+      "text": "Modernised equipment simply does not break down. No breakdowns mean no downtime and peaceful execution of production plans."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "MACHINERY / EQUIPMENT"
+    }
+  ]
+}

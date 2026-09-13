@@ -1,0 +1,21 @@
+---
+import { site, type Lang } from '../lib/content';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+---
+<footer class="bg-navy-900 text-white/80">
+  <div class="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:grid-cols-3">
+    <div>
+      <img src={site.brand.logo} alt={site.brand.name} class="h-10 rounded bg-white p-1" />
+      <p class="mt-4 text-sm">{site.contact.address}</p>
+    </div>
+    <nav class="flex flex-col gap-2 text-sm">
+      {site.nav[lang].map((n) => <a href={n.href} class="hover:text-white">{n.label}</a>)}
+    </nav>
+    <div class="text-sm">
+      <a href={`mailto:${site.contact.email}`} class="block hover:text-white">{site.contact.email}</a>
+      <a href={`tel:${site.contact.phone.replace(/\s/g, '')}`} class="block hover:text-white">{site.contact.phone}</a>
+    </div>
+  </div>
+  <p class="border-t border-white/10 px-6 py-6 text-center text-xs">© {new Date().getFullYear()} {site.brand.name}</p>
+</footer>

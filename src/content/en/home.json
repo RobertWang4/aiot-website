@@ -1,0 +1,143 @@
+{
+  "title": "Homepage",
+  "description": "Your organisation's external force – the flexibility your business needs.",
+  "sourceUrl": "https://recon.org.pl/en/strona-glowna-english/",
+  "hero": {
+    "headline": "Your organisation's external force – the flexibility your business needs.",
+    "ctas": [
+      {
+        "label": "A FEW WORDS ABOUT US",
+        "href": "/en/about/"
+      },
+      {
+        "label": "CHECK OUT OUR OFFER",
+        "href": "/en/services/"
+      }
+    ]
+  },
+  "asia": {
+    "headline": "We invite Asian countries to cooperate",
+    "cta": "Dowiedz Się Więcej / Learn More",
+    "lines": [
+      "誠邀亞洲各國開展合作",
+      "アジアのすべての国々との協力をお待ちしております",
+      "아시아의 모든 국가를 협력으로 초대합니다"
+    ]
+  },
+  "services": {
+    "eyebrow": "HOW WE CAN HELP",
+    "headline": "We will systematise your organisation",
+    "cards": [
+      {
+        "title": "MACHINES, EQUIPMENT",
+        "text": "Comprehensive risk assessment, functional and physical adaptation of machinery parks. We create LOTO procedures, guaranteeing full compliance with directives."
+      },
+      {
+        "title": "OHS",
+        "text": "Audits, occupational risk assessments, and constant safety supervision. We solve problems comprehensively and build a strong safety culture in production plants."
+      },
+      {
+        "title": "FIRE PROTECTION",
+        "text": "We develop Fire Safety Instructions (FSI) and evacuation procedures. We ensure prevention and full compliance with the strict requirements of the State Fire Service."
+      },
+      {
+        "title": "ADR",
+        "text": "Professional consultancy in the transport of dangerous goods. We support you in documentation, handling, and the safe organisation of logistics processes."
+      },
+      {
+        "title": "ENVIRONMENTAL PROTECTION",
+        "text": "We monitor the enterprise's continuous impact on the surroundings. We assist in implementing environmental procedures, reporting, and maintaining compliance with legal requirements."
+      },
+      {
+        "title": "PARTS MACHINING",
+        "text": "Maintenance support in optimising technological processes. We ensure the highest standards of safety and precision in mechanical processing."
+      },
+      {
+        "title": "Physical Working Environment MEASUREMENTS",
+        "text": "Accurate electrical measurements, quality testing, and thermal imaging. We diagnose conditions at workstations to instantly eliminate hidden risks."
+      },
+      {
+        "title": "OCCUPATIONAL MEDICINE",
+        "text": "Comprehensive preventive employee healthcare. Efficient organisation of medical examinations, ensuring safety and health compliance without unnecessary facility downtime."
+      },
+      {
+        "title": "EMPLOYMENT AGENCY",
+        "text": "Dedicated training and efficient onboarding, including support for foreigners. We provide personnel to quickly and safely integrate new staff into the workplace."
+      },
+      {
+        "title": "ISO",
+        "text": "Implementation, maintenance, and auditing of management systems. We help prepare for certification, minimising bureaucracy and saving time on formalities."
+      }
+    ]
+  },
+  "maturity": {
+    "eyebrow": "CHECK WHERE YOUR ORGANIZATION STANDS",
+    "headline": "Safety Culture Maturity Matrix",
+    "axis": {
+      "high": "High",
+      "label": "Probability of accidents",
+      "low": "Low"
+    },
+    "stages": [
+      {
+        "name": "Pathological Culture",
+        "text": "Safety is not important. We only do the bare minimum to avoid getting caught.",
+        "management": "Management doesn't know and doesn't want to know."
+      },
+      {
+        "name": "Reactive Culture",
+        "text": "We react only when an accident occurs or during an inspection.",
+        "management": "Management knows, but shows no initiative."
+      },
+      {
+        "name": "Compliance Culture",
+        "text": "Regulatory compliance is important. We have risk management systems in place.",
+        "management": "Management cares, but doesn't always know how to act."
+      },
+      {
+        "name": "Proactive Culture",
+        "text": "Continuous improvement is key. Everyone is involved in OHS.",
+        "management": "Management cares and knows how to improve the system."
+      },
+      {
+        "name": "Mature Culture",
+        "text": "OHS is our priority. It is built into our DNA and business development.",
+        "management": "Management monitors, measures, and genuinely leads."
+      }
+    ]
+  },
+  "noBlame": {
+    "headline": "No-Blame Culture",
+    "phrases": [
+      "How can I help?",
+      "We will solve this.",
+      "We all make mistakes.",
+      "We can always improve.",
+      "We are in this together.",
+      "We are stronger together.",
+      "Thank you for your honesty.",
+      "Let's focus on the next step.",
+      "What can we learn from this?",
+      "We care about your well-being.",
+      "We will get through this as a team.",
+      "Next time we will try this approach.",
+      "We are here to support each other.",
+      "Let's look for solutions together.",
+      "Mistakes are opportunities to grow.",
+      "We learn more from mistakes than from successes."
+    ]
+  },
+  "closing": {
+    "eyebrow": "COMPREHENSIVE OCCUPATIONAL SAFETY AND HEALTH OUTSOURCING",
+    "headline": "Your Business Without Risk and Downtime",
+    "values": [],
+    "chain": [
+      "Thoughts",
+      "Words",
+      "Actions",
+      "Habits",
+      "Character",
+      "Destiny"
+    ]
+  }
+}

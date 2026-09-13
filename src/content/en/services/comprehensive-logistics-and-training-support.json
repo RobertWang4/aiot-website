@@ -1,0 +1,70 @@
+{
+  "id": "comprehensive-logistics-and-training-support",
+  "category": "adr",
+  "menuLabel": "Comprehensive logistics and training services",
+  "hasPage": true,
+  "title": "Comprehensive logistics and training support",
+  "description": "The ADR Convention requires companies to employ so-called DGSA advisers, who oversee matters related to the transport of dangerous goods. Our team provides…",
+  "sourceUrl": "https://recon.org.pl/en/comprehensive-logistics-and-training-support/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "TRANSPORT OF DANGEROUS GOODS",
+      "text": "Comprehensive supervision of ADR goods"
+    },
+    {
+      "type": "paragraph",
+      "text": "The ADR Convention requires companies to employ so-called DGSA advisers, who oversee matters related to the transport of dangerous goods. Our team provides full support in this area"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Legal requirements and avoiding penalties: We guarantee the presence of a certified adviser, which protects the company from very high financial penalties (penalties for not having an adviser can run into thousands of zlotys) for the absence of supervision or failure to submit an annual report.",
+        "Formal obligations and reporting: The ADR adviser prepares the annual reports required by law for the supervisory authorities, as well as post-accident reports in the event of an incident in the logistics chain.",
+        "Safety and liability: We minimise the risk of accidents and spills through strict supervision of operations' compliance with the current version of the ADR Agreement (amended every two years)",
+        "Classification and documentation: We assist with correct classification and assignment of goods to hazard classes (1-9), packaging selection, and verifying vehicle markings (orange plates and hazard identification numbers)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "WAREHOUSE OPERATIONS",
+      "text": "Safe storage and handling of goods"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Documentation and labelling: Verifying that packaging and pallets are correctly labelled (ADR labels, GHS pictograms). Preparation or audit of transport documents (ADR documentation, safety data sheets).",
+        "Warehouse advice: Establishing rules for the safe storage of dangerous goods (segregation, ventilation, distances) and transport between buildings (GLP-B, PNT-B, DC1).",
+        "Loading standards: Defining requirements for carriers and drivers, ensuring that every loading and unloading operation is carried out in accordance with the highest safety standards."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "TEAM COMPETENCES",
+      "text": "Preparing employees for emergency situations"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Workstation training"
+    },
+    {
+      "type": "paragraph",
+      "text": "Assistance in developing training programmes for warehouse, health and safety, and logistics staff covering the basics of ADR and the safe handling of dangerous goods."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Emergency procedures"
+    },
+    {
+      "type": "paragraph",
+      "text": "Assistance in developing emergency response procedures (spills, fires, battery damage), ensuring the team's readiness for immediate action."
+    }
+  ]
+}

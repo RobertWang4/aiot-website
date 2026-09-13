@@ -1,0 +1,39 @@
+{
+  "id": "review-of-the-risk-assessment-provided-by-the-machine-manufacturer-at-the-design-stage",
+  "category": "machinery",
+  "menuLabel": "Przegląd oceny ryzyka dostarczonej przez producenta maszyny na etapie projektowania",
+  "hasPage": true,
+  "title": "Przegląd oceny ryzyka dostarczonej przez producenta maszyny na etapie projektowania",
+  "description": "Przegląd to kluczowy etap zarządzania bezpieczeństwem. Łączy wiedzę teoretyczną konstruktora z praktycznym doświadczeniem użytkownika końcowego. Efekt?…",
+  "sourceUrl": "https://recon.org.pl/przeglad-oceny-ryzyka-dostarczonej-przez-producenta-maszyny-na-etapie-projektowania/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "BEZPIECZEŃSTWO W PRAKTYCE",
+      "text": "Dlaczego warto weryfikować maszyny u źródła?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Eliminacja zagrożeń na etapie projektu: Przegląd pozwala zidentyfikować niebezpieczeństwa (mechaniczne, elektryczne, termiczne) i wyeliminować je poprzez modyfikację konstrukcji, a nie tylko „łatanie” problemu dodatkowymi osłonami.",
+        "Weryfikacja założeń producenta: Konstruktorzy często projektują maszyny uniwersalnie. Weryfikacja sprawdza, czy uwzględniono Twoje specyficzne warunki pracy (np. nietypowe materiały, pozycja operatora, interakcja z innymi urządzeniami na hali).",
+        "Pełna zgodność z prawem (Dyrektywa Maszynowa): Zgodnie z normą EN ISO 12100, ocena ryzyka to fundament do nadania znaku CE. Przegląd dokumentacji daje Ci pewność, że sprzęt spełnia zasadnicze wymogi bezpieczeństwa.",
+        "Optymalizacja kosztów i zabezpieczeń: Oceniamy, czy zaproponowane przez producenta osłony i czujniki są faktycznie adekwatne do ryzyka – czy nie są zbyt słabe, albo z drugiej strony: nadmiarowe i niepotrzebnie zawyżające koszty.",
+        "Prewencja wypadkowa: Wczesne namierzenie słabych punktów (np. stref zgniatania czy gorących powierzchni) to najskuteczniejsza ochrona przed wypadkami przy pracy.",
+        "Określenie ryzyka resztkowego: Zawsze zostaje pewien margines ryzyka. Użytkownik musi go znać, aby zaplanować odpowiednie procedury obsługi i celowane szkolenia BHP dla operatorów."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "SYNERGIA WIEDZY",
+      "text": "Projekt spotyka się z rzeczywistością"
+    },
+    {
+      "type": "paragraph",
+      "text": "Przegląd to kluczowy etap zarządzania bezpieczeństwem. Łączy wiedzę teoretyczną konstruktora z praktycznym doświadczeniem użytkownika końcowego. Efekt? Maszyna staje się nie tylko maksymalnie wydajna, ale przede wszystkim w 100% bezpieczna w Twoich konkretnych warunkach zakładowych."
+    }
+  ]
+}

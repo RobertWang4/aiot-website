@@ -1,0 +1,178 @@
+{
+  "id": "user-manuals-for-machinery-and-equipment-2",
+  "category": "ohs",
+  "menuLabel": "User instructions",
+  "hasPage": true,
+  "title": "User manuals for machinery and equipment",
+  "description": "The main objectives of creating a user manual from RECON’s perspective:",
+  "sourceUrl": "https://recon.org.pl/en/user-manuals-for-machinery-and-equipment-2/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "COMPREHENSIVE DOCUMENTATION",
+      "text": "Professional machine user manuals"
+    },
+    {
+      "type": "paragraph",
+      "text": "The main objectives of creating a user manual from RECON’s perspective:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "– Safety: Providing information on safe usage rules to prevent accidents.",
+        "– Legal requirements: Providing the required technical documentation, particularly when launching products onto the market.",
+        "– Minimising breakdowns: Maintenance tips extend the service life of the equipment. Reducing operating costs: Technical support becomes less necessary when the user can find answers in the manual.",
+        "– Correct operation: Guiding the user step by step to facilitate installation and operation."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "WHAT DOES THE DOCUMENT CONTAIN",
+      "text": "The entire life cycle of the machine in one manual"
+    },
+    {
+      "type": "paragraph",
+      "text": "The manual should guide the user through the entire life cycle of the machine:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Title page: Machine name, model, type, CE marking, manufacturer’s details.",
+        "Safety (Health and Safety) – key section: Warnings, pictograms, description of residual risks, required personal protective equipment.",
+        "Technical description: Construction, main components, operating principle, technical parameters (drawings, diagrams).",
+        "Installation and commissioning: Assembly, connection to utilities (electricity, air), initial start-up. Operation: Start-up/shutdown procedures, normal operation, and abnormal situations.",
+        "Maintenance and repairs: Routine tasks, adjustments, and a list of spare parts. Troubleshooting: Fault table and methods of rectification."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "QUALITY AND CLARITY",
+      "text": "Writing guidelines"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Simple language"
+    },
+    {
+      "type": "paragraph",
+      "text": "We avoid technical jargon wherever possible. We write briefly, concisely and unambiguously."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Visualisation"
+    },
+    {
+      "type": "paragraph",
+      "text": "We use photos, technical drawings and diagrams instead of long descriptions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Visibility of warnings"
+    },
+    {
+      "type": "paragraph",
+      "text": "We clearly highlight risks to life or health (e.g. a box, red colour, the word \"DANGER\")."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Tailor to the target audience"
+    },
+    {
+      "type": "paragraph",
+      "text": "Different language for a maintenance technician, different for an operator."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "LEGAL COMPLIANCE",
+      "text": "Legal and technical requirements (EU)"
+    },
+    {
+      "type": "paragraph",
+      "text": "We guarantee compliance of the documentation with the latest regulations:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Language"
+    },
+    {
+      "type": "paragraph",
+      "text": "The instructions must be available in the language of the country where the machine is used (in Poland – in Polish)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Standards"
+    },
+    {
+      "type": "paragraph",
+      "text": "Compliance with the new Regulation (EU) 2023/1230 (from 2027) or the Machinery Directive 2006/42/EC."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Health and safety content"
+    },
+    {
+      "type": "paragraph",
+      "text": "The instructions must include information on ‘foreseeable misuse’."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "PATH TO THE FINAL DOCUMENT",
+      "text": "Development process (Work stages)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. Analysis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Understanding the machine, discussions with its designers and operators."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. Sketching"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gathering drawings, diagrams and technical documentation"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. Writing"
+    },
+    {
+      "type": "paragraph",
+      "text": "Creating content (ideally whilst testing the machine – this helps to spot errors in the description)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. Publikacja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dostarczamy gotowy dokument w formacie cyfrowym (PDF) lub drukowanym."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "HEALTH AND SAFETY"
+    }
+  ]
+}

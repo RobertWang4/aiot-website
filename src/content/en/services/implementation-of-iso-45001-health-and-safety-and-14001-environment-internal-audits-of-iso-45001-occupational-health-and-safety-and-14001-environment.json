@@ -1,0 +1,49 @@
+{
+  "id": "implementation-of-iso-45001-health-and-safety-and-14001-environment-internal-audits-of-iso-45001-occupational-health-and-safety-and-14001-environment",
+  "category": "iso",
+  "menuLabel": "Implementation of ISO 45001 (health and safety) and 14001 (environment) / Internal audits of ISO 45001 (occupational health and safety) and 14001 (environment)",
+  "hasPage": true,
+  "title": "Implementation of ISO 45001 (health and safety) and 14001 (environment) / Internal audits of ISO 45001 (occupational health and safety) and 14001 (environment)",
+  "description": "International management standards that help companies minimise the risk of accidents and their environmental impact.",
+  "sourceUrl": "https://recon.org.pl/en/implementation-of-iso-45001-health-and-safety-and-14001-environment-internal-audits-of-iso-45001-occupational-health-and-safety-and-14001-environment/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "INTERNATIONAL STANDARDS",
+      "text": "Building a safety and environmental culture"
+    },
+    {
+      "type": "paragraph",
+      "text": "International management standards that help companies minimise the risk of accidents and their environmental impact."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ISO 45001 (health and safety): The implementation of ISO 45001 improves employee safety.",
+        "ISO 14001 (environment): ISO 14001 manages environmental aspects.",
+        "System integration: These systems are often integrated to increase efficiency."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "CONTINUOUS IMPROVEMENT",
+      "text": "Objective assessment and identification of areas for improvement"
+    },
+    {
+      "type": "paragraph",
+      "text": "Internal audits are primarily conducted to systematically assess the company’s compliance with standards, identify areas for improvement, and ensure continuous improvement in occupational safety and environmental protection."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Compliance assessment: To systematically assess the company’s compliance with standards.",
+        "Detecting gaps: To identify areas for improvement.",
+        "Management support: To ensure continuous improvement in occupational safety and environmental protection."
+      ]
+    }
+  ]
+}

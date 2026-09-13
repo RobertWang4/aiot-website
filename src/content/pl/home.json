@@ -1,0 +1,160 @@
+{
+  "title": "Strona główna",
+  "description": "RECON to kompleksowy outsourcing dla firm. Zyskaj wsparcie w BHP, PPOŻ oraz HR i prowadź biznes bez ryzyka przestojów. Sprawdź ofertę!",
+  "sourceUrl": "https://recon.org.pl/",
+  "hero": {
+    "headline": "Zewnętrzna siła Twojej organizacji — elastyczność, której potrzebuje Twój biznes",
+    "ctas": [
+      {
+        "label": "KILKA SŁÓW O NAS",
+        "href": "/pl/about/"
+      },
+      {
+        "label": "SPRAWDŹ NASZĄ OFERTĘ",
+        "href": "/pl/services/"
+      }
+    ]
+  },
+  "asia": {
+    "headline": "Zapraszamy Do Współpracy Kraje Azjatyckie",
+    "cta": "Dowiedz Się Więcej / Learn More",
+    "lines": [
+      "誠邀亞洲各國開展合作",
+      "アジアのすべての国々との協力をお待ちしております",
+      "아시아의 모든 국가를 협력으로 초대합니다"
+    ]
+  },
+  "services": {
+    "eyebrow": "W CZYM MOŻEMY POMÓC",
+    "headline": "Usystematyzujemy Twoją Organizację",
+    "cards": [
+      {
+        "title": "MASZYNY, URZĄDZENIA",
+        "text": "Kompleksowa ocena ryzyka, testy funkcjonalne i fizyczne dostosowanie parków maszynowych. Tworzymy procedury LOTO, gwarantując pełną zgodność z dyrektywami."
+      },
+      {
+        "title": "BHP",
+        "text": "Audyty, oceny ryzyka zawodowego i stały nadzór nad bezpieczeństwem. Eliminujemy zagrożenia i budujemy świadomą kulturę pracy w zakładach przemysłowych."
+      },
+      {
+        "title": "PPOŻ",
+        "text": "Opracowujemy Instrukcje Bezpieczeństwa Pożarowego (IBP) i procedury ewakuacyjne. Zapewniamy prewencję i pełną zgodność z rygorystycznymi normami przeciwpożarowymi."
+      },
+      {
+        "title": "ADR",
+        "text": "Profesjonalne doradztwo w zakresie transportu towarów niebezpiecznych. Wspieramy w dokumentacji, szkoleniach i bezpiecznej organizacji procesów logistycznych."
+      },
+      {
+        "title": "OCHRONA ŚRODOWISKA",
+        "text": "Nadzór nad wpływem przedsiębiorstwa na otoczenie. Pomagamy we wdrażaniu procedur środowiskowych, raportowaniu i utrzymaniu zgodności z wymogami prawnymi."
+      },
+      {
+        "title": "OBRÓBKA CZĘŚCI",
+        "text": "Wsparcie inżynieryjne w optymalizacji procesów technologicznych. Zapewniamy najwyższe standardy bezpieczeństwa i precyzji przy obróbce mechanicznej."
+      },
+      {
+        "title": "Materialne Środowisko Pracy POMIARY",
+        "text": "Dokładne pomiary elektryczne, badanie jakości powietrza oraz termowizja. Diagnozujemy warunki na stanowiskach, aby błyskawicznie eliminować ukryte usterki."
+      },
+      {
+        "title": "MEDYCYNA PRACY",
+        "text": "Kompleksowa opieka profilaktyczna i orzecznictwo. Sprawnie organizujemy badania lekarskie, dbając o bezpieczeństwo zdrowotne zespołów na każdym stanowisku."
+      },
+      {
+        "title": "AGENCJA PRACY",
+        "text": "Dedykowane szkolenia i sprawny onboarding, w tym obsługa obcokrajowców. Standaryzujemy procesy, aby szybko i bezpiecznie wdrażać nowe kadry do pracy."
+      },
+      {
+        "title": "ISO",
+        "text": "Wdrażanie, utrzymanie i audytowanie systemów zarządzania. Pomagamy uporządkować wewnętrzne procedury i przygotowujemy do procesów certyfikacyjnych."
+      }
+    ]
+  },
+  "maturity": {
+    "eyebrow": "SPRAWDŹ NA JAKIM ETAPIE ZNAJDUJE SIĘ TWOJA ORGANIZACJA",
+    "headline": "Matryca Dojrzałości Kultury Bezpieczeństwa",
+    "axis": {
+      "high": "Wysokie",
+      "label": "Prawdopodobieństwo wypadków",
+      "low": "Niskie"
+    },
+    "stages": [
+      {
+        "name": "Kultura Patologiczna",
+        "text": "Bezpieczeństwo nie jest ważne. Robimy tylko tyle, by nie dać się złapać.",
+        "management": "Kierownictwo nie wie i nie chce wiedzieć."
+      },
+      {
+        "name": "Kultura Reaktywna",
+        "text": "Reagujemy dopiero, gdy dojdzie do wypadku lub kontroli.",
+        "management": "Kierownictwo wie, ale nie wykazuje inicjatywy."
+      },
+      {
+        "name": "Kultura Zgodności",
+        "text": "Zgodność z przepisami jest ważna. Mamy systemy do zarządzania ryzykiem.",
+        "management": "Kierownictwu zależy, ale nie zawsze wie, jak działać."
+      },
+      {
+        "name": "Kultura Proaktywna",
+        "text": "Ciągłe doskonalenie jest kluczowe. Każdy jest zaangażowany w BHP.",
+        "management": "Kierownictwo dba i wie, jak ulepszać system."
+      },
+      {
+        "name": "Kultura Dojrzała",
+        "text": "BHP to nasz priorytet. Jest wpisane w nasze DNA i rozwój biznesu.",
+        "management": "Kierownictwo monitoruje, mierzy i autentycznie przewodzi."
+      }
+    ]
+  },
+  "noBlame": {
+    "headline": "Kultura Bez Obwiniania",
+    "phrases": [
+      "W czym mogę pomóc?",
+      "Rozwiążemy to.",
+      "Wszyscy popełniamy błędy.",
+      "Zawsze możemy się poprawić.",
+      "Jesteśmy w tym razem.",
+      "Razem jesteśmy silniejsi.",
+      "Dziękuję za szczerość.",
+      "Skupmy się na kolejnym kroku.",
+      "Czego możemy się z tego nauczyć?",
+      "Zależy nam na twoim dobrym samopoczuciu.",
+      "Przejdziemy przez to jako zespół.",
+      "Następnym razem spróbujemy tego podejścia.",
+      "Jesteśmy tu, by się wspierać.",
+      "Wspólnie poszukajmy rozwiązań.",
+      "Błędy to okazje do rozwoju.",
+      "Więcej uczymy się na błędach niż na sukcesach."
+    ]
+  },
+  "closing": {
+    "eyebrow": "KOMPLEKSOWY OUTSOURCING BHP",
+    "headline": "Twój Biznes Bez Ryzyka i Przestojów",
+    "values": [
+      {
+        "title": "Pełne odciążenie",
+        "text": "Outsourcing, który działa za Ciebie."
+      },
+      {
+        "title": "Partner w rozwoju",
+        "text": "Wspieramy firmy, które chcą iść dalej."
+      },
+      {
+        "title": "Kultura bezpieczeństwa",
+        "text": "Z myślą o ludziach. Z pasją do BHP."
+      },
+      {
+        "title": "Pragmatyczne rozwiązania",
+        "text": "Pragmatyczne podejście. Realna wartość."
+      }
+    ],
+    "chain": [
+      "Myśli",
+      "Słowa",
+      "Czyny",
+      "Nawyki",
+      "Charakter",
+      "Przeznaczenie"
+    ]
+  }
+}

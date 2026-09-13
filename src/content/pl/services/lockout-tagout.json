@@ -1,0 +1,81 @@
+{
+  "id": "lockout-tagout",
+  "category": "ohs",
+  "menuLabel": "Lock out - Tag out",
+  "hasPage": true,
+  "title": "Lock out – Tag out",
+  "description": "System LOTO to standard bezpieczeństwa mający na celu całkowite odłączenie maszyn od źródeł energii podczas prac serwisowych, remontowych i konserwacyjnych.…",
+  "sourceUrl": "https://recon.org.pl/lock-out-tag-out/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "BEZPIECZEŃSTWO SERWISOWE",
+      "text": "Procedura Lockout / Tagout (LOTO)"
+    },
+    {
+      "type": "paragraph",
+      "text": "System LOTO to standard bezpieczeństwa mający na celu całkowite odłączenie maszyn od źródeł energii podczas prac serwisowych, remontowych i konserwacyjnych. Gwarantuje on, że urządzenie nie zostanie przypadkowo uruchomione, chroniąc zdrowie i życie pracowników technicznych."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "STANDARD OPERACYJNY",
+      "text": "6 Kroków Bezpiecznej Izolacji Energii"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nasza procedura zapewnia szczelny system ochrony w sześciu etapach:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Przygotowanie i powiadomienie: Identyfikujemy wszystkie źródła energii (elektryczna, hydrauliczna, pneumatyczna) i informujemy obsługę o planowanym serwisie.",
+        "Wyłączenie maszyny: Zatrzymujemy urządzenie w sposób standardowy (np. przyciskiem stop).",
+        "Izolacja źródeł energii: Odłączamy maszynę od zasilania głównego (przełączniki, zawory).",
+        "Blokada i Oznakowanie (Lockout & Tagout): Zakładamy indywidualne kłódki na punktach izolacji wraz z etykietami informacyjnymi (imię, nazwisko, data, powód blokady).",
+        "Uwolnienie energii resztkowej: Rozładowujemy kondensatory, spuszczamy ciśnienie z układów i blokujemy części ruchome (grawitacyjne).",
+        "Weryfikacja (Tryout): Wykonujemy próbę uruchomienia, aby potwierdzić pełną izolację, po czym ustawiamy przełączniki w pozycji „wyłączony”."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "FUNDAMENTY SYSTEMU",
+      "text": "Zasada: Jeden człowiek, jedna kłódka, jeden klucz"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Indywidualna ochrona"
+    },
+    {
+      "type": "paragraph",
+      "text": "Każdy pracownik biorący udział w serwisie zakłada własną, unikalną kłódkę."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Wyłączność klucza"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tylko osoba, która założyła blokadę, posiada klucz i ma prawo ją zdjąć."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Bezpieczny powrót"
+    },
+    {
+      "type": "paragraph",
+      "text": "Demontaż następuje dopiero po sprawdzeniu bezpieczeństwa maszyny, montażu osłon i usunięciu narzędzi z obszaru roboczego."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "PROCEDURY I RYZYKO"
+    }
+  ]
+}

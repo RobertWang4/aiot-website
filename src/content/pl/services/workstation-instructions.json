@@ -1,0 +1,165 @@
+{
+  "id": "workstation-instructions",
+  "category": "ohs",
+  "menuLabel": "Instrukcje stanowiskowe",
+  "hasPage": true,
+  "title": "Instrukcje stanowiskowe",
+  "description": "Zgodnie z przepisami, za opracowanie instrukcji odpowiada pracodawca, często korzystając z pomocy służb BHP.",
+  "sourceUrl": "https://recon.org.pl/instrukcje-stanowiskowe/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "FUNDAMENTY BEZPIECZEŃSTWA",
+      "text": "Główne cele, dla których pomagamy sporządzać instrukcje stanowiskowe:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bezpieczeństwo (BHP): Kluczowym celem jest wyeliminowanie lub zminimalizowanie ryzyka zagrożeń dla zdrowia i życia podczas wykonywania konkretnych zadań.",
+        "Wymogi prawne: Pracodawca ma obowiązek udostępnić aktualne instrukcje dotyczące maszyn, zagrożeń i procesów technologicznych.",
+        "Instruktaż pracownika: Przygotowują pracownika do bezpiecznego wykonywania obowiązków na nowym stanowisku.",
+        "Standaryzacja pracy: Określają poprawny, powtarzalny sposób działania, co zwiększa efektywność.",
+        "Postępowanie awaryjne: Informują, jak zachować się w razie awarii, pożaru lub wypadku.",
+        "Instrukcje muszą być zrozumiałe, dostępne dla pracowników i dostosowane do specyfiki danego stanowiska."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Zgodnie z przepisami, za opracowanie instrukcji odpowiada pracodawca, często korzystając z pomocy służb BHP."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "PROCES TWORZENIA",
+      "text": "Etapy naszego podejścia do tworzenia instrukcji"
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Analiza stanowiska pracy: Obserwacja procesu, identyfikacja maszyn, narzędzi i materiałów oraz analiza ryzyka zawodowego (co może pójść nie tak?)."
+    },
+    {
+      "type": "paragraph",
+      "text": "2. Opracowanie treści: Spisanie kroków w sposób zrozumiały, techniczny, a zarazem prosty."
+    },
+    {
+      "type": "paragraph",
+      "text": "3. Konsultacja: Omówienie projektu instrukcji z pracownikami, którzy obsługują dane stanowisko (najlepiej znają specyfikę pracy)."
+    },
+    {
+      "type": "paragraph",
+      "text": "4. Zatwierdzenie i wdrożenie: Podpisanie przez pracodawcę i zapoznanie pracowników z treścią (potwierdzone podpisem)."
+    },
+    {
+      "type": "paragraph",
+      "text": "5. Aktualizacja: Instrukcje należy aktualizować, gdy zmieniają się maszyny, technologie lub przepisy BHP."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "DOSTĘPNOŚĆ DOKUMENTACJI",
+      "text": "Gdzie umieścić instrukcje ?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Instrukcje stanowiskowe muszą być stale dostępne dla pracowników – zazwyczaj wywiesza się je w formie plansz bezpośrednio na stanowisku pracy."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "STRUKTURA DOKUMENTU",
+      "text": "Co musi zawierać instrukcja stanowiskowa ?"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Cel i zakres:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Czego dotyczy instrukcja."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Wymagania:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kwalifikacje, uprawnienia, badania lekarskie niezbędne do obsługi."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Środki ochrony:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wymagana odzież robocza, okulary, rękawice itp."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Czynności PRZED rozpoczęciem pracy:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kontrola stanu technicznego, sprawdzenie osłon, przygotowanie stanowiska."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Czynności W TRAKCIE pracy:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bezpieczna obsługa maszyn, zasady pracy."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Czynności PO zakończeniu pracy:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wyłączenie maszyn, sprzątanie, zabezpieczenie stanowiska."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Postępowanie w sytuacjach awaryjnych:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Co robić w razie awarii, pożaru lub wypadku (pierwsza pomoc)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "NASZA METODOLOGIA",
+      "text": "Jak piszemy, by była skuteczna?"
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Prosty język: Unikamy żargonu, jeśli nie jest konieczny."
+    },
+    {
+      "type": "paragraph",
+      "text": "2. Wizualizacja: Dodajemy zdjęcia, schematy, piktogramy (np. pokazujące poprawne ustawienie maszyny lub znak ostrzegawczy)."
+    },
+    {
+      "type": "paragraph",
+      "text": "3. Układ logiczny: Opisujemy czynności zgodnie z naturalnym przebiegiem pracy."
+    },
+    {
+      "type": "paragraph",
+      "text": "4. Metoda TWI (Job Instruction): zachęcamy by zastosować podział na: kroki (co robimy), wskazówki (jak to zrobić bezpiecznie) i przyczyny (dlaczego to jest ważne)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "PROCEDURY I RYZYKO"
+    }
+  ]
+}

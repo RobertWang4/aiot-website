@@ -1,0 +1,68 @@
+{
+  "id": "leak-testing-of-compressed-air-systems",
+  "category": "machinery",
+  "menuLabel": "Leak testing of compressed air systems",
+  "hasPage": true,
+  "title": "Leak testing of compressed air systems",
+  "description": "Leak testing of a compressed air system involves filling the system to the working (test) pressure, shutting off the supply and consumers, and then…",
+  "sourceUrl": "https://recon.org.pl/en/leak-testing-of-compressed-air-systems/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "OPTIMISATION AND SAVINGS",
+      "text": "Main reasons for carrying out leak tests:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Reduction in electricity costs: Leaks cause compressors to run longer or harder to maintain the correct pressure, which drastically increases electricity consumption",
+        "Extended equipment lifespan: Less strain on compressors (less frequent cycling, shorter running times) means less wear and tear on components, fewer technical inspections and a longer service life for the machines.",
+        "Network pressure stability: Leaks cause pressure drops, leading to malfunctioning pneumatic machinery and tools and, consequently, production downtime.",
+        "Environmental benefits: Lower compressor energy consumption means lower CO₂ emissions into the atmosphere, supporting environmental protection efforts.",
+        "Verification of installation quality: For new installations, a leak test ensures that the entire network has been installed correctly and is fully operational before production commences."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "RIGOROUS PROCEDURE",
+      "text": "How to carry out a leak test (step by step):"
+    },
+    {
+      "type": "paragraph",
+      "text": "Leak testing of a compressed air system involves filling the system to the working (test) pressure, shutting off the supply and consumers, and then monitoring the pressure drop over time (often 24 hours) using a pressure gauge."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Preparing the system: Switch off the machine and close all shut-off valves at the consumers to isolate the pipework.",
+        "Filling the system with compressed air to working pressure or higher (in accordance with guidelines).",
+        "Fitting the pressure gauge: Connect a precision reference pressure gauge to measure the pressure accurately.",
+        "Measurement: Leave the system under pressure (usually for 24 hours).",
+        "Analysis: The pressure drop should be minimal (standards may specify, for example, up to 0.1 bar per 24 hours). If the drop is greater, the leak must be sealed and the test repeated."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Tip: The best time for measurement is during plant downtime to avoid errors caused by equipment operation"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "FAULT LOCATION",
+      "text": "Leak detection methods:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Acoustic/ultrasonic method: The most modern method, involving the use of meters that convert the inaudible sound of escaping air into a visual image or audible sound",
+        "Leak detectors (spray): Spraying soapy water or a special solution onto the joints – the formation of bubbles indicates a leak.",
+        "Auditory method: Listening for a characteristic hissing sound (effective in a quiet environment)."
+      ]
+    }
+  ]
+}

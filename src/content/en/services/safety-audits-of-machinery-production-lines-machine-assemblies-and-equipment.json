@@ -1,0 +1,132 @@
+{
+  "id": "safety-audits-of-machinery-production-lines-machine-assemblies-and-equipment",
+  "category": "machinery",
+  "menuLabel": "Safety audits of machinery, production lines (machine assemblies) and equipment",
+  "hasPage": true,
+  "title": "Safety audits of machinery, production lines (machine assemblies) and equipment",
+  "description": "Inventory: Creating a list of machines, assigning them identifiers and linking them to production lines. Documentation review: Analysis of Technical and…",
+  "sourceUrl": "https://recon.org.pl/en/safety-audits-of-machinery-production-lines-machine-assemblies-and-equipment/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "SAFETY AND COMPLIANCE",
+      "text": "Why carry out a machine audit?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Health and Safety: The primary objective is to minimise the risk of workplace accidents, identify hazards (e.g. moving parts, electricity, high temperatures) and ensure that machinery does not pose a risk to operators.",
+        "Legal compliance: Workplaces must ensure that the machinery in use meets the relevant requirements. An audit verifies compliance with current standards and regulations.",
+        "Avoiding downtime and costs: Regular audits enable faults to be detected before breakdowns occur, thereby reducing costly production downtime and repair costs.",
+        "Legal and financial liability: In the event of an accident, the employer must prove that the machine was safe. An audit provides documentation confirming due care regarding technical safety aspects.",
+        "Production optimisation: An audit identifies areas requiring modernisation, which often leads to improved production line efficiency.",
+        "Production optimisation: An audit identifies areas requiring modernisation, which often leads to improved production line efficiency."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "OUR METHODOLOGY",
+      "text": "Here is how such an audit is carried out in practice, step by step:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "1. Preparation and planning"
+    },
+    {
+      "type": "paragraph",
+      "text": "Inventory: Creating a list of machines, assigning them identifiers and linking them to production lines. Documentation review: Analysis of Technical and Operational Documentation (TOD), electrical/hydraulic diagrams, CE declarations of conformity, and reports from previous inspections. Setting the schedule: Planning the visit to avoid interfering with key operations, including ensuring machinery is available for testing."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "2. Site visit and hazard identification (Actual audit)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Visual inspection: The auditor visually inspects the machine, paying attention to guards, interlocks and emergency stop switches. Interviews with the operators: A discussion with the machine operators to understand actual working practices, including habits, workarounds, and emergencies (not just what is in the manual). Risk analysis (ISO 12100): Identification of hazards (mechanical, electrical, noise, ergonomics) and risk assessment (severity of injury x probability). Technical verification: Checking the operation of safety systems, e.g. measuring the machine’s stopping time after the light curtain is triggered."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "3. Analysis and assessment"
+    },
+    {
+      "type": "paragraph",
+      "text": "Comparison with standards: Assessment of whether the protective measures in place sufficiently mitigate the identified risks. Classification: Assigning priorities (e.g. critical, high, medium, low) to individual non-conformities."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "4. Reporting and recommendations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Final documentation: Preparation of an audit report containing a list of identified hazards. Corrective actions: Technical recommendations (e.g., installation of guards, modification of controls) and organisational recommendations (e.g., LOTO – Lockout/Tagout procedure)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "5. Post-audit actions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Implementation of changes: Adapting machinery to requirements (modernisation). Validation: Verification that the implemented safeguards are effective and compliant with standards."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "SYSTEMIC APPROACH",
+      "text": "What does a production line audit cover?"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the case of production lines, the audit is more comprehensive and covers:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Interactions between machines"
+    },
+    {
+      "type": "paragraph",
+      "text": "Safety of transfer zones between equipment."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Transport systems"
+    },
+    {
+      "type": "paragraph",
+      "text": "Conveyors, robots, stacker cranes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Communication"
+    },
+    {
+      "type": "paragraph",
+      "text": "Emergency stop of the entire line (E-Stop)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "TAILORED TO THE STAGE",
+      "text": "Types of audits conducted"
+    },
+    {
+      "type": "paragraph",
+      "text": "Audits can be preliminary (before commissioning a new machine), compliance (condition review) or periodic."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "MACHINERY / EQUIPMENT"
+    }
+  ]
+}

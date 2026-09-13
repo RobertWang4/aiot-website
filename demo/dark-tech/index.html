@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIoT P.S.A. — Comprehensive Occupational Safety Outsourcing</title>
+<meta name="description" content="AIoT P.S.A. — your organisation's external force. OHS, fire protection, ADR, environment, machinery compliance and personnel, monitored end to end.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,75..125,400..900;1,75..125,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy-900:#04091F;
+  --navy-800:#070F2C;
+  --navy-700:#0B1B4A;
+  --navy-600:#122461;
+  --line:rgba(120,160,255,.16);
+  --line-strong:rgba(120,160,255,.34);
+  --blue:#2F6BFF;
+  --blue-lit:#6E9BFF;
+  --ink:#E6ECFF;
+  --ink-dim:#9FB0D8;
+  --ink-faint:#6F81AE;
+  --panel:rgba(11,27,74,.46);
+  --ease:cubic-bezier(.16,1,.3,1);
+  --pad:clamp(20px,5vw,72px);
+  --maxw:1280px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--navy-900);color:var(--ink);
+  font-family:'Archivo',system-ui,sans-serif;font-variation-settings:'wdth' 100;
+  font-size:clamp(15px,.55vw + 13.4px,17px);line-height:1.6;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+body::before{
+  content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:
+    linear-gradient(var(--line) 1px,transparent 1px) 0 0/100% 88px,
+    linear-gradient(90deg,var(--line) 1px,transparent 1px) 0 0/88px 100%;
+  opacity:.55;
+  -webkit-mask-image:radial-gradient(120% 80% at 50% 0%,#000 20%,transparent 78%);
+          mask-image:radial-gradient(120% 80% at 50% 0%,#000 20%,transparent 78%);
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4{margin:0;font-weight:800;line-height:1.02;letter-spacing:-.025em;font-variation-settings:'wdth' 112}
+p{margin:0}
+ul{margin:0;padding:0;list-style:none}
+.wrap{max-width:var(--maxw);margin-inline:auto;padding-inline:var(--pad);position:relative;z-index:1}
+.mono{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-faint)}
+.mono b{color:var(--blue-lit);font-weight:500}
+.rule{height:1px;background:linear-gradient(90deg,var(--line-strong),transparent);border:0;margin:0}
+
+/* ── nav ─────────────────────────────── */
+.nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);
+  background:linear-gradient(180deg,rgba(4,9,31,.92),rgba(4,9,31,.7));border-bottom:1px solid var(--line)}
+.nav-in{display:flex;align-items:center;gap:clamp(14px,2.4vw,34px);height:70px}
+.brand{display:flex;align-items:center;gap:12px;margin-right:auto}
+.brand .chip{background:#fff;border-radius:3px;padding:5px 7px;width:46px;display:grid;place-items:center;
+  box-shadow:0 0 0 1px rgba(255,255,255,.5),0 0 22px rgba(47,107,255,.35)}
+.brand .chip img{width:100%}
+.brand span{font-weight:800;letter-spacing:-.02em;font-size:17px;font-variation-settings:'wdth' 115}
+.nav-links{display:flex;gap:clamp(10px,1.7vw,26px)}
+.nav-links a{font-size:13px;font-weight:600;letter-spacing:.02em;color:var(--ink-dim);padding:6px 0;position:relative;transition:color .3s var(--ease)}
+.nav-links a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:1px;background:var(--blue-lit);
+  box-shadow:0 0 8px var(--blue);transition:right .45s var(--ease)}
+.nav-links a:hover{color:#fff}.nav-links a:hover::after{right:0}
+.lang{display:flex;font-family:'IBM Plex Mono',monospace;font-size:11px;border:1px solid var(--line-strong);border-radius:2px;overflow:hidden}
+.lang button{background:none;border:0;color:var(--ink-faint);padding:5px 9px;cursor:pointer;font:inherit;transition:.25s}
+.lang button[aria-pressed=true]{background:var(--blue);color:#fff}
+.lang button:hover{color:#fff}
+.btn{display:inline-flex;align-items:center;gap:10px;font-weight:700;font-size:13px;letter-spacing:.04em;
+  text-transform:uppercase;padding:12px 20px;border:1px solid var(--blue);border-radius:2px;
+  background:var(--blue);color:#fff;transition:.35s var(--ease);cursor:pointer;font-family:inherit}
+.btn:hover{background:var(--blue-lit);border-color:var(--blue-lit);box-shadow:0 0 26px rgba(47,107,255,.5);transform:translateY(-1px)}
+.btn.ghost{background:transparent;border-color:var(--line-strong);color:var(--ink)}
+.btn.ghost:hover{border-color:var(--blue-lit);background:rgba(47,107,255,.1);box-shadow:none}
+.burger{display:none;background:none;border:1px solid var(--line-strong);border-radius:2px;width:40px;height:36px;cursor:pointer;padding:0}
+.burger i{display:block;height:1px;background:var(--ink);margin:6px auto;width:18px;transition:.3s var(--ease)}
+.nav[data-open=true] .burger i:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.nav[data-open=true] .burger i:nth-child(2){opacity:0}
+.nav[data-open=true] .burger i:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.drawer{display:none;border-top:1px solid var(--line);background:rgba(4,9,31,.98)}
+.drawer a{display:block;padding:14px 0;border-bottom:1px solid var(--line);font-weight:600;color:var(--ink-dim)}
+.drawer .btn{margin:18px 0 22px}
+
+/* ── hero ────────────────────────────── */
+.hero{position:relative;padding:clamp(60px,10vh,120px) 0 0;overflow:hidden}
+#net{position:absolute;inset:0;width:100%;height:100%;z-index:0;opacity:.85}
+.hero::after{content:"";position:absolute;left:50%;top:-10%;width:900px;height:900px;transform:translateX(-50%);
+  background:radial-gradient(circle,rgba(47,107,255,.22),transparent 62%);pointer-events:none;z-index:0}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,.65fr);gap:clamp(24px,5vw,60px);align-items:end;
+  padding-bottom:clamp(40px,7vh,72px)}
+h1{font-size:clamp(38px,6.1vw,80px);max-width:16ch}
+h1 em{font-style:normal;color:var(--blue-lit);text-shadow:0 0 34px rgba(47,107,255,.55)}
+.hero .lede{color:var(--ink-dim);max-width:46ch;margin-top:26px}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+.hero-side{border-left:1px solid var(--line);padding-left:22px;padding-bottom:8px}
+.hero-side p{font-size:14px;color:var(--ink-dim);margin-top:12px}
+.readout{display:flex;align-items:center;gap:8px;margin-top:18px}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--blue-lit);box-shadow:0 0 0 0 rgba(110,155,255,.6);animation:pulse 2.6s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 10px rgba(110,155,255,0)}100%{box-shadow:0 0 0 0 rgba(110,155,255,0)}}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line-strong);border-bottom:1px solid var(--line)}
+.stats div{padding:26px 0 28px;border-right:1px solid var(--line)}
+.stats div:last-child{border-right:0}
+.stats strong{display:block;font-size:clamp(26px,3.4vw,40px);font-weight:800;letter-spacing:-.03em;font-variation-settings:'wdth' 118}
+.stats .mono{margin-top:6px}
+
+/* ── section furniture ───────────────── */
+section{position:relative;z-index:1}
+.sec-head{display:flex;flex-wrap:wrap;gap:18px 40px;align-items:baseline;justify-content:space-between;
+  padding:clamp(70px,11vh,120px) 0 clamp(28px,4vh,44px)}
+.sec-head h2{font-size:clamp(28px,4.2vw,54px);max-width:18ch}
+.sec-head .mono{flex:0 0 auto}
+
+/* ── services ────────────────────────── */
+.services{border-top:1px solid var(--line-strong)}
+.svc{display:grid;grid-template-columns:repeat(2,1fr)}
+.svc li{border-bottom:1px solid var(--line);border-right:1px solid var(--line);position:relative}
+.svc li:nth-child(2n){border-right:0}
+.svc a{display:grid;grid-template-columns:auto 1fr;gap:0 20px;padding:30px clamp(18px,3vw,38px) 30px 0;
+  transition:background .4s var(--ease)}
+.svc li:nth-child(2n) a{padding-left:clamp(18px,3vw,38px)}
+.svc a::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:var(--blue);
+  transform:scaleY(0);transform-origin:top;transition:transform .5s var(--ease);box-shadow:0 0 16px var(--blue)}
+.svc a:hover{background:linear-gradient(90deg,rgba(47,107,255,.09),transparent)}
+.svc a:hover::before{transform:scaleY(1)}
+.svc .idx{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink-faint);padding-top:6px;
+  transition:color .35s;width:2.4em}
+.svc a:hover .idx{color:var(--blue-lit)}
+.svc h3{font-size:clamp(17px,1.5vw,21px);text-transform:uppercase;letter-spacing:.01em;font-weight:800}
+.svc p{grid-column:2;font-size:14.5px;color:var(--ink-dim);margin-top:10px;max-width:44ch}
+.more{grid-column:2;margin-top:16px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--blue-lit);display:inline-flex;gap:8px;align-items:center}
+.more span{transition:transform .4s var(--ease)}
+.svc a:hover .more span{transform:translateX(6px)}
+
+/* ── maturity matrix ─────────────────── */
+.matrix{background:linear-gradient(180deg,transparent,rgba(11,27,74,.55) 30%,transparent)}
+.plot{position:relative;display:grid;grid-template-columns:repeat(5,1fr);gap:1px;
+  border:1px solid var(--line);border-radius:3px;background:var(--line);overflow:hidden}
+.stage{background:var(--navy-800);padding:0 clamp(12px,1.4vw,20px) 26px;display:flex;flex-direction:column}
+.band{height:clamp(140px,20vh,210px);display:flex;align-items:flex-end;padding-top:20px}
+.riser{width:100%;height:var(--h);border-radius:2px 2px 0 0;position:relative;
+  background:linear-gradient(180deg,rgba(47,107,255,.55),rgba(47,107,255,.06));
+  border:1px solid var(--line-strong);border-bottom:0;
+  transform:scaleY(.04);transform-origin:bottom;transition:transform .9s var(--ease) var(--d,0s)}
+.reveal.in .riser{transform:scaleY(1)}
+.riser::before{content:"";position:absolute;inset:0 0 auto;height:2px;background:var(--blue-lit);box-shadow:0 0 14px var(--blue)}
+.stage:last-child .riser{background:linear-gradient(180deg,rgba(110,155,255,.8),rgba(47,107,255,.08))}
+.stage h3{font-size:clamp(15px,1.25vw,18px);margin-top:20px;letter-spacing:-.01em}
+.stage .lvl{color:var(--ink-faint);font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.18em;
+  padding-bottom:10px;border-bottom:1px solid var(--line);margin-bottom:0}
+.stage p{font-size:13.2px;color:var(--ink-dim);margin-top:10px;line-height:1.5}
+.stage p.mgmt{color:var(--ink-faint);border-top:1px dashed var(--line);padding-top:10px;margin-top:12px;font-size:12.4px}
+.axis{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:14px}
+.axis .bar{flex:1;height:1px;background:linear-gradient(90deg,var(--line-strong),transparent)}
+.risk-note{margin-top:10px;color:var(--ink-faint);font-size:13px;max-width:62ch}
+
+/* ── no-blame terminal ───────────────── */
+.term{border:1px solid var(--line-strong);border-radius:4px;background:rgba(4,9,31,.72);
+  box-shadow:0 0 60px rgba(47,107,255,.1),inset 0 0 60px rgba(47,107,255,.05);overflow:hidden}
+.term-bar{display:flex;align-items:center;gap:10px;padding:11px 16px;border-bottom:1px solid var(--line);
+  background:rgba(18,36,97,.5)}
+.term-bar i{width:7px;height:7px;border-radius:50%;background:var(--line-strong);display:block}
+.term-bar i:first-child{background:var(--blue)}
+.term-body{height:clamp(240px,34vh,330px);overflow:hidden;position:relative;padding:18px 0;
+  -webkit-mask-image:linear-gradient(180deg,transparent,#000 14%,#000 86%,transparent);
+          mask-image:linear-gradient(180deg,transparent,#000 14%,#000 86%,transparent)}
+.tick{animation:scrollup 46s linear infinite}
+.term:hover .tick{animation-play-state:paused}
+@keyframes scrollup{to{transform:translateY(-50%)}}
+.tick li{font-family:'IBM Plex Mono',monospace;font-size:clamp(13px,1.25vw,15px);color:var(--ink-dim);
+  padding:9px clamp(16px,3vw,32px);display:flex;gap:14px;transition:color .3s,background .3s}
+.tick li:hover{color:#fff;background:rgba(47,107,255,.08)}
+.tick li::before{content:"›";color:var(--blue-lit);flex:0 0 auto}
+.cursor{display:inline-block;width:8px;height:15px;background:var(--blue-lit);vertical-align:-2px;
+  animation:blink 1.1s steps(2) infinite;box-shadow:0 0 12px var(--blue)}
+@keyframes blink{50%{opacity:0}}
+
+/* ── closing band ────────────────────── */
+.closing{margin-top:clamp(80px,12vh,140px);border-top:1px solid var(--line-strong);
+  background:radial-gradient(90% 130% at 50% 100%,rgba(47,107,255,.2),transparent 70%);
+  padding:clamp(64px,10vh,118px) 0 clamp(56px,9vh,100px);text-align:center}
+.closing h2{font-size:clamp(30px,5.2vw,66px);margin:16px auto 0;max-width:16ch}
+.chain{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px 0;margin-top:clamp(38px,6vh,60px)}
+.chain li{display:flex;align-items:center;gap:0}
+.chain b{font-family:'IBM Plex Mono',monospace;font-size:clamp(10px,1.05vw,12px);letter-spacing:.2em;
+  text-transform:uppercase;font-weight:500;padding:10px 14px;border:1px solid var(--line-strong);border-radius:2px;
+  background:var(--panel);color:var(--ink-dim);transition:.4s var(--ease);white-space:nowrap}
+.chain li:hover b{color:#fff;border-color:var(--blue-lit);box-shadow:0 0 24px rgba(47,107,255,.4);transform:translateY(-2px)}
+.chain .link{width:clamp(10px,2.2vw,34px);height:1px;background:var(--line-strong);position:relative}
+.chain .link::after{content:"";position:absolute;inset:0;background:var(--blue-lit);box-shadow:0 0 10px var(--blue);
+  transform-origin:left;animation:flow 4.2s linear infinite;animation-delay:var(--d,0s)}
+@keyframes flow{0%{transform:scaleX(0)}25%{transform:scaleX(1)}60%,100%{transform:scaleX(0);transform-origin:right}}
+.closing .btn{margin-top:clamp(34px,5vh,52px)}
+
+/* ── footer ──────────────────────────── */
+footer{border-top:1px solid var(--line);background:var(--navy-900)}
+.foot{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:40px;padding:clamp(46px,7vh,74px) 0}
+.foot p{color:var(--ink-dim);font-size:14px;max-width:36ch;margin-top:16px}
+.foot h4{font-size:12px;font-family:'IBM Plex Mono',monospace;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--ink-faint);font-weight:500;margin-bottom:16px}
+.foot li{margin-bottom:10px;font-size:14px}
+.foot a{color:var(--ink-dim);transition:color .3s}
+.foot a:hover{color:var(--blue-lit)}
+.legal{display:flex;flex-wrap:wrap;gap:10px 26px;justify-content:space-between;padding:20px 0 28px;border-top:1px solid var(--line)}
+
+/* ── reveal ──────────────────────────── */
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+
+/* ── responsive ──────────────────────── */
+@media(max-width:1080px){
+  .plot{grid-template-columns:1fr}
+  .band{height:auto;padding:22px 0 0;display:block}
+  .riser{height:14px!important;width:var(--h);transform:scaleX(.04);transform-origin:left;border-bottom:1px solid var(--line-strong)}
+  .reveal.in .riser{transform:scaleX(1)}
+  .axis{flex-direction:row}
+}
+@media(max-width:900px){
+  .nav-links,.nav-in .lang,.nav-in>.btn{display:none}
+  .burger{display:block}
+  .nav[data-open=true] .drawer{display:block}
+  .hero-grid{grid-template-columns:1fr}
+  .hero-side{border-left:0;border-top:1px solid var(--line);padding:20px 0 0}
+  .svc{grid-template-columns:1fr}
+  .svc li{border-right:0}
+  .svc li a,.svc li:nth-child(2n) a{padding-left:20px;padding-right:16px}
+  .foot{grid-template-columns:1fr 1fr}
+  .foot>div:first-child{grid-column:1/-1}
+}
+@media(max-width:560px){
+  .stats{grid-template-columns:1fr;}
+  .stats div{border-right:0;border-bottom:1px solid var(--line);padding:18px 0}
+  .stats div:last-child{border-bottom:0}
+  .chain{flex-direction:column}
+  .chain .link{width:1px;height:16px}
+  .foot{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none}
+  .riser{transform:none!important}
+  .tick{animation:none}
+  .term-body{height:auto;overflow:visible;-webkit-mask-image:none;mask-image:none}
+}
+</style>
+</head>
+<body>
+
+<header class="nav" id="nav" data-open="false">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top">
+      <span class="chip"><img src="../logo.jpg" alt="AIoT P.S.A. logo"></span>
+      <span>AIoT&nbsp;P.S.A.</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#top">Home</a><a href="#about">About</a><a href="#services">Services</a>
+      <a href="#matrix">Gallery</a><a href="#culture">Trusted us</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" aria-pressed="false">PL</button><button type="button" aria-pressed="true">EN</button>
+    </div>
+    <a class="btn" href="#contact">Check our offer</a>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><i></i><i></i><i></i></button>
+  </div>
+  <div class="drawer wrap" id="drawer">
+    <a href="#top">Home</a><a href="#about">About</a><a href="#services">Services</a>
+    <a href="#matrix">Gallery</a><a href="#culture">Trusted us</a><a href="#contact">Contact</a>
+    <a class="btn" href="#contact">Check our offer</a>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <canvas id="net" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <p class="mono reveal">/// Comprehensive OHS outsourcing · <b>est. Świdnica, PL</b></p>
+        <h1 class="reveal" style="margin-top:22px">Your organisation's <em>external force</em> – the flexibility your business needs.</h1>
+        <p class="lede reveal">We take over occupational safety, environment, machinery compliance and personnel end to end — so your production never stops to deal with them.</p>
+        <div class="cta-row reveal">
+          <a class="btn" href="#about">A few words about us</a>
+          <a class="btn ghost" href="#services">Check out our offer</a>
+        </div>
+      </div>
+      <aside class="hero-side reveal" id="about">
+        <p class="mono">// Operating status</p>
+        <div class="readout"><span class="dot"></span><span class="mono" style="color:var(--ink)">Systems supervised · 24/7</span></div>
+        <p>Complete operational relief · development partnership · safety culture built in the plant, not in a binder · pragmatic solutions over paperwork.</p>
+        <p class="mono" style="margin-top:20px">誠邀亞洲各國開展合作 · アジア · 아시아 — <b>we invite Asian countries to cooperate</b></p>
+      </aside>
+    </div>
+    <div class="stats reveal">
+      <div><strong>2008</strong><p class="mono">Operating since</p></div>
+      <div><strong>ISO</strong><p class="mono">Certified management systems</p></div>
+      <div><strong>PCA</strong><p class="mono">Accredited measurements</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 class="reveal">How we can help — we will systematise your organisation</h2>
+      <p class="mono reveal">[ 10 service lines ]</p>
+    </div>
+  </div>
+  <div class="wrap">
+    <ul class="svc">
+      <li class="reveal"><a href="#contact"><span class="idx">01</span><h3>Machines, equipment</h3>
+        <p>Comprehensive risk assessment, functional and physical adaptation of machinery parks. We create LOTO procedures, guaranteeing full compliance with directives.</p>
+        <span class="more">Read more <span>→</span></span></a></li>
+      <li class="reveal"><a href="#contact"><span class="idx">02</span><h3>OHS</h3>
+        <p>Audits, occupational risk assessments, and constant safety supervision. We solve problems comprehensively and build a strong safety culture in production plants.</p>
+        <span class="more">Read more <span>→</span></span></a></li>
+      <li class="reveal"><a href="#contact"><span class="idx">03</span><h3>Fire protection</h3>
+        <p>We develop Fire Safety Instructions (FSI) and evacuation procedures. We ensure prevention and full compliance with the strict requirements of the State Fire Service.</p>
+        <span class="more">Read more <span>→</span></span></a></li>
+      <li class="reveal"><a href="#contact"><span class="idx">04</span><h3>ADR</h3>
+        <p>Professional consultancy in the transport of dangerous goods. We support you in documentation, handling, and the safe organisation of logistics processes.</p>
+        <span class="more">Read more <span>→</span></span></a></li>
+      <li class="reveal"><a href="#contact"><span class="idx">05</span><h3>Environmental protection</h3>
+        <p>We monitor the enterprise's continuous impact on the surroundings. We assist in implementing environmental procedures, reporting, and maintaining compliance with legal requirements.</p>
+        <span class="more">Read more <span>→</span></span></a></li>
+      <li class="reveal"><a href="#contact"><span class="idx">06</span><h3>Parts machining</h3>
+        <p>Maintenance support in optimising technological processes. We ensure the highest standards of safety and precision in mechanical processing.</p>
+        <span class="more">Read more <span>→</span></span></a></li>
+      <li class="reveal"><a href="#contact"><span class="idx">07</span><h3>Physical working environment measurements</h3>
+        <p>Accurate electrical measurements, quality testing, and thermal imaging. We diagnose conditions at workstations to instantly eliminate hidden risks.</p>
+        <span class="more">Read more <span>→</span></span></a></li>
+      <li class="reveal"><a href="#contact"><span class="idx">08</span><h3>Occupational medicine</h3>
+        <p>Comprehensive preventive employee healthcare. Efficient organisation of medical examinations, ensuring safety and health compliance without unnecessary facility downtime.</p>
+        <span class="more">Read more <span>→</span></span></a></li>
+      <li class="reveal"><a href="#contact"><span class="idx">09</span><h3>Employment agency</h3>
+        <p>Dedicated training and efficient onboarding, including support for foreigners. We provide personnel to quickly and safely integrate new staff into the workplace.</p>
+        <span class="more">Read more <span>→</span></span></a></li>
+      <li class="reveal"><a href="#contact"><span class="idx">10</span><h3>ISO</h3>
+        <p>Implementation, maintenance, and auditing of management systems. We help prepare for certification, minimising bureaucracy and saving time on formalities.</p>
+        <span class="more">Read more <span>→</span></span></a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- MATRIX -->
+<section class="matrix" id="matrix">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 class="reveal">Check where your organization stands</h2>
+      <p class="mono reveal">[ Safety Culture Maturity Matrix ]</p>
+    </div>
+    <div class="plot reveal">
+      <article class="stage"><div class="band"><div class="riser" style="--h:20%;--d:.05s"></div></div>
+        <p class="lvl">LVL 01</p><h3>Pathological Culture</h3>
+        <p>Safety is not important. We only do the bare minimum to avoid getting caught.</p>
+        <p class="mgmt">Management doesn't know and doesn't want to know.</p></article>
+      <article class="stage"><div class="band"><div class="riser" style="--h:38%;--d:.15s"></div></div>
+        <p class="lvl">LVL 02</p><h3>Reactive Culture</h3>
+        <p>We react only when an accident occurs or during an inspection.</p>
+        <p class="mgmt">Management knows, but shows no initiative.</p></article>
+      <article class="stage"><div class="band"><div class="riser" style="--h:58%;--d:.25s"></div></div>
+        <p class="lvl">LVL 03</p><h3>Compliance Culture</h3>
+        <p>Regulatory compliance is important. We have risk management systems in place.</p>
+        <p class="mgmt">Management cares, but doesn't always know how to act.</p></article>
+      <article class="stage"><div class="band"><div class="riser" style="--h:78%;--d:.35s"></div></div>
+        <p class="lvl">LVL 04</p><h3>Proactive Culture</h3>
+        <p>Continuous improvement is key. Everyone is involved in OHS.</p>
+        <p class="mgmt">Management cares and knows how to improve the system.</p></article>
+      <article class="stage"><div class="band"><div class="riser" style="--h:100%;--d:.45s"></div></div>
+        <p class="lvl">LVL 05</p><h3>Mature Culture</h3>
+        <p>OHS is our priority. It is built into our DNA and business development.</p>
+        <p class="mgmt">Management monitors, measures, and genuinely leads.</p></article>
+    </div>
+    <div class="axis">
+      <span class="mono">Probability of accidents: <b>High</b></span>
+      <span class="bar"></span>
+      <span class="mono"><b>Low</b></span>
+    </div>
+    <p class="risk-note">Maturity climbs left to right. Accident probability falls the other way — every level you gain removes a class of incident, not just a line in a report.</p>
+  </div>
+</section>
+
+<!-- NO-BLAME -->
+<section id="culture">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 class="reveal">A no-blame culture is a measurable asset</h2>
+      <p class="mono reveal">[ shop-floor language log ]</p>
+    </div>
+    <div class="term reveal">
+      <div class="term-bar"><i></i><i></i><i></i><span class="mono">no-blame-culture · live feed</span></div>
+      <div class="term-body">
+        <ul class="tick" id="tick">
+          <li>How can I help?</li><li>We will solve this.</li><li>We all make mistakes.</li>
+          <li>We can always improve.</li><li>We are in this together.</li><li>We are stronger together.</li>
+          <li>Thank you for your honesty.</li><li>Let's focus on the next step.</li>
+          <li>What can we learn from this?</li><li>We care about your well-being.</li>
+          <li>We will get through this as a team.</li><li>Next time we will try this approach.</li>
+          <li>We are here to support each other.</li><li>Let's look for solutions together.</li>
+          <li>Mistakes are opportunities to grow.</li>
+          <li>We learn more from mistakes than from successes.<span class="cursor"></span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLOSING -->
+<section class="closing">
+  <div class="wrap">
+    <p class="mono reveal">Comprehensive occupational safety and health outsourcing</p>
+    <h2 class="reveal">Your Business Without Risk and Downtime</h2>
+    <ul class="chain reveal">
+      <li><b>Thoughts</b><span class="link" style="--d:0s"></span></li>
+      <li><b>Words</b><span class="link" style="--d:.35s"></span></li>
+      <li><b>Actions</b><span class="link" style="--d:.7s"></span></li>
+      <li><b>Habits</b><span class="link" style="--d:1.05s"></span></li>
+      <li><b>Character</b><span class="link" style="--d:1.4s"></span></li>
+      <li><b>Destiny</b></li>
+    </ul>
+    <a class="btn reveal" href="#contact">Start with an audit</a>
+  </div>
+</section>
+
+</main>
+
+<footer id="contact">
+  <div class="wrap foot">
+    <div>
+      <a class="brand" href="#top"><span class="chip"><img src="../logo.jpg" alt=""></span><span>AIoT&nbsp;P.S.A.</span></a>
+      <p>Comprehensive outsourcing of OHS, environment, machinery compliance and personnel. Operating since 2008 — ISO certified, PCA accredited.</p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:office@aiot.example">office@aiot.example</a></li>
+        <li><a href="tel:+48000000000">+48 000 000 000</a></li>
+        <li>Świdnica, Poland</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Navigate</h4>
+      <ul>
+        <li><a href="#top">Home</a></li><li><a href="#about">About</a></li><li><a href="#services">Services</a></li>
+        <li><a href="#matrix">Maturity matrix</a></li><li><a href="#culture">Trusted us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap legal">
+    <span class="mono">© 2026 AIoT P.S.A. — all rights reserved</span>
+    <span class="mono">Demo layout · placeholder contact data</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* mobile nav */
+  var nav = document.getElementById('nav'), burger = document.getElementById('burger');
+  burger.addEventListener('click', function(){
+    var open = nav.dataset.open !== 'true';
+    nav.dataset.open = open; burger.setAttribute('aria-expanded', open);
+  });
+  document.getElementById('drawer').addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){ nav.dataset.open = 'false'; burger.setAttribute('aria-expanded','false'); }
+  });
+
+  /* language switch (demo only) */
+  document.querySelectorAll('.lang button').forEach(function(b){
+    b.addEventListener('click', function(){
+      document.querySelectorAll('.lang button').forEach(function(x){ x.setAttribute('aria-pressed','false'); });
+      b.setAttribute('aria-pressed','true');
+    });
+  });
+
+  /* scroll reveal */
+  var els = document.querySelectorAll('.reveal');
+  if(!('IntersectionObserver' in window) || reduce){
+    els.forEach(function(el){ el.classList.add('in'); });
+  } else {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en, i){
+        if(en.isIntersecting){
+          var el = en.target;
+          setTimeout(function(){ el.classList.add('in'); }, Math.min(i,6)*70);
+          io.unobserve(el);
+        }
+      });
+    }, {rootMargin:'0px 0px -12% 0px', threshold:.12});
+    els.forEach(function(el){ io.observe(el); });
+  }
+
+  /* duplicate ticker items for a seamless loop */
+  var tick = document.getElementById('tick');
+  if(tick && !reduce) tick.insertAdjacentHTML('beforeend', tick.innerHTML);
+
+  /* hero node network */
+  var cv = document.getElementById('net'), ctx = cv.getContext('2d');
+  var nodes = [], w = 0, h = 0, dpr = Math.min(devicePixelRatio || 1, 2), raf = null, visible = true;
+
+  function build(){
+    var r = cv.getBoundingClientRect();
+    w = r.width; h = r.height;
+    cv.width = w * dpr; cv.height = h * dpr;
+    ctx.setTransform(dpr,0,0,dpr,0,0);
+    var count = Math.min(72, Math.max(22, Math.round(w * h / 17000)));
+    nodes = [];
+    for(var i=0;i<count;i++){
+      nodes.push({
+        x: Math.random()*w, y: Math.random()*h,
+        vx: (Math.random()-.5)*.18, vy: (Math.random()-.5)*.18,
+        r: Math.random()*1.4 + .8
+      });
+    }
+  }
+
+  function draw(){
+    ctx.clearRect(0,0,w,h);
+    var link = Math.min(150, w/7);
+    for(var i=0;i<nodes.length;i++){
+      var a = nodes[i];
+      for(var j=i+1;j<nodes.length;j++){
+        var b = nodes[j], dx = a.x-b.x, dy = a.y-b.y, d = Math.hypot(dx,dy);
+        if(d < link){
+          ctx.strokeStyle = 'rgba(110,155,255,' + (.3*(1-d/link)).toFixed(3) + ')';
+          ctx.lineWidth = 1;
+          ctx.beginPath(); ctx.moveTo(a.x,a.y); ctx.lineTo(b.x,b.y); ctx.stroke();
+        }
+      }
+      ctx.fillStyle = 'rgba(160,195,255,.75)';
+      ctx.beginPath(); ctx.arc(a.x,a.y,a.r,0,6.2832); ctx.fill();
+    }
+  }
+
+  function step(){
+    for(var i=0;i<nodes.length;i++){
+      var n = nodes[i];
+      n.x += n.vx; n.y += n.vy;
+      if(n.x < 0 || n.x > w) n.vx *= -1;
+      if(n.y < 0 || n.y > h) n.vy *= -1;
+    }
+    draw();
+    raf = requestAnimationFrame(step);
+  }
+
+  function start(){ if(!raf && visible && !reduce) raf = requestAnimationFrame(step); }
+  function stop(){ if(raf){ cancelAnimationFrame(raf); raf = null; } }
+
+  build(); draw();
+  if(!reduce){
+    start();
+    if('IntersectionObserver' in window){
+      new IntersectionObserver(function(e){
+        visible = e[0].isIntersecting; visible ? start() : stop();
+      }).observe(cv);
+    }
+    document.addEventListener('visibilitychange', function(){
+      document.hidden ? stop() : start();
+    });
+  }
+  var t; addEventListener('resize', function(){
+    clearTimeout(t); t = setTimeout(function(){ build(); draw(); }, 180);
+  });
+})();
+</script>
+</body>
+</html>

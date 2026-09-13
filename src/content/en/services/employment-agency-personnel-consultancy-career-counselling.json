@@ -1,0 +1,32 @@
+{
+  "id": "employment-agency-personnel-consultancy-career-counselling",
+  "category": "employment-agency",
+  "menuLabel": "Employment agency, personnel consultancy, career",
+  "hasPage": true,
+  "title": "Employment agency, personnel consultancy, career counselling",
+  "description": "",
+  "sourceUrl": "https://recon.org.pl/en/employment-agency-personnel-consultancy-career-counselling/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "HUMAN CAPITAL MANAGEMENT",
+      "text": "Flexible staffing support for your company"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Placement and recruitment: We act as an intermediary between you and the employee. The agency reviews CVs, conducts interviews and tests to select suitable candidates for you.",
+        "Paperwork and payroll: We handle the paperwork (contracts). The RECON employment agency is responsible for hiring, registering with the Social Insurance Institution (ZUS), maintaining records and ensuring timely payment of wages.",
+        "Temporary work model: In the case of temporary work, the agency becomes the formal employer and pays the wages. The employee is employed by RECON but carries out tasks on your behalf as the ‘user employer’. This provides you with staffing flexibility and helps employees find work more quickly.",
+        "Personnel consultancy and career counselling: We support the development of your team through professional personnel consultancy, helping to optimise the employment structure and plan career paths."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "/img/employment-agency-personnel-consultancy-career-counselling/obraz_2026-03-16_154838190.png",
+      "alt": ""
+    }
+  ]
+}

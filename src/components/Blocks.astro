@@ -1,0 +1,27 @@
+---
+/** Renders a generic block array (about / contact / service pages). */
+import type { Block } from '../lib/content';
+interface Props { blocks: Block[] }
+const { blocks } = Astro.props;
+const H = (l: number) => (l <= 2 ? 'h2' : l === 3 ? 'h3' : 'h4') as 'h2' | 'h3' | 'h4';
+---
+<div class="prose-blocks mx-auto max-w-3xl px-6">
+  {blocks.map((b) => {
+    if (b.type === 'heading') {
+      const Tag = H(b.level);
+      return (
+        <div class="reveal mt-14 first:mt-0">
+          {b.eyebrow && <p class="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-blue">{b.eyebrow}</p>}
+          <Tag class:list={['font-semibold tracking-tight text-navy', b.level <= 2 ? 'text-3xl md:text-4xl' : 'text-xl']}>{b.text}</Tag>
+        </div>
+      );
+    }
+    if (b.type === 'paragraph') return <p class="reveal mt-5 text-lg leading-relaxed text-ink/80">{b.text}</p>;
+    if (b.type === 'list') {
+      const Tag = b.ordered ? 'ol' : 'ul';
+      return <Tag class:list={['reveal mt-5 space-y-2 pl-6 text-lg text-ink/80', b.ordered ? 'list-decimal' : 'list-disc']}>{b.items.map((i) => <li>{i}</li>)}</Tag>;
+    }
+    if (b.type === 'image') return <img src={b.src} alt={b.alt} loading="lazy" class="reveal mt-8 w-full rounded-2xl object-cover" />;
+    if (b.type === 'cta') return <a href={b.href} class="reveal mt-6 inline-block rounded-full bg-blue px-6 py-3 font-medium text-white">{b.label}</a>;
+  })}
+</div>

@@ -1,0 +1,81 @@
+{
+  "id": "lockout-tagout",
+  "category": "ohs",
+  "menuLabel": "Lockout-Tagout",
+  "hasPage": true,
+  "title": "Lockout-Tagout",
+  "description": "It is used to protect the life and health of employees during the repair, maintenance, or cleaning of machinery. This system physically locks out energy…",
+  "sourceUrl": "https://recon.org.pl/en/lockout-tagout/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "SERVICE SAFETY",
+      "text": "Lockout-Tagout procedure (LOTO)"
+    },
+    {
+      "type": "paragraph",
+      "text": "It is used to protect the life and health of employees during the repair, maintenance, or cleaning of machinery. This system physically locks out energy sources (electricity, pressure, gas) and tags equipment, preventing their accidental activation and the dangerous release of stored energy, thereby eliminating the risk of serious accidents."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "OPERATING STANDARD",
+      "text": "6 steps of safe energy isolation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Here is a description of how we operate to implement the LOTO procedure:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Preparation and notification: Identify energy sources (electrical, hydraulic, pneumatic) and inform staff about the maintenance work.",
+        "Shutting down the machine: Switch off the equipment in the normal manner (e.g. using the stop button).",
+        "Isolation of energy sources: Disconnect the machine from the power supply (e.g. main switch, valves).",
+        "Use of lockout and tagout: Fit individual safety padlocks at the isolation points. Attach a tag (label) with your full name and the date, stating who carried out the lockout and why.",
+        "Release residual energy: Safeguard against stored energy (e.g. release pressure, discharge capacitors, lock out gravity-fed parts).",
+        "Verification (Tryout): Ensure the machine is isolated by attempting to start it (verifying that it does not operate), then set the switch to the ‘off’ position."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "SYSTEM FOUNDATIONS",
+      "text": "Important rules: 1 person = 1 padlock = 1 key"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Individual padlocks"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each employee servicing the machine must use their own padlock."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Key"
+    },
+    {
+      "type": "paragraph",
+      "text": "Only the person who applied the padlock may remove it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Dismantling"
+    },
+    {
+      "type": "paragraph",
+      "text": "Once the work is complete, check that the machine is safe, remove tools, fit guards, remove locks and only then start the machine."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "HEALTH AND SAFETY"
+    }
+  ]
+}

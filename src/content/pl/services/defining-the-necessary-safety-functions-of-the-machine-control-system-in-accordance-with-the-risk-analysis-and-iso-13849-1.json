@@ -1,0 +1,196 @@
+{
+  "id": "defining-the-necessary-safety-functions-of-the-machine-control-system-in-accordance-with-the-risk-analysis-and-iso-13849-1",
+  "category": "machinery",
+  "menuLabel": "Określenie niezbędnych funkcji bezpieczeństwa systemu sterowania maszyną zgodnie z analizą ryzyka i normą ISO 13849-1",
+  "hasPage": true,
+  "title": "Określenie niezbędnych funkcji bezpieczeństwa systemu sterowania maszyną zgodnie z analizą ryzyka i normą ISO 13849-1",
+  "description": "W skrócie: robimy to, aby maszyna była w pełni bezpieczna dla operatorów. Eliminujemy domysły – opieramy się na precyzyjnych wyliczeniach, tworząc systemy…",
+  "sourceUrl": "https://recon.org.pl/okreslenie-niezbednych-funkcji-bezpieczenstwa-systemu-sterowania-maszyna-zgodnie-z-analiza-ryzyka-i-norma-iso-13849-1/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "FUNDAMENT OCHRONY",
+      "text": "Dlaczego określamy funkcje bezpieczeństwa?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Redukcja ryzyka do minimum: Analiza precyzyjnie wskazuje zagrożenia, a wdrożone funkcje (np. zatrzymanie awaryjne, kurtyny świetlne) obniżają prawdopodobieństwo wypadku do akceptowalnego poziomu.",
+        "Zgodność z prawem i znak CE: Dokumentacja oparta na normie PN-EN ISO 13849-1 to twardy dowód spełnienia wymogów Dyrektywy Maszynowej, niezbędny do legalnej certyfikacji CE.",
+        "Optymalizacja kosztów i zabezpieczeń: Unikamy skrajności. Dobieramy środki precyzyjnie pod poziom zagrożenia – nie za słabe (ryzyko wypadku) i nie przesadnie skomplikowane (zbędne koszty).",
+        "Ochrona w razie awarii: Z góry definiujemy, jak maszyna ma się zachować w przypadku usterki, gwarantując wymuszone przejście w tzw. stan bezpieczny (np. blokada nieoczekiwanego rozruchu)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "NIEZAWODNOŚĆ STEROWANIA",
+      "text": "Jak projektujemy i weryfikujemy systemy SRP/CS?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Wyznaczenie poziomu PLr (Performance Level required): Dokładnie określamy, jak wysoce niezawodna musi być dana funkcja w skali od „a” (najniższe ryzyko) do „e” (najwyższe ryzyko).",
+        "Odporność na usterki: Projektujemy części systemu sterowania odpowiedzialne za bezpieczeństwo (SRP/CS) tak, aby radziły sobie z awariami poprzez redundancję i zaawansowaną diagnostykę.",
+        "Walidacja i weryfikacja: Twardo sprawdzamy, czy zastosowany sprzęt i oprogramowanie faktycznie osiągają założony, bezpieczny poziom PL.",
+        "Pełna uniwersalność: Proces ten obejmuje wszystkie technologie wykorzystywane w maszynie: elektryczną, hydrauliczną oraz pneumatyczną."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "ZERO ZAGROŻEŃ",
+      "text": "Projektowanie oparte na realnych danych"
+    },
+    {
+      "type": "paragraph",
+      "text": "W skrócie: robimy to, aby maszyna była w pełni bezpieczna dla operatorów. Eliminujemy domysły – opieramy się na precyzyjnych wyliczeniach, tworząc systemy sterowania, które ratują życie i zdrowie w ułamku sekundy."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "KROK 1",
+      "text": "Identyfikacja i klasyfikacja prac"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pracodawca ma obowiązek zidentyfikować prace szczególnie niebezpieczne i stworzyć ich wykaz. Najczęściej spotykamy:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Prace Budowlane i Montażowe"
+    },
+    {
+      "type": "paragraph",
+      "text": "Roboty budowlane, rozbiórkowe i montażowe prowadzone bez wstrzymania ruchu zakładu pracy."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Przestrzenie Zamknięte"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prace w zbiornikach, kanałach, wnętrzach urządzeń technicznych i w niebezpiecznych przestrzeniach zamkniętych."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Prace na Wysokości"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prace wykonywane na rusztowaniach, drabinach, podestach ruchomych czy dachach."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Materiały Niebezpieczne"
+    },
+    {
+      "type": "paragraph",
+      "text": "Czynności wymagające kontaktu z substancjami chemicznymi, toksycznymi, żrącymi lub łatwopalnymi."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "KROK 2",
+      "text": "Opracowanie instrukcji (IBWR)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Instrukcja ta jest zazwyczaj formą Instrukcji Bezpiecznego Wykonywania Robót (IBWR), którą opracowuje wykonawca. Obowiązkowa struktura instrukcji:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "CEL: Określenie zasad organizacji, prowadzenia i dokumentowania prac.",
+        "PRZEDMIOT I ZAKRES: Dokładny opis, jakiej pracy dotyczy (np. „spawanie wewnątrz zbiornika X”).",
+        "CZYNNOŚCI PRZED ROZPOCZĘCIEM: Sprawdzenie kwalifikacji, badań lekarskich, przygotowanie miejsca, zapewnienie środków ochrony zbiorowej i indywidualnej (SOI).",
+        "ZASADY BEZPIECZNEGO WYKONYWANIA: Kolejność zadań, techniki pracy, imienny podział pracy.",
+        "CZYNNOŚCI PO ZAKOŃCZENIU: Uporządkowanie miejsca, przekazanie urządzeń, zamknięcie prac.",
+        "SYTUACJE AWARYJNE: Procedury postępowania w przypadku wypadku, pożaru itp."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "KROK 3",
+      "text": "Wymagania organizacyjne i formalne"
+    },
+    {
+      "type": "paragraph",
+      "text": "Instrukcja musi zapewniać:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Bezpośredni nadzór"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wyznaczenie osoby nadzorującej prace."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Pisemne polecenie (pozwolenie)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wypełnienie zezwolenia na pracę, które zawiera analizę zagrożeń (JSA - Job Safety Analysis)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Instruktaż pracowników"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zapoznanie pracowników z IBWR, imienny podział pracy i kolejność czynności."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Zabezpieczenie terenu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Oznakowanie i odgrodzenie miejsca prac."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "KROK 4",
+      "text": "Co powinna zawierać dokumentacja?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Oprócz samej instrukcji, pakiet dokumentów powinien zawierać:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Zezwolenie na prace szczególnie niebezpieczne (polecenie pisemne).",
+        "Analizę ryzyka zawodowego (często JSA).",
+        "Protokół zabezpieczenia prac (np. przeciwpożarowych).",
+        "Listę pracowników z ich podpisami potwierdzającymi zaznajomienie się z instrukcją."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Kluczowe jest, aby instrukcja była zrozumiała dla wykonawców i dostępna na miejscu prac."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "MASZYNY / URZĄDZENIA"
+    }
+  ]
+}

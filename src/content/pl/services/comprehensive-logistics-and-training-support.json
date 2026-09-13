@@ -1,0 +1,70 @@
+{
+  "id": "comprehensive-logistics-and-training-support",
+  "category": "adr",
+  "menuLabel": "Kompleksowa obsługa logistyczna i szkoleniowa",
+  "hasPage": true,
+  "title": "Kompleksowa obsługa logistyczna i szkoleniowa",
+  "description": "Zgodnie z konwencją ADR, przedsiębiorstwa zaangażowane w nadawanie, transport, pakowanie lub załadunek towarów niebezpiecznych mają obowiązek wyznaczenia…",
+  "sourceUrl": "https://recon.org.pl/kompleksowa-obsluga-logistyczna-i-szkoleniowa/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "TRANSPORT MATERIAŁÓW NIEBEZPIECZNYCH",
+      "text": "Kompleksowy nadzór nad towarami ADR"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zgodnie z konwencją ADR, przedsiębiorstwa zaangażowane w nadawanie, transport, pakowanie lub załadunek towarów niebezpiecznych mają obowiązek wyznaczenia doradcy DGSA (Dangerous Goods Safety Adviser). Nasz zespół zapewnia pełne wsparcie w tym zakresie:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Wymogi prawne i uniknięcie kar: Gwarantujemy obecność certyfikowanego doradcy, co chroni firmę przed wysokimi karami administracyjnymi (sięgającymi tysięcy złotych) za brak nadzoru lub brak obowiązkowych sprawozdań rocznych.",
+        "Obowiązki formalne i raportowanie: Sporządzamy wymagane prawem sprawozdania roczne do organów nadzoru oraz szczegółowe raporty powypadkowe, jeśli dojdzie do incydentu w łańcuchu logistycznym.",
+        "Bezpieczeństwo i odpowiedzialność: Minimalizujemy ryzyko wypadków i wycieków poprzez rygorystyczny nadzór nad zgodnością operacji z aktualną wersją umowy ADR (nowelizowaną co dwa lata).",
+        "Klasyfikacja i dokumentacja: Pomagamy w prawidłowym przypisaniu towarów do klas (1-9), doborze opakowań oraz weryfikacji oznakowania pojazdów (tablice pomarańczowe i numery rozpoznawcze)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "OPERACJE MAGAZYNOWE",
+      "text": "Bezpieczne składowanie i manipulacja towarami"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Dokumentacja i oznakowanie: Przeprowadzamy audyt etykiet ADR oraz piktogramów GHS na opakowaniach i paletach. Przygotowujemy dokumenty przewozowe i weryfikujemy karty charakterystyki substancji.",
+        "Doradztwo magazynowe: Ustalamy zasady bezpiecznego składowania (segregacja towarów, wentylacja, odległości) oraz procedury transportu wewnętrznego między budynkami (zgodnie ze standardami GLP-B, PNT-B, DC1).",
+        "Standardy załadunku: Określamy precyzyjne wymagania dla przewoźników i kierowców, dbając o to, by każda operacja ładowania i rozładowania odbywała się zgodnie z najwyższymi normami bezpieczeństwa."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "KOMPETENCJE ZESPOŁU",
+      "text": "Przygotowanie pracowników na sytuacje kryzysowe"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Szkolenia stanowiskowe"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pomagamy w opracowaniu programów szkoleniowych dla pracowników magazynu, logistyki i BHP z zakresu podstaw ADR oraz bezpiecznej obsługi materiałów niebezpiecznych."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Procedury awaryjne"
+    },
+    {
+      "type": "paragraph",
+      "text": "Opracowujemy scenariusze reagowania na sytuacje kryzysowe, takie jak wycieki chemikaliów, pożary czy uszkodzenia baterii, zapewniając gotowość zespołu do natychmiastowego działania."
+    }
+  ]
+}

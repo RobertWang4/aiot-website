@@ -1,0 +1,165 @@
+{
+  "id": "workstation-instructions",
+  "category": "ohs",
+  "menuLabel": "Workstation instructions",
+  "hasPage": true,
+  "title": "Workstation instructions",
+  "description": "In accordance with regulations, the employer is responsible for drawing up instructions, often with the assistance of health and safety services.",
+  "sourceUrl": "https://recon.org.pl/en/workstation-instructions/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "SAFETY FOUNDATIONS",
+      "text": "The main objectives for which we assist in drawing up job descriptions:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Safety (Health and Safety): The key objective is to eliminate or minimise risks to health and life whilst performing specific tasks.",
+        "Legal requirements: The employer is obliged to provide up-to-date instructions regarding machinery, hazards and technological processes.",
+        "Employee induction: This prepares the employee to perform their duties safely in their new role.",
+        "Standardisation of work: These define the correct, repeatable method of operation, which increases efficiency.",
+        "Emergency procedures: These explain how to act in the event of a breakdown, fire or accident.",
+        "Instructions must be clear, accessible to employees and tailored to the specific nature of the role."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In accordance with regulations, the employer is responsible for drawing up instructions, often with the assistance of health and safety services."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "CREATION PROCESS",
+      "text": "Stages of our approach to creating instructions"
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Workstation analysis: Observing the process, identifying machinery, tools and materials, and analysing occupational risks (what could go wrong?)."
+    },
+    {
+      "type": "paragraph",
+      "text": "2. Content development: Writing down the steps in a way that is clear, technical, yet simple."
+    },
+    {
+      "type": "paragraph",
+      "text": "3. Consultation: Discussing the draft instructions with the employees who work at the relevant workstation (they know the specifics of the job best)."
+    },
+    {
+      "type": "paragraph",
+      "text": "4. Zatwierdzenie i wdrożenie: Podpisanie przez pracodawcę i zapoznanie pracowników z treścią (potwierdzone podpisem)."
+    },
+    {
+      "type": "paragraph",
+      "text": "5. Updating: Instructions must be updated when machinery, technologies or health and safety regulations change."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "DOCUMENTATION ACCESSIBILITY",
+      "text": "Where should the instructions be placed?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Workstation instructions must be constantly available to employees – they are usually displayed on boards directly at the workstation."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "DOCUMENT STRUCTURE",
+      "text": "What must a workstation instruction manual contain?"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Purpose and scope:"
+    },
+    {
+      "type": "paragraph",
+      "text": "What the instructions cover."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Requirements:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Qualifications, licences, and medical examinations necessary for operation."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Protective equipment:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Required workwear, goggles, gloves, etc."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Tasks BEFORE starting work:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Checking the technical condition, inspecting guards, and preparing the workstation."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Actions DURING work:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Safe operation of machinery, working procedures."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Tasks AFTER finishing work:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Switching off machinery, tidying up, and securing the workstation."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Procedures in emergencies:"
+    },
+    {
+      "type": "paragraph",
+      "text": "What to do in the event of a breakdown, fire or accident (first aid)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "OUR METHODOLOGY",
+      "text": "How do we write it to make it effective?"
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Simple language: We avoid jargon unless it is necessary."
+    },
+    {
+      "type": "paragraph",
+      "text": "2. Visual aids: Include photos, diagrams and pictograms (e.g. showing the correct machine setup or a warning sign)."
+    },
+    {
+      "type": "paragraph",
+      "text": "3. Logical structure: We describe the steps in accordance with the natural flow of work."
+    },
+    {
+      "type": "paragraph",
+      "text": "4. TWI (Job Instruction) method: we recommend dividing the instructions into steps (what to do), tips (how to do it safely) and reasons (why it is important)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "HEALTH AND SAFETY"
+    }
+  ]
+}

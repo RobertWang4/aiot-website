@@ -1,0 +1,46 @@
+{
+  "title": "Contact",
+  "description": "office@recon.org.pl",
+  "sourceUrl": "https://recon.org.pl/en/contact/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Contact"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Email Address"
+    },
+    {
+      "type": "paragraph",
+      "text": "office@recon.org.pl"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Phone Number"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Address"
+    },
+    {
+      "type": "paragraph",
+      "text": "ul. Strzelińska 6"
+    },
+    {
+      "type": "image",
+      "src": "/img/contact/Gemini_Generated_Image_gjayf6gjayf6gjay.png",
+      "alt": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "REQUEST A QUOTE",
+      "text": "Consult your project"
+    }
+  ]
+}

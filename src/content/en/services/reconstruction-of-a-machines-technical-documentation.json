@@ -1,0 +1,60 @@
+{
+  "id": "reconstruction-of-a-machines-technical-documentation",
+  "category": "machinery",
+  "menuLabel": "Reconstruction of a machine’s technical documentation",
+  "hasPage": true,
+  "title": "Reconstruction of a machine’s technical documentation",
+  "description": "Reconstructing a machine’s technical documentation (DTR) involves reverse engineering, risk analysis, and verification of compliance with EU standards to…",
+  "sourceUrl": "https://recon.org.pl/en/reconstruction-of-a-machines-technical-documentation/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "STRATEGIC IMPORTANCE",
+      "text": "The main reasons for reproducing technical documentation are:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Safety and legal regulations: Enables verification of the machine’s compliance with minimum essential requirements.",
+        "Maintenance: Essential for carrying out maintenance, repairs, diagnostics and ordering spare parts.",
+        "Modernisation and conversion: Provides the electrical, pneumatic and hydraulic diagrams necessary for modifications.",
+        "Legalisation: Enables the machine to be approved for reuse after it has been taken out of service.",
+        "Risk analysis: Reconstructing documentation allows for a reassessment of risks."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "REVERSE ENGINEERING",
+      "text": "What does DTR reconstruction involve?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reconstructing a machine’s technical documentation (DTR) involves reverse engineering, risk analysis, and verification of compliance with EU standards to ensure the safe use of the equipment."
+    },
+    {
+      "type": "paragraph",
+      "text": "The process includes physical inspection, component identification, the development of diagrams (electrical/hydraulic), health and safety instructions, and maintenance procedures. Reconstructed documentation typically includes diagrams, operating manuals, technical drawings and risk analyses, often provided in both digital and paper formats."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "PROVEN PROCEDURE",
+      "text": "Our key steps in document reconstruction:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Contacting the manufacturer: The first step is to attempt to obtain the original documentation from the machine’s manufacturer or distributor.",
+        "Technical inspection and inventory: A thorough examination of the machine, recording of nameplates, motors, controllers, safety devices, and the preparation of photographic documentation.",
+        "Reconstruction of diagrams and drawings: Creation of electrical, hydraulic or pneumatic diagrams and assembly drawings based on the visual inspection.",
+        "Risk analysis and conformity assessment: Conducting a risk assessment in accordance with current standards (e.g. PN-EN ISO 12100) to ensure that the machine meets safety requirements (Machinery Directive).",
+        "Preparation of operating and health and safety instructions: Preparation of user documentation containing safe working procedures, operating and maintenance instructions, and a list of spare parts.",
+        "Verification: Checking that the documentation is consistent with the machine’s actual parameters."
+      ]
+    }
+  ]
+}

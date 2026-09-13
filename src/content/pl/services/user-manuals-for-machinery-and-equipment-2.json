@@ -1,0 +1,170 @@
+{
+  "id": "user-manuals-for-machinery-and-equipment-2",
+  "category": "ohs",
+  "menuLabel": "Instrukcje dla użytkownika",
+  "hasPage": true,
+  "title": "Instrukcje dla użytkownika",
+  "description": "Prawidłowo sporządzona instrukcja to nie tylko wymóg prawny, ale przede wszystkim narzędzie budujące bezpieczeństwo i efektywność:",
+  "sourceUrl": "https://recon.org.pl/instrukcje-dla-uzytkownika/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "KOMPLEKSOWA DOKUMENTACJA",
+      "text": "Profesjonalne instrukcje obsługi maszyn"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prawidłowo sporządzona instrukcja to nie tylko wymóg prawny, ale przede wszystkim narzędzie budujące bezpieczeństwo i efektywność:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "– Bezpieczeństwo i BHP: Skuteczne informowanie o zasadach użytkowania zapobiega wypadkom.",
+        "– Poprawna eksploatacja: Prowadzenie użytkownika „krok po kroku” ułatwia instalację i codzienną obsługę.",
+        "– Zgodność z prawem: Zapewniamy dokumentację niezbędną do wprowadzenia produktu na rynek UE.",
+        "– Oszczędność i trwałość: Wskazówki konserwacyjne wydłużają żywotność maszyn i redukują koszty wsparcia technicznego."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "CO ZAWIERA DOKUMENT?",
+      "text": "Pełny cykl życia maszyny w jednej instrukcji"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nasze instrukcje prowadzą operatora od momentu dostawy aż po utylizację:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Dane identyfikacyjne: Model, typ, oznaczenie CE i dane producenta.",
+        "Sekcja BHP: Piktogramy, opis ryzyka resztkowego i wymagane środki ochrony indywidualnej.",
+        "Opis techniczny: Budowa, podzespoły i parametry (schematy, rysunki).",
+        "Instalacja i Obsługa: Procedury uruchomienia, pracy normalnej i sytuacje awaryjne.",
+        "Konserwacja i Troubleshooting: Harmonogram przeglądów oraz tabela typowych awarii i ich rozwiązań."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "JAKOŚĆ I PRZEJRZYSTOŚĆ",
+      "text": "Zasady, którymi się kierujemy"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Prosty język"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unikamy zbędnego żargonu – instrukcja ma być zrozumiała dla operatora."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Wizualizacja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stosujemy zdjęcia, rysunki techniczne i diagramy zamiast gęstych bloków tekstu."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Hierarchia informacji"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wyraźnie wyróżniamy ostrzeżenia o zagrożeniu życia (kolor czerwony, ramki)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Personalizacja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dostosowujemy język i poziom szczegółowości do grupy docelowej (operator vs serwisant)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "ZGODNOŚĆ Z PRZEPISAMI",
+      "text": "Standardy bezpieczeństwa UE"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Język"
+    },
+    {
+      "type": "paragraph",
+      "text": "Instrukcje przygotowujemy w języku kraju użytkowania (zgodnie z prawem)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Dyrektywy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pełna zgodność z Dyrektywą Maszynową 2006/42/WE oraz nowym Rozporządzeniem (UE) 2023/1230."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Analiza ryzyka"
+    },
+    {
+      "type": "paragraph",
+      "text": "Uwzględniamy informacje o „przewidywalnym niewłaściwym użytkowaniu”, chroniąc producenta i użytkownika."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "DROGA DO FINALNEGO DOKUMENTU",
+      "text": "Jak tworzymy instrukcję dla Twojej maszyny?"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. Analiza i Szkicowanie"
+    },
+    {
+      "type": "paragraph",
+      "text": "Poznajemy maszynę, analizujemy schematy i rozmawiamy z konstruktorami."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. Pisanie i Testowanie"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tworzymy treść w trakcie testów maszyny, co pozwala wyeliminować błędy w opisach procedur."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. Wizualizacja i Weryfikacja"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. Publikacja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dostarczamy gotowy dokument w formacie cyfrowym (PDF) lub drukowanym."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "PROCEDURY I RYZYKO"
+    }
+  ]
+}

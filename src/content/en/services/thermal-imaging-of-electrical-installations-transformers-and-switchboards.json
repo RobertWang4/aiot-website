@@ -1,0 +1,63 @@
+{
+  "id": "thermal-imaging-of-electrical-installations-transformers-and-switchboards",
+  "category": "machinery",
+  "menuLabel": "Thermal imaging of electrical installations, transformers and switchboards",
+  "hasPage": true,
+  "title": "Thermal imaging of electrical installations, transformers and switchboards",
+  "description": "Standards: According to guidelines, higher temperatures indicate a higher risk of failure. We classify faults from critical (requiring immediate repair) to…",
+  "sourceUrl": "https://recon.org.pl/en/thermal-imaging-of-electrical-installations-transformers-and-switchboards/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "PREVENTION AND DIAGNOSTICS",
+      "text": "Here are the main reasons for carrying out thermal imaging of electrical installations:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Prevention of fires and failures: Overheating components are the most common cause of electrical fires. Early detection of faults enables repairs to be carried out before a failure, operational downtime or fire occurs.",
+        "Detecting loose connections and overloads: Loose contacts, terminals, or connectors increase electrical resistance, leading to significant heating. The camera quickly identifies wires or circuit breakers operating beyond their capacity, which is a direct cause of overheating in the installation. Thermal imaging allows these hot spots to be detected before permanent damage occurs",
+        "Technical condition assessment (maintenance): Enables ‘predictive maintenance’, i.e., replacing components just before they fail, thereby reducing repair costs and minimising downtime.",
+        "Non-invasive and safe / No downtime: Measurements are taken without touching the equipment. Inspections are usually carried out whilst the installation is in normal operation.",
+        "Insurance companies often require thermal imaging surveys to verify a building's safety."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "RIGOROUS METHODOLOGY",
+      "text": "A detailed guide on how we do it:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Load is essential: The system being inspected must be live and under load (ideally at least 40–50% of maximum load) for the camera to detect temperature differences",
+        "Access and Safety: We open the covers of electrical cabinets so that the camera can ‘see’ the wires and connectors directly. Thermal imaging cameras cannot see through metal casings. We use personal protective equipment (goggles, insulated gloves, fire-resistant clothing).",
+        "Camera settings: Electrical components (copper, aluminium) have different emissivities. We set the emissivity according to the material (e.g., insulating tape has an emissivity of approx. 0.95, whilst bare metal has a much lower value). We pay attention to the surroundings (reflected temperature) and set the appropriate temperature range (e.g. 300°C–600°C) to ensure maximum accuracy.",
+        "Technique for taking photographs: Position the camera lens as perpendicular as possible to the object being examined to minimise reflections. Scan systematically from the main power supply (switchboard) down to the individual circuits. We take dual images: a thermogram (thermal image) and a real (digital) image of the same component, to easily identify the fault in the report."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "FAULT DIAGNOSTICS",
+      "text": "What we analyse / Analysis and reporting:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Phase comparison (Delta T): We do not analyse absolute temperature alone, but the temperature difference between the suspect component and a reference (e.g. a cooler phase). Compare the three phases with one another. If one phase is significantly warmer than the others, this indicates a problem",
+        "Distinguishing anomaly types: Loose connections: A hot spot on a circuit breaker terminal or cable. Overload: A uniform rise in temperature across the entire cable or connector. Asymmetry: Temperature differences between phases in three-phase systems.",
+        "Standards: According to guidelines, higher temperatures indicate a higher risk of failure. We classify faults from critical (requiring immediate repair) to minor (requiring observation)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Standards: According to guidelines, higher temperatures indicate a higher risk of failure. We classify faults from critical (requiring immediate repair) to minor (requiring observation)."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "physical-adaptation-of-machinery-to-minimum-requirements-equipment-directive-and-essential-requirements-machinery-directive",
+  "category": "machinery",
+  "menuLabel": "Physical adaptation of machinery to minimum requirements (Equipment Directive) and essential requirements (Machinery Directive)",
+  "hasPage": true,
+  "title": "Physical adaptation of machinery to minimum requirements (Equipment Directive) and essential requirements (Machinery Directive)",
+  "description": "Adaptation involves physical modifications, such as:",
+  "sourceUrl": "https://recon.org.pl/en/physical-adaptation-of-machinery-to-minimum-requirements-equipment-directive-and-essential-requirements-machinery-directive/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "STANDARDS AND REGULATIONS",
+      "text": "Key objectives of physical adaptation:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Compliance with the Machinery Directive (2009/104/EC – ‘minimum requirements’): Applies to machinery already in use (often before 2004). The aim is to raise the safety level of older equipment to an acceptable standard, for example, by installing guards, emergency stop buttons, or modernising electrical systems",
+        "Compliance with the Machinery Directive (2006/42/EC – ‘essential requirements’): Applies to new or modified machinery placed on the market. The manufacturer or modifier must ensure the highest safety standards (CE marking).",
+        "Risk elimination: Machinery must be designed to prevent exposure of workers to injury, noise, vibration, or hazardous substances.",
+        "Employer’s responsibility: Ensuring that machinery is safe is a legal obligation of the employer, and failure to do so may lead to serious accidents and legal consequences."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "REAL MODIFICATIONS",
+      "text": "What exactly does the adaptation process involve?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Adaptation involves physical modifications, such as:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "installing safety devices,",
+        "verifying their effectiveness through physical tests and measurements,",
+        "and updating documentation."
+      ]
+    }
+  ]
+}

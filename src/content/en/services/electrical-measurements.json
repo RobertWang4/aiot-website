@@ -1,0 +1,42 @@
+{
+  "id": "electrical-measurements",
+  "category": "machinery",
+  "menuLabel": "Electrical measurements",
+  "hasPage": true,
+  "title": "Electrical measurements",
+  "description": "Measurements are carried out by persons holding the appropriate SEP qualifications, using calibrated equipment",
+  "sourceUrl": "https://recon.org.pl/en/electrical-measurements/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "SAFETY AND COMPLIANCE",
+      "text": "Key objectives of electrical measurements:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Electrical shock protection: Checking the effectiveness of protection (e.g. residual current devices) to ensure users are not electrocuted.",
+        "Fire safety: Checking insulation and connections to prevent short circuits and fires.",
+        "Compliance with legal regulations: A statutory requirement (Section 62 of the Building Act), which stipulates that inspections must be carried out at least once every 5 years.",
+        "Fault detection: Early detection of faults in the installation before they lead to costly repairs.",
+        "Verification of new installations: Checking that a newly installed system is functioning correctly and is safe."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "PROFESSIONALISM AND ACCURACY",
+      "text": "Who performs the measurements and using what equipment?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Measurements are carried out by persons holding the appropriate SEP qualifications, using calibrated equipment"
+    },
+    {
+      "type": "paragraph",
+      "text": "Verified equipment, to ensure visual inspection capability, is marked with a sticker."
+    }
+  ]
+}

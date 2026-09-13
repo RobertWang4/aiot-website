@@ -1,0 +1,46 @@
+{
+  "id": "full-reporting",
+  "category": "environment",
+  "menuLabel": "Pełna sprawozdawczość",
+  "hasPage": true,
+  "title": "Pełna sprawozdawczość",
+  "description": "Przejmujemy na siebie cały ciężar biurokracji środowiskowej. Skrupulatnie prowadzimy dokumentację, chroniąc Twoją firmę przed karami ze strony WIOŚ czy…",
+  "sourceUrl": "https://recon.org.pl/pelna-sprawozdawczosc/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "OCHRONA ŚRODOWISKA",
+      "text": "Przejmujemy Twoje obowiązki i pilnujemy terminów"
+    },
+    {
+      "type": "paragraph",
+      "text": "Przejmujemy na siebie cały ciężar biurokracji środowiskowej. Skrupulatnie prowadzimy dokumentację, chroniąc Twoją firmę przed karami ze strony WIOŚ czy Urzędu Marszałkowskiego. Opracowujemy i wysyłamy pełen pakiet rocznych raportów:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Opłaty środowiskowe: Opracowanie rzetelnego rocznego sprawozdania o korzystaniu ze środowiska.",
+        "Gospodarka odpadami (BDO): Bieżący nadzór oraz sporządzanie zbiorczych zestawień z zakresu gospodarowania odpadami.",
+        "Baza KOBiZE: Przygotowanie i terminowe przekazanie raportu rocznego do Krajowej Bazy o Emisjach Gazów Cieplarnianych i Innych Substancji.",
+        "Rejestr PRTR: Sporządzenie i wysyłka sprawozdania do Krajowego Rejestru Uwalniania i Transferu Zanieczyszczeń.",
+        "Raportowanie GUS: Przygotowanie obowiązkowych sprawozdań środowiskowych dla Głównego Urzędu Statystycznego."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Bierzemy na siebie pełną odpowiedzialność za terminową realizację wszystkich obowiązków sprawozdawczych . Z nami nie przegapisz żadnej daty w kalendarzu ekologicznym."
+    },
+    {
+      "type": "image",
+      "src": "/img/full-reporting/kobize2.png",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/full-reporting/obraz_2026-04-09_110157929.png",
+      "alt": ""
+    }
+  ]
+}

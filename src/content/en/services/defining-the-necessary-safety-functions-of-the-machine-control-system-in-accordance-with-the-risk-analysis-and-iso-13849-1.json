@@ -1,0 +1,232 @@
+{
+  "id": "defining-the-necessary-safety-functions-of-the-machine-control-system-in-accordance-with-the-risk-analysis-and-iso-13849-1",
+  "category": "machinery",
+  "menuLabel": "Defining the necessary safety functions of the machine control system in accordance with the risk analysis and ISO 13849-1",
+  "hasPage": true,
+  "title": "Defining the necessary safety functions of the machine control system in accordance with the risk analysis and ISO 13849-1",
+  "description": "W skrócie: robimy to, aby maszyna była w pełni bezpieczna dla operatorów. Eliminujemy domysły – opieramy się na precyzyjnych wyliczeniach, tworząc systemy…",
+  "sourceUrl": "https://recon.org.pl/en/defining-the-necessary-safety-functions-of-the-machine-control-system-in-accordance-with-the-risk-analysis-and-iso-13849-1/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "FOUNDATION OF SAFETY",
+      "text": "Why do we define safety functions?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Reducing risk to an acceptable level: Risk analysis identifies hazards, and safety functions (e.g., emergency stop, light curtains) are designed to minimise the risk of accidents.",
+        "Compliance with legal and regulatory requirements: This is an essential step towards obtaining CE certification. ISO 13849-1 is harmonised with the Machinery Directive 2006/42/EC, which means that its application implies compliance with legal requirements.",
+        "Avoiding excessive or insufficient safeguards: Defining the necessary functions allows appropriate measures to be applied – not too weak (which risks an accident) and not too expensive/complex (which generates unnecessary costs), but exactly those resulting from the risk analysis.",
+        "Ensuring functionality in the event of a failure: This process defines how the system should behave in the event of a fault, ensuring that the machine enters a safe state rather than, for example, starting up unexpectedly."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "CONTROL RELIABILITY",
+      "text": "How do we design and verify SRP/CS systems?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Determining the required PLr (Performance Level required): The standard enables the determination of how reliable a safety function (e.g. emergency stop, light curtain) must be, assigning it a required performance level from ‘a ’ (low) to ‘e’ (high).",
+        "Designing reliable systems (SRP/CS): Defining the function allows the safety-related parts of the control system (SRP/CS) to be designed to be fault-tolerant (e.g. redundancy, diagnostics).",
+        "Validation and verification: Defining safety functions forms the basis for checking whether the components used (hardware and software) actually achieve the specified PL level, which is essential for machine certification.",
+        "Full versatility: This process applies to all technologies (electrical, hydraulic, pneumatic) and is essential to ensure that machines operate safely without posing a risk to operators."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "ZERO ZAGROŻEŃ",
+      "text": "Projektowanie oparte na realnych danych"
+    },
+    {
+      "type": "paragraph",
+      "text": "W skrócie: robimy to, aby maszyna była w pełni bezpieczna dla operatorów. Eliminujemy domysły – opieramy się na precyzyjnych wyliczeniach, tworząc systemy sterowania, które ratują życie i zdrowie w ułamku sekundy."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "STEP 1",
+      "text": "Identification and classification of work"
+    },
+    {
+      "type": "paragraph",
+      "text": "The employer is obliged to identify particularly hazardous work and draw up a list of such tasks. The most common examples are:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Construction and assembly work"
+    },
+    {
+      "type": "paragraph",
+      "text": "Construction, demolition and assembly work is carried out without halting operations at the workplace."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Confined spaces"
+    },
+    {
+      "type": "paragraph",
+      "text": "Work in tanks, sewers, inside technical equipment and in hazardous confined spaces."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Work at height"
+    },
+    {
+      "type": "paragraph",
+      "text": "Work performed on scaffolding, ladders, mobile elevating work platforms or roofs."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Hazardous materials"
+    },
+    {
+      "type": "paragraph",
+      "text": "Activities requiring contact with chemical, toxic, corrosive or flammable substances."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Prace Budowlane i Montażowe"
+    },
+    {
+      "type": "paragraph",
+      "text": "Roboty budowlane, rozbiórkowe i montażowe prowadzone bez wstrzymania ruchu zakładu pracy."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Przestrzenie Zamknięte"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prace w zbiornikach, kanałach, wnętrzach urządzeń technicznych i w niebezpiecznych przestrzeniach zamkniętych."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Prace na Wysokości"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prace wykonywane na rusztowaniach, drabinach, podestach ruchomych czy dachach."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Materiały Niebezpieczne"
+    },
+    {
+      "type": "paragraph",
+      "text": "Czynności wymagające kontaktu z substancjami chemicznymi, toksycznymi, żrącymi lub łatwopalnymi."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "STEP 2",
+      "text": "Preparation of instructions (IBWR – Instructions for the Safe Performance of Works)"
+    },
+    {
+      "type": "paragraph",
+      "text": "These instructions usually take the form of Safety Work Instructions (IBWR), which the contractor draws up."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "PURPOSE: To define the rules for organising, carrying out and documenting the work.",
+        "SUBJECT AND SCOPE: A detailed description of the work concerned (e.g. ‘welding inside tank X’).",
+        "ACTIVITIES BEFORE COMMENCEMENT: Verification of qualifications, medical examinations, site preparation, and provision of collective and personal protective equipment (PPE).",
+        "SAFETY PROCEDURES: Sequence of tasks, working techniques, and allocation of tasks by name.",
+        "POST-COMPLETION ACTIVITIES: Tidying up the site, handing over equipment, and closing out the work.",
+        "EMERGENCY SITUATIONS: Procedures to follow in the event of an accident, fire, or other emergency."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "STEP 3",
+      "text": "Organisational and formal requirements"
+    },
+    {
+      "type": "paragraph",
+      "text": "The instructions must ensure:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Direct supervision"
+    },
+    {
+      "type": "paragraph",
+      "text": "Appointment of a person to supervise the work."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Written instruction (permit)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Completion of a work permit containing a Job Safety Analysis (JSA)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Staff briefing"
+    },
+    {
+      "type": "paragraph",
+      "text": "Familiarising staff with the IBWR, assigning tasks by name and the sequence of operations."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Site security"
+    },
+    {
+      "type": "paragraph",
+      "text": "Marking and fencing off the work area."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "STEP 4",
+      "text": "What should the documentation contain?"
+    },
+    {
+      "type": "paragraph",
+      "text": "In addition to the instructions themselves, the documentation package should include:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "A permit for particularly hazardous work (written instruction).",
+        "An occupational risk assessment (often a JSA).",
+        "Safety protocol (e.g. fire safety).",
+        "A list of employees with their signatures confirming that they have read the instructions."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The instructions must be understandable to contractors and available on-site."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "MACHINERY / EQUIPMENT"
+    }
+  ]
+}

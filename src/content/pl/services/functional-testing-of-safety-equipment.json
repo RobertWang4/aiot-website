@@ -1,0 +1,45 @@
+{
+  "id": "functional-testing-of-safety-equipment",
+  "category": "machinery",
+  "menuLabel": "Testy funkcjonalne urządzeń bezpieczeństwa",
+  "hasPage": true,
+  "title": "Testy funkcjonalne urządzeń bezpieczeństwa",
+  "description": "",
+  "sourceUrl": "https://recon.org.pl/testy-funkcjonalne-urzadzen-bezpieczenstwa/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "GWARANCJA NIEZAWODNOŚCI",
+      "text": "Dlaczego testujemy systemy bezpieczeństwa?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Weryfikacja działania (Safety Verification): Twardo sprawdzamy, czy urządzenie poprawnie wykonuje przypisane mu funkcje (np. czy maszyna faktycznie staje dęba po uderzeniu w E-STOP).",
+        "Wykrywanie ukrytych awarii (Fault Detection): Upewniamy się, że system potrafi sam zdiagnozować własną usterkę i przejść w stan bezpieczny (tzw. fail-safe), chroniąc operatora nawet w przypadku awarii samego zabezpieczenia.",
+        "Zgodność z normami i certyfikacja: Dostarczamy dowodów na to, że urządzenie spełnia rygorystyczne normy międzynarodowe (np. ISO 13849, IEC 62061), co jest absolutnie niezbędne do legalnego dopuszczenia maszyny do pracy.",
+        "Minimalizacja ryzyka: Identyfikujemy niebezpieczne scenariusze na wczesnym etapie, realnie redukując ryzyko wypadków na hali produkcyjnej.",
+        "Walidacja produkcji (FAT - Factory Acceptance Test): Weryfikujemy, czy urządzenia wyprodukowane seryjnie działają w 100% zgodnie z pierwotną specyfikacją techniczną."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "NASZA METODOLOGIA",
+      "text": "Jak przeprowadzamy testy krok po kroku?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Krok 1: Przygotowanie i analiza dokumentacji. Przeglądamy specyfikację, tworzymy precyzyjne przypadki testowe dla każdej funkcji i dbamy o to, aby same testy nie stanowiły zagrożenia dla naszej ekipy i Twoich pracowników.",
+        "Krok 2: Zaawansowane metody weryfikacji. Stosujemy m.in. testy “czarnej skrzynki” (wymuszanie wejścia i sprawdzanie reakcji) oraz celowe wstrzykiwanie błędów (Fault Injection), by sprawdzić, czy system wykryje awarię.",
+        "Krok 3: Próby praktyczne na maszynie. Symulujemy realne zagrożenia. Uderzamy w wyłączniki awaryjne, przerywamy wiązki kurtyn świetlnych i otwieramy blokady drzwi w trakcie pracy, aby potwierdzić natychmiastowe odcięcie zasilania.",
+        "Krok 4: Rygorystyczne dokumentowanie. Każdy test kończy się twardym wynikiem (pozytywny/negatywny). Generujemy szczegółowe protokoły, często wspierane nowoczesnym oprogramowaniem Safety.",
+        "Krok 5: Okresowa powtarzalność. Testy to nie jest jednorazowa akcja. Planujemy ich cykliczne powtarzanie, aby wyłapać utajone awarie i potwierdzić, że maszyna po latach wciąż działa “jak nowa”."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "comprehensive-modernisation-of-machinery-in-the-area-of-safety-covering-mechanical-electrical-and-automation-systems",
+  "category": "machinery",
+  "menuLabel": "Kompleksowa modernizacja maszyn w obszarze bezpieczeństwa pod kątem mechaniki, elektryki, automatyki;",
+  "hasPage": true,
+  "title": "Kompleksowa modernizacja maszyn w obszarze bezpieczeństwa pod kątem mechaniki, elektryki, automatyki;",
+  "description": "Kompleksowa modernizacja (tzw. retrofit) to idealne połączenie bezpieczeństwa pracy z optymalizacją techniczną. Sprawiamy, że stare maszyny działają i…",
+  "sourceUrl": "https://recon.org.pl/kompleksowa-modernizacja-maszyn-w-obszarze-bezpieczenstwa-pod-katem-mechaniki-elektryki-automatyki/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "PRIORYTET RECON",
+      "text": "Ochrona zdrowia i eliminacja zagrożeń"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Dostosowanie do norm i dyrektyw: Niestety, często nawet nowe maszyny nie spełniają obecnych wymogów prawnych. My to weryfikujemy i naprawiamy.",
+        "Fizyczna eliminacja zagrożeń: Montujemy osłony mechaniczne, kurtyny świetlne, skanery laserowe oraz blokady, które skutecznie odcinają dostęp do stref niebezpiecznych.",
+        "Nowoczesne systemy sterowania: Wdrażamy bezpieczne sterowniki PLC i układy napędowe gwarantujące poprawne działanie funkcji bezpieczeństwa (np. natychmiastowe, bezpieczne zatrzymanie).",
+        "Audyt bezpieczeństwa: Każdą kompleksową modernizację poprzedzamy rygorystyczną oceną ryzyka, by bezbłędnie namierzyć i usunąć słabe punkty."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "SKOK TECHNOLOGICZNY",
+      "text": "Przejście na nowoczesne systemy sterowania"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Wymiana przestarzałych komponentów: Usuwamy stare, trudne w serwisowaniu układy. Zastępujemy je najnowszymi sterownikami PLC, intuicyjnymi panelami HMI, czujnikami i falownikami.",
+        "Integracja z Przemysłem 4.0: Przygotowujemy park maszynowy do płynnej wymiany danych z systemami nadrzędnymi (MES/ERP). Otwiera to drogę do diagnostyki w czasie rzeczywistym i zdalnego serwisu.",
+        "Błyskawiczna diagnostyka: Nowoczesna automatyka pozwala zlokalizować przyczynę awarii w kilka sekund, co drastycznie skraca czas przestojów."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "DRUGIE ŻYCIE URZĄDZEŃ",
+      "text": "Większa wydajność i precyzja pracy"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Zwiększenie wydajności: Modernizacja układów mechanicznych pozwala wycisnąć z maszyny szybszą i znacznie dokładniejszą pracę.",
+        "Przedłużenie żywotności: Wymieniamy newralgiczne, zużyte części (prowadnice, napędy, hydraulikę), dzięki czemu unikasz potężnych kosztów zakupu nowej maszyny.",
+        "Kompleksowa renowacja: Gruntownie odnawiamy stare, wysłużone maszyny, przywracając im 100% pierwotnej sprawności technicznej."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "RETROFIT MASZYN",
+      "text": "Stare maszyny, nowe standardy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kompleksowa modernizacja (tzw. retrofit) to idealne połączenie bezpieczeństwa pracy z optymalizacją techniczną. Sprawiamy, że stare maszyny działają i wyglądają jak nowe, spełniając przy tym najbardziej rygorystyczne standardy techniczne i prawne."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "ZWROT Z INWESTYCJI",
+      "text": "Legalność, oszczędności i ciągłość produkcji"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Znak CE i legalność"
+    },
+    {
+      "type": "paragraph",
+      "text": "Modernizacja pozwala na aktualizację lub nadanie zupełnie nowego znaku CE. Dzięki temu maszyna może całkowicie legalnie pracować na terenie całej UE."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Niższe koszty operacyjne"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nowe, energooszczędne podzespoły odczuwalnie obniżają rachunki za prąd i minimalizują wydatki na ciągłą konserwację."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ciągłość produkcji"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zmodernizowany sprzęt po prostu się nie psuje. Brak awarii to brak przestojów i spokojna realizacja planów produkcyjnych."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "MASZYNY/ URZĄDZENIA"
+    }
+  ]
+}

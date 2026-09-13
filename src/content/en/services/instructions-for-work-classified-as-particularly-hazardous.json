@@ -1,0 +1,197 @@
+{
+  "id": "instructions-for-work-classified-as-particularly-hazardous",
+  "category": "ohs",
+  "menuLabel": "Instructions for work classified as particularly hazardous",
+  "hasPage": true,
+  "title": "Instructions for work classified as particularly hazardous",
+  "description": "Instructions for particularly hazardous work (PSzN) are health and safety documentation that must be drawn up before work with an increased risk of…",
+  "sourceUrl": "https://recon.org.pl/en/instructions-for-work-classified-as-particularly-hazardous/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "HIGH-RISK WORK SAFETY",
+      "text": "Instructions for particularly hazardous work (PSzN)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Instructions for particularly hazardous work (PSzN) are health and safety documentation that must be drawn up before work with an increased risk of accidents begins, in accordance with regulations (primarily the Ministry of Labour and Social Policy regulation on general health and safety provisions)."
+    },
+    {
+      "type": "paragraph",
+      "text": "The instructions allow employees to familiarise themselves with specific working conditions and, in the event of an emergency, set out rescue procedures."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "MAIN OBJECTIVES",
+      "text": "The main objectives for which cooperation with Recon in the development of instructions for particularly hazardous work brings tangible benefits:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Identification and elimination of hazards: Accurate identification of the hazards present (e.g. falls, electric shock, poisoning) and how to prevent them.",
+        "Identification of protective measures: Determining the necessary collective protective measures (e.g. guardrails) and personal protective equipment (e.g. harnesses, masks).",
+        "Procedures and sequence of actions: Establishing a specific division of labour, the sequence of tasks and training for employees.",
+        "Legal requirement: The employer is obliged to specify detailed health and safety requirements and to update the list of such work.",
+        "Documentation and supervision: Establishing rules for direct supervision of work and document circulation (e.g. written instructions)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "STEP 1",
+      "text": "Identification and classification of work"
+    },
+    {
+      "type": "paragraph",
+      "text": "The employer is obliged to identify particularly hazardous work and draw up a list of such tasks. The most common examples are:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Construction and assembly work"
+    },
+    {
+      "type": "paragraph",
+      "text": "Construction, demolition and assembly work is carried out without halting operations at the workplace."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Confined spaces"
+    },
+    {
+      "type": "paragraph",
+      "text": "Work in tanks, sewers, inside technical equipment and in hazardous confined spaces"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Work at height"
+    },
+    {
+      "type": "paragraph",
+      "text": "Work performed on scaffolding, ladders, mobile platforms or roofs"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Hazardous materials"
+    },
+    {
+      "type": "paragraph",
+      "text": "Work involving hazardous materials."
+    },
+    {
+      "type": "paragraph",
+      "text": "Work in tanks, sewers, inside technical equipment and in hazardous confined spaces."
+    },
+    {
+      "type": "paragraph",
+      "text": "Work performed on scaffolding, ladders, mobile platforms or roofs."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "STEP 2",
+      "text": "Preparation of instructions (IBWR – Instructions for the Safe Performance of Works)"
+    },
+    {
+      "type": "paragraph",
+      "text": "These instructions usually take the form of Safety Work Instructions (IBWR), which the contractor draws up."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mandatory structure of the instructions:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "PURPOSE: To define the rules for organising, carrying out and documenting the work.",
+        "SUBJECT AND SCOPE: A detailed description of the work concerned (e.g. ‘welding inside tank X’).",
+        "ACTIVITIES BEFORE COMMENCEMENT: Verification of qualifications, medical examinations, site preparation, and provision of collective and personal protective equipment (PPE).",
+        "SAFETY PROCEDURES: Sequence of tasks, working techniques, and allocation of tasks by name.",
+        "POST-COMPLETION ACTIVITIES: Tidying up the site, handing over equipment, and closing out the work.",
+        "EMERGENCY SITUATIONS: Procedures to follow in the event of an accident, fire, or other emergency."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "STEP 3",
+      "text": "Organisational and formal requirements"
+    },
+    {
+      "type": "paragraph",
+      "text": "The instructions must ensure:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Direct supervision"
+    },
+    {
+      "type": "paragraph",
+      "text": "Appointment of a person to supervise the work."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Written instruction (permit)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Completion of a work permit containing a Job Safety Analysis (JSA)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Staff briefing"
+    },
+    {
+      "type": "paragraph",
+      "text": "Familiarising staff with the IBWR, assigning tasks by name and the sequence of operations."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Site security"
+    },
+    {
+      "type": "paragraph",
+      "text": "Marking and fencing off the work area."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "STEP 4",
+      "text": "What should the documentation contain?"
+    },
+    {
+      "type": "paragraph",
+      "text": "In addition to the instructions themselves, the documentation package should include:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "A permit for particularly hazardous work (written instruction).",
+        "An occupational risk assessment (often a JSA).",
+        "Safety protocol (e.g. fire safety).",
+        "A list of employees with their signatures confirming that they have read the instructions."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The instructions must be understandable to contractors and available on-site."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "HEALTH AND SAFETY"
+    }
+  ]
+}

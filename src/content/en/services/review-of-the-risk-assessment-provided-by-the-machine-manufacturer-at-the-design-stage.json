@@ -1,0 +1,39 @@
+{
+  "id": "review-of-the-risk-assessment-provided-by-the-machine-manufacturer-at-the-design-stage",
+  "category": "machinery",
+  "menuLabel": "Review of the risk assessment provided by the machine manufacturer at the design stage",
+  "hasPage": true,
+  "title": "Review of the risk assessment provided by the machine manufacturer at the design stage",
+  "description": "In summary, this is a crucial stage of safety management that combines the designer’s knowledge with the user’s experience, ensuring that the machine is not…",
+  "sourceUrl": "https://recon.org.pl/en/review-of-the-risk-assessment-provided-by-the-machine-manufacturer-at-the-design-stage/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "SAFETY IN PRACTICE",
+      "text": "Why verify machinery at the source?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Elimination of hazards at source: The review allows potential hazards (mechanical, electrical, thermal) to be identified and eliminated or reduced through design changes, rather than simply by adding guards.",
+        "Verification of the manufacturer’s assumptions: Manufacturers often design machines generically. By verifying the risk assessment, the end-user checks whether the manufacturer has taken into account the specific conditions under which the machine will operate (e.g. specific materials, unusual operator positioning, interactions with other machines)",
+        "Compliance with regulations (Machinery Directive): In accordance with standard EN ISO 12100, the risk assessment forms the basis for the award of the CE mark. A review of the documentation assures the purchaser that the machine meets the essential safety requirements.",
+        "Optimisation of protective measures: The review allows an assessment of whether the guards, sensors, and procedures proposed by the manufacturer are adequate for the level of risk, or whether they are excessive (increasing costs) or insufficient.",
+        "Accident prevention: Early identification of hazards (e.g., crushing points, hot surfaces) helps prevent accidents at work.",
+        "Determining residual risk: The user must know what risks remain even after all safeguards have been implemented, which allows for the development of appropriate operating procedures and training (health and safety)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "SYNERGY OF KNOWLEDGE",
+      "text": "Design meets reality"
+    },
+    {
+      "type": "paragraph",
+      "text": "In summary, this is a crucial stage of safety management that combines the designer’s knowledge with the user’s experience, ensuring that the machine is not only efficient but also safe."
+    }
+  ]
+}

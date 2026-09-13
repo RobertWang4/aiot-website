@@ -1,0 +1,46 @@
+{
+  "id": "physical-adaptation-of-machinery-to-minimum-requirements-equipment-directive-and-essential-requirements-machinery-directive",
+  "category": "machinery",
+  "menuLabel": "Dostosowywanie fizyczne maszyn do wymagań minimalnych (Dyrektywa Narzędziowa) oraz wymagań zasadniczych (Dyrektywa Maszynowa);",
+  "hasPage": true,
+  "title": "Dostosowywanie fizyczne maszyn do wymagań minimalnych (Dyrektywa Narzędziowa) oraz wymagań zasadniczych (Dyrektywa Maszynowa);",
+  "description": "Dostosowanie to nie tylko teoria, ale przede wszystkim konkretne działania na sprzęcie. Obejmują one:",
+  "sourceUrl": "https://recon.org.pl/dostosowywanie-fizyczne-maszyn-do-wymagan-minimalnych-dyrektywa-narzedziowa-oraz-wymagan-zasadniczych-dyrektywa-maszynowa/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "NORMY I PRZEPISY",
+      "text": "Dlaczego dostosowujemy maszyny fizycznie?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Zgodność z Dyrektywą Narzędziową (2009/104/WE): Spełnienie tzw. \"minimalnych wymagań\" dla maszyn już eksploatowanych (często tych wyprodukowanych przed 2004 r.). Skutecznie podnosimy poziom bezpieczeństwa starszych urządzeń m.in. poprzez montaż osłon, wyłączników awaryjnych czy modernizację przestarzałych układów elektrycznych.",
+        "Zgodność z Dyrektywą Maszynową (2006/42/WE): Spełnienie \"wymagań zasadniczych\" dla nowych lub gruntownie modernizowanych maszyn wprowadzanych na rynek. Gwarantujemy wdrożenie najwyższych standardów bezpieczeństwa, co jest niezbędne do legalnego nadania znaku CE.",
+        "Fizyczna eliminacja zagrożeń: Maszyny muszą być dostosowane tak, aby w ogóle nie narażać pracowników na urazy mechaniczne, nadmierny hałas, drgania czy kontakt z substancjami niebezpiecznymi.",
+        "Odpowiedzialność pracodawcy: Zapewnienie bezpiecznego parku maszynowego to twardy obowiązek prawny. Prawidłowe dostosowanie chroni pracodawcę przed poważnymi wypadkami na hali oraz surowymi konsekwencjami prawnymi."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "REALNE MODYFIKACJE",
+      "text": "Co dokładnie obejmuje proces dostosowania?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dostosowanie to nie tylko teoria, ale przede wszystkim konkretne działania na sprzęcie. Obejmują one:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Instalację nowoczesnych, fizycznych urządzeń bezpieczeństwa.",
+        "Potwierdzenie ich pełnej sprawności poprzez rygorystyczne testy fizyczne i pomiary.",
+        "Kompleksową aktualizację dokumentacji technicznej, dopasowaną do nowego stanu maszyny."
+      ]
+    }
+  ]
+}

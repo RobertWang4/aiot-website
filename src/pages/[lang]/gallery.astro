@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+import { LANGS, getPage, type Lang } from '../../lib/content';
+export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+const p = getPage(lang, 'gallery');
+const images = p.blocks.filter((b) => b.type === 'image');
+const headings = p.blocks.filter((b) => b.type === 'heading');
+---
+<Base lang={lang} title={p.title} description={p.description}>
+  <section class="mx-auto max-w-7xl px-6 pb-24 pt-36">
+    <h1 class="text-5xl font-bold tracking-tight text-navy">{headings[0]?.text ?? p.title}</h1>
+    {headings[1] && <p class="mt-3 text-xl text-ink/60">{headings.at(-1)?.text}</p>}
+    <div class="mt-12 columns-1 gap-4 sm:columns-2 lg:columns-3">
+      {images.map((im) => <img src={im.src} alt={im.alt} loading="lazy" class="reveal mb-4 w-full rounded-xl" />)}
+    </div>
+  </section>
+</Base>

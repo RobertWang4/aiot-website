@@ -1,0 +1,86 @@
+{
+  "id": "assessment-of-the-machine-design",
+  "category": "machinery",
+  "menuLabel": "Assessment of the machine design",
+  "hasPage": true,
+  "title": "Assessment of the machine design",
+  "description": "For a machine to be legally placed on the market (particularly in the EU), it must comply with the requirements of the Machinery Directive 2006/42/EC (or…",
+  "sourceUrl": "https://recon.org.pl/en/assessment-of-the-machine-design/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "ESSENCE OF THE PROCESS",
+      "text": "What is machine design assessment?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Engineering precision: The assessment of a machine’s design is an engineering process aimed at confirming that the machine is safe, functional and compliant with legal requirements (e.g. the Machinery Directive 2006/42/EC).",
+        "Broad perspective: The assessment covers not only the machine itself, but also its intended use and potential operator errors.",
+        "Practical verification: The design assessment does not end on paper. It requires physical testing of the prototype, as well as technical trials (operation under load, functionality checks)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "SAFETY AND OPTIMISATION",
+      "text": "Here are the reasons why we carry out machine design assessments:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Legal compliance and CE certification"
+    },
+    {
+      "type": "paragraph",
+      "text": "For a machine to be legally placed on the market (particularly in the EU), it must comply with the requirements of the Machinery Directive 2006/42/EC (or the newer Regulation 2023/1230) and harmonised standards. The design assessment is part of the procedure for obtaining the CE mark."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "The three-step principle (integrated safety)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The assessment helps implement the safety hierarchy: first, safe design; then, technical measures (guards); and finally, informing the user of the risks."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Safety of operators and bystanders"
+    },
+    {
+      "type": "paragraph",
+      "text": "The aim is to analyse and eliminate the risk of accidents, injury or breakdowns by introducing appropriate protective measures, guards or control systems."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Minimisation of costs and time (Prototyping)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Verifying the design before production allows errors to be detected, which, if rectified at the finished machine stage, is significantly more expensive and time-consuming."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Reliability and operational optimisation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Structural analysis includes strength calculations, material selection, and diagnostics of vibration and noise sources, ensuring longer and trouble-free operation."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ergonomics and functionality"
+    },
+    {
+      "type": "paragraph",
+      "text": "The assessment checks whether the design ensures comfortable, safe working conditions and reduces operator strain."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "environmental-laboratory",
+  "category": "environment",
+  "menuLabel": "Flue gas measurements and testing / Energy and emissions testing of boilers and heating systems / Noise measurements / Wastewater, water and soil testing / Multi-gas analysers, gas mixture component analysers, flue gas analysers, gas concentration meters / Total organic carbon analysers with FID detector",
+  "hasPage": true,
+  "title": "Flue gas measurements and testing / Energy and emissions testing of boilers and heating systems / Noise measurements / Wastewater, water and soil testing / Multi-gas analysers, gas mixture component analysers, flue gas analysers, gas concentration meters / Total organic carbon analysers with FID detector",
+  "description": "Periodic measurements of air emissions from stationary sources are carried out in the regulated area.",
+  "sourceUrl": "https://recon.org.pl/en/environmental-laboratory/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "REGULATED AREA",
+      "text": "Accredited measurements for industrial plants"
+    },
+    {
+      "type": "paragraph",
+      "text": "Periodic measurements of air emissions from stationary sources are carried out in the regulated area."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Analysis of gases and dust: We test, among others, oxides, a wide range of heavy metals, VOCs, TVOC and specific chemical compounds (hydrogen chloride, ammonia, formaldehyde).",
+        "Gas parameters: Precise measurements of gas volume flow (backpressure method, anemometric method, thermo-anemometric method) and concentration of oxygen and water vapour.",
+        "Noise emissions from installations: We determine the sound power level of machinery, equipment and entire industrial plants (using direct measurement and calculation methods)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "PHYSICOCHEMICAL LABORATORY",
+      "text": "Spectrometry, chromatography and water protection"
+    },
+    {
+      "type": "paragraph",
+      "text": "We use state-of-the-art analytical techniques to test for harmful factors in the working and natural environment:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Advanced laboratory techniques: We perform sample analysis using, among others, spectrometry and chromatography.",
+        "Indoor air quality: Measurement of concentrations of substances harmful to health in rooms intended for human occupancy.",
+        "Water and wastewater management: We take samples (single, composite, 24-hour) and analyse wastewater, groundwater, rainwater and surface water using potentiometric, conductometric, gravimetric and titrimetric methods."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "CALIBRATION AND EXPERTISE",
+      "text": "Guarantee of measurement precision and support for authorities"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Accredited Calibration"
+    },
+    {
+      "type": "paragraph",
+      "text": "The scope of services provided by the accredited Calibration Laboratory includes the calibration of multi-gas analysers, gas concentration metres, flue gas analysers, and total organic carbon (TOC) analysers with FID detectors."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Training for Administration"
+    },
+    {
+      "type": "paragraph",
+      "text": "We organise specialist seminars for staff from administrative units on issues relating to the burning of waste in heating furnaces (the training can take place at our company’s premises or at a location chosen by the client)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "SCOPE OF LABORATORY TESTS",
+      "text": "Full profile of determined compounds and elements"
+    },
+    {
+      "type": "paragraph",
+      "text": "We perform precise concentration and emission measurements for a wide range of chemical and particulate pollutants. Select a category below to see exactly what we detect in the workplace and in industrial emissions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Hover over an element"
+    },
+    {
+      "type": "paragraph",
+      "text": "Check which metals we accurately determine in our laboratory."
+    },
+    {
+      "type": "paragraph",
+      "text": "Check which metals in dust we accurately determine in our laboratory."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Harmful Gases and Oxides"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Organic Compounds and Others"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ENVIRONMENT"
+    }
+  ]
+}

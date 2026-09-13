@@ -1,0 +1,68 @@
+{
+  "id": "safety-measurements-measurements-of-stopping-time-speed-force-and-pressure",
+  "category": "machinery",
+  "menuLabel": "Safety measurements – measurements of stopping time, speed, force and pressure",
+  "hasPage": true,
+  "title": "Safety measurements – measurements of stopping time, speed, force and pressure",
+  "description": "The main objective is to minimise the risk of serious injury by ensuring that the machine stops before an employee reaches a hazardous component.",
+  "sourceUrl": "https://recon.org.pl/en/safety-measurements-measurements-of-stopping-time-speed-force-and-pressure/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "GUARANTEE OF PROTECTION",
+      "text": "Fractions of a second that save lives"
+    },
+    {
+      "type": "paragraph",
+      "text": "The main objective is to minimise the risk of serious injury by ensuring that the machine stops before an employee reaches a hazardous component."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "SAFETY DISTANCE",
+      "text": "Does the machine stop in time?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Determining the safe distance: Checking whether the safety curtain, light barrier, scanner, USO, and non-locking limit switches are positioned at a suitable distance from the hazard zone. If the machine stops too slowly, the operator may reach into the hazardous area before it has come to a complete stop.",
+        "Brake verification: Checking the wear of the braking systems in machines to detect whether the machine is stopping more slowly than specified in the documentation.",
+        "Compliance with standards: A legal requirement (e.g. standard PN-EN ISO 13855) mandating periodic inspections, usually once every 12 months."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "DYNAMICS CONTROL",
+      "text": "Monitoring drive system limits"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Monitoring of \"safe speed\": Ensuring that drives do not exceed values defined as safe, particularly in machines with speed control.",
+        "Calculation of safety distances: The approach speed of a person (or body part) is key in the formula for calculating how far from the danger zone a curtain/barrier must be positioned."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "HYDRAULICS AND PNEUMATICS",
+      "text": "Reduction of impact and crushing force"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Protection against crushing/impact: Checking that the closing force of guards or presses is not too high, which could cause injury.",
+        "Minimising the risk of failure: Monitoring pressure in pneumatic systems enables early detection of faults that could lead to sudden, uncontrolled movement of the machine."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In summary, these measurements are carried out to verify the effectiveness of protective measures, prevent workplace accidents, and meet legal requirements."
+    }
+  ]
+}

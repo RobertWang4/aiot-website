@@ -1,0 +1,91 @@
+{
+  "id": "preparation-of-environmental-documentation",
+  "category": "environment",
+  "menuLabel": "Opracowywanie dokumentacji środowiskowej:",
+  "hasPage": true,
+  "title": "Opracowywanie dokumentacji środowiskowej",
+  "description": "Towarzyszymy inwestorom od samego początku, zapewniając płynne przejście przez urzędowe procedury środowiskowe:",
+  "sourceUrl": "https://recon.org.pl/opracowywanie-dokumentacji-srodowiskowej/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "PROCES INWESTYCYJNY",
+      "text": "Kompleksowe wsparcie na etapie planowania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Towarzyszymy inwestorom od samego początku, zapewniając płynne przejście przez urzędowe procedury środowiskowe:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Procedura OOŚ: Kompleksowo przeprowadzamy procedurę oceny oddziaływania planowanego przedsięwzięcia na środowisko.",
+        "Ekspertyzy przyrodnicze: Sporządzamy niezbędne inwentaryzacje i ekspertyzy służące ocenie stanu wyjściowego środowiska.",
+        "Decyzje środowiskowe (DŚU): Przygotowujemy profesjonalne wnioski o wydanie decyzji o środowiskowych uwarunkowaniach."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "LEGALIZACJA I ZEZWOLENIA",
+      "text": "Dokumentacja dla przemysłu i gospodarki wodnej"
+    },
+    {
+      "type": "paragraph",
+      "text": "Opracowujemy pełną dokumentację formalno-prawną, niezbędną do legalnego funkcjonowania zakładów:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Pozwolenia zintegrowane (IPPC): Sporządzanie zaawansowanych wniosków dla instalacji mogących powodować znaczne zanieczyszczenie środowiska.",
+        "Gospodarka wodna: Opracowywanie operatów i zgłoszeń wodnoprawnych, a także wniosków legalizacyjnych dla istniejących urządzeń wodnych.",
+        "Gospodarka odpadami: Przygotowywanie wniosków o wydanie pozwoleń w zakresie wytwarzania, zbierania oraz przetwarzania odpadów."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "ANALITYKA I MODELOWANIE",
+      "text": "Badanie propagacji i standardy emisyjne"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wykorzystujemy specjalistyczne oprogramowanie do modelowania wpływu zakładu na otoczenie:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ochrona powietrza"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wnioski o pozwolenia na wprowadzanie gazów i pyłów do powietrza oraz zgłoszenia instalacji niewymagających pozwolenia (wraz z nadzorem)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Modelowanie rozprzestrzeniania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Opracowanie zaawansowanych analiz propagacji hałasu przemysłowego oraz odrębnych analiz rozprzestrzeniania się zanieczyszczeń w środowisku."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Przeglądy i standardy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wykonywanie przeglądów ekologicznych oraz szczegółowych analiz dotrzymania narzuconych standardów emisyjnych."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "OCHRONA ŚRODOWISKA"
+    }
+  ]
+}

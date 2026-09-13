@@ -1,0 +1,68 @@
+{
+  "id": "leak-testing-of-compressed-air-systems",
+  "category": "machinery",
+  "menuLabel": "Pomiar szczelnośi Instalacji sprężonego powietrza",
+  "hasPage": true,
+  "title": "Pomiar szczelności Instalacji sprężonego powietrza",
+  "description": "Sam pomiar polega na napełnieniu układu do ciśnienia roboczego, odcięciu zasilania i monitorowaniu ewentualnych spadków za pomocą precyzyjnego sprzętu.",
+  "sourceUrl": "https://recon.org.pl/pomiar-szczelnosi-instalacji-sprezonego-powietrza/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "OPTYMALIZACJA I OSZCZĘDNOŚCI",
+      "text": "Dlaczego szczelność układu jest tak ważna?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Redukcja kosztów prądu: Nieszczelności zmuszają sprężarki do ciągłej, intensywnej pracy, aby utrzymać ciśnienie w sieci. Wyeliminowanie wycieków drastycznie obniża rachunki za energię elektryczną.",
+        "Wydłużenie żywotności urządzeń: Szczelny układ to mniejsze obciążenie kompresorów. Rzadsze załączanie i krótsze cykle pracy oznaczają wolniejsze zużycie części i mniej kosztownych serwisów.",
+        "Stabilność ciśnienia na produkcji: Wycieki powodują spadki ciśnienia na końcówkach, co zaburza pracę maszyn pneumatycznych i narzędzi. Szczelność to gwarancja braku przestojów.",
+        "Aspekt ekologiczny: Optymalna praca sprężarek to mniejsze zapotrzebowanie na prąd, co bezpośrednio przekłada się na redukcję emisji CO₂ do atmosfery.",
+        "Weryfikacja jakości montażu: Przy nowych instalacjach próba szczelności to ostateczny test upewniający, że cała sieć rurociągów została zmontowana bezbłędnie i jest gotowa do startu."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "RYGORYSTYCZNA PROCEDURA",
+      "text": "Jak krok po kroku przeprowadzamy próbę?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sam pomiar polega na napełnieniu układu do ciśnienia roboczego, odcięciu zasilania i monitorowaniu ewentualnych spadków za pomocą precyzyjnego sprzętu."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Przygotowanie instalacji: Całkowite wyłączenie maszyn i fizyczne zamknięcie wszystkich zaworów odcinających przy odbiornikach (odizolowanie rurociągu).",
+        "Napełnienie: Dobicie układu sprężonym powietrzem do ciśnienia roboczego (lub wyższego, zgodnie z normami).",
+        "Montaż aparatury: Wpięcie precyzyjnego, wzorcowanego manometru, który wychwyci nawet najmniejsze wahania.",
+        "Próba czasowa: Pozostawienie zamkniętej instalacji pod ciśnieniem (najczęściej na pełne 24 godziny).",
+        "Analiza wyników: Weryfikacja spadków. Tolerancja jest minimalna (np. max 0,1 bara na 24h). Większy spadek oznacza konieczność namierzenia wycieku, uszczelnienia układu i powtórzenia całego testu."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Wskazówka: Najlepszy czas na wykonanie rzetelnego pomiaru to zaplanowane okresy przestoju zakładu (np. weekendy, święta). Unikamy wtedy błędów pomiarowych wynikających z przypadkowej pracy odbiorników na hali."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "LOKALIZACJA USTEREK",
+      "text": "Jak znajdujemy dziury w układzie?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Metoda akustyczna/ultradźwiękowa: Najnowocześniejsze i najskuteczniejsze podejście. Używamy zaawansowanych kamer akustycznych i detektorów, które wychwytują niesłyszalny dla ucha dźwięk ulatniającego się powietrza. Metoda ta działa bezbłędnie nawet przy ogromnym hałasie na hali produkcyjnej.",
+        "Detektory chemiczne (spray): Klasyczna i precyzyjna metoda punktowa. Rozpylamy specjalny preparat pianotwórczy na złączkach, zaworach i spawach – powstające pęcherzyki natychmiast demaskują miejsce wycieku.",
+        "Metoda odsłuchowa: Wyłapywanie charakterystycznego \"syczenia\" wyłącznie za pomocą słuchu (skuteczna jedynie w całkowicie cichym otoczeniu, podczas przestoju)."
+      ]
+    }
+  ]
+}

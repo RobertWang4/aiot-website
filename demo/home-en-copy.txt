@@ -1,0 +1,112 @@
+[h2] RECON
+[p] Your organisation's external force – the flexibility your business needs.
+[a] A FEW WORDS ABOUT US
+[a] CHECK OUT OUR OFFER
+[h2] We invite Asian countries to cooperate
+[a] Dowiedz Się Więcej / Learn More
+[h2] 誠邀亞洲各國開展合作
+[h2] アジアのすべての国々との協力をお待ちしております
+[h2] 아시아의 모든 국가를 협력으로 초대합니다
+[h2] HOW WE CAN HELP
+[h2] We will systematise your organisation
+[h4] MACHINES, EQUIPMENT
+[p] Comprehensive risk assessment, functional and physical adaptation of machinery parks. We create LOTO procedures, guaranteeing full compliance with directives.
+[a] Read more
+[h4] OHS
+[p] Audits, occupational risk assessments, and constant safety supervision. We solve problems comprehensively and build a strong safety culture in production plants.
+[a] Read more
+[h4] FIRE PROTECTION
+[p] We develop Fire Safety Instructions (FSI) and evacuation procedures. We ensure prevention and full compliance with the strict requirements of the State Fire Service.
+[a] Read more
+[h4] ADR
+[p] Professional consultancy in the transport of dangerous goods. We support you in documentation, handling, and the safe organisation of logistics processes.
+[a] Read more
+[h4] ENVIRONMENTAL PROTECTION
+[p] We monitor the enterprise's continuous impact on the surroundings. We assist in implementing environmental procedures, reporting, and maintaining compliance with legal requirements.
+[a] Read more
+[h4] PARTS MACHINING
+[p] Maintenance support in optimising technological processes. We ensure the highest standards of safety and precision in mechanical processing.
+[a] Read more
+[h4] Physical Working Environment MEASUREMENTS
+[p] Accurate electrical measurements, quality testing, and thermal imaging. We diagnose conditions at workstations to instantly eliminate hidden risks.
+[a] Read more
+[h4] OCCUPATIONAL MEDICINE
+[p] Comprehensive preventive employee healthcare. Efficient organisation of medical examinations, ensuring safety and health compliance without unnecessary facility downtime.
+[a] Read more
+[h4] EMPLOYMENT AGENCY
+[p] Dedicated training and efficient onboarding, including support for foreigners. We provide personnel to quickly and safely integrate new staff into the workplace.
+[a] Read more
+[h4] ISO
+[p] Implementation, maintenance, and auditing of management systems. We help prepare for certification, minimising bureaucracy and saving time on formalities.
+[a] Read more
+[h4] MACHINES, EQUIPMENT
+[p] Comprehensive risk assessment, functional and physical adaptation of machinery parks. We create LOTO procedures, guaranteeing full compliance with directives.
+[a] Read more
+[h4] OHS
+[p] Audits, occupational risk assessments, and constant safety supervision. We solve problems comprehensively and build a strong safety culture in production plants.
+[a] Read more
+[h4] FIRE SAFETY
+[p] We develop Fire Safety Instructions (FSI) and evacuation procedures. We ensure prevention and full compliance with the strict requirements of the State Fire Service.
+[a] Read more
+[h4] ADR
+[p] Professional consultancy in the transport of dangerous goods. We support you in documentation, handling, and the safe organisation of logistics processes.
+[a] Read more
+[h4] ENVIROMENT PROTECTION
+[p] We monitor the enterprise's continuous impact on the surroundings. We assist in implementing environmental procedures, reporting, and maintaining compliance with legal requirements.
+[a] Read more
+[h4] PARTS MACHINING
+[p] Maintenance support in optimising technological processes. We ensure the highest standards of safety and precision in mechanical processing.
+[a] Read more
+[h4] Physical Working Environment MEASUREMENTS
+[p] Accurate electrical measurements, quality testing, and thermal imaging. We diagnose conditions at workstations to instantly eliminate hidden risks.
+[a] Read more
+[h4] OCCUPATIONAL MEDICINE
+[p] Comprehensive preventive employee healthcare. Efficient organisation of medical examinations, ensuring safety and health compliance without unnecessary facility downtime.
+[a] Read more
+[h4] EMPLOYMENT AGENCY
+[p] Dedicated training and efficient onboarding, including support for foreigners. We provide personnel to quickly and safely integrate new staff into the workplace.
+[a] Read more
+[h4] ISO
+[p] Implementation, maintenance, and auditing of management systems. We help prepare for certification, minimising bureaucracy and saving time on formalities.
+[a] Read more
+[h2] CHECK WHERE YOUR ORGANIZATION STANDS
+[h2] Safety Culture Maturity Matrix
+[li] How can I help?
+[li] We will solve this.
+[li] We all make mistakes.
+[li] We can always improve.
+[li] We are in this together.
+[li] We are stronger together.
+[li] Thank you for your honesty.
+[li] Let's focus on the next step.
+[li] What can we learn from this?
+[li] We care about your well-being.
+[li] We will get through this as a team.
+[li] Next time we will try this approach.
+[li] We are here to support each other.
+[li] Let's look for solutions together.
+[li] Mistakes are opportunities to grow.
+[li] We learn more from mistakes than from successes.
+[h2] COMPREHENSIVE OCCUPATIONAL SAFETY AND HEALTH OUTSOURCING
+[h2] Your Business Without Risk and Downtime
+=== SAFETY CULTURE MATURITY MATRIX (5 stages, axis: Probability of accidents High -> Low) ===
+1. Pathological Culture — Safety is not important. We only do the bare minimum to avoid getting caught. | Management doesn't know and doesn't want to know.
+2. Reactive Culture — We react only when an accident occurs or during an inspection. | Management knows, but shows no initiative.
+3. Compliance Culture — Regulatory compliance is important. We have risk management systems in place. | Management cares, but doesn't always know how to act.
+4. Proactive Culture — Continuous improvement is key. Everyone is involved in OHS. | Management cares and knows how to improve the system.
+5. Mature Culture — OHS is our priority. It is built into our DNA and business development. | Management monitors, measures, and genuinely leads.
+
+=== NO-BLAME CULTURE (phrases) === see [li] list above
+
+=== CLOSING BAND ===
+COMPREHENSIVE OCCUPATIONAL SAFETY AND HEALTH OUTSOURCING
+Your Business Without Risk and Downtime
+Thoughts → Words → Actions → Habits → Character → Destiny
+
+=== ABOUT (from about page summary) ===
+Established 2008. ISO certified. PCA accredited. Comprehensive outsourcing: OHS, environment, machinery compliance, personnel.
+Value props: Complete operational relief · Development partnership · Safety culture development · Pragmatic solutions
+
+=== NAV === Home · About · Services · Gallery · Trusted us · Contact · PL/EN
+=== CONTACT === office@aiot.example · +48 000 000 000 · Świdnica, Poland  (placeholders)
+=== BRAND === AIoT P.S.A. — logo: demo/logo.jpg — colors: navy #0B1B4A, blue #2F6BFF

@@ -1,0 +1,33 @@
+{
+  "id": "establishing-the-pillars-for-building-a-safety-culture",
+  "category": "ohs",
+  "menuLabel": "Establishing the pillars for building a safety culture",
+  "hasPage": true,
+  "title": "Establishing the pillars for building a safety culture",
+  "description": "An example of a pillar-based model is the approach comprising: the mental and spiritual pillar (awareness), the legal and organisational pillar (procedures)…",
+  "sourceUrl": "https://recon.org.pl/en/establishing-the-pillars-for-building-a-safety-culture/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "ORGANISATIONAL FOUNDATIONS",
+      "text": "Here are the main objectives of establishing the pillars of safety culture that guide us in our collaboration with you:"
+    },
+    {
+      "type": "paragraph",
+      "text": "An example of a pillar-based model is the approach comprising: the mental and spiritual pillar (awareness), the legal and organisational pillar (procedures) and the material pillar (infrastructure), which enables comprehensive safety management."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ensuring consistency and commitment: The ‘leadership’ or ‘management commitment’ pillar ensures that safety is not merely the responsibility of the health and safety department, but a value upheld by senior management, which motivates employees.",
+        "Reducing accidents and risks: Through the standardisation of activities (pillars such as audits and hazard reporting), the company is better able to identify and eliminate risks, thereby reducing fatal and serious accidents.",
+        "Changing employee mindset: The mental and spiritual pillar helps shift employees’ mindset from “I must follow the rules” to “I want to be safe”, which builds a culture of trust and shared responsibility.",
+        "Fostering positive behaviours (BBS): The pillars help implement a behaviour-based safety (BBS) approach, rewarding safe behaviours and teaching root cause analysis rather than simply assigning blame.",
+        "Cost optimisation and business continuity: A strong safety culture, supported by organisational pillars, reduces sick leave, insurance costs and production downtime.",
+        "Creating a competitive advantage: Organisations with a strong safety culture are perceived as more reliable business partners, which makes it easier to attract contractors."
+      ]
+    }
+  ]
+}

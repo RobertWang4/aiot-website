@@ -1,0 +1,47 @@
+{
+  "id": "verification-of-the-accuracy-of-existing-technical-documentation",
+  "category": "machinery",
+  "menuLabel": "Verification of the accuracy of existing technical documentation",
+  "hasPage": true,
+  "title": "Verification of the accuracy of existing technical documentation",
+  "description": "Verification is necessary at three key stages of the project’s life:",
+  "sourceUrl": "https://recon.org.pl/en/verification-of-the-accuracy-of-existing-technical-documentation/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "INVESTMENT FOUNDATION",
+      "text": "Main reasons for verifying technical documentation:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Safety and compliance with standards: Verification ensures that the project meets current industry standards, technical specifications, fire safety regulations and safety requirements (e.g. CE).",
+        "Avoiding errors and saving costs: Checking the documentation before construction allows detection of inconsistencies, ambiguities, or errors, thereby preventing costly rectifications during the construction phase.",
+        "Completeness and consistency: Ensuring that all elements of the design (structural, services) fit together and there are no clashes.",
+        "Formal and legal requirements: Verification is essential for obtaining permits and serves as the basis for regulatory bodies, engineers, and operators.",
+        "Optimisation: It allows for the introduction of alternative changes that may reduce investment costs."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "FULL CYCLE",
+      "text": "At what stages do we check projects?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Verification is necessary at three key stages of the project’s life:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Before the start of the project (to eliminate design errors while still on paper).",
+        "During implementation (as a detailed verification of as-built documentation).",
+        "Before any modernisation (to ensure that the planned reconstruction makes sense and is completely safe).Before any modernisation (to ensure that the planned reconstruction makes sense and is completely safe)."
+      ]
+    }
+  ]
+}

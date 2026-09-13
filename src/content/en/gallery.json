@@ -1,0 +1,233 @@
+{
+  "title": "Gallery",
+  "description": "",
+  "sourceUrl": "https://recon.org.pl/en/gallery/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "GALLERY"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "GALLERY",
+      "text": "Audits, measurements, and upgrades"
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/53732-machinery-in-laboratory-2026-01-09-11-39-55-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/science-laboratory-and-microscope-for-research-or-2026-01-09-11-13-53-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/scientists-working-in-the-laboratory-2026-01-08-23-49-36-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/group-of-flasks-and-test-tubes-in-chemical-laborat-2026-01-08-23-21-14-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/two-scientists-in-protective-suits-and-masks-took-2026-01-07-00-45-56-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/man-and-woman-doctors-are-standing-together-indoor-2026-01-09-00-02-25-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/a-male-electrician-works-in-a-switchboard-with-an-2026-01-09-08-14-53-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/male-electrician-working-in-a-switchboard-with-fus-2026-01-08-23-45-13-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/inspector-examination-of-photovoltaic-modules-usin-2026-01-09-00-13-33-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/portrait-of-young-professional-heavy-industry-engi-2026-01-07-02-20-15-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/automated-drilling-machines-2026-01-08-23-40-57-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/close-up-of-cnc-machine-cutting-metal-2026-01-07-07-11-17-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/add-details-to-car-body-robotic-equipment-makes-a-2026-01-08-05-14-52-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/speaker-ready-to-answer-question-on-conference-2026-01-07-06-57-16-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/side-view-of-young-mixed-race-businesswoman-askin-2026-01-09-08-47-41-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/diverse-people-in-a-seminar-2026-01-07-07-26-02-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/engineer-work-at-robotic-arm-factory-2026-03-10-01-10-42-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/male-automation-engineer-using-remote-controller-c-2026-01-06-09-19-11-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/male-automation-engineer-testing-new-robot-arm-wel-2026-01-06-09-32-39-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/male-automation-engineer-testing-new-robot-arm-wel-2026-01-07-05-57-54-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/male-automation-engineer-using-remote-controller-c-2026-01-06-09-25-58-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/engineer-fixing-a-mechanical-arm-on-an-industrial-2026-03-16-02-31-03-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/foreman-or-worker-work-at-factory-site-check-up-ma-2026-01-08-23-53-11-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/mechanics-engineer-operating-lathe-machine-for-met-2026-01-07-07-03-58-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/emergency-machine-stop-button-2026-01-09-10-40-43-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/teacher-talking-to-apprentices-at-railway-engineer-2026-01-07-07-00-11-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/team-of-successful-group-of-male-and-female-corpo-2026-01-07-06-45-13-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/modern-conveyor-system-with-box-in-motion-2026-01-08-05-27-37-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/modern-conveyor-system-with-boxes-in-motion-2026-01-08-05-12-48-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/brewer-looking-at-conveyor-with-beer-bottles-youn-2026-01-08-23-57-59-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/robot-welding-technology-in-factory-2026-01-08-00-11-27-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/close-up-view-on-gear-mechanism-of-old-combine-har-2026-01-11-09-30-57-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/electrical-panel-with-fuses-and-contactors-close-2026-01-08-23-00-31-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/robotics-engineer-working-on-maintenance-of-roboti-2026-01-07-07-05-38-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/robotics-engineer-working-on-maintenance-of-roboti-2026-01-07-07-27-46-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/fire-fighter-team-on-training-with-gas-and-oil-fir-2026-03-09-09-01-40-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/portrait-of-an-handsome-engineer-in-a-factory-2026-03-24-01-28-04-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/portrait-of-confident-factory-manager-with-diverse-2026-01-09-11-12-24-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/team-and-portrait-of-engineering-employees-standin-2026-03-09-03-24-39-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/factory-executives-discuss-solar-panel-research-an-2026-01-11-10-56-20-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/portrait-of-confident-professional-male-in-industr-2026-01-11-10-56-59-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/leading-his-team-to-greatness-2026-03-25-06-32-55-utc.jpg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/gallery/woman-wearing-a-face-mask-during-coronavirus-pande-2026-01-07-23-53-16-utc.jpg",
+      "alt": ""
+    }
+  ]
+}

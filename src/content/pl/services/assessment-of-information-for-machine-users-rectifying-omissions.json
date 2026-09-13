@@ -1,0 +1,102 @@
+{
+  "id": "assessment-of-information-for-machine-users-rectifying-omissions",
+  "category": "machinery",
+  "menuLabel": "Ocena informacji dla użytkowników maszyny, uzupełnienianie braków.",
+  "hasPage": true,
+  "title": "Ocena informacji dla użytkowników maszyny, uzupełnienianie braków.",
+  "description": "Instrukcje prac szczególnie niebezpiecznych (PSzN) to dokumentacja BHP, która musi być opracowana przed rozpoczęciem prac o podwyższonym ryzyku wypadkowym,…",
+  "sourceUrl": "https://recon.org.pl/ocena-informacji-dla-uzytkownikow-maszyny-uzupelnienianie-brakow/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "BEZPIECZEŃSTWO I ZGODNOŚĆ",
+      "text": "Dlaczego weryfikujemy informacje i instrukcje?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ochrona operatorów (BHP): Pełna i poprawna dokumentacja to podstawa. Musi ona jasno wskazywać ryzyka, zasady bezpiecznej obsługi, konserwacji oraz procedury awaryjne, aby skutecznie chronić zdrowie pracowników.",
+        "Wymogi prawne i kontrolne: Maszyny muszą spełniać Dyrektywę Maszynową. Brak instrukcji w języku polskim czy brakujących piktogramów to prosta droga do wstrzymania pracy maszyny i wysokich kar finansowych podczas kontroli PIP.",
+        "Eliminacja błędów ludzkich: Uzupełnienie braków (np. schematów lub instrukcji przezbrajania) drastycznie zmniejsza ryzyko pomyłek operatorów, które najczęściej prowadzą do wypadków i uszkodzeń sprzętu.",
+        "Dłuższa żywotność maszyny: Rzetelne informacje o interwałach przeglądów, punktach smarowania i wymianie części gwarantują utrzymanie maszyny w idealnym stanie i zapobiegają nieplanowanym przestojom."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Instrukcje prac szczególnie niebezpiecznych (PSzN) to dokumentacja BHP, która musi być opracowana przed rozpoczęciem prac o podwyższonym ryzyku wypadkowym, zgodnie z przepisami (głównie rozporządzeniem MPiPS w sprawie ogólnych przepisów BHP). Instrukcja pozwala pracownikom zapoznać się ze specyficznymi warunkami pracy, a w razie sytuacji awaryjnej – określa procedury ratunkowe."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "KOMPLEKSOWY AUDYT",
+      "text": "Co dokładnie sprawdzamy i uzupełniamy?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Proces ten jest krytyczny zwłaszcza dla starszych maszyn, urządzeń po modernizacji lub maszyn z importu, gdzie dokumentacja producenta bywa niekompletna. Weryfikujemy:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Instrukcje obsługi (DTR): Tłumaczenia na język polski oraz weryfikację czytelności i zrozumiałości dla użytkownika końcowego.",
+        "Oznakowanie i piktogramy: Obecność i stan naklejek ostrzegawczych (np. ryzyko pochwycenia, wysoka temperatura) zgodnie z normą ISO 7010.",
+        "Dokumentację techniczną: Kompletność schematów elektrycznych, hydraulicznych i pneumatycznych.",
+        "Analizę ryzyka: Dostosowanie informacji o zagrożeniach do specyfiki konkretnego stanowiska pracy w Twoim zakładzie."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "NASZA METODOLOGIA",
+      "text": "Jak w praktyce oceniamy środki informacyjne?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Informacja to trzeci poziom redukcji ryzyka (po konstrukcji i osłonach). Służy do ostrzegania przed ryzykiem resztkowym, którego nie dało się wyeliminować technicznie."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Krok 1: Analiza zadań i operatorów"
+    },
+    {
+      "type": "paragraph",
+      "text": "Weryfikujemy, kto używa maszyny (operator, serwisant) i podczas jakich zadań (praca, czyszczenie, awaria). Przewidujemy tzw. niewłaściwe użycie maszyny."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Krok 2: Weryfikacja instrukcji (DTR)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sprawdzamy, czy instrukcja jasno opisuje zagrożenia, bezpieczne procedury i wymagane Środki Ochrony Indywidualnej (ŚOI)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Krok 3: Ocena wizualna maszyny"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kontrolujemy trwałość, czytelność i odpowiednie rozmieszczenie znaków ostrzegawczych oraz sygnałów świetlnych/dźwiękowych."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Krok 4: Test użyteczności"
+    },
+    {
+      "type": "paragraph",
+      "text": "Oceniamy, czy po przeczytaniu instrukcji lub spojrzeniu na maszynę, operator jednoznacznie wie, gdzie znajduje się zagrożenie i jak postępować w sytuacjach nietypowych."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "MASZYNY / URZĄDZENIA"
+    }
+  ]
+}

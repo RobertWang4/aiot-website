@@ -1,0 +1,33 @@
+{
+  "id": "establishing-the-pillars-for-building-a-safety-culture",
+  "category": "ohs",
+  "menuLabel": "Wyznaczanie filarów dla budowy kultury bezpieczeństwa",
+  "hasPage": true,
+  "title": "Wyznaczanie filarów dla budowy kultury bezpieczeństwa",
+  "description": "Wspólnie z Tobą wyznaczamy filary, które sprawiają, że BHP przestaje być martwym przepisem, a staje się DNA Twojej firmy. Nasz model opiera się na trzech…",
+  "sourceUrl": "https://recon.org.pl/wyznaczanie-filarow-dla-budowy-kultury-bezpieczenstwa-2/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "FUNDAMENTY ORGANIZACJI",
+      "text": "Dlaczego opieramy bezpieczeństwo na solidnych filarach?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wspólnie z Tobą wyznaczamy filary, które sprawiają, że BHP przestaje być martwym przepisem, a staje się DNA Twojej firmy. Nasz model opiera się na trzech płaszczyznach: mentalno-duchowej (świadomość), prawno-organizacyjnej (procedury) oraz materialnej (bezpieczna infrastruktura)."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Przywództwo i spójność: Dzięki zaangażowaniu kierownictwa bezpieczeństwo staje się wartością nadrzędną. Kiedy pracownicy widzą, że dyrekcja wierzy w te zasady, ich motywacja do bezpiecznej pracy rośnie wykładniczo.",
+        "Redukcja wypadków przez standaryzację: Wprowadzamy jasne filary raportowania zagrożeń i audytów. Pozwala to na eliminację ryzyka u źródła, zanim dojdzie do tragicznego w skutkach zdarzenia.",
+        "Zmiana mentalności pracowników: Transformujemy podejście zespołu z postawy „muszę przestrzegać zasad” na świadome „chcę być bezpieczny”. Budujemy kulturę zaufania, w której każdy czuje się odpowiedzialny za siebie i kolegów.",
+        "Behawioralne podejście do bezpieczeństwa (BBS): Kształtujemy pozytywne zachowania, nagradzając bezpieczne postawy. Uczymy analizy przyczyn zdarzeń, zamiast szukania winnych.",
+        "Wymierne oszczędności: Wysoka kultura bezpieczeństwa to realnie niższa absencja chorobowa, mniejsze składki ubezpieczeniowe i brak kosztownych przestojów produkcyjnych.",
+        "Przewaga konkurencyjna: Twoja firma staje się wiarygodnym partnerem biznesowym, co jest kluczowym argumentem w negocjacjach z dużymi kontrahentami i korporacjami."
+      ]
+    }
+  ]
+}

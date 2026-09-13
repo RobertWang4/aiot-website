@@ -1,0 +1,42 @@
+{
+  "id": "electrical-measurements",
+  "category": "machinery",
+  "menuLabel": "Pomiary elektryczne",
+  "hasPage": true,
+  "title": "Pomiary elektryczne",
+  "description": "Instrukcje prac szczególnie niebezpiecznych (PSzN) to dokumentacja BHP, która musi być opracowana przed rozpoczęciem prac o podwyższonym ryzyku wypadkowym,…",
+  "sourceUrl": "https://recon.org.pl/pomiary-elektryczne-2/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "BEZPIECZEŃSTWO I ZGODNOŚĆ",
+      "text": "Dlaczego regularnie badamy instalacje?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bezpieczeństwo przeciwporażeniowe: Rygorystycznie sprawdzamy skuteczność ochrony (m.in. wyłączników różnicowoprądowych), aby mieć 100% pewności, że sprzęt nie porazi użytkowników.",
+        "Ochrona przeciwpożarowa: Kontrolujemy stan izolacji kabli i połączeń. To absolutny fundament zapobiegania groźnym zwarciom i pożarom na hali produkcyjnej.",
+        "Zgodność z przepisami prawa: Pomagamy spełnić twardy wymóg ustawowy (art. 62 Prawa budowlanego), który nakazuje wykonywanie przeglądów instalacji budynkowych co najmniej raz na 5 lat.",
+        "Wczesne wykrywanie awarii: Diagnozujemy ukryte nieprawidłowości w instalacji na bardzo wczesnym etapie, zanim doprowadzą do niebezpiecznych sytuacji i kosztownych napraw.",
+        "Weryfikacja nowych instalacji: Odbieramy nowo położone sieci, twardo sprawdzając, czy wszystko zostało wykonane poprawnie i jest w pełni gotowe do bezpiecznej pracy."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Instrukcje prac szczególnie niebezpiecznych (PSzN) to dokumentacja BHP, która musi być opracowana przed rozpoczęciem prac o podwyższonym ryzyku wypadkowym, zgodnie z przepisami (głównie rozporządzeniem MPiPS w sprawie ogólnych przepisów BHP). Instrukcja pozwala pracownikom zapoznać się ze specyficznymi warunkami pracy, a w razie sytuacji awaryjnej – określa procedury ratunkowe."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "PROFESJONALIZM I DOKŁADNOŚĆ",
+      "text": "Kto wykonuje pomiary i na jakim sprzęcie?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wszystkie pomiary realizowane są wyłącznie przez wykwalifikowanych specjalistów posiadających aktualne uprawnienia SEP . Pracujemy na najwyższej klasy, regularnie kalibrowanym oprzyrządowaniu . Dodatkowo, każda zweryfikowana przez nas maszyna lub rozdzielnica otrzymuje po badaniu specjalną, widoczną naklejkę kontrolną – dzięki temu operatorzy i inspektorzy od razu wiedzą, że sprzęt jest w 100% bezpieczny do użytku."
+    }
+  ]
+}

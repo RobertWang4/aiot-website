@@ -1,0 +1,60 @@
+{
+  "id": "reconstruction-of-a-machines-technical-documentation",
+  "category": "machinery",
+  "menuLabel": "Odtworzenie dokumentacji technicznej maszyny",
+  "hasPage": true,
+  "title": "Odtworzenie dokumentacji technicznej maszyny",
+  "description": "Odtworzenie Dokumentacji Techniczno-Ruchowej (DTR) opiera się na inżynierii wstecznej, szczegółowej analizie ryzyka i ścisłej weryfikacji zgodności z…",
+  "sourceUrl": "https://recon.org.pl/odtworzenie-dokumentacji-technicznej-maszyny/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "STRATEGICZNE ZNACZENIE",
+      "text": "Dlaczego odtwarzamy dokumentację techniczną?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bezpieczeństwo i przepisy prawne: Kompletna dokumentacja umożliwia twardą weryfikację, czy maszyna spełnia minimalne, zasadnicze wymagania bezpieczeństwa.",
+        "Utrzymanie w ruchu: To absolutna podstawa do przeprowadzania planowych konserwacji, skutecznych napraw, szybkiej diagnostyki oraz zamawiania właściwych części zamiennych.",
+        "Modernizacja i przebudowa: Zapewniamy dokładne schematy elektryczne, pneumatyczne i hydrauliczne, bez których jakakolwiek modyfikacja sprzętu jest niemożliwa.",
+        "Legalizacja urządzenia: Pozwala na oficjalne dopuszczenie maszyny do ponownej eksploatacji w przypadku całkowitej utraty jej oryginalnej dokumentacji.",
+        "Ponowna analiza ryzyka: Odtworzenie „papierów” to idealny moment na zaktualizowanie oceny zagrożeń na danym stanowisku."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "INŻYNIERIA WSTECZNA",
+      "text": "Na czym polega odtworzenie DTR?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Odtworzenie Dokumentacji Techniczno-Ruchowej (DTR) opiera się na inżynierii wstecznej, szczegółowej analizie ryzyka i ścisłej weryfikacji zgodności z normami UE."
+    },
+    {
+      "type": "paragraph",
+      "text": "Proces ten obejmuje fizyczną inspekcję, identyfikację komponentów oraz opracowanie od zera schematów, instrukcji BHP i wytycznych konserwacyjnych. Gotowa dokumentacja (dostarczana cyfrowo i papierowo) gwarantuje w pełni bezpieczne i legalne użytkowanie urządzenia."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "SPRAWDZONA PROCEDURA",
+      "text": "Odtwarzanie dokumentacji krok po kroku"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Kontakt z producentem: W pierwszej kolejności zawsze próbujemy uzyskać oryginalną dokumentację u źródła – bezpośrednio u producenta lub dystrybutora maszyny.",
+        "Inspekcja techniczna i inwentaryzacja: Dokładnie badamy maszynę fizycznie. Spisujemy tabliczki znamionowe silników, sterowników i urządzeń zabezpieczających. Sporządzamy pełną dokumentację fotograficzną.",
+        "Odtworzenie schematów i rysunków: Na podstawie oględzin tworzymy od podstaw schematy elektryczne, hydrauliczne lub pneumatyczne oraz szczegółowe rysunki złożeniowe.",
+        "Analiza ryzyka i ocena zgodności: Przeprowadzamy rygorystyczną ocenę ryzyka zgodnie z aktualnymi normami (np. PN-EN ISO 12100), gwarantując spełnienie wymogów Dyrektywy Maszynowej.",
+        "Sporządzenie instrukcji obsługi i BHP: Opracowujemy od zera dokumentację dla użytkownika końcowego. Zawiera ona zasady bezpiecznej pracy, instrukcje obsługi, harmonogramy konserwacji oraz wykaz części zamiennych.",
+        "Weryfikacja końcowa: Twardo sprawdzamy spójność nowo powstałej dokumentacji z rzeczywistymi, fizycznymi parametrami pracującej maszyny."
+      ]
+    }
+  ]
+}

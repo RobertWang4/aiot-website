@@ -1,0 +1,171 @@
+{
+  "id": "organisational-procedures-relating-to-health-and-safety-and-environmental-protection",
+  "category": "ohs",
+  "menuLabel": "Procedury organizacyjne z zakresu BHP i ochrony środowiska",
+  "hasPage": true,
+  "title": "Procedury organizacyjne z zakresu BHP i ochrony środowiska",
+  "description": "Procedury BHP zmieniają bezpieczeństwo z martwego przepisu w realny system ochrony. Główne korzyści to:",
+  "sourceUrl": "https://recon.org.pl/procedury-organizacyjne-z-zakresu-bhp-i-ochrony-srodowiska/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "NASZ PROCES",
+      "text": "Jak przygotowujemy procedury krok po kroku?"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Analiza i Identyfikacja: Badamy stanowiska, procesy i substancje pod kątem ryzyka i wymogów prawnych",
+        "Opracowanie Treści: Tworzymy jasne, proste instrukcje oparte na realnej analizie ryzyka.",
+        "Konsultacje i Wdrożenie: Konsultujemy dokumenty z załogą, zapewniamy zatwierdzenie przez kierownictwo i szkolimy pracowników.",
+        "Monitorowanie: Regularnie aktualizujemy procedury przy każdej zmianie w procesach technologicznych."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "WARTOŚĆ DLA ORGANIZACJI",
+      "text": "Dlaczego warto wdrożyć systemowe procedury BHP?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Procedury BHP zmieniają bezpieczeństwo z martwego przepisu w realny system ochrony. Główne korzyści to:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ochrona i Standaryzacja: Minimalizacja ryzyka wypadków poprzez opisanie bezpiecznych działań \"krok po kroku\".",
+        "Zgodność Prawna: Unikanie kar finansowych (np. z PIP) poprzez dopełnienie ustawowych obowiązków pracodawcy.",
+        "Efektywność i Koszty: Szybsze wdrożenie nowych pracowników oraz mniejsza liczba przestojów i absencji chorobowych.",
+        "Bezpieczeństwo Prawne: Dokumentacja stanowiąca dowód dopełnienia obowiązków w razie nieszczęśliwego wypadku."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "STANDARD DOKUMENTACJI",
+      "text": "Co zawiera każda procedura RECON?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dbamy o to, by każda procedura była kompletna i zawierała:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Cel i Zakres"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jasne określenie kogo i czego dotyczy dany dokument."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Odpowiedzialność"
+    },
+    {
+      "type": "paragraph",
+      "text": "Precyzyjne wskazanie osób nadzorujących i przestrzegających zasad."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Sposób postępowania"
+    },
+    {
+      "type": "paragraph",
+      "text": "Szczegółowy opis działań w trybie normalnym oraz w sytuacjach awaryjnych."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Rejestry"
+    },
+    {
+      "type": "paragraph",
+      "text": "Niezbędna dokumentacja, karty ewidencji i terminologia."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "OBSZARY WSPARCIA",
+      "text": "Organizacyjne procedury bezpieczeństwa"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nasze wsparcie obejmuje systemowe zarządzanie kluczowymi aspektami BHP:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Polityka BHP i systemy zarządzania.",
+        "Procedury szkoleniowe (instruktaże wstępne i okresowe).",
+        "Zarządzanie pracami niebezpiecznymi (prace na wysokości, prace gorące).",
+        "Zasady przydziału Środków Ochrony Indywidualnej (ŚOI).",
+        "Przeglądy okresowe parku maszynowego i urządzeń."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "ODPOWIEDZIALNOŚĆ EKOLOGICZNA",
+      "text": "Procedury ochrony środowiska"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pomagamy minimalizować wpływ firmy na otoczenie poprzez procedury:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Gospodarki odpadami"
+    },
+    {
+      "type": "paragraph",
+      "text": "Segregacja i bezpieczne przekazywanie odpadów niebezpiecznych."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Kontroli emisji"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nadzór nad emisjami do powietrza oraz gospodarką wodno-ściekową."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Reagowania na awarie"
+    },
+    {
+      "type": "paragraph",
+      "text": "Planowanie działań w przypadku wycieków lub pożarów zagrażających środowisku."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "NASZE PODEJŚCIE",
+      "text": "Procedury, które działają w praktyce"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "– Przystępność: Tworzymy dokumenty do pracy, a nie “do szuflady”.",
+        "– Zaangażowanie: Angażujemy pracowników w proces tworzenia – to oni znają specyfikę pracy najlepiej.",
+        "– Wizualizacja: Stosujemy czytelne instrukcje graficzne bezpośrednio przy maszynach i stanowiskach."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "PROCEDURY I RYZYKO"
+    }
+  ]
+}

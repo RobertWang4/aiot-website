@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIoT P.S.A. — Your Business Without Risk and Downtime</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0B1B4A; --blue:#2F6BFF; --ink:#080B14;
+  --paper:#F6F4F0; --paper-2:#EDEAE4;
+  --line:rgba(11,27,74,.13);
+  --muted:#5A6280;
+  --sans:'Manrope',system-ui,sans-serif;
+  --serif:'Instrument Serif',Georgia,serif;
+  --ease:cubic-bezier(.16,1,.3,1);
+  --pad:clamp(20px,5vw,88px);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:var(--sans);background:var(--paper);color:var(--ink);
+  font-weight:400;line-height:1.55;overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--blue);color:#fff}
+
+/* ---------- type ---------- */
+.eyebrow{
+  font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+  font-weight:600;color:var(--blue);
+}
+.it{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:-.01em}
+h1,h2,h3{font-weight:300;letter-spacing:-.035em;line-height:.96}
+h1{font-size:clamp(44px,8.4vw,124px)}
+h2{font-size:clamp(34px,5.6vw,78px)}
+.lede{font-size:clamp(16px,1.45vw,20px);line-height:1.6;color:var(--muted);max-width:52ch;font-weight:400}
+
+/* ---------- nav ---------- */
+header{
+  position:fixed;inset:0 0 auto 0;z-index:60;
+  display:flex;align-items:center;gap:24px;
+  padding:14px var(--pad);
+  transition:background .5s var(--ease),box-shadow .5s var(--ease),padding .5s var(--ease);
+}
+header.solid{
+  background:rgba(246,244,240,.82);backdrop-filter:blur(18px) saturate(1.4);
+  box-shadow:0 1px 0 var(--line);padding:9px var(--pad);
+}
+.chip{
+  background:#fff;border-radius:11px;padding:6px 9px;line-height:0;
+  box-shadow:0 2px 14px rgba(8,11,20,.16);flex:none;
+}
+.chip img{height:28px;width:auto}
+.wordmark{
+  font-size:14px;font-weight:800;letter-spacing:.04em;color:#fff;
+  transition:color .5s var(--ease);white-space:nowrap;
+}
+header.solid .wordmark{color:var(--navy)}
+nav{margin-left:auto;display:flex;gap:clamp(14px,1.9vw,30px);align-items:center}
+nav a{
+  font-size:13px;font-weight:500;color:rgba(255,255,255,.82);
+  transition:color .5s var(--ease),opacity .25s;
+}
+header.solid nav a{color:var(--navy);opacity:.7}
+nav a:hover{opacity:1;color:var(--blue)}
+.navcta{
+  border:1px solid rgba(255,255,255,.4);border-radius:100px;padding:8px 17px;
+  color:#fff !important;opacity:1 !important;transition:all .4s var(--ease);
+}
+header.solid .navcta{border-color:var(--navy);color:var(--navy) !important}
+.navcta:hover{background:var(--blue);border-color:var(--blue);color:#fff !important}
+@media(max-width:860px){nav a:not(.navcta){display:none}}
+
+/* ---------- hero ---------- */
+.hero{position:relative;height:100svh;min-height:600px;overflow:hidden;background:var(--ink)}
+.hero .shot{position:absolute;inset:0}
+.hero .shot img{width:100%;height:100%;object-fit:cover;opacity:.92;
+  animation:kb 26s var(--ease) forwards}
+@keyframes kb{from{transform:scale(1.14) translate3d(2%,1%,0)}to{transform:scale(1) translate3d(0,0,0)}}
+.hero::after{
+  content:"";position:absolute;inset:0;z-index:1;
+  background:
+    linear-gradient(180deg,rgba(8,11,20,.72) 0%,rgba(8,11,20,.18) 34%,rgba(8,11,20,.55) 74%,rgba(8,11,20,.94) 100%),
+    linear-gradient(96deg,rgba(11,27,74,.82) 0%,rgba(11,27,74,.1) 62%);
+}
+.hero-in{
+  position:relative;z-index:2;height:100%;
+  display:flex;flex-direction:column;justify-content:flex-end;
+  padding:0 var(--pad) clamp(46px,8vh,92px);
+}
+.hero h1{color:#fff;max-width:15ch;margin:16px 0 26px}
+.hero h1 .it{color:#BFD1FF}
+.hero .lede{color:rgba(255,255,255,.76);max-width:46ch}
+.hero-row{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-top:34px}
+.btn{
+  display:inline-flex;align-items:center;gap:10px;border-radius:100px;
+  padding:14px 26px;font-size:14px;font-weight:600;letter-spacing:.01em;
+  transition:transform .45s var(--ease),background .35s,box-shadow .45s var(--ease);
+}
+.btn-p{background:var(--blue);color:#fff;box-shadow:0 10px 34px rgba(47,107,255,.42)}
+.btn-p:hover{transform:translateY(-2px);box-shadow:0 16px 44px rgba(47,107,255,.55)}
+.btn-g{border:1px solid rgba(255,255,255,.34);color:#fff}
+.btn-g:hover{background:rgba(255,255,255,.1)}
+.btn i{font-style:normal;transition:transform .45s var(--ease)}
+.btn:hover i{transform:translateX(4px)}
+.cue{
+  position:absolute;z-index:2;right:var(--pad);bottom:clamp(46px,8vh,92px);
+  writing-mode:vertical-rl;font-size:10px;letter-spacing:.3em;text-transform:uppercase;
+  color:rgba(255,255,255,.5);display:flex;align-items:center;gap:14px;
+}
+.cue::after{content:"";width:1px;height:64px;background:linear-gradient(rgba(255,255,255,.5),transparent);
+  animation:drip 2.4s var(--ease) infinite}
+@keyframes drip{0%{transform:scaleY(.2);transform-origin:top}60%,100%{transform:scaleY(1);transform-origin:top}}
+@media(max-width:700px){.cue{display:none}}
+
+/* ---------- reveal ---------- */
+.r{opacity:0;transform:translateY(26px);transition:opacity 1s var(--ease),transform 1.1s var(--ease)}
+.r.in{opacity:1;transform:none}
+
+/* ---------- pinned photo bands ---------- */
+.pin{position:relative;height:210vh}
+.pin .stick{position:sticky;top:0;height:100svh;overflow:hidden;background:var(--ink)}
+.pin .stick img{width:100%;height:118%;object-fit:cover;will-change:transform}
+.pin .stick::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(100deg,rgba(8,11,20,.9) 0%,rgba(8,11,20,.45) 55%,rgba(11,27,74,.35) 100%)}
+.pin .copy{
+  position:absolute;inset:0;z-index:2;display:flex;align-items:center;
+  padding:0 var(--pad);
+}
+.pin .copy>div{max-width:44ch}
+.pin h2{color:#fff;margin:18px 0 22px}
+.pin h2 .it{color:#9FBBFF}
+.pin .lede{color:rgba(255,255,255,.72)}
+
+/* ---------- light sections ---------- */
+.sec{padding:clamp(84px,13vh,168px) var(--pad)}
+.head{display:flex;flex-wrap:wrap;gap:clamp(24px,5vw,80px);align-items:flex-end;justify-content:space-between}
+.head h2{max-width:14ch}
+.head .lede{max-width:38ch}
+
+/* multilingual invite */
+.invite{border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  padding:clamp(50px,8vh,96px) var(--pad);display:flex;flex-wrap:wrap;
+  gap:28px;align-items:baseline;justify-content:space-between}
+.invite .rot{font-size:clamp(26px,4.4vw,60px);font-weight:300;letter-spacing:-.03em;line-height:1.05;
+  min-height:1.1em;color:var(--navy)}
+.invite .rot span{display:inline-block;transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.invite .rot span.out{opacity:0;transform:translateY(-14px)}
+.invite a{font-size:13px;font-weight:600;color:var(--blue);border-bottom:1px solid currentColor;padding-bottom:3px}
+
+/* ---------- stats ---------- */
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+  border-block:1px solid var(--line)}
+.stat{background:var(--paper);padding:clamp(36px,6vw,72px) clamp(20px,3.4vw,48px)}
+.stat b{display:block;font-weight:300;font-size:clamp(46px,7vw,96px);letter-spacing:-.05em;
+  line-height:1;color:var(--navy)}
+.stat b em{font-family:var(--serif);font-style:italic;color:var(--blue)}
+.stat p{margin-top:14px;font-size:13.5px;color:var(--muted);max-width:26ch}
+@media(max-width:760px){.stats{grid-template-columns:1fr}}
+
+/* ---------- services rail ---------- */
+.rail-wrap{padding-bottom:clamp(70px,11vh,140px)}
+.rail{
+  display:flex;gap:clamp(12px,1.4vw,22px);overflow-x:auto;scroll-snap-type:x mandatory;
+  padding:44px var(--pad) 10px;scrollbar-width:none;cursor:grab;
+}
+.rail::-webkit-scrollbar{display:none}
+.rail.drag{cursor:grabbing;scroll-snap-type:none}
+.card{
+  scroll-snap-align:start;flex:0 0 clamp(240px,27vw,352px);
+  height:clamp(400px,56vh,540px);position:relative;overflow:hidden;border-radius:3px;
+  background:var(--navy);isolation:isolate;
+}
+.card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+  transition:transform 1.1s var(--ease),filter .8s var(--ease);
+  filter:saturate(.55) contrast(1.06)}
+.card:hover img{transform:scale(1.06);filter:saturate(1) contrast(1.02)}
+.card::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(8,11,20,.14) 0%,rgba(8,11,20,.32) 42%,rgba(8,11,20,.92) 100%)}
+.card>div{position:absolute;inset:auto 0 0 0;z-index:2;padding:26px 24px 24px;color:#fff}
+.card .num{font-family:var(--serif);font-style:italic;font-size:28px;color:#9FBBFF;
+  display:block;margin-bottom:10px;line-height:1}
+.card h3{font-size:19px;font-weight:600;letter-spacing:-.01em;line-height:1.18;text-transform:uppercase}
+.card p{font-size:13px;line-height:1.5;color:rgba(255,255,255,.68);margin-top:10px;
+  max-height:0;opacity:0;overflow:hidden;transition:max-height .7s var(--ease),opacity .5s,margin .7s var(--ease)}
+.card:hover p{max-height:9em;opacity:1}
+.card .more{display:inline-block;margin-top:14px;font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;font-weight:600;color:#fff;border-bottom:1px solid rgba(255,255,255,.4);padding-bottom:2px}
+.railbar{display:flex;align-items:center;gap:18px;padding:0 var(--pad);margin-top:26px}
+.track{flex:1;height:1px;background:var(--line);position:relative}
+.track i{position:absolute;inset:0 auto 0 0;background:var(--navy);width:18%;
+  transform-origin:left;transition:transform .12s linear}
+.railbar span{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+
+/* ---------- matrix ---------- */
+.matrix{position:relative;background:var(--ink);color:#fff}
+.matrix .bg{position:absolute;inset:0;overflow:hidden}
+.matrix .bg img{width:100%;height:100%;object-fit:cover;opacity:.3;filter:grayscale(.5)}
+.matrix .bg::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,var(--ink),rgba(11,27,74,.72) 50%,var(--ink))}
+.matrix .in{position:relative;z-index:2;padding:clamp(84px,13vh,168px) var(--pad)}
+.matrix h2{color:#fff}
+.matrix h2 .it{color:#9FBBFF}
+.axis{display:flex;justify-content:space-between;font-size:10px;letter-spacing:.24em;
+  text-transform:uppercase;color:rgba(255,255,255,.4);margin:52px 0 0;padding-bottom:12px;
+  border-bottom:1px solid rgba(255,255,255,.15)}
+.stages{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:rgba(255,255,255,.14)}
+.stage{
+  background:var(--ink);padding:30px 22px 34px;position:relative;
+  opacity:.26;transform:translateY(14px);
+  transition:opacity .9s var(--ease),transform .9s var(--ease),background .9s var(--ease);
+}
+.stage.lit{opacity:1;transform:none;background:rgba(47,107,255,.07)}
+.stage .bar{height:3px;background:var(--blue);width:0;transition:width 1.1s var(--ease);margin-bottom:22px}
+.stage.lit .bar{width:100%}
+.stage .n{font-family:var(--serif);font-style:italic;font-size:34px;color:#9FBBFF;line-height:1}
+.stage h3{font-size:16px;font-weight:600;letter-spacing:0;margin:12px 0 12px;line-height:1.2}
+.stage p{font-size:12.5px;line-height:1.55;color:rgba(255,255,255,.62)}
+.stage .mgmt{margin-top:14px;padding-top:14px;border-top:1px solid rgba(255,255,255,.13);
+  font-size:12px;color:rgba(255,255,255,.46);font-style:italic}
+@media(max-width:900px){.stages{grid-template-columns:1fr}.stage{opacity:.4}}
+
+/* ---------- no-blame marquee ---------- */
+.blame{position:relative;overflow:hidden;background:var(--navy);
+  padding:clamp(70px,11vh,140px) 0}
+.blame .bg{position:absolute;inset:0}
+.blame .bg img{width:100%;height:100%;object-fit:cover;opacity:.22}
+.blame .bg::after{content:"";position:absolute;inset:0;background:rgba(11,27,74,.62)}
+.blame .lbl{position:relative;z-index:2;padding:0 var(--pad);margin-bottom:34px}
+.blame .lbl .eyebrow{color:#9FBBFF}
+.mq{position:relative;z-index:2;display:flex;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 9%,#000 91%,transparent)}
+.mq>div{display:flex;flex:none;gap:0;animation:slide var(--dur,52s) linear infinite}
+.mq.rev>div{animation-direction:reverse}
+.mq:hover>div{animation-play-state:paused}
+@keyframes slide{to{transform:translateX(-100%)}}
+.mq em{
+  font-family:var(--serif);font-style:italic;font-size:clamp(28px,4.6vw,62px);
+  color:#fff;white-space:nowrap;padding:0 .45em;line-height:1.3;opacity:.92;
+}
+.mq em::after{content:"·";color:var(--blue);margin-left:.45em;font-style:normal}
+
+/* ---------- clients ---------- */
+.clients{padding:clamp(70px,11vh,130px) 0;border-top:1px solid var(--line)}
+.clients .lbl{padding:0 var(--pad);margin-bottom:44px;display:flex;flex-wrap:wrap;gap:16px;
+  justify-content:space-between;align-items:baseline}
+.clients h3{font-size:clamp(22px,2.6vw,34px);font-weight:300;letter-spacing:-.03em}
+.logos{display:flex;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}
+.logos>div{display:flex;flex:none;align-items:center;animation:slide 46s linear infinite}
+.logos:hover>div{animation-play-state:paused}
+.logos img{height:clamp(30px,3.4vw,46px);width:auto;margin:0 clamp(26px,3.6vw,58px);
+  filter:grayscale(1) opacity(.5) contrast(.9);transition:filter .5s var(--ease)}
+.logos img:hover{filter:none}
+
+/* ---------- closing ---------- */
+.close{position:relative;min-height:100svh;display:flex;align-items:center;
+  overflow:hidden;background:var(--ink);padding:clamp(90px,14vh,150px) var(--pad)}
+.close .bg{position:absolute;inset:0}
+.close .bg img{width:100%;height:112%;object-fit:cover;opacity:.5;will-change:transform}
+.close .bg::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(8,11,20,.92),rgba(11,27,74,.78) 55%,rgba(8,11,20,.95))}
+.close .in{position:relative;z-index:2;width:100%}
+.close h2{color:#fff;max-width:13ch;margin:20px 0 30px}
+.close h2 .it{color:#9FBBFF}
+.close .lede{color:rgba(255,255,255,.7)}
+.chain{display:flex;flex-wrap:wrap;align-items:center;gap:clamp(8px,1.3vw,20px);
+  margin:clamp(44px,7vh,80px) 0 42px}
+.chain b{font-weight:500;font-size:clamp(13px,1.35vw,17px);color:#fff;letter-spacing:.01em;
+  border:1px solid rgba(255,255,255,.22);border-radius:100px;padding:9px 18px;
+  opacity:0;transform:translateY(10px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.chain.in b{opacity:1;transform:none}
+.chain s{text-decoration:none;color:var(--blue);font-size:15px}
+.chain b:last-of-type{background:var(--blue);border-color:var(--blue)}
+
+/* ---------- footer ---------- */
+footer{background:var(--ink);color:rgba(255,255,255,.5);padding:clamp(54px,8vh,90px) var(--pad) 34px;
+  border-top:1px solid rgba(255,255,255,.1)}
+.fgrid{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:clamp(28px,5vw,70px);align-items:start}
+.fgrid p{font-size:13.5px;line-height:1.7;max-width:34ch}
+.fgrid h4{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.35);
+  font-weight:600;margin-bottom:16px}
+.fgrid ul{list-style:none;display:flex;flex-direction:column;gap:9px;font-size:13.5px}
+.fgrid a:hover{color:#fff}
+.fbot{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;
+  margin-top:clamp(44px,7vh,78px);padding-top:24px;border-top:1px solid rgba(255,255,255,.1);
+  font-size:12px;color:rgba(255,255,255,.34)}
+@media(max-width:800px){.fgrid{grid-template-columns:1fr 1fr}.fgrid>div:first-child{grid-column:1/-1}}
+
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none !important;transition-duration:.01ms !important}
+  .r{opacity:1;transform:none}
+  .stage{opacity:1;transform:none}
+  .stage .bar{width:100%}
+  .chain b{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<header id="nav">
+  <span class="chip"><img src="../logo.jpg" alt="AIoT P.S.A."></span>
+  <span class="wordmark">AIoT P.S.A.</span>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#matrix">Maturity</a>
+    <a href="#clients">Trusted us</a>
+    <a href="#contact" class="navcta">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="shot"><img src="../../public/img/gallery/robot-welding-technology-in-factory-2026-01-08-00-11-27-utc.jpg" alt="Robotic welding cell in a factory"></div>
+  <div class="hero-in">
+    <span class="eyebrow r" style="color:#9FBBFF">AIoT P.S.A. — since 2008</span>
+    <h1 class="r" style="transition-delay:.1s">Your organisation's <span class="it">external force</span></h1>
+    <p class="lede r" style="transition-delay:.2s">Comprehensive occupational safety and health outsourcing — the flexibility your business needs, without the headcount it doesn't.</p>
+    <div class="hero-row r" style="transition-delay:.3s">
+      <a href="#services" class="btn btn-p">Check out our offer <i>→</i></a>
+      <a href="#about" class="btn btn-g">A few words about us</a>
+    </div>
+  </div>
+  <div class="cue">Scroll</div>
+</section>
+
+<!-- PINNED BAND 1 -->
+<section class="pin" id="about">
+  <div class="stick">
+    <img data-para src="../../public/img/gallery/automated-drilling-machines-2026-01-08-23-40-57-utc.jpg" alt="Automated drilling machine at work">
+    <div class="copy">
+      <div>
+        <span class="eyebrow r" style="color:#9FBBFF">What we do</span>
+        <h2 class="r" style="transition-delay:.08s">We will <span class="it">systematise</span> your organisation</h2>
+        <p class="lede r" style="transition-delay:.16s">One partner for OHS, fire protection, environment, machinery compliance and personnel. We take the whole obligation off your desk — audits, procedures, measurements, documentation — and give it back as a working system your people actually use.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats" id="stats">
+  <div class="stat r"><b data-count="2008">0</b><p>Operating since — seventeen years of plant-floor practice across Polish and international industry.</p></div>
+  <div class="stat r" style="transition-delay:.12s"><b><em>ISO</em></b><p>Certified management systems. We implement, maintain and audit them — and prepare you for certification.</p></div>
+  <div class="stat r" style="transition-delay:.24s"><b>PCA</b><p>Accredited measurement laboratory. Electrical testing, thermal imaging and workstation diagnostics.</p></div>
+</div>
+
+<!-- INVITE -->
+<div class="invite">
+  <div>
+    <span class="eyebrow">Partnership</span>
+    <div class="rot" id="rot"><span>We invite Asian countries to cooperate</span></div>
+  </div>
+  <a href="#contact">Learn more / Dowiedz się więcej</a>
+</div>
+
+<!-- SERVICES -->
+<section class="sec rail-wrap" id="services" style="padding-bottom:0">
+  <div class="head">
+    <h2 class="r">How we can <span class="it">help</span></h2>
+    <p class="lede r" style="transition-delay:.1s">Ten disciplines, one contract, one point of contact. Drag the rail.</p>
+  </div>
+</section>
+<div class="rail-wrap">
+  <div class="rail" id="rail"></div>
+  <div class="railbar"><span>Drag</span><div class="track"><i id="trackbar"></i></div><span id="railidx">01 / 10</span></div>
+</div>
+
+<!-- MATRIX -->
+<section class="matrix" id="matrix">
+  <div class="bg"><img src="../../public/img/gallery/engineer-fixing-a-mechanical-arm-on-an-industrial-2026-03-16-02-31-03-utc.jpg" alt="Engineer servicing an industrial mechanical arm"></div>
+  <div class="in">
+    <span class="eyebrow r" style="color:#9FBBFF">Check where your organization stands</span>
+    <h2 class="r" style="transition-delay:.08s">Safety Culture <span class="it">Maturity Matrix</span></h2>
+    <div class="axis"><span>← High probability of accidents</span><span>Low probability →</span></div>
+    <div class="stages" id="stages"></div>
+  </div>
+</section>
+
+<!-- NO BLAME -->
+<section class="blame">
+  <div class="bg"><img src="../../public/img/gallery/team-and-portrait-of-engineering-employees-standin-2026-03-09-03-24-39-utc.jpg" alt="Engineering team on the factory floor"></div>
+  <div class="lbl"><span class="eyebrow">No-blame culture</span></div>
+  <div class="mq" style="--dur:62s"><div id="mq1"></div><div id="mq2"></div></div>
+  <div class="mq rev" style="--dur:74s;margin-top:6px;opacity:.55"><div id="mq3"></div><div id="mq4"></div></div>
+</section>
+
+<!-- CLIENTS -->
+<section class="clients" id="clients">
+  <div class="lbl">
+    <h3 class="r">They trusted us with their people.</h3>
+    <span class="eyebrow r" style="transition-delay:.1s">Selected clients</span>
+  </div>
+  <div class="logos"><div id="lg1"></div><div id="lg2"></div></div>
+</section>
+
+<!-- CLOSING -->
+<section class="close" id="contact">
+  <div class="bg"><img data-para src="../../public/img/gallery/engineer-work-at-robotic-arm-factory-2026-03-10-01-10-42-utc.jpg" alt="Engineers maintaining robotic arms"></div>
+  <div class="in">
+    <span class="eyebrow r" style="color:#9FBBFF">Comprehensive occupational safety and health outsourcing</span>
+    <h2 class="r" style="transition-delay:.08s">Your business without <span class="it">risk and downtime</span></h2>
+    <p class="lede r" style="transition-delay:.16s">Safety is not a document. It is what people do when nobody is watching — and it is built one step at a time.</p>
+    <div class="chain" id="chain">
+      <b>Thoughts</b><s>→</s><b>Words</b><s>→</s><b>Actions</b><s>→</s><b>Habits</b><s>→</s><b>Character</b><s>→</s><b>Destiny</b>
+    </div>
+    <a href="mailto:office@aiot.example" class="btn btn-p r">Start the conversation <i>→</i></a>
+  </div>
+</section>
+
+<footer>
+  <div class="fgrid">
+    <div>
+      <span class="chip" style="display:inline-block;margin-bottom:18px"><img src="../logo.jpg" alt="AIoT P.S.A."></span>
+      <p>AIoT P.S.A. — your organisation's external force. Complete operational relief, development partnership, safety culture and pragmatic solutions for industry.</p>
+    </div>
+    <div><h4>Navigate</h4><ul>
+      <li><a href="#about">About</a></li><li><a href="#services">Services</a></li>
+      <li><a href="#matrix">Maturity Matrix</a></li><li><a href="#clients">Trusted us</a></li>
+    </ul></div>
+    <div><h4>Contact</h4><ul>
+      <li><a href="mailto:office@aiot.example">office@aiot.example</a></li>
+      <li><a href="tel:+48000000000">+48 000 000 000</a></li>
+      <li>Świdnica, Poland</li>
+      <li><a href="#">PL / EN</a></li>
+    </ul></div>
+  </div>
+  <div class="fbot"><span>© 2026 AIoT P.S.A.</span><span>ISO certified · PCA accredited laboratory</span></div>
+</footer>
+
+<script>
+(function(){
+const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const G = '../../public/img/gallery/';
+
+/* ---- services ---- */
+const SERVICES=[
+ ['Machines, equipment','Comprehensive risk assessment and physical adaptation of machinery parks. We create LOTO procedures, guaranteeing full compliance with directives.','emergency-machine-stop-button-2026-01-09-10-40-43-utc.jpg'],
+ ['OHS','Audits, occupational risk assessments and constant safety supervision. We solve problems comprehensively and build a strong safety culture.','portrait-of-confident-factory-manager-with-diverse-2026-01-09-11-12-24-utc.jpg'],
+ ['Fire protection','We develop Fire Safety Instructions and evacuation procedures — prevention and full compliance with State Fire Service requirements.','fire-fighter-team-on-training-with-gas-and-oil-fir-2026-03-09-09-01-40-utc.jpg'],
+ ['ADR','Professional consultancy in the transport of dangerous goods: documentation, handling and the safe organisation of logistics processes.','modern-conveyor-system-with-boxes-in-motion-2026-01-08-05-12-48-utc.jpg'],
+ ['Environmental protection','We monitor the enterprise’s impact on its surroundings and assist with environmental procedures, reporting and legal compliance.','inspector-examination-of-photovoltaic-modules-usin-2026-01-09-00-13-33-utc.jpg'],
+ ['Parts machining','Maintenance support in optimising technological processes. The highest standards of safety and precision in mechanical processing.','close-up-of-cnc-machine-cutting-metal-2026-01-07-07-11-17-utc.jpg'],
+ ['Measurements','Accurate electrical measurements, quality testing and thermal imaging. We diagnose workstations to eliminate hidden risks instantly.','male-electrician-working-in-a-switchboard-with-fus-2026-01-08-23-45-13-utc.jpg'],
+ ['Occupational medicine','Comprehensive preventive employee healthcare. Efficient medical examinations without unnecessary facility downtime.','man-and-woman-doctors-are-standing-together-indoor-2026-01-09-00-02-25-utc.jpg'],
+ ['Employment agency','Dedicated training and efficient onboarding, including support for foreigners. We integrate new staff quickly and safely.','diverse-people-in-a-seminar-2026-01-07-07-26-02-utc.jpg'],
+ ['ISO','Implementation, maintenance and auditing of management systems. We prepare you for certification and minimise bureaucracy.','53732-machinery-in-laboratory-2026-01-09-11-39-55-utc.jpg']
+];
+document.getElementById('rail').innerHTML = SERVICES.map((s,i)=>
+ `<article class="card"><img src="${G}${s[2]}" alt="${s[0]}" loading="lazy">
+  <div><span class="num">${String(i+1).padStart(2,'0')}</span><h3>${s[0]}</h3>
+  <p>${s[1]}</p><span class="more">Read more</span></div></article>`).join('');
+
+/* rail drag + progress */
+const rail=document.getElementById('rail'), bar=document.getElementById('trackbar'), idx=document.getElementById('railidx');
+let down=false,sx=0,sl=0;
+rail.addEventListener('pointerdown',e=>{down=true;sx=e.clientX;sl=rail.scrollLeft;rail.classList.add('drag');rail.setPointerCapture(e.pointerId)});
+rail.addEventListener('pointermove',e=>{if(down)rail.scrollLeft=sl-(e.clientX-sx)});
+const up=()=>{down=false;rail.classList.remove('drag')};
+rail.addEventListener('pointerup',up);rail.addEventListener('pointercancel',up);
+rail.addEventListener('scroll',()=>{
+  const max=rail.scrollWidth-rail.clientWidth, p=max>0?rail.scrollLeft/max:0;
+  bar.style.transform=`translateX(${p*(rail.parentElement.querySelector('.track').clientWidth*.82)}px)`;
+  idx.textContent=String(Math.min(10,Math.round(p*9)+1)).padStart(2,'0')+' / 10';
+},{passive:true});
+
+/* ---- maturity stages ---- */
+const STAGES=[
+ ['Pathological','Safety is not important. We only do the bare minimum to avoid getting caught.','Management doesn’t know and doesn’t want to know.'],
+ ['Reactive','We react only when an accident occurs or during an inspection.','Management knows, but shows no initiative.'],
+ ['Compliance','Regulatory compliance is important. We have risk management systems in place.','Management cares, but doesn’t always know how to act.'],
+ ['Proactive','Continuous improvement is key. Everyone is involved in OHS.','Management cares and knows how to improve the system.'],
+ ['Mature','OHS is our priority. It is built into our DNA and business development.','Management monitors, measures and genuinely leads.']
+];
+document.getElementById('stages').innerHTML = STAGES.map((s,i)=>
+ `<div class="stage"><div class="bar"></div><span class="n">0${i+1}</span>
+  <h3>${s[0]} Culture</h3><p>${s[1]}</p><div class="mgmt">${s[2]}</div></div>`).join('');
+
+/* ---- no-blame marquee ---- */
+const PHRASES=['How can I help?','We will solve this.','We all make mistakes.','We can always improve.','We are in this together.','We are stronger together.','Thank you for your honesty.','Let’s focus on the next step.','What can we learn from this?','We care about your well-being.','We will get through this as a team.','Next time we will try this approach.','We are here to support each other.','Let’s look for solutions together.','Mistakes are opportunities to grow.','We learn more from mistakes than from successes.'];
+const a=PHRASES.slice(0,8).map(p=>`<em>${p}</em>`).join('');
+const b=PHRASES.slice(8).map(p=>`<em>${p}</em>`).join('');
+mq1.innerHTML=mq2.innerHTML=a; mq3.innerHTML=mq4.innerHTML=b;
+
+/* ---- clients ---- */
+const C='../../public/img/clients/';
+const LOGOS=['Amazon_logo.svg.webp','Bosch_logo.png','GKN_Automotive_Logo_2021.png','GEA_Logo_w_Claim_sRGB_VibrantBlue.jpg','17_Logo-ZF_700x400.jpg','31.-Colgate-Palmolive-Poland-Sp.-z-o.o.jpg','36.-DWS-DRAEXLMAIER.webp','5.-ALPLA-Opakowania-z-Tworzyw-Sztucznych.webp','hills-pet-nutrition-logo-png_seeklogo-486028.png','cropped-logo_SANDEN_S_png.png','chiorino_poland_logo.jpg','BESTER-logo-1.png'];
+const lg=LOGOS.map(f=>`<img src="${C}${f}" alt="" loading="lazy">`).join('');
+lg1.innerHTML=lg2.innerHTML=lg;
+
+/* ---- multilingual rotator ---- */
+const INVITES=['We invite Asian countries to cooperate','誠邀亞洲各國開展合作','アジアのすべての国々との協力をお待ちしております','아시아의 모든 국가를 협력으로 초대합니다'];
+if(!RM){
+  let i=0; const el=document.querySelector('#rot span');
+  setInterval(()=>{el.classList.add('out');
+    setTimeout(()=>{i=(i+1)%INVITES.length;el.textContent=INVITES[i];el.classList.remove('out')},700);
+  },3800);
+}
+
+/* ---- reveals ---- */
+const io=new IntersectionObserver(es=>es.forEach(e=>{
+  if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}
+}),{threshold:.18,rootMargin:'0px 0px -6% 0px'});
+document.querySelectorAll('.r').forEach(n=>io.observe(n));
+
+/* chain stagger */
+const chain=document.getElementById('chain');
+new IntersectionObserver((es,o)=>es.forEach(e=>{if(e.isIntersecting){
+  chain.classList.add('in');
+  [...chain.querySelectorAll('b')].forEach((n,i)=>n.style.transitionDelay=(i*.1)+'s');
+  o.disconnect();}}),{threshold:.4}).observe(chain);
+
+/* stages progressive */
+const sIo=new IntersectionObserver(es=>es.forEach(e=>{
+  if(e.isIntersecting){
+    const n=[...e.target.parentElement.children].indexOf(e.target);
+    setTimeout(()=>e.target.classList.add('lit'), n*160);
+    sIo.unobserve(e.target);
+  }}),{threshold:.45});
+document.querySelectorAll('.stage').forEach(n=>sIo.observe(n));
+
+/* count-up */
+const cIo=new IntersectionObserver(es=>es.forEach(e=>{
+  if(!e.isIntersecting)return; const el=e.target, end=+el.dataset.count; cIo.unobserve(el);
+  if(RM){el.textContent=end;return}
+  const t0=performance.now(), dur=1500;
+  (function step(t){const p=Math.min(1,(t-t0)/dur), k=1-Math.pow(1-p,4);
+    el.textContent=Math.round(1990+(end-1990)*k);
+    if(p<1)requestAnimationFrame(step)})(t0);
+}),{threshold:.6});
+document.querySelectorAll('[data-count]').forEach(n=>cIo.observe(n));
+
+/* ---- nav + parallax ---- */
+const nav=document.getElementById('nav');
+const paras=[...document.querySelectorAll('[data-para]')];
+let tick=false;
+function frame(){
+  tick=false;
+  nav.classList.toggle('solid', scrollY>window.innerHeight*.72);
+  if(RM)return;
+  for(const img of paras){
+    const r=img.parentElement.getBoundingClientRect();
+    if(r.bottom<0||r.top>innerHeight)continue;
+    const p=(r.top+r.height/2-innerHeight/2)/innerHeight;
+    img.style.transform=`translate3d(0,${(-p*7).toFixed(2)}%,0)`;
+  }
+}
+addEventListener('scroll',()=>{if(!tick){tick=true;requestAnimationFrame(frame)}},{passive:true});
+addEventListener('resize',frame,{passive:true});
+frame();
+})();
+</script>
+</body>
+</html>
+<style>html{scroll-behavior:auto!important}</style><script>addEventListener("load",()=>{setTimeout(()=>scrollTo(0,6400),300)})</script>

@@ -1,0 +1,86 @@
+{
+  "id": "assessment-of-the-machine-design",
+  "category": "machinery",
+  "menuLabel": "Ocena konstrukcji maszyny",
+  "hasPage": true,
+  "title": "Ocena konstrukcji maszyny",
+  "description": "To absolutny wymóg, aby maszyna mogła legalnie trafić na rynek UE. Gwarantujemy zgodność z Dyrektywą 2006/42/WE (lub nowym Rozporządzeniem 2023/1230) i…",
+  "sourceUrl": "https://recon.org.pl/ocena-konstrukcji-maszyny-2/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "ISTOTA PROCESU",
+      "text": "Czym jest ocena konstrukcji maszyny?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Inżynierska precyzja: To kompleksowy proces mający na celu twarde potwierdzenie, że projektowana maszyna jest w 100% bezpieczna, funkcjonalna i zgodna z wymogami prawa (m.in. Dyrektywą Maszynową).",
+        "Szeroka perspektywa: Analiza nie ogranicza się do samego \"żelaza\". Obejmuje docelowe środowisko pracy, przewidywany sposób użytkowania, a nawet potencjalne, niewłaściwe zachowania i błędy operatora.",
+        "Praktyczna weryfikacja: Ocena nie kończy się na papierowych obliczeniach. Proces ten bezwzględnie wymaga fizycznego przetestowania prototypu oraz prób technicznych (m.in. pracy pod pełnym obciążeniem i weryfikacji funkcji bezpieczeństwa)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "BEZPIECZEŃSTWO I OPTYMALIZACJA",
+      "text": "Dlaczego wykonujemy ocenę konstrukcji?"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Zgodność z prawem i znak CE"
+    },
+    {
+      "type": "paragraph",
+      "text": "To absolutny wymóg, aby maszyna mogła legalnie trafić na rynek UE. Gwarantujemy zgodność z Dyrektywą 2006/42/WE (lub nowym Rozporządzeniem 2023/1230) i normami zharmonizowanymi."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Zasada trzech kroków"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wdrażamy sprawdzoną hierarchię ochrony: 1. bezpieczne projektowanie z natury, 2. techniczne środki ochronne (osłony, kurtyny), 3. rzetelne informowanie użytkownika o ryzyku resztkowym."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ochrona operatorów i otoczenia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Skupiamy się na wczesnej eliminacji ryzyka wypadków czy uszczerbku na zdrowiu poprzez precyzyjny dobór systemów sterowania i fizycznych zabezpieczeń."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Redukcja kosztów (Prototypowanie)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Znalezienie błędu projektowego na etapie prototypu jest drastycznie tańsze i szybsze w naprawie, niż modyfikowanie gotowej, wyprodukowanej już maszyny."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Niezawodność i długa żywotność"
+    },
+    {
+      "type": "paragraph",
+      "text": "Przeprowadzamy zaawansowane obliczenia wytrzymałościowe, weryfikujemy dobór materiałów i diagnozujemy źródła drgań oraz hałasu, by maszyna pracowała bezawaryjnie przez lata."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ergonomia pracy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sprawdzamy konstrukcję pod kątem wygody obsługi. Dobrze zaprojektowana maszyna minimalizuje uciążliwość fizyczną dla operatora, co przekłada się na wyższą wydajność całego zakładu."
+    }
+  ]
+}

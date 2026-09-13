@@ -1,0 +1,106 @@
+{
+  "id": "assessment-of-information-for-machine-users-rectifying-omissions",
+  "category": "machinery",
+  "menuLabel": "Assessment of information for machine users, rectifying omissions",
+  "hasPage": true,
+  "title": "Assessment of information for machine users, rectifying omissions",
+  "description": "Instructions for particularly hazardous work (PSzN) are health and safety documentation that must be drawn up before work with an increased risk of…",
+  "sourceUrl": "https://recon.org.pl/en/assessment-of-information-for-machine-users-rectifying-omissions/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "SAFETY AND COMPLIANCE",
+      "text": "Why do we verify information and instructions?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ensuring operator safety (health and safety): The primary objective is to eliminate risks to workers' lives and health. Correct documentation must clearly indicate risks, rules for safe operation and maintenance, and emergency procedures.",
+        "Legal and inspection requirements: Machinery put into service must comply with the Machinery Directive. Filling in gaps (e.g. lack of instructions in Polish, lack of warning pictograms) is essential for the machinery to meet minimum health and safety requirements. During an inspection by the National Labour Inspectorate (PIP), the absence of complete documentation may result in financial penalties or the machine being taken out of service",
+        "Elimination of operating errors: Filling in missing information (e.g. electrical diagrams, changeover instructions) reduces the risk of operator errors, which can lead to machine breakdowns or accidents.",
+        "Proper maintenance and longer service life: Information on technical inspections, lubrication, and parts replacement helps keep the machine in good working order, preventing unplanned downtime."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Instructions for particularly hazardous work (PSzN) are health and safety documentation that must be drawn up before work with an increased risk of accidents begins, in accordance with regulations (primarily the Ministry of Labour and Social Policy regulation on general health and safety provisions)."
+    },
+    {
+      "type": "paragraph",
+      "text": "The instructions allow employees to familiarise themselves with specific working conditions and, in the event of an emergency, set out rescue procedures."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "COMPREHENSIVE AUDIT",
+      "text": "What exactly do we check and complete?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Filling in the gaps is particularly crucial in the case of older machines, modernised equipment, or when the manufacturer’s manual is incomplete or illegible. We verify:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Operating instructions in Polish: These must be understandable to users.",
+        "Labelling and pictograms: Hazard warnings (e.g. risk of entanglement, high temperature). Pictograms should comply with ISO 7010.",
+        "Technical documentation: Electrical, hydraulic and pneumatic diagrams",
+        "Risk assessment: Information on hazards specific to the workplace."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "NASZA METODOLOGIA",
+      "text": "Jak w praktyce oceniamy środki informacyjne?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Informacja to trzeci poziom redukcji ryzyka (po konstrukcji i osłonach). Służy do ostrzegania przed ryzykiem resztkowym, którego nie dało się wyeliminować technicznie."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Krok 1: Analiza zadań i operatorów"
+    },
+    {
+      "type": "paragraph",
+      "text": "Weryfikujemy, kto używa maszyny (operator, serwisant) i podczas jakich zadań (praca, czyszczenie, awaria). Przewidujemy tzw. niewłaściwe użycie maszyny."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Krok 2: Weryfikacja instrukcji (DTR)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sprawdzamy, czy instrukcja jasno opisuje zagrożenia, bezpieczne procedury i wymagane Środki Ochrony Indywidualnej (ŚOI)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Krok 3: Ocena wizualna maszyny"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kontrolujemy trwałość, czytelność i odpowiednie rozmieszczenie znaków ostrzegawczych oraz sygnałów świetlnych/dźwiękowych."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Krok 4: Test użyteczności"
+    },
+    {
+      "type": "paragraph",
+      "text": "Oceniamy, czy po przeczytaniu instrukcji lub spojrzeniu na maszynę, operator jednoznacznie wie, gdzie znajduje się zagrożenie i jak postępować w sytuacjach nietypowych."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "MACHINERY / EQUIPMENT"
+    }
+  ]
+}

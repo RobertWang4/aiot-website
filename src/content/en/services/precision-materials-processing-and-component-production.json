@@ -1,0 +1,59 @@
+{
+  "id": "precision-materials-processing-and-component-production",
+  "category": "parts-processing",
+  "menuLabel": "Precise machining of materials and component production",
+  "hasPage": true,
+  "title": "Precision materials processing and component production",
+  "description": "On request, we provide manufacturing processes that alter the shape and dimensions of the supplied material to transform it into a finished/required component.",
+  "sourceUrl": "https://recon.org.pl/en/precision-materials-processing-and-component-production/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "PRECISION MATERIALS PROCESSING",
+      "text": "Transforming raw materials into finished components"
+    },
+    {
+      "type": "paragraph",
+      "text": "On request, we provide manufacturing processes that alter the shape and dimensions of the supplied material to transform it into a finished/required component."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Machining of metal components (Automotive): Comprehensive services utilizing CNC, lathes, and milling machines. We also offer professional welding and a wide range of metalworking services.",
+        "Machining of plastic components: Specialist machining of plastic elements, dedicated to the rigorous standards of the automotive industry.",
+        "Subtractive machining (cutting): Precision removal of excess material to produce components with the desired surface finish."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "FINISHING AND REWORK",
+      "text": "Aesthetics and restoring component functionality"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Screen printing: Durable and precise application of markings, logos and graphics onto technical components.",
+        "Rework (Repair and refreshing): Professional repair processes aimed at restoring defective elements to full compliance with specifications, which allows for the reduction of material losses.",
+        "Cleaning: Removal of post-production contaminants, grease and filings, preparing details for further assembly stages or shipping."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "GUARANTEE OF STANDARDS",
+      "text": "Certainty of execution and an efficient supply chain"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Quality control and sorting of parts: Rigorous verification of each element for material and dimensional defects. We guarantee that only components that are 100% compliant with the order will reach the client.",
+        "Component transport: Safe internal and external logistics, ensuring continuity of supply and protection of finished products against damage."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "workplace-measurements",
+  "category": "workplace-measurements",
+  "menuLabel": "Pomiary i badania powietrza w środowisku prac / Pomiary hałasu pochodzącego od maszyn i urządzeń / Pomiary pole elektromagnetycznego / Pomiary oświetlenia",
+  "hasPage": true,
+  "title": "Pomiary i badania powietrza w środowisku prac / Pomiary hałasu pochodzącego od maszyn i urządzeń / Pomiary pole elektromagnetycznego / Pomiary oświetlenia",
+  "description": "Zapewniamy pełen zakres badań stężeń i natężeń czynników szkodliwych zgodnie z aktualnym Rozporządzeniem Ministra Zdrowia. Nasze analizy pozwalają na…",
+  "sourceUrl": "https://recon.org.pl/pomiary-i-badania-powietrza-w-srodowisku-prac-pomiary-halasu-pochodzacego-od-maszyn-i-urzadzen-pomiary-pole-elektromagnetycznego-pomiary-oswietlenia/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "LABORATORIUM BADAWCZE",
+      "text": "Precyzyjne pomiary czynników szkodliwych"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zapewniamy pełen zakres badań stężeń i natężeń czynników szkodliwych zgodnie z aktualnym Rozporządzeniem Ministra Zdrowia. Nasze analizy pozwalają na rzetelną ocenę ryzyka zawodowego i zapewnienie bezpiecznych warunków pracy."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Akustyka i oświetlenie: Pomiary natężenia hałasu oraz natężenia oświetlenia światłem sztucznym (w tym awaryjnym).",
+        "Mikroklimat i wentylacja: Kompleksowa ocena mikroklimatu (zimny, umiarkowany, gorący) oraz weryfikacja skuteczności wentylacji mechanicznej.",
+        "Wibracje i drgania: Badanie drgań działających na organizm człowieka przez kończyny górne oraz drgań o ogólnym działaniu.",
+        "Analiza chemiczna i pyłowa: Pobieranie próbek oraz ocena narażenia na stężenia czynników chemicznych i pyłowych na stanowiskach pracy."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "EKSPERCI RECON",
+      "text": "Zarządzanie wynikami i bezpieczeństwo laserowe"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Prowadzenie dokumentacji"
+    },
+    {
+      "type": "paragraph",
+      "text": "Na życzenie Klienta przejmujemy obowiązek prowadzenia kart rejestru wyników badań i pomiarów, dbając o ich poprawność i aktualność."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Safety Laser Officer"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jako jedni z nielicznych posiadamy w zespole specjalistę ds. bezpieczeństwa laserowego (Safety Laser Officer), zapewniając nadzór nad bezpieczną pracą z urządzeniami laserowymi."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Doradztwo prawne"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pomagamy zrozumieć i wdrożyć w życie aktualnie obowiązujące przepisy i normy, eliminując ryzyko błędów interpretacyjnych podczas kontroli."
+    }
+  ]
+}

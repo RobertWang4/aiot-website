@@ -1,0 +1,45 @@
+{
+  "id": "functional-testing-of-safety-equipment",
+  "category": "machinery",
+  "menuLabel": "Functional testing of safety equipment",
+  "hasPage": true,
+  "title": "Functional testing of safety equipment",
+  "description": "",
+  "sourceUrl": "https://recon.org.pl/en/functional-testing-of-safety-equipment/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "GUARANTEE OF RELIABILITY",
+      "text": "Here are the main objectives of functional testing as guided by RECON:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Safety verification: Checking whether the device correctly performs its assigned safety functions (e.g. whether the machine stops when the E-STOP button is pressed).",
+        "Fault detection: Ensuring that the device detects its own faults and switches to a safe state (known as a fail-safe), even if the safety mechanism itself fails.",
+        "Compliance with standards and certification: Confirming that the device meets stringent international safety standards (e.g. ISO 13849, IEC 62061), which is essential for the machine to be approved for use.",
+        "Risk minimisation: Identification of hazardous situations and reduction of the risk of accidents during operation.",
+        "Production process validation (Factory Acceptance Test – FAT): Ensuring that mass-produced devices operate in accordance with technical specifications."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "OUR METHODOLOGY",
+      "text": "Here is how we carry out such tests step by step:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Step 1: Preparation and documentation. Specification analysis: Review of technical documentation and functional requirements to understand how the device should respond. Definition of test cases: Creating instructions specifying how to test a particular safety function. Ensuring safety: We ensure the machine poses no risk to testers during testing.",
+        "Step 2: Functional testing methods. Black Box Testing: Testing the machine by forcing an input (e.g. breaking the safety curtain) and verifying the output response (e.g. stopping the drive) without examining the internal structure. Fault injection: Deliberately introducing faults into the system to check whether the safety mechanisms detect the fault and safely shut down the machine.",
+        "Step 3: Examples of test procedures. Emergency stop (E-stop): Press the button whilst the machine is running, and check whether the drive stops immediately and that a restart is not possible without a manual reset. Light curtain/scanner: Interrupting the light beam/detection field whilst the machine is in motion to confirm immediate stoppage. Safety door interlock: Open the guard and check that the machine has been shut down (power/torque cut-off).",
+        "Step 4: Documenting results. Reporting: Each test must result in a pass (compliant with standards) or a fail. Documentation: Results are recorded in reports and, in modern systems (e.g. with Safety software), generated automatically.",
+        "Step 5: Periodic verification. Functional tests are not one-off. They must be repeated periodically to confirm that the device is in ‘as new’ condition and to detect latent, dangerous faults."
+      ]
+    }
+  ]
+}

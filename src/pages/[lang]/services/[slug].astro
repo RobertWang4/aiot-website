@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Blocks from '../../../components/Blocks.astro';
+import { LANGS, listServices, getServiceIndex, getService, type Lang } from '../../../lib/content';
+
+export const getStaticPaths = () =>
+  LANGS.flatMap((lang) => listServices(lang).map((s) => ({ params: { lang, slug: s.id }, props: { service: s } })));
+
+const lang = Astro.params.lang as Lang;
+const { service: s } = Astro.props;
+const cat = getServiceIndex(lang).categories.find((c) => c.id === s.category)!;
+const siblings = cat.services.map((id) => getService(lang, id)).filter((x) => x.hasPage);
+---
+<Base lang={lang} title={s.title} description={s.description}>
+  <section class="mx-auto grid max-w-7xl gap-16 px-6 pb-24 pt-36 lg:grid-cols-[1fr_280px]">
+    <article>
+      <p class="text-xs font-semibold uppercase tracking-[0.2em] text-blue"><a href={`/${lang}/services/#${cat.id}`}>{cat.label}</a></p>
+      <h1 class="mt-3 mb-12 text-4xl font-bold tracking-tight text-navy md:text-5xl">{s.title}</h1>
+      <Blocks blocks={s.blocks} />
+    </article>
+    <aside class="lg:sticky lg:top-28 lg:self-start">
+      <p class="text-xs font-semibold uppercase tracking-[0.2em] text-ink/50">{cat.label}</p>
+      <ul class="mt-4 space-y-2 text-sm">
+        {siblings.map((x) => (
+          <li><a href={`/${lang}/services/${x.id}/`} class:list={['hover:text-blue', x.id === s.id && 'font-semibold text-blue']}>{x.menuLabel ?? x.title}</a></li>
+        ))}
+      </ul>
+    </aside>
+  </section>
+</Base>

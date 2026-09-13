@@ -1,0 +1,71 @@
+{
+  "id": "occupational-health-examinations",
+  "category": "occupational-medicine",
+  "menuLabel": "Occupational health examinations",
+  "hasPage": true,
+  "title": "Occupational health examinations",
+  "description": "We conduct tests for a wide range of professionals requiring special psychophysical fitness:",
+  "sourceUrl": "https://recon.org.pl/en/occupational-health-examinations/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "OCCUPATIONAL MEDICINE",
+      "text": "Comprehensive examinations for your employees"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Statutory examinations: We carry out a full range of examinations: initial, periodic, follow-up, targeted.",
+        "Specialist certification: Examinations for health and epidemiological purposes and for people working with exposure to ionising radiation.",
+        "Firearms licences: Professional examinations for individuals holding or applying for a firearms licence.",
+        "Individual arrangements: We carry out other examinations as agreed with the employer."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "PSYCHOLOGICAL AND TECHNICAL ASSESSMENTS",
+      "text": "Professional psychotechnical examinations"
+    },
+    {
+      "type": "paragraph",
+      "text": "We conduct tests for a wide range of professionals requiring special psychophysical fitness:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Drivers and instructors: Examinations for drivers of all driving licence categories, drivers referred by the traffic control authority, driving instructors and examiners, and candidates for driving instructors and examiners.",
+        "Machine and equipment operators: Operators of road machinery and construction equipment, battery-powered and forklift trucks, overhead cranes, hoists, and pressure equipment.",
+        "Work at height: Specialist tests for people working at heights of over 3 metres.",
+        "Job seekers: Fast psychotechnical diagnostics in recruitment processes."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "CONDITIONS ANALYSIS",
+      "text": "Workstation optimisation"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Microclimate and energy expenditure measurements"
+    },
+    {
+      "type": "paragraph",
+      "text": "Advanced microclimate parameter measurements and energy expenditure tests (PMV, PDD, WCI, IREQ, WBGT indicators)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ergonomic audits"
+    },
+    {
+      "type": "paragraph",
+      "text": "Professional ergonomic assessment of workstations, including a detailed assessment of working conditions at computer workstations."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "explosion-risk-assessment-the-fire-safety-report-conformity-assessment-in-relation-to-the-atex-directive",
+  "category": "fire-safety",
+  "menuLabel": "Ocena zagrożenia wybuchem / Operat ppoż / Ocena zgodności w zakresie dyrektywy ATEX",
+  "hasPage": true,
+  "title": "Ocena zagrożenia wybuchem / Operat ppoż / Ocena zgodności w zakresie dyrektywy ATEX",
+  "description": "",
+  "sourceUrl": "https://recon.org.pl/ocena-zagrozenia-wybuchem-operat-ppoz-ocena-zgodnosci-w-zakresie-dyrektywy-atex/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "BEZPIECZEŃSTWO PROCESOWE",
+      "text": "Zarządzanie ryzykiem wybuchu i pożaru"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ocena zagrożenia wybuchem (OZW): Identyfikujemy i klasyfikujemy miejsca, w których mogą powstawać atmosfery wybuchowe (gazy, pary, pyły). Pozwala to na precyzyjne wyznaczenie stref ATEX oraz dobór urządzeń w odpowiednim standardzie bezpieczeństwa. Jest to ustawowy wymóg MSWiA, kluczowy dla ochrony życia i mienia.",
+        "Ocena zgodności w zakresie dyrektywy ATEX: Kompleksowa weryfikacja maszyn i instalacji pracujących w strefach zagrożonych wybuchem. Sprawdzamy, czy urządzenia spełniają rygorystyczne normy techniczne, gwarantując bezpieczną eksploatację w trudnych warunkach.",
+        "Operat przeciwpożarowy: Kluczowy dokument niezbędny do uzyskania zezwolenia na zbieranie, magazynowanie lub przetwarzanie odpadów. Analizujemy ryzyko pożarowe i definiujemy procedury, które pozwalają na uzyskanie pozytywnej opinii Komendanta Państwowej Straży Pożarnej."
+      ]
+    }
+  ]
+}

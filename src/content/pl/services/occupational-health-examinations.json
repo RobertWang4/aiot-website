@@ -1,0 +1,75 @@
+{
+  "id": "occupational-health-examinations",
+  "category": "occupational-medicine",
+  "menuLabel": "Badania z zakresu medycyny pracy",
+  "hasPage": true,
+  "title": "Badania z zakresu medycyny pracy",
+  "description": "Przeprowadzamy testy dla szerokiej grupy specjalistów, wymagających szczególnej sprawności psychofizycznej:",
+  "sourceUrl": "https://recon.org.pl/badania-z-zakresu-medycyny-pracy/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "MEDYCYNA PRACY",
+      "text": "Kompleksowe badania dla Twoich pracowników"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Badania ustawowe: Wykonujemy pełen zakres badań: wstępne, okresowe, kontrolne oraz celowane.",
+        "Orzecznictwo specjalistyczne: Badania do celów sanitarno-epidemiologicznych oraz dla osób pracujących w narażeniu na promieniowanie jonizujące.",
+        "Pozwolenia na broń: Profesjonalne badania dla osób posiadających oraz ubiegających się o pozwolenie na broń.",
+        "Indywidualne uzgodnienia: Realizujemy inne specjalistyczne badania w porozumieniu z pracodawcą."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "TESTY SPRAWNOŚCIOWE",
+      "text": "Profesjonalne badania psychotechniczne"
+    },
+    {
+      "type": "paragraph",
+      "text": "Przeprowadzamy testy dla szerokiej grupy specjalistów, wymagających szczególnej sprawności psychofizycznej:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Kierowcy i instruktorzy: Wszystkie kategorie prawa jazdy, osoby skierowane przez organy kontroli oraz instruktorzy i egzaminatorzy (także kandydaci).",
+        "Operatorzy maszyn i sprzętu: Obsługa maszyn drogowych, budowlanych, wózków widłowych (akumulatorowych i spalinowych), suwnic, podnośników oraz urządzeń ciśnieniowych.",
+        "Praca na wysokości: Specjalistyczne testy dla osób zatrudnionych na stanowiskach powyżej 3 metrów.",
+        "Kandydaci do pracy: Szybka diagnostyka psychotechniczna w procesach rekrutacyjnych."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "ANALIZA WARUNKÓW",
+      "text": "Optymalizacja stanowisk pracy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Instrukcja musi zapewniać:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Pomiary mikroklimatu i wydatku"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zaawansowane badania parametrów mikroklimatu oraz wydatku energetycznego pracownika (wskaźniki: PMV, PPD, WCI, IREQ, WBGT)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Audyty ergonomiczne"
+    },
+    {
+      "type": "paragraph",
+      "text": "Profesjonalne badanie ergonomii na stanowiskach pracy, w tym szczegółowa analiza warunków pracy przy obsłudze urządzeń komputerowych."
+    }
+  ]
+}

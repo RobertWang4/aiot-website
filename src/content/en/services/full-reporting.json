@@ -1,0 +1,51 @@
+{
+  "id": "full-reporting",
+  "category": "environment",
+  "menuLabel": "Full reporting",
+  "hasPage": true,
+  "title": "Full reporting",
+  "description": "We take on the entire burden of environmental bureaucracy. We meticulously maintain documentation, protecting your company from penalties imposed by the…",
+  "sourceUrl": "https://recon.org.pl/en/full-reporting/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "ENVIRONMENTAL PROTECTION",
+      "text": "We take over your responsibilities and keep track of deadlines"
+    },
+    {
+      "type": "paragraph",
+      "text": "We take on the entire burden of environmental bureaucracy. We meticulously maintain documentation, protecting your company from penalties imposed by the Voivodeship Inspectorate for Environmental Protection (WIOŚ) or the Marshal’s Office. We prepare and submit a full package of annual reports:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Environmental fees: Preparation of an annual report on environmental use, including the calculation of applicable charges",
+        "Waste management (BDO): Monitoring and compiling a summary report on the management of waste, products and packaging (BDO)",
+        "KOBiZE database: Preparation and submission of the annual report to the National Database on Greenhouse Gas Emissions and Other Substances (KOBiZE)",
+        "PRTR Register: Preparation and submission of a report to the National Pollutant Release and Transfer Register (PRTR)",
+        "Central Statistical Office (GUS) reporting: Preparation of environmental reports for the Central Statistical Office"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "GUARANTEE of timely fulfilment of all environmental obligations specified in the contract! With us, you won't miss a single date in the environmental calendar!"
+    },
+    {
+      "type": "image",
+      "src": "/img/full-reporting/kobize2.png",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/img/full-reporting/obraz_2026-04-09_110157929.png",
+      "alt": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ENVIRONMENT"
+    }
+  ]
+}

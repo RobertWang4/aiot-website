@@ -1,0 +1,59 @@
+{
+  "id": "precision-materials-processing-and-component-production",
+  "category": "parts-processing",
+  "menuLabel": "Precyzyjna obróbka materiałów i produkcja komponentów",
+  "hasPage": true,
+  "title": "Precyzyjna obróbka materiałów i produkcja komponentów",
+  "description": "Zapewniamy zaawansowane procesy technologiczne polegające na zmianie kształtu i wymiarów materiału w celu uzyskania precyzyjnych komponentów o wysokiej…",
+  "sourceUrl": "https://recon.org.pl/precyzyjna-obrobka-materialow-i-produkcja-komponentow/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "PRECYZYJNA OBRÓBKA MATERIAŁÓW",
+      "text": "Przekształcanie surowców w gotowe elementy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zapewniamy zaawansowane procesy technologiczne polegające na zmianie kształtu i wymiarów materiału w celu uzyskania precyzyjnych komponentów o wysokiej gładkości powierzchni."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Obróbka komponentów metalowych (Automotive): Kompleksowe usługi z wykorzystaniem maszyn CNC, tokarek i frezarek. Oferujemy również profesjonalne spawanie oraz szeroki zakres usług ślusarskich.",
+        "Obróbka komponentów plastikowych: Specjalistyczna obróbka elementów z tworzyw sztucznych, dedykowana dla rygorystycznych standardów branży motoryzacyjnej.",
+        "Obróbka ubytkowa (Skrawanie): Precyzyjne usuwanie naddatku materiału dla uzyskania idealnych wymiarów i struktur powierzchni."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "WYKOŃCZENIE I REWORK",
+      "text": "Estetyka i przywracanie sprawności komponentów"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Sitodruk: Trwałe i precyzyjne nanoszenie oznaczeń, logotypów oraz grafik na komponenty techniczne.",
+        "Rework (Naprawa i odświeżanie): Profesjonalne procesy naprawcze mające na celu przywrócenie wadliwym elementom pełnej zgodności ze specyfikacją, co pozwala na redukcję strat materiałowych.",
+        "Mycie techniczne: Usuwanie zanieczyszczeń poprodukcyjnych, smarów i opiłków, przygotowujące detale do dalszych etapów montażu lub wysyłki."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "GWARANCJA STANDARDÓW",
+      "text": "Pewność wykonania i sprawny łańcuch dostaw"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Kontrola jakości i sortowanie detali: Rygorystyczna weryfikacja każdego elementu pod kątem wad materiałowych i wymiarowych. Gwarantujemy, że do klienta trafią wyłącznie komponenty w 100% zgodne z zamówieniem.",
+        "Transport komponentów: Bezpieczna logistyka wewnętrzna i zewnętrzna, zapewniająca ciągłość dostaw i ochronę gotowych produktów przed uszkodzeniami."
+      ]
+    }
+  ]
+}

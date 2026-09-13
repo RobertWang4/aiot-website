@@ -1,0 +1,132 @@
+{
+  "id": "safety-audits-of-machinery-production-lines-machine-assemblies-and-equipment",
+  "category": "machinery",
+  "menuLabel": "Audyty bezpieczeństwa maszyn, linii produkcyjnych (zespołu maszyn) i urządzeń;",
+  "hasPage": true,
+  "title": "Audyty bezpieczeństwa maszyn, linii produkcyjnych (zespołu maszyn) i urządzeń",
+  "description": "Inwentaryzacja: Tworzymy wykaz maszyn, nadajemy identyfikatory i przypisujemy do linii. Przegląd dokumentacji: Analizujemy DTR, schematy, deklaracje CE i…",
+  "sourceUrl": "https://recon.org.pl/audyty-bezpieczenstwa-maszyn-linii-produkcyjnych-zespolu-maszyn-i-urzadzen/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "BEZPIECZEŃSTWO I ZGODNOŚĆ",
+      "text": "Dlaczego warto przeprowadzić audyt maszyn?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ochrona pracowników i zdrowia (BHP): Najważniejszym celem jest zminimalizowanie ryzyka wypadków. Identyfikujemy zagrożenia (np. ruchome elementy, prąd, wysoka temperatura) i upewniamy się, że maszyny są bezpieczne dla operatorów.",
+        "Zgodność z przepisami (Compliance): Weryfikujemy, czy używany park maszynowy spełnia aktualne normy i wymogi prawne.",
+        "Unikanie przestojów i kosztów: Regularne audyty pozwalają wykryć usterki na wczesnym etapie, co drastycznie zmniejsza ryzyko kosztownych awarii i przestojów produkcyjnych.",
+        "Odpowiedzialność prawna i finansowa: W razie wypadku pracodawca musi udowodnić dbałość o bezpieczeństwo. Nasz audyt dostarcza twardą dokumentację, która to potwierdza.",
+        "Optymalizacja produkcji: Wskazujemy obszary wymagające modernizacji, co często prowadzi do odczuwalnej poprawy wydajności linii.",
+        "Weryfikacja dokumentacji: Sprawdzamy certyfikaty CE, instrukcje obsługi oraz kompletność wymaganych ocen ryzyka."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "NASZA METODOLOGIA",
+      "text": "Jak w praktyce wygląda audyt maszyn?"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "1. Przygotowanie i planowanie"
+    },
+    {
+      "type": "paragraph",
+      "text": "Inwentaryzacja: Tworzymy wykaz maszyn, nadajemy identyfikatory i przypisujemy do linii. Przegląd dokumentacji: Analizujemy DTR, schematy, deklaracje CE i poprzednie raporty. Harmonogram: Planujemy wizytę tak, aby nie zakłócać kluczowych operacji zakładu."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "2. Wizja lokalna i identyfikacja zagrożeń (Audyt właściwy)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Oględziny: Audytor wizualnie sprawdza osłony, blokady i wyłączniki awaryjne. Wywiady: Rozmawiamy z operatorami, by poznać realny sposób pracy, nawyki i sytuacje awaryjne. Analiza ryzyka (ISO 12100): Identyfikujemy zagrożenia (mechaniczne, elektryczne, hałas) i szacujemy ryzyko. Weryfikacja techniczna: Testujemy systemy, np. mierzymy czas zatrzymania po przerwaniu kurtyny świetlnej."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "3. Analiza i ocena"
+    },
+    {
+      "type": "paragraph",
+      "text": "Porównanie z normami: Oceniamy skuteczność obecnych środków ochronnych. Klasyfikacja: Przypisujemy priorytety do wykrytych niezgodności (od niskiego do krytycznego)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "4. Raportowanie i rekomendacje"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dokumentacja końcowa: Przekazujemy pełny raport z listą zidentyfikowanych zagrożeń. Działania naprawcze: Dajemy konkretne wytyczne techniczne (np. montaż osłon) i organizacyjne (np. wdrożenie procedury LOTO)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "5. Działania poaudytowe"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wdrożenie zmian: Pomagamy w dostosowaniu maszyn do wymogów (modernizacja). Walidacja: Ostatecznie weryfikujemy, czy nowe zabezpieczenia są skuteczne i zgodne z prawem."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "PODEJŚCIE SYSTEMOWE",
+      "text": "Co obejmuje audyt całych linii produkcyjnych?"
+    },
+    {
+      "type": "paragraph",
+      "text": "W przypadku zintegrowanych linii audyt jest znacznie szerszy i analizuje dodatkowo:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Interakcje między maszynami"
+    },
+    {
+      "type": "paragraph",
+      "text": "Oceniamy bezpieczeństwo w strefach transferu detali między urządzeniami."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Systemy transportowe"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bierzemy pod lupę przenośniki, roboty współpracujące oraz układnice."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Globalną komunikację"
+    },
+    {
+      "type": "paragraph",
+      "text": "Testujemy układy nadrzędne, w tym systemy awaryjnego zatrzymania całej linii (E-Stop)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "DOPASOWANIE DO ETAPU",
+      "text": "Rodzaje przeprowadzanych audytów"
+    },
+    {
+      "type": "paragraph",
+      "text": "Realizujemy audyty na każdym etapie życia maszyny: wstępne (przed uruchomieniem nowego sprzętu), zgodności (ocena obecnego stanu prawnego i technicznego) oraz rutynowe audyty okresowe."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "MASZYNY / URZĄDZENIA"
+    }
+  ]
+}

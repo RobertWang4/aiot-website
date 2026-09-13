@@ -1,0 +1,115 @@
+{
+  "id": "environmental-laboratory",
+  "category": "environment",
+  "menuLabel": "Pomiary i badania gazów odlotowych / Badania energetyczno-emisyjne kotłów i urządzeń grzewczych / Pomiary akustyczne / Badania ścieków, wód i gleb / Analizatory wielogazowe, mierniki zawartości składników w mieszaninie gazowej, analizatorów spalin kominowych, mierników stężenia gazów / Analizatory ogólnego węgla organicznego z detektorem FID",
+  "hasPage": true,
+  "title": "Pomiary i badania gazów odlotowych / Badania energetyczno-emisyjne kotłów i urządzeń grzewczych / Pomiary akustyczne / Badania ścieków, wód i gleb / Analizatory wielogazowe, mierniki zawartości składników w mieszaninie gazowej, analizatorów spalin kominowych, mierników stężenia gazów / Analizatory ogólnego węgla organicznego z detektorem FID",
+  "description": "Realizujemy okresowe pomiary emisji ze źródeł stacjonarnych w sposób bezwzględnie zgodny z wymaganiami prawnymi. Badamy pełen profil zanieczyszczeń:",
+  "sourceUrl": "https://recon.org.pl/pomiary-badania-srodowiskowe/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "OBSZAR REGULOWANY PRAWNIE",
+      "text": "Akredytowane pomiary dla zakładów przemysłowych"
+    },
+    {
+      "type": "paragraph",
+      "text": "Realizujemy okresowe pomiary emisji ze źródeł stacjonarnych w sposób bezwzględnie zgodny z wymaganiami prawnymi. Badamy pełen profil zanieczyszczeń:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Analiza gazów i pyłów: Badamy m.in. tlenki, szeroki panel metali ciężkich, LZO (Lotne Związki Organiczne), TVOC oraz specyficzne związki chemiczne (chlorowodór, amoniak, formaldehyd).",
+        "Parametry gazów: Precyzyjne pomiary strumienia objętości gazu (metodą spiętrzenia, anemometryczną i termoanemometryczną), a także stężenia tlenu i pary wodnej.",
+        "Emisja hałasu z instalacji: Wyznaczamy poziom mocy akustycznej maszyn, urządzeń oraz całych zakładów przemysłowych (wykorzystując bezpośrednie metody pomiarowe oraz obliczeniowe)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "LABORATORIUM FIZYKOCHEMICZNE",
+      "text": "Spektrometria, chromatografia i ochrona wód"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wykorzystujemy najnowocześniejsze techniki analityczne do badania czynników szkodliwych w środowisku pracy oraz środowisku naturalnym:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Zaawansowane techniki laboratoryjne: Wykonujemy analizy próbek wykorzystując m.in. spektrometrię, oraz chromatografię",
+        "Jakość powietrza w budynkach: Mierzymy stężenia czynników szkodliwych w pomieszczeniach przeznaczonych na stały pobyt ludzi.",
+        "Gospodarka wodno-ściekowa: Pobieramy próbki (jednorazowe, złożone, średniodobowe) i analizujemy ścieki, wody podziemne, opadowe oraz powierzchniowe metodami potencjometrycznymi, konduktometrycznymi, wagowymi i miareczkowymi."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "KALIBRACJA I WIEDZA EKSPERCKA",
+      "text": "Gwarancja precyzji pomiarów i wsparcie urzędów"
+    },
+    {
+      "type": "paragraph",
+      "text": "Instrukcja musi zapewniać:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Akredytowane Wzorcowanie"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nasze Laboratorium Wzorcujące kalibruje m.in. analizatory wielogazowe, mierniki stężenia gazów, analizatory spalin kominowych oraz analizatory ogólnego węgla organicznego (TOC) z detektorem FID."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Szkolenia dla Administracji"
+    },
+    {
+      "type": "paragraph",
+      "text": "Organizujemy specjalistyczne seminaria dla pracowników jednostek administracyjnych z zakresu identyfikacji i problematyki spalania odpadów w paleniskach grzewczych (szkolenia w siedzibie klienta lub w RECON)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "ZAKRES BADAŃ LABORATORYJNYCH",
+      "text": "Pełen Profil Oznaczanych Związków i Pierwiastków"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wykonujemy precyzyjne pomiary stężeń i emisji dla szerokiego spektrum czynników chemicznych i pyłowych. Wybierz interesującą Cię kategorię poniżej, aby sprawdzić, co dokładnie wykrywamy na stanowiskach pracy i w emisjach przemysłowych."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Najedź na pierwiastek"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sprawdź, które metale precyzyjnie oznaczamy w naszym laboratorium."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sprawdź, które metale w pyle precyzyjnie oznaczamy w naszym laboratorium."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Gazy i Tlenki Szkodliwe"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Związki Organiczne i Inne"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "OCHRONA ŚRODOWISKA"
+    }
+  ]
+}

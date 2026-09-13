@@ -1,0 +1,91 @@
+{
+  "id": "preparation-of-environmental-documentation",
+  "category": "environment",
+  "menuLabel": "Preparation of environmental documentation",
+  "hasPage": true,
+  "title": "Preparation of environmental documentation",
+  "description": "We accompany investors from the very beginning, ensuring a smooth transition through official environmental procedures:",
+  "sourceUrl": "https://recon.org.pl/en/preparation-of-environmental-documentation/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "INVESTMENT PROCESS",
+      "text": "Comprehensive support at the planning stage"
+    },
+    {
+      "type": "paragraph",
+      "text": "We accompany investors from the very beginning, ensuring a smooth transition through official environmental procedures:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "EIA Procedure (OOŚ): We carry out the environmental impact assessment procedure comprehensively, from project screening through the information sheet and environmental impact report to the final decision on environmental conditions.",
+        "Environmental expert reports: We also prepare the necessary environmental expert reports to assess the condition of selected environmental elements: fauna, flora and the non-living environment.",
+        "Environmental decisions (DŚU): Preparing applications for environmental consent."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "LEGALISATION AND PERMITS",
+      "text": "Documentation for industry and water management"
+    },
+    {
+      "type": "paragraph",
+      "text": "Documentation for industry and water management:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Integrated permits (IPPC): Drafting applications for integrated permits (IPCC).",
+        "Water management: Preparation of water law reports and water law notifications, as well as preparation of applications for the legalisation of water facilities.",
+        "Waste management: Preparation of applications for waste generation permits and applications for permits for the collection and processing of waste."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "ANALYTICS AND MODELLING",
+      "text": "Propagation testing and emission standards"
+    },
+    {
+      "type": "paragraph",
+      "text": "We use specialist software to model the plant’s impact on the environment:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Air protection"
+    },
+    {
+      "type": "paragraph",
+      "text": "Permits for the release of gases and dust into the air, and notifications for installations not requiring a permit and monitoring of emission standards"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Dispersion modelling"
+    },
+    {
+      "type": "paragraph",
+      "text": "Preparation of analyses of industrial noise propagation in the environment, and preparation of separate analyses of the dispersion of pollutants into the environment from organised and unorganised sources."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Reviews and standards"
+    },
+    {
+      "type": "paragraph",
+      "text": "Preparation of environmental reviews and preparation of an analysis of compliance with emission standards."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ENVIRONMENT"
+    }
+  ]
+}

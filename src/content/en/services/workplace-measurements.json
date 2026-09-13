@@ -1,0 +1,64 @@
+{
+  "id": "workplace-measurements",
+  "category": "workplace-measurements",
+  "menuLabel": "Measurements and tests of air in the working environment / Noise measurements from machinery and equipment / Electromagnetic field measurements / Lighting measurements",
+  "hasPage": true,
+  "title": "Workplace air measurements and testing / Machinery and equipment noise measurements / Electromagnetic field measurements / Lighting measurements",
+  "description": "We provide a full range of tests for the concentrations and intensities of harmful factors in accordance with the current Regulation of the Minister of…",
+  "sourceUrl": "https://recon.org.pl/en/workplace-measurements/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "TESTING LABORATORY",
+      "text": "Precise measurements of harmful factors"
+    },
+    {
+      "type": "paragraph",
+      "text": "We provide a full range of tests for the concentrations and intensities of harmful factors in accordance with the current Regulation of the Minister of Health. Our analyses allow for a reliable assessment of occupational risk and the provision of safe working conditions."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Acoustics and lighting: Measurements of noise intensity and artificial lighting intensity (including emergency lighting).",
+        "Microclimate and ventilation: Comprehensive assessment of the microclimate (cold, moderate, hot) and verification of the effectiveness of mechanical ventilation.",
+        "Vibrations: Testing of vibrations affecting the human body through the upper limbs and whole-body vibrations.",
+        "Chemical and dust analysis: Sampling and assessment of exposure to concentrations of chemical and dust factors at workstations."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "RECON EXPERTS",
+      "text": "Results management and laser safety"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Documentation management"
+    },
+    {
+      "type": "paragraph",
+      "text": "At the client's request, we take over the obligation to maintain record cards of test and measurement results, ensuring their accuracy and keeping them up to date."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Safety Laser Officer"
+    },
+    {
+      "type": "paragraph",
+      "text": "vAs one of the few, we have a Laser Safety Officer on our team, ensuring supervision over safe work with laser equipment."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Legal consultancy"
+    },
+    {
+      "type": "paragraph",
+      "text": "We help you understand and implement currently applicable regulations and standards, eliminating the risk of interpretation errors during inspections."
+    }
+  ]
+}

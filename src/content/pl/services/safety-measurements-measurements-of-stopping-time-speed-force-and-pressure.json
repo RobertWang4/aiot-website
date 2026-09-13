@@ -1,0 +1,68 @@
+{
+  "id": "safety-measurements-measurements-of-stopping-time-speed-force-and-pressure",
+  "category": "machinery",
+  "menuLabel": "Pomiary bezpieczeństwa – pomiary czasu zatrzymania, prędkości, siły i ciśnienia",
+  "hasPage": true,
+  "title": "Pomiary bezpieczeństwa – pomiary czasu zatrzymania, prędkości, siły i ciśnienia",
+  "description": "Głównym celem wszystkich pomiarów jest zminimalizowanie ryzyka poważnych obrażeń. Twardo weryfikujemy, czy maszyna całkowicie się zatrzyma, zanim ręka…",
+  "sourceUrl": "https://recon.org.pl/pomiary-bezpieczenstwa-pomiary-czasu-zatrzymania-predkosci-sily-i-cisnienia/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "GWARANCJA OCHRONY",
+      "text": "Ułamki sekund, które ratują życie"
+    },
+    {
+      "type": "paragraph",
+      "text": "Głównym celem wszystkich pomiarów jest zminimalizowanie ryzyka poważnych obrażeń. Twardo weryfikujemy, czy maszyna całkowicie się zatrzyma, zanim ręka pracownika zdąży dosięgnąć niebezpiecznego elementu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "DYSTANS BEZPIECZEŃSTWA",
+      "text": "Czy maszyna staje na czas?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Wyznaczenie bezpiecznej odległości: Sprawdzamy, czy kurtyny, skanery, bariery świetlne (USO) i wyłączniki krańcowe bez ryglowania są odsunięte na właściwą odległość. Zbyt wolne zatrzymanie oznacza, że operator zdąży włożyć rękę w strefę zgniotu.",
+        "Weryfikacja zużycia hamulców: Kontrolujemy kondycję układów hamulcowych. Pozwala to wyłapać sytuacje, w których wyeksploatowana maszyna zatrzymuje się wolniej, niż zakłada to jej fabryczna dokumentacja.",
+        "Zgodność z normami: To bezwzględny wymóg prawny (np. norma PN-EN ISO 13855), który nakazuje okresowe kontrole sprzętu, zazwyczaj raz na 12 miesięcy."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "KONTROLA DYNAMIKI",
+      "text": "Monitorowanie limitów układów napędowych"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Monitorowanie \"bezpiecznej prędkości\": Upewniamy się, że napędy fizycznie nie są w stanie przekroczyć wartości zdefiniowanych jako bezpieczne (jest to krytyczne zwłaszcza w maszynach z płynną regulacją prędkości).",
+        "Obliczanie odległości bezpieczeństwa: Prędkość zbliżania się człowieka do strefy roboczej to kluczowa zmienna w inżynieryjnym wzorze określającym, jak daleko musimy odsunąć fizyczne bariery lub kurtyny świetlne."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "HYDRAULIKA I PNEUMATYKA",
+      "text": "Redukcja siły uderzenia i zgniotu"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ochrona przed przygnieceniem: Twardo mierzymy, czy siła zamykania ciężkich osłon lub pras nie jest na tyle duża, by w razie błędu spowodować poważny uraz u operatora.",
+        "Minimalizacja ryzyka awarii: Kontrola ciśnienia roboczego w układach pozwala nam na wczesne wykrycie anomalii, które mogłyby doprowadzić do nagłego, niekontrolowanego “wystrzału” lub ruchu maszyny."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Pomiary wykonujemy po to, aby potwierdzić skuteczność środków ochronnych, realnie zapobiec wypadkom przy pracy i zapewnić firmie pełną zgodność z wymogami prawa."
+    }
+  ]
+}

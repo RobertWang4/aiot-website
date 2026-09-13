@@ -1,0 +1,91 @@
+{
+  "id": "risk-assessment",
+  "category": "machinery",
+  "menuLabel": "Ocenę ryzyka użytkowanej już maszyny przez pracodawcę",
+  "hasPage": true,
+  "title": "Ocenę ryzyka użytkowanej już maszyny przez pracodawcę",
+  "description": "– Ochrona zdrowia i życia: Zapobieganie wypadkom i chorobom zawodowym poprzez wczesną identyfikację zagrożeń (mechanicznych, elektrycznych, hałasu itp.).",
+  "sourceUrl": "https://recon.org.pl/ocene-ryzyka-uzytkowanej-juz-maszyny-przez-pracodawce/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "TERMINOLOGIA BEZPIECZEŃSTWA",
+      "text": "Kluczowe pojęcia w zarządzaniu ryzykiem"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Analiza ryzyka: Systematyczne wykorzystanie dostępnych informacji do zidentyfikowania zagrożenia oraz oszacowania ryzyka dla osób, populacji, mienia lub środowiska.",
+        "Oszacowanie ryzyka: Proces tworzenia miary poziomu analizowanego ryzyka. Składa się z trzech kroków: analizy częstości, analizy konsekwencji oraz ich połączenia.",
+        "Wyznaczanie ryzyka: Ocena dopuszczalności ryzyka (na podstawie jego analizy), biorąca pod uwagę dodatkowe czynniki, takie jak aspekty socjoekonomiczne i środowiskowe.",
+        "Ocena ryzyka: Całościowy proces analizowania ryzyka i wyznaczania jego dopuszczalności.",
+        "Sterowanie ryzykiem: Proces decyzyjny mający na celu zarządzanie ryzykiem i/lub jego zmniejszanie. Obejmuje wdrażanie rozwiązań, ich usprawnianie oraz okresowe, ponowne wyznaczanie ryzyka (bazując na wynikach poprzednich ocen)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "BEZPIECZEŃSTWO I PRAWO",
+      "text": "Dlaczego ocena ryzyka jest konieczna?"
+    },
+    {
+      "type": "paragraph",
+      "text": "– Ochrona zdrowia i życia: Zapobieganie wypadkom i chorobom zawodowym poprzez wczesną identyfikację zagrożeń (mechanicznych, elektrycznych, hałasu itp.)."
+    },
+    {
+      "type": "paragraph",
+      "text": "– Spełnienie wymogów prawnych: Realizacja obowiązku pracodawcy (art. 226 Kodeksu Pracy) polegającego na ocenie i dokumentowaniu ryzyka zawodowego przy obsłudze maszyn."
+    },
+    {
+      "type": "paragraph",
+      "text": "– Zgodność z normami: Opieranie bezpieczeństwa na rygorystycznej normie EN ISO 12100:2010 (zasady bezpiecznego projektowania)."
+    },
+    {
+      "type": "paragraph",
+      "text": "– Oszczędność i ciągłość produkcji: Prewencyjne wykrywanie zagrożeń, które zapobiega awariom, przedłuża żywotność sprzętu i minimalizuje koszty przestojów."
+    },
+    {
+      "type": "paragraph",
+      "text": "– Analiza pełnego cyklu życia maszyny: Weryfikacja bezpieczeństwa nie tylko podczas normalnej pracy, ale również w trakcie uruchamiania, konserwacji, napraw i likwidacji."
+    },
+    {
+      "type": "paragraph",
+      "text": "– Zabezpieczenie prawne (zmniejszenie odpowiedzialności): Zgromadzenie twardej dokumentacji, która chroni pracodawcę i producenta w przypadku kontroli inspekcji lub wypadku."
+    },
+    {
+      "type": "paragraph",
+      "text": "– Świadomość załogi: Zapewnienie rzetelnych informacji dla operatorów o faktycznym ryzyku i wymaganych środkach ochrony."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "PRAKTYCZNE ZASTOSOWANIE",
+      "text": "Kiedy i jak oceniamy maszyny?"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Kiedy jest wymagana?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Proces ten jest absolutnie niezbędny zarówno w przypadku maszyn już użytkowanych w zakładzie, jak i podczas planowania modernizacji istniejących urządzeń."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Co dokładnie obejmuje?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ocena nie ogranicza się tylko do samej maszyny. Weryfikuje zarówno fizyczne zabezpieczenia sprzętu, jak i sposób jego użytkowania w konkretnych, rzeczywistych warunkach danego środowiska pracy."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "MASZYNY / URZĄDZENIA"
+    }
+  ]
+}

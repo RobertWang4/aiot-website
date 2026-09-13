@@ -1,0 +1,105 @@
+{
+  "id": "premium-training-for-management-on-health-and-safety-awareness",
+  "category": "ohs",
+  "menuLabel": "Szkolenia premium dla kadry kierowniczej z zakresu świadomosci BHP",
+  "hasPage": true,
+  "title": "Szkolenia premium dla kadry kierowniczej z zakresu  świadomosci BHP",
+  "description": "Nasze szkolenie przygotowuje kadrę zarządzającą (Prezesów, Dyrektorów, Kierowników) do skutecznego organizowania pracy. Skupiamy się na identyfikacji…",
+  "sourceUrl": "https://recon.org.pl/szkolenia-premium-dla-kadry-kierowniczej-z-zakresu-swiadomosci-bhp-3/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "BHP DLA KADRY ZARZĄDZAJĄCEJ",
+      "text": "Trzy godziny, które zmienią Twoje spojrzenie na bezpieczeństwo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nasze szkolenie przygotowuje kadrę zarządzającą (Prezesów, Dyrektorów, Kierowników) do skutecznego organizowania pracy. Skupiamy się na identyfikacji realnych zagrożeń, psychologii błędów oraz pełnym uświadomieniu odpowiedzialności prawnej."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Lokalizacja do wyboru: Szkolimy w siedzibie Twojej firmy, w biurach RECON, lub na Twoje życzenie – organizujemy pełne szkolenie wyjazdowe w dowolnym kurorcie.",
+        "Nasz cel: \"0 wypadków\" – udowadniamy, że to nie nierealna wizja, ale mierzalny cel biznesowy."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "WARSZTATY I ANALIZA",
+      "text": "Jak wykrywać zagrożenia i reagować na błędy?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Program podzieliliśmy na intensywne moduły łączące wiedzę z zadaniami praktycznymi:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Psychologia i błędy [60 min]: Analizujemy 4 grupy krytycznych błędów ludzkich, źródła zdarzeń nieoczekiwanych oraz Matrix kultury bezpieczeństwa. Uczymy, jak odróżnić problem techniczny od problemu z zachowaniem.",
+        "Wpływ postaw na bezpieczeństwo [30 min]: Warsztat o tym, jak emocje i postawy osobiste wpływają na podejmowanie decyzji w sytuacjach krytycznych.",
+        "Proaktywność i rola lidera [45 min]: Definiujemy Twoją rolę w systemie BHP – co wolno, a czego kategorycznie zabrania prawo.",
+        "Audyt na hali produkcyjnej [35 min]: Praktyczne ćwiczenie \"Obserwuj i wykrywaj\". Uczestnicy robią zdjęcia, identyfikują zagrożenia i uczą się różnicy między działaniem korygującym a korekcyjnym."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "/img/premium-training-for-management-on-health-and-safety-awareness/obraz_2026-04-15_131936125-removebg-preview.png",
+      "alt": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "KODEKS PRACY I KARY",
+      "text": "Twoja odpowiedzialność w świetle przepisów"
+    },
+    {
+      "type": "paragraph",
+      "text": "Szczegółowo omawiamy zakres odpowiedzialności karnej, cywilnej i administracyjnej:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Fundamenty prawne"
+    },
+    {
+      "type": "paragraph",
+      "text": "Analiza Art. 207 i 212 Kodeksu Pracy. Wyjaśniamy konsekwencje naruszeń, w tym kary pozbawienia wolności do lat 5 oraz wysokie grzywny finansowe"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Organizacja i nadzór"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rola przełożonego w dopuszczaniu do pracy, nadzorze nad środkami ochrony indywidualnej (ŚOI) i instruktażach stanowiskowych."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Zarządzanie ryzykiem"
+    },
+    {
+      "type": "paragraph",
+      "text": "Metody identyfikacji zagrożeń, planowanie działań minimalizujących ryzyko oraz zasady nadzoru nad pracami szczególnie niebezpiecznymi."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Case Study"
+    },
+    {
+      "type": "paragraph",
+      "text": "Analiza rzeczywistych wypadków i orzecznictwa sądowego. Pokazujemy realne sytuacje i wskazujemy, kiedy kierownik może zostać wyłączony z odpowiedzialności."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "BHP"
+    }
+  ]
+}

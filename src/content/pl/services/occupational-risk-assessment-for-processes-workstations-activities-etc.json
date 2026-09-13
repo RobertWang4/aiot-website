@@ -1,0 +1,182 @@
+{
+  "id": "occupational-risk-assessment-for-processes-workstations-activities-etc",
+  "category": "ohs",
+  "menuLabel": "Ocena ryzyka zawodowego dla procesu, stanowiska, aktywności ….",
+  "hasPage": true,
+  "title": "Ocena ryzyka zawodowego dla procesu, stanowiska, aktywności …",
+  "description": "Stosujemy uznane międzynarodowe metody analizy, dopasowane do specyfiki Twojej branży:",
+  "sourceUrl": "https://recon.org.pl/ocena-ryzyka-zawodowego-dla-procesu-stanowiska-aktywnosci/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "EKSPERCKA ANALIZA",
+      "text": "Metodologie i proces szacowania ryzyka"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stosujemy uznane międzynarodowe metody analizy, dopasowane do specyfiki Twojej branży:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Metody ogólne: PHA, Risk Score, Matryca Ryzyka, Metoda pięciu kroków, FMEA, HAZOP, CHL, \"co jeśli\".",
+        "Metody normatywne: PN-EN ISO 12100 (bezpieczeństwo maszyn), PN-EN ISO 13849 oraz PN-EN ICE 62061 (systemy sterowania)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Oszacowanie ryzyka traktujemy jako proces tworzenia miary poziomu zagrożeń, który obejmuje analizę częstotliwości występowania zdarzeń, ich potencjalnych konsekwencji oraz ich wzajemną korelację."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "PODEJŚCIE INŻYNIERYJNE",
+      "text": "Indukcyjne i dedukcyjne badanie zagrożeń"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wykorzystujemy różne sposoby analizy, aby nie pominąć żadnego krytycznego punktu:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Metoda indukcyjna: Analizujemy zdarzenie (np. awarię podzespołu), które inicjuje ciąg kolejnych niebezpiecznych wypadków.",
+        "Metoda dedukcyjna: Zakładamy zdarzenie końcowe (wypadek) i szukamy wszystkich przyczyn, które mogły do niego doprowadzić."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Klasyfikujemy ryzyko pod kątem charakteru (jakościowe/ilościowe), rodzaju strat (ludzkie, materialne, środowiskowe) oraz stopnia złożoności systemu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "WARTOŚĆ DLA BIZNESU",
+      "text": "Kluczowe powody wykonywania oceny ryzyka"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ochrona życia i zdrowia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Identyfikujemy zagrożenia, by realnie zapobiegać wypadkom i chorobom zawodowym."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Zgodność prawna"
+    },
+    {
+      "type": "paragraph",
+      "text": "Spełniamy wymogi Kodeksu pracy oraz Dyrektyw unijnych (89/391/EWG, 98/24/WE, 1999/38/WE)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Działania profilaktyczne"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pomagamy dobrać optymalne środki ochrony (SOI) oraz zorganizować pracę w sposób bezpieczniejszy"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Efektywność ekonomiczna"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mniejsza liczba wypadków to niższe odszkodowania, brak przestojów i rzadsze kontrole organów nadzoru (PIP, Sanepid)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "KIEDY DZIAŁAĆ?",
+      "text": "Sytuacje wymagające aktualizacji oceny ryzyka"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ocena ryzyka nie jest dokumentem jednorazowym, lecz procesem ciągłym. Należy ją wykonać lub zaktualizować zawsze, gdy:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Tworzone są nowe stanowiska pracy,",
+        "Wprowadzane są zmiany technologiczne lub organizacyjne (np. modernizacje maszyn),",
+        "Zmieniają się wymagania prawne lub normatywne,",
+        "Wdrożono nowe środki ochronne lub doszło do zdarzenia wypadkowego."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "BAZA DANYCH",
+      "text": "Źródła informacji wykorzystywane do oceny"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rzetelna ocena opiera się na twardych danych. Analizujemy m.in.:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Dokumentację techniczną: DTR maszyn, instrukcje stanowiskowe, karty charakterystyki substancji chemicznych.",
+        "Dane pomiarowe: Wyniki badań czynników szkodliwych i uciążliwych w środowisku pracy.",
+        "Historię zakładu: Rejestry wypadków i chorób zawodowych.",
+        "Wymagania lokalne: Lokalizację stanowisk oraz specyficzne potrzeby grup wrażliwych (kobiety w ciąży, osoby niepełnosprawne)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "NARZĘDZIA BADAWCZE",
+      "text": "Metody Analizy I Oceny Ryzyka"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Metody szacunkowe"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Matryca ryzyka (PN-N-18002:2000)",
+        "PHA – wstępna analiza zagrożeń",
+        "Risk Assessment Code",
+        "Risk Score",
+        "Metoda pięciu kroków",
+        "Wskaźnik ryzyka (WRP)",
+        "Grafy ryzyka"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Metody zaawansowane"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "FMEA (Failure Mode and Effects Analysis)",
+        "Kalkulatory ryzyka",
+        "HAZOP (Hazard and Operability Study)",
+        "Metoda List Kontrolnych – CHL",
+        "Metoda „co jeśli” (What-if)"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "PROCEDURY I RYZYKO"
+    }
+  ]
+}

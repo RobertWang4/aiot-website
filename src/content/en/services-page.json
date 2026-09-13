@@ -1,0 +1,508 @@
+{
+  "title": "Services",
+  "description": "From compliance audits (CE) and risk assessments to LOTO system implementation and professional user manuals. We secure production processes, protecting…",
+  "sourceUrl": "https://recon.org.pl/en/services/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "MACHINERY/EQUIPMENT Comprehensive machinery park safety From compliance audits (CE) and risk assessments to LOTO system implementation and professional user manuals. We secure production processes, protecting operators and guaranteeing full machinery compliance with EU directives. Learn more"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Comprehensive machinery park safety"
+    },
+    {
+      "type": "paragraph",
+      "text": "From compliance audits (CE) and risk assessments to LOTO system implementation and professional user manuals. We secure production processes, protecting operators and guaranteeing full machinery compliance with EU directives."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Optimisation and organisation of warehouse space from scratch."
+    },
+    {
+      "type": "paragraph",
+      "text": "We transform unused space into an efficient storage system. We offer the supply and installation of pallet racking and shelving systems, which ensure operational stability and maximum utilisation of every square metre."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Systematic protection of hazardous areas."
+    },
+    {
+      "type": "paragraph",
+      "text": "We design and install certified mesh guarding systems that effectively separate workers from hazardous areas involving moving machine parts. Our solutions meet the stringent requirements of the PN-EN ISO 14120 standard, ensuring full compliance with the Machinery Directive and the technical safety of your machinery fleet."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "HEALTH AND SAFETY Systemic safety management We transform regulations into actionable procedures. By developing instructions for high-risk tasks, conducting occupational risk assessments, and building a strong safety culture, we protect your employees and safeguard the management board from liability. Learn more"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Systemic safety management"
+    },
+    {
+      "type": "paragraph",
+      "text": "We transform regulations into actionable procedures. By developing instructions for high-risk tasks, conducting occupational risk assessments, and building a strong safety culture, we protect your employees and safeguard the management board from liability."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "FIRE SAFETY Facility fire prevention and protection We guarantee full compliance with the stringent requirements of the State Fire Service. By developing and updating Fire Safety Instructions (FSI), planning evacuation routes, and advising on optimal firefighting equipment placement, we ensure your facility's safety. Learn more"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Facility fire prevention and protection"
+    },
+    {
+      "type": "paragraph",
+      "text": "We guarantee full compliance with the stringent requirements of the State Fire Service. By developing and updating Fire Safety Instructions (FSI), planning evacuation routes, and advising on optimal firefighting equipment placement, we ensure your facility's safety."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ISO Management systems implementation and auditing We help you implement, maintain, and optimise ISO standards (e.g., 9001, 14001, 45001). We prepare your organisation for certification with practical procedures that streamline business processes instead of creating unnecessary paperwork. Learn more"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Management systems implementation and auditing"
+    },
+    {
+      "type": "paragraph",
+      "text": "We help you implement, maintain, and optimise ISO standards (e.g., 9001, 14001, 45001). We prepare your organisation for certification with practical procedures that streamline business processes instead of creating unnecessary paperwork."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ADR DGSA consultancy for dangerous goods transport We safeguard your business against severe Road Transport Inspectorate penalties. Our services include ADR expert oversight, mandatory annual reporting, and expert advice on safe packaging, loading, and goods classification. Learn more"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "DGSA consultancy for dangerous goods transport"
+    },
+    {
+      "type": "paragraph",
+      "text": "We safeguard your business against severe Road Transport Inspectorate penalties. Our services include ADR expert oversight, mandatory annual reporting, and expert advice on safe packaging, loading, and goods classification."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Industrial ecology and environmental reporting"
+    },
+    {
+      "type": "paragraph",
+      "text": "We manage your BDO system, waste, and emissions obligations. By developing environmental procedures that minimise your plant's ecological footprint, we guarantee trouble-free inspections by supervisory bodies."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "PARTS PROCESSING Precision part production and reconditioning We support your maintenance operations with advanced technical machining. By prototyping, manufacturing replacement components, and reconditioning damaged machine parts, we cut production downtime to the bare minimum. Learn more"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Precision part production and reconditioning"
+    },
+    {
+      "type": "paragraph",
+      "text": "We support your maintenance operations with advanced technical machining. By prototyping, manufacturing replacement components, and reconditioning damaged machine parts, we cut production downtime to the bare minimum."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Advanced diagnostics and safety testing"
+    },
+    {
+      "type": "paragraph",
+      "text": "We deliver hard data on your infrastructure's condition. By performing thermal imaging audits, machine stopping time tests, certified electrical measurements, and compressed air leak detection, we generate real savings for your plant."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "OCCUPATIONAL MEDICINE Occupational healthcare for business We provide full coordination of pre-employment, periodic, and follow-up medical check-ups. Our efficient process minimises employee downtime and guarantees total compliance with Labor Code regulations. Learn more"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Occupational healthcare for business"
+    },
+    {
+      "type": "paragraph",
+      "text": "We provide full coordination of pre-employment, periodic, and follow-up medical check-ups. Our efficient process minimises employee downtime and guarantees total compliance with Labor Code regulations."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "EMPLOYMENT AGENCY Technical recruitment and specialist outsourcing We deliver skilled personnel matched to your production facility's requirements. We lighten the load for HR departments by managing recruitment and payroll, ensuring your workforce stays flexible during production peaks. Learn more"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Technical recruitment and specialist outsourcing"
+    },
+    {
+      "type": "paragraph",
+      "text": "We deliver skilled personnel matched to your production facility's requirements. We lighten the load for HR departments by managing recruitment and payroll, ensuring your workforce stays flexible during production peaks."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "STRATEGIC HEALTH AND SAFETY",
+      "text": "Build a Proactive Culture in Your Organisation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Comprehensive machine safety: from CE audits and LOTO to user manuals. We protect operators and guarantee full compliance with EU directives."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Safety audits of machinery, production lines (machine assemblies) and equipment"
+    },
+    {
+      "type": "paragraph",
+      "text": "To ensure workplace safety, compliance with legal requirements and optimisation of production processes. This is a process of verifying the technical condition and safety systems, designed to prevent accidents and breakdowns."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Risk assessment of machinery already in use by the employer"
+    },
+    {
+      "type": "paragraph",
+      "text": "To ensure operator safety, eliminate hazards, implement protective measures and comply with legal requirements. It enables the early detection of hazards and the implementation of technical protective measures (guards, curtains) or organisational measures (procedures)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Review of the risk assessment provided by the machine manufacturer at the design stage"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ensuring safety and adapting equipment before manufacturing. Early design verification is vital, saving significant time and money compared to modifying finished machines."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Defining the necessary safety functions of the machine control system in accordance with the risk analysis and ISO 13849-1"
+    },
+    {
+      "type": "paragraph",
+      "text": "Defining the necessary safety functions of the machine control system in accordance with the risk analysis and ISO 13849-1"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Assessment of the machine design"
+    },
+    {
+      "type": "paragraph",
+      "text": "Conducted to ensure safety, legal compliance, and equipment reliability. It also evaluates the design to guarantee comfortable and ergonomic working conditions, reducing operator burden."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Assessment of information for machine users, rectifying omissions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Updating technical documentation (DTR) to guarantee safety, regulatory compliance, and optimal equipment performance."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Proposals for risk mitigation: technical, procedural, and organisational measures"
+    },
+    {
+      "type": "paragraph",
+      "text": "To guarantee safety, ensure legal compliance, and minimise potential accident costs by reducing risks to the lowest practicable level."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Comprehensive safety modernisation (mechanical, electrical, and automation)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Brings equipment up to current safety standards, boosting efficiency and extending its lifespan. A cost-effective alternative to new purchases that ensures legal compliance and avoids penalties."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Functional testing of safety equipment"
+    },
+    {
+      "type": "paragraph",
+      "text": "Are carried out primarily to ensure that, in the event of a hazard, the equipment operates as intended and effectively protects people, machinery, or the environment."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "User manuals for machinery and equipment"
+    },
+    {
+      "type": "paragraph",
+      "text": "Guarantees safe operation, simplifies installation, and minimises failure risks. Provides essential maintenance and operating procedures to ensure legal compliance and user confidence."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Reconstruction of a machine’s technical documentation"
+    },
+    {
+      "type": "paragraph",
+      "text": "To restore its ‘passport’, enabling legal operation, safe working, maintenance and servicing. This is essential when the original documentation has been lost."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Verification of the accuracy of existing technical documentation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Guarantees safety, legal compliance, and project consistency. Crucial for verifying that documents are complete and feasible before production, avoiding costly implementation errors."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Safety measurements"
+    },
+    {
+      "type": "paragraph",
+      "text": "To ensure that machinery operates in accordance with safety standards and that its protective devices (e.g. light curtains, guards) effectively protect operators from accidents."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Electrical measurements"
+    },
+    {
+      "type": "paragraph",
+      "text": "Guarantees safety and protects against electric shocks and fire. These legally required inspections verify equipment condition to detect and prevent breakdowns early."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Leak testing of compressed air systems"
+    },
+    {
+      "type": "paragraph",
+      "text": "Eliminates leaks to drastically cut operating costs. With leaks wasting up to 50% of compressor output, this service tackles one of the industry's most costly losses."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Thermal imaging"
+    },
+    {
+      "type": "paragraph",
+      "text": "For the non-invasive detection of hidden faults, fire and breakdown prevention, and optimisation of facility maintenance costs"
+    },
+    {
+      "type": "paragraph",
+      "text": "We manage your obligations regarding the BDO system, waste management, and emissions. We create environmental procedures to minimise the plant’s environmental footprint and ensure smooth inspections by regulatory bodies."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Full reporting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Maintaining a BDO register (preparing waste records and keeping records for companies receiving waste, for which an annual report must also be prepared) Maintaining the KOBIZE register"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Preparation of environmental documentation:"
+    },
+    {
+      "type": "paragraph",
+      "text": "We prepare comprehensive environmental documentation (such as IPPC permits, water law reports, and emission analyses) to guarantee your company 100% regulatory compliance."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Internal audits assessing the scope of responsibilities"
+    },
+    {
+      "type": "paragraph",
+      "text": "Conducting one-off environmental audits to verify operational compliance with current environmental regulations."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ongoing consultations regarding current processes, technologies and changes to planned operations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Online consultations. Consultations at the client’s premises. We keep you informed of changes in legislation and their potential implications. Our actions always take into account the client’s interests and well-being – we strive to optimise the costs incurred from environmental use, whilst ensuring compliance with legal requirements. On request, we represent you during inspections carried out by environmental protection authorities and other bodies."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Flue gas measurements and testing / Energy and emissions testing of boilers and heating systems / Noise measurements / Wastewater / water and soil testing / Multi-gas analysers / gas mixture component analysers / flue gas analysers / gas concentration meters / Total organic carbon analysers with FID detector"
+    },
+    {
+      "type": "paragraph",
+      "text": "Comprehensive environmental support – from testing to documentation We offer a wide range of laboratory and consultancy services, including gas and dust emission measurements, physicochemical analysis of wastewater, and comprehensive administrative and legal support in environmental protection. We conduct comprehensive testing and measurements in the workplace and the general environment. We collaborate with a laboratory where we analyse samples collected by us and those provided by our clients. All tests are carried out in accordance with the requirements of the PN-EN ISO/IEC 17025:2018-02 standard, ensuring reliability, timeliness and compliance with applicable regulations. The reliability and compliance of the Laboratory operating within the Company with applicable legal regulations and standards are confirmed by the Research Laboratory Accreditation Certificate No. AB 1302 and Calibration Laboratory Accreditation Certificate No. AP 227."
+    },
+    {
+      "type": "paragraph",
+      "text": "We support maintenance teams with advanced machining services. By creating prototypes, manufacturing worn components, and refurbishing damaged parts, we keep your production downtime to an absolute minimum."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Precision machining and component manufacturing"
+    },
+    {
+      "type": "paragraph",
+      "text": "Precision material processing tailored for the automotive industry. We provide comprehensive CNC machining for metals and plastics, expert welding, and finishing services like screen printing and industrial cleaning. With full quality control, sorting, and rework processes, we guarantee the delivery of flawless components ready for immediate assembly."
+    },
+    {
+      "type": "paragraph",
+      "text": "We seamlessly coordinate initial, periodic, and follow-up employee health examinations. We guarantee efficient service to minimise staff downtime while ensuring full compliance with Labour Code requirements."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Classification and identification of goods"
+    },
+    {
+      "type": "paragraph",
+      "text": "We enter into contracts with employers to provide occupational medicine services. The dates for examinations are agreed in consultation with employers. We have our own laboratory. We guarantee the high quality and reliability of the examinations we carry out. Occupational health clinic open: daily from 6.00 am."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Employment agency, personnel consultancy, career"
+    },
+    {
+      "type": "paragraph",
+      "text": "We act as an intermediary between you and the employee, recruit staff, handle the paperwork (contracts, social security) and assign people to work. In the case of temporary work, the agency becomes the formal employer and pays the wages. This provides you with staffing flexibility and helps employees find work more quickly."
+    },
+    {
+      "type": "paragraph",
+      "text": "We deliver hard data on your infrastructure’s condition. By performing thermal imaging audits, machine stopping time tests, certified electrical measurements, and compressed air leak detection, we generate real savings for your plant."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Measurements and tests of air in the working environment / Noise measurements from machinery and equipment / Electromagnetic field measurements / Lighting measurements"
+    },
+    {
+      "type": "paragraph",
+      "text": "The reliability and compliance of the activities carried out by the Company’s Laboratory with applicable legal regulations and standards are confirmed by the Research Laboratory Accreditation Certificate No. AB 1302 and Calibration Laboratory Accreditation Certificate No. AP 227."
+    },
+    {
+      "type": "paragraph",
+      "text": "We transform regulations into actionable procedures. By developing instructions for particularly hazardous work, conducting occupational risk assessments, and building a strong safety culture, we protect your employees and shield the management board from liability."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Organisational procedures relating to health and safety and environmental protection"
+    },
+    {
+      "type": "paragraph",
+      "text": "To minimise risk, standardise operations and increase work efficiency"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Occupational risk assessment"
+    },
+    {
+      "type": "paragraph",
+      "text": "To ensure the safety and health of employees through systematic assessment of working conditions, identification of hazards and minimisation of their effects. This is a fundamental obligation of the employer under the Labour Code (Section 226)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Instructions for work classified as particularly hazardous"
+    },
+    {
+      "type": "paragraph",
+      "text": "To ensure employee safety, minimise the risk of fatal or serious accidents, and comply with legal requirements under health and safety regulations. Such work (e.g. at height, in tanks, construction work without traffic disruption) carries a significantly higher risk than standard activities and therefore requires special supervision and strict procedures."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Lockout-Tagout"
+    },
+    {
+      "type": "paragraph",
+      "text": "Protect your employees during machinery maintenance. The LOTO system physically locks out energy sources and tags equipment to prevent accidental activation. We implement tailored LOTO procedures with machine-specific instructions, eliminating the risk of serious accidents."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Job safety instructions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Clear safety guidelines perfectly tailored to each specific workstation."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "User guides"
+    },
+    {
+      "type": "paragraph",
+      "text": "Clear, easy-to-follow manuals ensuring the correct use of your machines and tools."
+    },
+    {
+      "type": "paragraph",
+      "text": "We guarantee full compliance with the stringent requirements of the State Fire Service. By developing and updating Fire Safety Instructions (FSI), planning evacuation routes, and advising on optimal firefighting equipment placement, we keep your facility safe."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Fire safety instructions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fire safety instructions (FSI) are prepared to define fire protection rules, evacuation procedures, and technical operating conditions for the building, ensuring the safety of people and property. This document is required by law for buildings of a certain volume or within an explosion hazard zone, as stipulated by the Ministry of the Interior and Administration."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Explosion hazard assessment / Fire protection reports / ATEX compliance assessment"
+    },
+    {
+      "type": "paragraph",
+      "text": "Expert ATEX zone classification and comprehensive explosion risk analysis for dusts, gases, and vapours. We ensure full regulatory compliance and the safe selection of equipment for your facility."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Implementation and internal audits of ISO 45001 (OH&S) and ISO 14001 (Environmental) standards"
+    },
+    {
+      "type": "paragraph",
+      "text": "Expert support in implementing and auditing your OH&S and environmental management systems. We guarantee full compliance with international standards, enhance process safety, and help build your reputation as a responsible business."
+    },
+    {
+      "type": "paragraph",
+      "text": "Chronimy Twoją firmę przed wysokimi karami Inspekcji Transportu Drogowego. Zapewniamy nadzór eksperta ADR, sporządzamy obowiązkowe sprawozdania roczne i doradzamy w zakresie bezpiecznego pakowania, załadunku oraz klasyfikacji towarów."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Comprehensive logistics and training support"
+    },
+    {
+      "type": "paragraph",
+      "text": "Expert supervision of dangerous goods transport and logistics. We guarantee full ADR compliance, reporting, material classification, and staff training to protect your business from accidents and heavy fines."
+    }
+  ]
+}

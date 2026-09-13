@@ -1,0 +1,138 @@
+{
+  "id": "user-manuals-for-machinery-and-equipment",
+  "category": "machinery",
+  "menuLabel": "User manuals for machinery and equipment",
+  "hasPage": true,
+  "title": "User manuals for machinery and equipment",
+  "description": "Manuals, often produced in electronic or traditional formats, allow users to quickly find specific information without having to leaf through lengthy texts.",
+  "sourceUrl": "https://recon.org.pl/en/user-manuals-for-machinery-and-equipment/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "MAIN RECON OBJECTIVES",
+      "text": "The main objectives of creating a user manual from RECON’s perspective:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Manuals, often produced in electronic or traditional formats, allow users to quickly find specific information without having to leaf through lengthy texts."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Safety: Providing information on safe usage rules to prevent accidents.",
+        "Correct operation: Guiding the user step by step to facilitate installation and operation.",
+        "Legal requirements: Providing the required technical documentation, particularly when launching products onto the market.",
+        "Minimising breakdowns: Maintenance tips extend the service life of the equipment.",
+        "Reducing operating costs: Technical support becomes less necessary when the user can find answers in the manual."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "COMPLETE DOCUMENTATION",
+      "text": "Structure of the user manual (What it must contain)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The manual should guide the user through the entire life cycle of the machine:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Title page: Machine name, model, type, CE marking, manufacturer’s details. Introduction/General information: Intended use of the machine, EC Declaration of Conformity (or a copy thereof), original manual (if this is a translation).",
+        "Safety (Health and Safety) – key section: Warnings, pictograms, description of residual risks, required personal protective equipment.",
+        "Technical description: Construction, main components, operating principle, technical parameters (drawings, diagrams).",
+        "Operation: Start-up/shutdown procedures, normal operation, and abnormal situations.",
+        "Decommissioning and disposal."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These instructions usually take the form of Safety Work Instructions (IBWR), which the contractor draws up. Mandatory structure of the instructions"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "CREATION STANDARDS",
+      "text": "Writing guidelines"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Simple language: We avoid technical jargon wherever possible. We write briefly, concisely and unambiguously. Step-by-step structure: Use numbered lists for procedures (1, 2, 3...) and bullet points for features. Tailor to the target audience: Different language for a maintenance technician, different for an operator.",
+        "Visualisation: We use photos, technical drawings and diagrams instead of long descriptions.",
+        "Visibility of warnings: We clearly highlight risks to life or health (e.g. a box, red colour, the word \"DANGER\"). Warning pictograms are essential.",
+        "Standards: Compliance with the new Regulation (EU) 2023/1230 (from 2027) or the Machinery Directive 2006/42/EC. Health and safety content: The instructions must include information on ‘foreseeable misuse’."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "FROM SCRATCH TO PUBLICATION",
+      "text": "Development process (Work stages)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Analysis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Understanding the machine, discussions with its designers and operator."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Sketching"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gathering drawings, diagrams and technical documentation."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Writing"
+    },
+    {
+      "type": "paragraph",
+      "text": "Creating content (ideally whilst testing the machine – this helps to spot errors in the description)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Visualisation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Adding photos/drawings and describing them."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Verification"
+    },
+    {
+      "type": "paragraph",
+      "text": "Having the instructions checked by a third party (e.g. a health and safety officer or another operator)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Publication"
+    },
+    {
+      "type": "paragraph",
+      "text": "PDF format or a printed version included with the device."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "MACHINERY / EQUIPMENT"
+    }
+  ]
+}

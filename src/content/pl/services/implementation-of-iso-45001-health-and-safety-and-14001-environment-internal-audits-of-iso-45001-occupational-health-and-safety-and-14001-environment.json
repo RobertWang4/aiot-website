@@ -1,0 +1,49 @@
+{
+  "id": "implementation-of-iso-45001-health-and-safety-and-14001-environment-internal-audits-of-iso-45001-occupational-health-and-safety-and-14001-environment",
+  "category": "iso",
+  "menuLabel": "Wdrażanie norm ISO45001 (BHP) i 14001 (środowisko) / Audyty wewnetrzne ISO ISO4 5001 (BHP) i 14001 (środowisko)",
+  "hasPage": true,
+  "title": "Wdrażanie norm ISO45001 (BHP) i 14001 (środowisko) / Audyty wewnetrzne ISO ISO4 5001 (BHP) i 14001 (środowisko)",
+  "description": "Wdrożenie norm ISO to strategiczna decyzja, która podnosi prestiż firmy i realnie minimalizuje ryzyka operacyjne.",
+  "sourceUrl": "https://recon.org.pl/wdrazanie-norm-iso45001-bhp-i-14001-srodowisko-audyty-wewnetrzne-iso-iso4-5001-bhp-i-14001-srodowisko/",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "STANDARDY MIĘDZYNARODOWE",
+      "text": "Budowanie kultury bezpieczeństwa i ekologii"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wdrożenie norm ISO to strategiczna decyzja, która podnosi prestiż firmy i realnie minimalizuje ryzyka operacyjne."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ISO 45001 (BHP): Skupiamy się na poprawie bezpieczeństwa pracowników, redukcji liczby wypadków przy pracy oraz eliminowaniu chorób zawodowych poprzez systemowe podejście do zagrożeń.",
+        "ISO 14001 (Środowisko): Zarządzamy aspektami środowiskowymi Twojej firmy, pomagając w optymalizacji zużycia zasobów i ograniczaniu negatywnego wpływu na ekosystem.",
+        "Integracja systemów: Największą efektywność osiągamy poprzez łączenie obu norm w jeden spójny system zarządzania, co upraszcza procedury i obniża koszty administracyjne w Twoim przedsiębiorstwie."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "eyebrow": "CIĄGŁE DOSKONALENIE",
+      "text": "Obiektywna ocena i identyfikacja obszarów poprawy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Audyty przeprowadzamy nie tylko dla formalności, ale przede wszystkim dla realnego rozwoju organizacji:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ocena zgodności: Systematycznie weryfikujemy, czy realne działania firmy są w 100% zgodne z wymaganiami norm oraz wewnętrznymi procedurami.",
+        "Wykrywanie luk: Identyfikujemy obszary wymagające poprawy, zanim doprowadzą one do incydentów lub negatywnych wyników audytu certyfikującego.",
+        "Wsparcie dla kadry zarządzającej: Dostarczamy rzetelnych informacji zwrotnych, które są niezbędne do podejmowania decyzji o kierunkach dalszego rozwoju systemów BHP i ochrony środowiska."
+      ]
+    }
+  ]
+}

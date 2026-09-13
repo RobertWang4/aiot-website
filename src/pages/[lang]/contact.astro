@@ -1,0 +1,16 @@
+---
+import Base from '../../layouts/Base.astro';
+import Blocks from '../../components/Blocks.astro';
+import { LANGS, getPage, site, type Lang } from '../../lib/content';
+export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+const p = getPage(lang, 'contact');
+---
+<Base lang={lang} title={p.title} description={p.description}>
+  <section class="pb-24 pt-36">
+    <Blocks blocks={p.blocks} />
+    <div class="mx-auto mt-12 max-w-3xl px-6">
+      <a href={`mailto:${site.contact.email}`} class="inline-block rounded-full bg-blue px-6 py-3 font-medium text-white">{site.contact.email}</a>
+    </div>
+  </section>
+</Base>

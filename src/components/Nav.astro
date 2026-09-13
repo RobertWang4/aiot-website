@@ -1,0 +1,34 @@
+---
+import { site, otherLang, type Lang } from '../lib/content';
+interface Props { lang: Lang; altHref: string; transparent?: boolean }
+const { lang, altHref, transparent = false } = Astro.props;
+const nav = site.nav[lang];
+const current = Astro.url.pathname;
+---
+<header id="site-nav" class:list={['fixed inset-x-0 top-0 z-50 transition-colors duration-300', transparent ? 'text-white' : 'bg-white/90 backdrop-blur text-ink shadow-sm']} data-transparent={transparent}>
+  <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+    <a href={`/${lang}/`} class="flex items-center gap-3">
+      <img src={site.brand.logo} alt={site.brand.name} class="h-9 rounded bg-white p-1" />
+      <span class="font-semibold tracking-tight">{site.brand.name}</span>
+    </a>
+    <nav class="hidden items-center gap-7 text-sm font-medium md:flex">
+      {nav.map((n) => <a href={n.href} class:list={['hover:text-blue transition', current === n.href && 'text-blue']}>{n.label}</a>)}
+      <a href={altHref} class="rounded-full border border-current/30 px-3 py-1 text-xs uppercase tracking-wider">{otherLang(lang)}</a>
+    </nav>
+    <button id="nav-toggle" class="md:hidden" aria-label="Menu">☰</button>
+  </div>
+  <nav id="nav-mobile" hidden class="flex flex-col gap-4 bg-white px-6 pb-6 text-ink md:hidden">
+    {nav.map((n) => <a href={n.href}>{n.label}</a>)}
+    <a href={altHref} class="text-xs uppercase tracking-wider">{otherLang(lang)}</a>
+  </nav>
+</header>
+<script>
+  const h = document.getElementById('site-nav')!;
+  const m = document.getElementById('nav-mobile')!;
+  document.getElementById('nav-toggle')!.addEventListener('click', () => { m.hidden = !m.hidden; });
+  if (h.dataset.transparent === 'true') {
+    const solid = ['bg-white/90', 'backdrop-blur', 'text-ink', 'shadow-sm'];
+    const onScroll = () => { const on = window.scrollY > 40; solid.forEach((c) => h.classList.toggle(c, on)); h.classList.toggle('text-white', !on); };
+    addEventListener('scroll', onScroll, { passive: true }); onScroll();
+  }
+</script>
