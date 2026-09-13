@@ -7,15 +7,18 @@ const alt = path.replace(`/${lang}/`, `/${otherLang(lang)}/`);
 ---
 <footer class="site-footer">
   <div class="fgrid">
-    <div>
+    <div class="fbrand">
       <span class="chip"><img src={site.brand.logo} alt={site.brand.name} /></span>
       <p>{t(lang,
-        'AIoT P.S.A. — zewnętrzna siła Twojej organizacji. Pełne odciążenie operacyjne, partnerstwo w rozwoju, kultura bezpieczeństwa i pragmatyczne rozwiązania dla przemysłu.',
-        "AIoT P.S.A. — your organisation's external force. Complete operational relief, development partnership, safety culture and pragmatic solutions for industry.")}</p>
+        'Bezpieczeństwo maszyn, BHP, ppoż. i środowisko — dla przemysłu od 2008 roku.',
+        'Machine safety, health and safety, fire and environment — for industry since 2008.')}</p>
     </div>
     <div>
       <h4>{t(lang, 'Nawigacja', 'Navigate')}</h4>
-      <ul>{site.nav[lang].map((n) => <li><a href={n.href}>{n.label}</a></li>)}</ul>
+      <ul>
+        {site.nav[lang].map((n) => <li><a href={n.href}>{n.label}</a></li>)}
+        <li><a href={`/${lang}/safety-culture/`}>{t(lang, 'Kultura bezpieczeństwa', 'Safety culture')}</a></li>
+      </ul>
     </div>
     <div>
       <h4>{t(lang, 'Kontakt', 'Contact')}</h4>
@@ -34,24 +37,32 @@ const alt = path.replace(`/${lang}/`, `/${otherLang(lang)}/`);
 </footer>
 
 <style>
-  .site-footer { background: var(--ink); color: rgba(255, 255, 255, 0.5);
-    padding: clamp(54px, 8vh, 90px) var(--pad) 34px; border-top: 1px solid rgba(255, 255, 255, 0.1); }
-  .fgrid { display: grid; grid-template-columns: 1.6fr 1fr 1fr; gap: clamp(28px, 5vw, 70px); align-items: start; }
-  .fgrid p { font-size: 13.5px; line-height: 1.7; max-width: 34ch; margin-top: 18px; }
-  .fgrid h4 { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.35); font-weight: 600; margin-bottom: 16px; }
-  .fgrid ul { list-style: none; display: flex; flex-direction: column; gap: 9px; font-size: 13.5px;
-    margin: 0; padding: 0; }
-  .fgrid a { transition: color 0.3s var(--ease); }
+  .site-footer {
+    background: var(--navy); color: rgba(255, 255, 255, 0.62);
+    padding: clamp(56px, 8vw, 96px) var(--pad) 30px;
+  }
+  .fgrid {
+    margin: 0 auto; max-width: 1360px;
+    display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: clamp(28px, 5vw, 72px); align-items: start;
+  }
+  .fbrand p { font-size: 13.5px; line-height: 1.7; max-width: 32ch; margin-top: 18px; }
+  .fgrid h4 {
+    font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.45); font-weight: 600; margin-bottom: 16px;
+  }
+  .fgrid ul { list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 13.5px; margin: 0; padding: 0; }
+  .fgrid a { transition: color 0.25s; }
   .fgrid a:hover { color: #fff; }
-  .chip { background: #fff; border-radius: 11px; padding: 6px 9px; line-height: 0;
-    display: inline-block; box-shadow: 0 2px 14px rgba(8, 11, 20, 0.16); }
-  .chip img { height: 30px; width: auto; }
-  .fbot { display: flex; flex-wrap: wrap; gap: 14px; justify-content: space-between;
-    margin-top: clamp(44px, 7vh, 78px); padding-top: 24px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1); font-size: 12px; color: rgba(255, 255, 255, 0.34); }
+  .chip { background: #fff; padding: 7px 10px; line-height: 0; display: inline-block; }
+  .chip img { height: 28px; width: auto; }
+  .fbot {
+    margin: clamp(46px, 7vw, 80px) auto 0; max-width: 1360px;
+    display: flex; flex-wrap: wrap; gap: 14px; justify-content: space-between;
+    padding-top: 22px; border-top: 1px solid rgba(255, 255, 255, 0.16);
+    font-size: 12px; color: rgba(255, 255, 255, 0.45);
+  }
   @media (max-width: 800px) {
     .fgrid { grid-template-columns: 1fr 1fr; }
-    .fgrid > div:first-child { grid-column: 1 / -1; }
+    .fbrand { grid-column: 1 / -1; }
   }
 </style>

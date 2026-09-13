@@ -1,0 +1,71 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import PageHeader from '../../../../components/inner/PageHeader.astro';
+import { categoryPhoto } from '../../../../components/inner/photos';
+import { LANGS, getServiceIndex, getService, sentenceCase, t, type Lang } from '../../../../lib/content';
+
+export const getStaticPaths = () =>
+  LANGS.flatMap((lang) =>
+    getServiceIndex(lang).categories.map((c) => ({ params: { lang, category: c.id }, props: { category: c } })),
+  );
+
+const lang = Astro.params.lang as Lang;
+const { category } = Astro.props;
+const label = sentenceCase(category.label);
+const items = category.services.map((id) => getService(lang, id));
+const intro =
+  items[0]?.description ??
+  items[0]?.blocks.find((b) => b.type === 'paragraph')?.text;
+---
+<Base lang={lang} title={label} description={intro ?? label}>
+  <PageHeader
+    eyebrow={t(lang, 'Oferta', 'Services')}
+    eyebrowHref={`/${lang}/services/`}
+    title={label}
+    lede={intro}
+    image={categoryPhoto(category.id)}
+    alt={label}
+  />
+
+  <section class="sec">
+    <div class="wrap">
+      <ul class="rows">
+        {items.map((s) => (
+          <li class="reveal">
+            {s.hasPage ? (
+              <a href={`/${lang}/services/${s.id}/`} class="row">
+                <span class="row-t">{s.menuLabel ?? s.title}</span>
+                <i class="row-a">→</i>
+              </a>
+            ) : (
+              <span class="row row-plain"><span class="row-t">{s.menuLabel ?? s.title}</span></span>
+            )}
+          </li>
+        ))}
+      </ul>
+      <a href={`/${lang}/contact/`} class="btn btn-p ask">{t(lang, 'Zapytaj o wycenę', 'Ask for a quote')}<i>→</i></a>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .rows { list-style: none; margin: 0; padding: 0; }
+  .rows li { border-top: 1px solid var(--line); }
+  .rows li:last-child { border-bottom: 1px solid var(--line); }
+  .row {
+    display: flex; align-items: center; justify-content: space-between; gap: 24px;
+    padding: clamp(18px, 2.2vw, 26px) 0;
+    transition: padding-left 0.35s var(--ease);
+  }
+  .row-t {
+    font-size: clamp(16px, 1.5vw, 21px); font-weight: 600;
+    letter-spacing: -0.018em; line-height: 1.3; max-width: 52ch;
+  }
+  .row-plain .row-t { font-weight: 400; color: var(--muted); }
+  .row-a { font-style: normal; font-size: 16px; color: var(--blue); opacity: 0; transform: translateX(-6px);
+    transition: opacity 0.3s var(--ease), transform 0.3s var(--ease); }
+  a.row:hover { padding-left: 12px; }
+  a.row:hover .row-t { color: var(--blue); }
+  a.row:hover .row-a { opacity: 1; transform: none; }
+  .ask { margin-top: clamp(36px, 4vw, 56px); }
+</style>

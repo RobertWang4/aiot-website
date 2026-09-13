@@ -23,6 +23,7 @@ src/content/
     services.json           服务分类索引：10 个分类 → 服务 id 列表
     services-page.json      服务总览页文案：blocks[]
     services/<id>.json      每个服务详情页：title / description / blocks[]
+                            （分类页 /services/c/<分类id>/ 和安全文化页 /safety-culture/ 由 services.json 与 home.json 自动生成）
     gallery.json            画廊：blocks[] 里的 image
     clients.json            客户 logo：blocks[] 里的 image
     contact.json            联系页文案：blocks[]
@@ -51,7 +52,9 @@ public/img/                 图片；logo.jpg 是站点 logo
 
 ## 部署
 
-纯静态，`dist/` 可以放到任意静态托管：
+已接 GitHub Pages：推送到 `main` 自动构建发布到 https://robertwang4.github.io/aiot-website/ （工作流在 `.github/workflows/deploy.yml`，子路径由 `astro.config.mjs` 里的 `BASE_PATH` 处理）。
+
+换其他托管也可以，`dist/` 是纯静态：
 
 - **Vercel / Netlify**：导入仓库，框架选 Astro，构建命令 `npm run build`，输出目录 `dist`。
 - **Cloudflare Pages**：同上。
@@ -60,4 +63,4 @@ public/img/                 图片；logo.jpg 是站点 logo
 ## 目录说明
 
 - `scripts/scrape.py` + `scripts/scrape-report.md`：从源站抓取内容的脚本和报告。
-- `demo/`：选型阶段的 4 个风格 demo（industrial / dark-tech / saas / immersive），正式站基于 immersive。
+- `demo/`：选型阶段的 4 个风格 demo（industrial / dark-tech / saas / immersive），仅供参考，正式站是白色简约风。

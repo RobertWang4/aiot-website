@@ -87,3 +87,15 @@ export function listServices(lang: Lang): (Service & { categoryLabel: string })[
 
 export const t = (lang: Lang, pl: string, en: string) => (lang === 'pl' ? pl : en);
 export const otherLang = (lang: Lang): Lang => (lang === 'pl' ? 'en' : 'pl');
+
+/** one category of the service index, by id */
+export const getCategory = (lang: Lang, id: string) =>
+  getServiceIndex(lang).categories.find((c) => c.id === id);
+
+/** scraped labels are ALL CAPS — render them in sentence case, keeping known acronyms */
+const ACRONYMS = new Set(['ISO', 'ADR', 'BHP', 'PPOZ', 'PPOŻ', 'OHS', 'CE', 'ATEX', 'LOTO', 'FSI', 'PCA']);
+export const sentenceCase = (s: string) => {
+  if (s !== s.toUpperCase()) return s;
+  const out = s.replace(/\p{L}+/gu, (w) => (ACRONYMS.has(w) ? w : w.toLocaleLowerCase()));
+  return out.replace(/\p{L}/u, (c) => c.toLocaleUpperCase());
+};

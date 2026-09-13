@@ -2,145 +2,78 @@
 import Base from '../../../layouts/Base.astro';
 import PageHeader from '../../../components/inner/PageHeader.astro';
 import { pagePhoto } from '../../../components/inner/photos';
-import { LANGS, getPage, getServiceIndex, getService, site, t, type Lang } from '../../../lib/content';
+import { LANGS, getPage, getServiceIndex, getService, sentenceCase, t, type Lang } from '../../../lib/content';
 export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
 
 const lang = Astro.params.lang as Lang;
 const p = getPage(lang, 'services');
-const idx = getServiceIndex(lang);
-const cats = idx.categories.map((c) => ({ ...c, items: c.services.map((id) => getService(lang, id)) }));
-const total = cats.reduce((n, c) => n + c.items.length, 0);
+const cats = getServiceIndex(lang).categories.map((c) => {
+  const items = c.services.map((id) => getService(lang, id));
+  return {
+    id: c.id,
+    label: sentenceCase(c.label),
+    count: items.length,
+    lead: sentenceCase(items[0]?.menuLabel ?? items[0]?.title ?? ''),
+  };
+});
 const num = (i: number) => String(i + 1).padStart(2, '0');
+const total = cats.reduce((n, c) => n + c.count, 0);
 ---
-<Base lang={lang} title={p.title} description={p.description} transparentNav>
+<Base lang={lang} title={p.title} description={p.description}>
   <PageHeader
     eyebrow={t(lang, `${cats.length} dziedzin · ${total} usług`, `${cats.length} disciplines · ${total} services`)}
     title={p.title}
     lede={p.description}
     image={pagePhoto.services}
-    alt={t(lang, 'Inżynier przy ramieniu robota w fabryce', 'Engineer working at a robotic arm in a factory')}
+    alt={t(lang, 'Inżynier przy ramieniu robota', 'Engineer at a robotic arm')}
   />
 
-  <div class="bg-paper">
-    <div class="mx-auto grid max-w-[1400px] gap-x-[clamp(32px,6vw,96px)] px-6 pb-[clamp(80px,12vh,150px)] pt-[clamp(56px,9vh,110px)] sm:px-10 lg:grid-cols-[220px_1fr] lg:px-16 xl:px-24">
-      <!-- category rail -->
-      <nav id="cat-rail" class="mb-14 lg:mb-0 lg:sticky lg:top-28 lg:self-start">
-        <p class="mb-5 text-[11px] font-semibold uppercase tracking-[.22em] text-muted">
-          {t(lang, 'Dziedziny', 'Disciplines')}
-        </p>
-        <ul class="flex flex-wrap gap-x-5 gap-y-2 lg:block lg:space-y-[7px]">
-          {cats.map((c, i) => (
-            <li>
-              <a href={`#${c.id}`} data-cat={c.id}
-                 class="group flex items-baseline gap-2 text-[13px] leading-snug text-muted transition-colors hover:text-blue">
-                <span class="text-[10px] tabular-nums text-muted/55 group-hover:text-blue">{num(i)}</span>
-                <span class="cat-label">{c.label}</span>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </nav>
-
-      <!-- categories -->
-      <div>
-        {cats.map((c, i) => (
-          <section id={c.id} class="scroll-mt-28 border-t border-navy/12 pb-[clamp(48px,7vh,88px)] pt-[clamp(34px,5vh,60px)] first:border-t-0 first:pt-0">
-            <div class="reveal flex items-baseline gap-4">
-              <span class="font-display text-[clamp(26px,3vw,42px)] italic leading-none text-blue">{num(i)}</span>
-              <h2 class="text-[clamp(24px,3.1vw,44px)] font-light leading-[1.02] tracking-[-.035em] text-navy">
-                {c.label}
-              </h2>
-            </div>
-            <ul class="mt-[clamp(22px,3vh,38px)]">
-              {c.items.map((s) => (
-                <li class="reveal border-t border-navy/12 last:border-b">
-                  {s.hasPage ? (
-                    <a href={`/${lang}/services/${s.id}/`} class="row group">
-                      <span class="row-title">{s.menuLabel ?? s.title}</span>
-                      <i class="row-arrow">→</i>
-                    </a>
-                  ) : (
-                    <span class="row row-plain"><span class="row-title">{s.menuLabel ?? s.title}</span></span>
-                  )}
-                </li>
-              ))}
-            </ul>
-          </section>
-        ))}
-      </div>
+  <section class="sec">
+    <div class="wrap grid">
+      {cats.map((c, i) => (
+        <a href={`/${lang}/services/c/${c.id}/`} class="cell reveal">
+          <span class="num">{num(i)}</span>
+          <h2>{c.label}</h2>
+          <p>{c.lead}</p>
+          <span class="meta">
+            {c.count} {t(lang, c.count === 1 ? 'usługa' : 'usług', c.count === 1 ? 'service' : 'services')}
+            <i>→</i>
+          </span>
+        </a>
+      ))}
     </div>
-  </div>
-
-  <!-- closing invitation -->
-  <section class="border-t border-navy/12 bg-paper px-6 py-[clamp(56px,9vh,110px)] sm:px-10 lg:px-16 xl:px-24">
-    <div class="reveal flex flex-wrap items-end justify-between gap-8">
-      <h2 class="max-w-[18ch] text-[clamp(24px,3.4vw,48px)] font-light leading-[1.04] tracking-[-.035em] text-navy">
-        {t(lang, 'Nie wiesz, od czego zacząć?', "Not sure where to start?")}
-        <em class="font-display italic font-normal text-blue">{t(lang, 'Zapytaj nas.', 'Just ask.')}</em>
-      </h2>
-      <a href={`/${lang}/contact/`} class="cta">{t(lang, 'Skonsultuj projekt', 'Consult your project')}<i>→</i></a>
-    </div>
-    <p class="mt-6 text-sm text-muted">
-      <a href={`mailto:${site.contact.email}`} class="border-b border-current/30 pb-[2px] hover:text-blue">{site.contact.email}</a>
-      <span class="mx-3 text-muted/40">/</span>
-      <a href={`tel:${site.contact.phone.replace(/\s/g, '')}`} class="border-b border-current/30 pb-[2px] hover:text-blue">{site.contact.phone}</a>
-    </p>
   </section>
 </Base>
 
 <style>
-  .row {
-    display: flex; align-items: center; justify-content: space-between; gap: 24px;
-    padding: clamp(15px, 1.7vh, 21px) 0;
-    transition: padding-left .5s cubic-bezier(.16,1,.3,1);
+  .grid {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    column-gap: clamp(20px, 3vw, 48px);
   }
-  .row-title {
-    font-size: clamp(16px, 1.5vw, 21px);
-    font-weight: 400; letter-spacing: -.015em; line-height: 1.3;
-    color: #0b1b4a;
-    transition: color .35s;
+  .cell {
+    display: flex; flex-direction: column;
+    padding: clamp(26px, 3vw, 40px) 0;
+    border-top: 1px solid var(--line);
+    transition: color 0.25s;
   }
-  .row-plain .row-title { color: #5a6280; }
-  .row-arrow {
-    font-style: normal; font-size: 15px; color: #2f6bff;
-    opacity: 0; transform: translateX(-8px);
-    transition: opacity .4s cubic-bezier(.16,1,.3,1), transform .5s cubic-bezier(.16,1,.3,1);
+  .num { font-size: 12px; font-weight: 600; letter-spacing: 0.1em; color: #b4b9c2; font-variant-numeric: tabular-nums; }
+  .cell h2 {
+    margin: 14px 0 0; font-size: clamp(19px, 1.7vw, 24px); font-weight: 700;
+    letter-spacing: -0.022em; line-height: 1.2; max-width: 18ch;
   }
-  a.row:hover { padding-left: 14px; }
-  a.row:hover .row-title { color: #2f6bff; }
-  a.row:hover .row-arrow { opacity: 1; transform: none; }
-
-  #cat-rail a.active { color: #2f6bff; }
-  #cat-rail a.active .cat-label { border-bottom: 1px solid currentColor; padding-bottom: 2px; }
-
-  .cta {
-    display: inline-flex; align-items: center; gap: 10px;
-    padding: 14px 26px; border-radius: 100px; background: #2f6bff; color: #fff;
-    font-size: 14px; font-weight: 600; white-space: nowrap;
-    box-shadow: 0 10px 34px rgba(47,107,255,.34);
-    transition: transform .45s cubic-bezier(.16,1,.3,1), box-shadow .45s cubic-bezier(.16,1,.3,1);
+  .cell p {
+    margin: 10px 0 0; font-size: 14.5px; line-height: 1.6; color: var(--muted); max-width: 32ch;
+    display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden;
   }
-  .cta i { font-style: normal; transition: transform .45s cubic-bezier(.16,1,.3,1); }
-  .cta:hover { transform: translateY(-2px); box-shadow: 0 16px 44px rgba(47,107,255,.46); }
-  .cta:hover i { transform: translateX(4px); }
+  .meta {
+    display: inline-flex; align-items: center; gap: 8px; margin-top: 18px;
+    font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted);
+    transition: color 0.25s;
+  }
+  .meta i { font-style: normal; transition: transform 0.3s var(--ease); }
+  .cell:hover h2 { color: var(--blue); }
+  .cell:hover .meta { color: var(--blue); }
+  .cell:hover .meta i { transform: translateX(4px); }
+  @media (max-width: 980px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 620px) { .grid { grid-template-columns: 1fr; } .cell p { max-width: none; } }
 </style>
-
-<script>
-  const links = [...document.querySelectorAll<HTMLAnchorElement>('#cat-rail a[data-cat]')];
-  const sections = links.map((a) => document.getElementById(a.dataset.cat!)).filter(Boolean) as HTMLElement[];
-  if (sections.length) {
-    const spy = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((e) => {
-          const link = links.find((a) => a.dataset.cat === e.target.id);
-          if (link && e.isIntersecting) {
-            links.forEach((a) => a.classList.remove('active'));
-            link.classList.add('active');
-          }
-        });
-      },
-      { rootMargin: '-20% 0px -70% 0px' },
-    );
-    sections.forEach((s) => spy.observe(s));
-  }
-</script>

@@ -1,7 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
 import PageHeader from '../../components/inner/PageHeader.astro';
-import { pagePhoto } from '../../components/inner/photos';
 import { LANGS, getPage, t, type Lang, type Block } from '../../lib/content';
 export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
 
@@ -9,30 +8,26 @@ const lang = Astro.params.lang as Lang;
 const p = getPage(lang, 'gallery');
 type ImageBlock = Extract<Block, { type: 'image' }>;
 const images = p.blocks.filter((b): b is ImageBlock => b.type === 'image');
-// the scraped page carries a sub-heading worth keeping as the lede
 const sub = p.blocks.find((b) => b.type === 'heading' && b.text.trim().toLowerCase() !== p.title.trim().toLowerCase());
 const lede = p.description || (sub && sub.type === 'heading' ? sub.text : undefined);
 ---
-<Base lang={lang} title={p.title} description={p.description} transparentNav>
+<Base lang={lang} title={p.title} description={p.description}>
   <PageHeader
-    eyebrow={t(lang, `${images.length} zdjęć z realizacji`, `${images.length} frames from the field`)}
+    eyebrow={t(lang, `${images.length} zdjęć`, `${images.length} photographs`)}
     title={p.title}
     lede={lede}
-    image={pagePhoto.gallery}
-    alt={t(lang, 'Zbliżenie mechanizmu zębatego maszyny', 'Close-up of a machine gear mechanism')}
   />
 
-  <div class="bg-paper px-3 py-3 sm:px-4 sm:py-4">
-    <div class="columns-1 gap-3 sm:columns-2 sm:gap-4 lg:columns-3 xl:columns-4">
+  <section class="sec">
+    <div class="wrap grid">
       {images.map((im, i) => (
         <button class="tile reveal" data-src={im.src} data-alt={im.alt}
                 aria-label={im.alt || t(lang, `Powiększ zdjęcie ${i + 1}`, `Enlarge photo ${i + 1}`)}>
           <img src={im.src} alt={im.alt} loading="lazy" />
-          <span class="tile-idx">{String(i + 1).padStart(2, '0')}</span>
         </button>
       ))}
     </div>
-  </div>
+  </section>
 
   <dialog id="lb">
     <button id="lb-close" aria-label={t(lang, 'Zamknij', 'Close')}>×</button>
@@ -41,44 +36,26 @@ const lede = p.description || (sub && sub.type === 'heading' ? sub.text : undefi
 </Base>
 
 <style>
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(12px, 1.6vw, 22px); }
   .tile {
-    position: relative; display: block; width: 100%;
-    margin-bottom: clamp(12px, 1vw, 16px);
-    overflow: hidden; background: #0b1b4a; cursor: zoom-in;
-    border-radius: 2px; break-inside: avoid;
+    display: block; width: 100%; padding: 0; border: 0; background: #f4f5f7;
+    aspect-ratio: 4 / 3; overflow: hidden; cursor: zoom-in;
   }
-  .tile img {
-    display: block; width: 100%; height: auto;
-    filter: saturate(.72) contrast(1.04);
-    transition: transform 1.1s cubic-bezier(.16,1,.3,1), filter .7s cubic-bezier(.16,1,.3,1);
-  }
-  .tile::after {
-    content: ""; position: absolute; inset: 0;
-    background: linear-gradient(180deg, rgba(8,11,20,0) 45%, rgba(8,11,20,.55) 100%);
-    opacity: 0; transition: opacity .6s cubic-bezier(.16,1,.3,1);
-  }
-  .tile:hover img, .tile:focus-visible img { transform: scale(1.05); filter: saturate(1) contrast(1); }
-  .tile:hover::after, .tile:focus-visible::after { opacity: 1; }
-  .tile-idx {
-    position: absolute; z-index: 2; left: 14px; bottom: 12px;
-    font-family: var(--font-display, 'Instrument Serif', Georgia, serif);
-    font-style: italic; font-size: 20px; line-height: 1; color: #fff;
-    opacity: 0; transform: translateY(6px);
-    transition: opacity .5s cubic-bezier(.16,1,.3,1), transform .5s cubic-bezier(.16,1,.3,1);
-  }
-  .tile:hover .tile-idx, .tile:focus-visible .tile-idx { opacity: 1; transform: none; }
+  .tile img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.7s var(--ease); }
+  .tile:hover img, .tile:focus-visible img { transform: scale(1.04); }
+  @media (max-width: 900px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 560px) { .grid { grid-template-columns: 1fr; } }
 
   #lb {
-    width: min(94vw, 1500px); max-width: none;
-    max-height: 94vh; padding: 0; border: 0; background: transparent;
-    overflow: visible;
+    width: min(94vw, 1400px); max-width: none; max-height: 92vh;
+    padding: 0; border: 0; background: transparent; overflow: visible;
   }
-  #lb::backdrop { background: rgba(8,11,20,.93); backdrop-filter: blur(6px); }
-  #lb img { display: block; width: 100%; max-height: 94vh; object-fit: contain; }
+  #lb::backdrop { background: rgba(17, 18, 20, 0.88); }
+  #lb img { width: 100%; max-height: 92vh; object-fit: contain; }
   #lb-close {
-    position: absolute; top: -38px; right: 0;
-    font-size: 30px; line-height: 1; color: rgba(255,255,255,.7);
-    background: none; border: 0; cursor: pointer; transition: color .3s;
+    position: absolute; top: -36px; right: 0;
+    font-size: 28px; line-height: 1; color: rgba(255, 255, 255, 0.75);
+    background: none; border: 0; cursor: pointer; transition: color 0.25s;
   }
   #lb-close:hover { color: #fff; }
   @media (max-width: 640px) { #lb-close { top: 6px; right: 8px; color: #fff; } }

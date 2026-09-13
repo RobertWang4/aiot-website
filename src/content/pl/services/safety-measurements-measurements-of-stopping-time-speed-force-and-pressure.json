@@ -4,7 +4,7 @@
   "menuLabel": "Pomiary bezpieczeństwa – pomiary czasu zatrzymania, prędkości, siły i ciśnienia",
   "hasPage": true,
   "title": "Pomiary bezpieczeństwa – pomiary czasu zatrzymania, prędkości, siły i ciśnienia",
-  "description": "Głównym celem wszystkich pomiarów jest zminimalizowanie ryzyka poważnych obrażeń. Twardo weryfikujemy, czy maszyna całkowicie się zatrzyma, zanim ręka…",
+  "description": "Głównym celem wszystkich pomiarów jest zminimalizowanie ryzyka poważnych obrażeń.",
   "sourceUrl": "https://recon.org.pl/pomiary-bezpieczenstwa-pomiary-czasu-zatrzymania-predkosci-sily-i-cisnienia/",
   "blocks": [
     {

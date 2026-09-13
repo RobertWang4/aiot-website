@@ -1,102 +1,51 @@
 ---
-/**
- * Cinematic page header: full-bleed photograph, navy scrim, bottom-set type.
- * The last word of the title is set in italic serif (single-word titles are
- * set entirely in italic) unless `accent="none"`.
- */
+/** Light page header: white type block, then an optional full-width photo band. */
 interface Props {
   eyebrow?: string;
   eyebrowHref?: string;
   title: string;
   lede?: string;
-  image: string;
+  image?: string;
   alt?: string;
-  accent?: 'auto' | 'none';
 }
-const { eyebrow, eyebrowHref, title, lede, image, alt = '', accent = 'auto' } = Astro.props;
-const words = title.trim().split(/\s+/);
-const single = words.length === 1;
-const lead = accent === 'none' || single ? (accent === 'none' ? title : '') : words.slice(0, -1).join(' ');
-const tail = accent === 'none' ? '' : single ? title : words[words.length - 1];
+const { eyebrow, eyebrowHref, title, lede, image, alt = '' } = Astro.props;
 ---
 <header class="ph">
-  <img src={image} alt={alt} class="ph-shot" />
-  <div class="ph-scrim"></div>
-  <div class="ph-in px-6 sm:px-10 lg:px-16 xl:px-24">
+  <div class="ph-in wrap">
     {eyebrow && (
       <p class="ph-eyebrow reveal">
         {eyebrowHref ? <a href={eyebrowHref}>{eyebrow}</a> : eyebrow}
       </p>
     )}
-    <h1 class="ph-title reveal" style="transition-delay:.08s">
-      {lead}{lead && tail ? ' ' : ''}{tail && <em>{tail}</em>}
-    </h1>
-    {lede && <p class="ph-lede reveal" style="transition-delay:.16s">{lede}</p>}
+    <h1 class="ph-title reveal">{title}</h1>
+    {lede && <p class="ph-lede reveal">{lede}</p>}
     <slot />
   </div>
 </header>
+{image && (
+  <div class="ph-band">
+    <img src={image} alt={alt} />
+  </div>
+)}
 
 <style>
-  .ph {
-    position: relative;
-    display: flex;
-    align-items: flex-end;
-    min-height: 62vh;
-    overflow: hidden;
-    background: #080b14;
-  }
-  @media (min-width: 768px) { .ph { min-height: 68vh; } }
-  .ph-shot {
-    position: absolute; inset: 0;
-    width: 100%; height: 100%;
-    object-fit: cover; opacity: .92;
-    animation: ph-kb 24s cubic-bezier(.16, 1, .3, 1) forwards;
-  }
-  @keyframes ph-kb {
-    from { transform: scale(1.12) translate3d(1.5%, 1%, 0); }
-    to { transform: none; }
-  }
-  .ph-scrim {
-    position: absolute; inset: 0;
-    background:
-      linear-gradient(180deg, rgba(8,11,20,.74) 0%, rgba(8,11,20,.2) 36%, rgba(8,11,20,.62) 76%, rgba(8,11,20,.95) 100%),
-      linear-gradient(96deg, rgba(11,27,74,.86) 0%, rgba(11,27,74,.1) 66%);
-  }
-  .ph-in {
-    position: relative; z-index: 2;
-    width: 100%;
-    padding-top: clamp(120px, 18vh, 200px);
-    padding-bottom: clamp(44px, 8vh, 92px);
-  }
+  .ph { border-bottom: 1px solid var(--line); }
+  .ph-in { padding-block: clamp(56px, 9vw, 140px); }
   .ph-eyebrow {
-    font-size: 11px; font-weight: 600;
-    letter-spacing: .22em; text-transform: uppercase;
-    color: #9fbbff;
+    font-size: 11px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--muted); margin: 0 0 20px;
   }
-  .ph-eyebrow a { border-bottom: 1px solid rgba(159,187,255,.4); padding-bottom: 2px; transition: color .3s; }
-  .ph-eyebrow a:hover { color: #fff; }
+  .ph-eyebrow a { border-bottom: 1px solid var(--line); padding-bottom: 3px; transition: color 0.25s, border-color 0.25s; }
+  .ph-eyebrow a:hover { color: var(--blue); border-color: var(--blue); }
   .ph-title {
-    margin: 18px 0 0;
-    max-width: 17ch;
-    color: #fff;
-    font-weight: 300;
-    letter-spacing: -.035em;
-    line-height: .98;
-    font-size: clamp(36px, 6.2vw, 92px);
-    text-wrap: balance;
-  }
-  .ph-title em {
-    font-family: var(--font-display, 'Instrument Serif', Georgia, serif);
-    font-style: italic; font-weight: 400;
-    letter-spacing: -.01em;
-    color: #bfd1ff;
+    margin: 0; max-width: 19ch;
+    font-size: clamp(34px, 5.2vw, 72px); font-weight: 700;
+    letter-spacing: -0.035em; line-height: 1.03; text-wrap: balance;
   }
   .ph-lede {
-    margin-top: 24px;
-    max-width: 54ch;
-    color: rgba(255,255,255,.74);
-    font-size: clamp(15px, 1.35vw, 19px);
-    line-height: 1.62;
+    margin: 26px 0 0; max-width: 62ch; color: var(--muted);
+    font-size: clamp(15.5px, 1.2vw, 18px); line-height: 1.65;
   }
-  @media (prefers-reduced-motion: reduce) { .ph-shot { animation: none; } }
+  .ph-band { height: clamp(280px, 46vw, 640px); overflow: hidden; background: #f4f5f7; }
+  .ph-band img { width: 100%; height: 100%; object-fit: cover; }
 </style>

@@ -4,7 +4,7 @@
   "menuLabel": "Audyty bezpieczeństwa maszyn, linii produkcyjnych (zespołu maszyn) i urządzeń;",
   "hasPage": true,
   "title": "Audyty bezpieczeństwa maszyn, linii produkcyjnych (zespołu maszyn) i urządzeń",
-  "description": "Inwentaryzacja: Tworzymy wykaz maszyn, nadajemy identyfikatory i przypisujemy do linii. Przegląd dokumentacji: Analizujemy DTR, schematy, deklaracje CE i…",
+  "description": "Inwentaryzacja: Tworzymy wykaz maszyn, nadajemy identyfikatory i przypisujemy do linii.",
   "sourceUrl": "https://recon.org.pl/audyty-bezpieczenstwa-maszyn-linii-produkcyjnych-zespolu-maszyn-i-urzadzen/",
   "blocks": [
     {

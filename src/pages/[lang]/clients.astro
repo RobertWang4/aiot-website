@@ -16,21 +16,21 @@ const name = (src: string) =>
     .replace(/[-_]+/g, ' ')
     .trim();
 ---
-<Base lang={lang} title={p.title} description={p.description} transparentNav>
+<Base lang={lang} title={p.title} description={p.description}>
   <PageHeader
     eyebrow={t(lang, `${logos.length} organizacji`, `${logos.length} organisations`)}
     title={p.title}
     lede={t(
       lang,
-      'Zakłady produkcyjne, laboratoria i centra logistyczne, które powierzyły nam bezpieczeństwo swoich ludzi i maszyn.',
-      'Manufacturing plants, laboratories and logistics centres that trusted us with the safety of their people and their machines.',
+      'Zakłady produkcyjne, laboratoria i centra logistyczne.',
+      'Manufacturing plants, laboratories and logistics centres.',
     )}
     image={pagePhoto.clients}
     alt={t(lang, 'Zespół inżynierów na hali produkcyjnej', 'Engineering team on the shop floor')}
   />
 
-  <section class="bg-paper px-6 py-[clamp(56px,9vh,110px)] sm:px-10 lg:px-16 xl:px-24">
-    <div class="grid grid-cols-2 gap-px border border-navy/12 bg-navy/12 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6">
+  <section class="sec">
+    <div class="wrap grid">
       {logos.map((l) => (
         <div class="cell reveal" title={l.alt || name(l.src)}>
           <img src={l.src} alt={l.alt || name(l.src)} loading="lazy" />
@@ -41,20 +41,21 @@ const name = (src: string) =>
 </Base>
 
 <style>
+  .grid {
+    display: grid; grid-template-columns: repeat(6, 1fr);
+    border-top: 1px solid var(--line); border-left: 1px solid var(--line);
+  }
   .cell {
     display: flex; align-items: center; justify-content: center;
-    aspect-ratio: 16 / 10;
-    padding: clamp(16px, 2.2vw, 30px);
-    background: #fff;
-    transition: background .5s cubic-bezier(.16,1,.3,1);
+    aspect-ratio: 16 / 10; padding: clamp(14px, 2vw, 26px);
+    border-right: 1px solid var(--line); border-bottom: 1px solid var(--line);
   }
   .cell img {
-    max-width: 100%; max-height: 100%;
-    width: auto; height: auto;
-    object-fit: contain;
-    mix-blend-mode: multiply;
-    filter: grayscale(1) opacity(.55) contrast(.96);
-    transition: filter .5s cubic-bezier(.16,1,.3,1), transform .6s cubic-bezier(.16,1,.3,1);
+    max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain;
+    mix-blend-mode: multiply; filter: grayscale(1) opacity(0.55);
+    transition: filter 0.35s;
   }
-  .cell:hover img { filter: none; transform: scale(1.04); }
+  .cell:hover img { filter: none; }
+  @media (max-width: 1100px) { .grid { grid-template-columns: repeat(4, 1fr); } }
+  @media (max-width: 700px) { .grid { grid-template-columns: repeat(2, 1fr); } }
 </style>
