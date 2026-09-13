@@ -52,10 +52,12 @@ const lede = dup ? undefined : s.description;
   .crumb {
     display: flex; align-items: center; gap: 9px; flex-wrap: wrap;
     padding-top: clamp(24px, 3vw, 40px);
-    font-size: 12px; font-weight: 600; letter-spacing: 0.06em; color: var(--muted);
+    font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--faint);
   }
+  .crumb a { transition: color 0.2s; }
   .crumb a:hover { color: var(--blue); }
-  .crumb span { color: #c7cbd2; }
+  .crumb span { color: var(--line); }
 
   .layout {
     display: grid; grid-template-columns: minmax(0, 1fr) 240px;
@@ -64,30 +66,30 @@ const lede = dup ? undefined : s.description;
     align-items: start;
   }
   .title {
-    margin: 0; max-width: 22ch;
-    font-size: clamp(28px, 3.6vw, 46px); font-weight: 700;
-    letter-spacing: -0.032em; line-height: 1.08; text-wrap: balance;
+    margin: 0; max-width: 22ch; font-family: var(--display);
+    font-size: clamp(30px, 3.8vw, 52px); font-weight: 700;
+    letter-spacing: -0.025em; line-height: 1.04; text-wrap: balance;
   }
-  .lede { margin: 20px 0 0; max-width: 68ch; font-size: clamp(16px, 1.2vw, 18px); line-height: 1.65; color: var(--muted); }
+  .lede { margin: 24px 0 0; max-width: 52ch; font-size: clamp(17px, 1.4vw, 20px); line-height: 1.6; color: var(--muted); }
   .body { margin-top: clamp(32px, 4vw, 52px); max-width: 68ch; }
   .ask { margin-top: clamp(36px, 4vw, 56px); }
 
   aside { position: sticky; top: calc(var(--nav-h) + 24px); }
   .aside-h {
-    margin: 0 0 16px; font-size: 11px; font-weight: 600;
-    letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted);
+    margin: 0 0 18px; font-family: var(--mono); font-size: 12px; font-weight: 400;
+    letter-spacing: 0.12em; text-transform: uppercase; color: var(--faint);
   }
   aside ul { list-style: none; margin: 0; padding: 0; }
   aside li { border-top: 1px solid var(--line); }
   aside li:last-child { border-bottom: 1px solid var(--line); }
-  .sib { display: block; padding: 11px 0; font-size: 13.5px; line-height: 1.4; color: var(--muted); transition: color 0.25s; }
+  .sib { display: block; padding: 11px 0; font-size: 14px; line-height: 1.45; color: var(--muted); transition: color 0.2s; }
   .sib:hover { color: var(--blue); }
-  .sib.here { color: var(--ink); font-weight: 700; }
+  .sib.here { color: var(--ink); font-weight: 600; }
   .back {
     display: inline-block; margin-top: 22px; padding-bottom: 3px;
     border-bottom: 1px solid var(--line);
-    font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted);
-    transition: color 0.25s, border-color 0.25s;
+    font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--faint); transition: color 0.2s, border-color 0.2s;
   }
   .back:hover { color: var(--blue); border-color: var(--blue); }
 

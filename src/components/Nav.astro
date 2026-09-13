@@ -44,34 +44,35 @@ const links = nav.filter((n) => n.id !== 'home' && n.id !== 'contact');
   }
   .brand { display: flex; align-items: center; gap: 11px; flex: none; }
   .brand img { height: 26px; width: auto; }
-  .brand span { font-size: 14px; font-weight: 800; letter-spacing: -0.01em; color: var(--ink); }
+  .brand span { font-family: var(--display); font-size: 16px; font-weight: 700; letter-spacing: -0.02em; color: var(--ink); }
 
   .navlinks { margin-left: auto; display: flex; align-items: center; gap: clamp(16px, 2vw, 34px); }
-  .navlink { font-size: 13.5px; font-weight: 500; color: var(--ink); position: relative; white-space: nowrap; }
+  .navlink { font-size: 15px; font-weight: 500; color: var(--ink); position: relative; white-space: nowrap; }
   .navlink::after {
     content: ''; position: absolute; left: 0; right: 0; bottom: -5px; height: 1px;
     background: var(--blue); transform: scaleX(0); transform-origin: left;
-    transition: transform 0.3s var(--ease);
+    transition: transform 200ms ease-out;
   }
   .navlink:hover { color: var(--blue); }
   .navlink:hover::after, .navlink.current::after { transform: scaleX(1); }
   .navlink.current { color: var(--blue); }
   .lang {
-    text-transform: uppercase; letter-spacing: 0.14em; font-size: 11px; font-weight: 700;
-    color: var(--muted);
+    font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.12em;
+    font-size: 12px; font-weight: 500; color: var(--faint);
   }
-  .lang:hover { color: var(--ink); }
+  .lang:hover { color: var(--blue); }
   .navcta {
-    border: 1px solid var(--ink); padding: 9px 20px; font-size: 13px; font-weight: 600;
-    transition: background 0.25s, color 0.25s, border-color 0.25s;
+    border: 1px solid var(--ink); border-radius: var(--r-md);
+    padding: 10px 20px; font-size: 14px; font-weight: 600;
+    transition: color 0.2s, border-color 0.2s;
   }
-  .navcta:hover { background: var(--blue); border-color: var(--blue); color: #fff; }
+  .navcta:hover { border-color: var(--blue); color: var(--blue); }
 
   .navtoggle {
     display: none; margin-left: auto; background: none; border: 0; cursor: pointer;
     width: 30px; height: 24px; flex-direction: column; justify-content: center; gap: 6px; padding: 0;
   }
-  .navtoggle span { display: block; height: 1.5px; width: 22px; background: var(--ink); transition: transform 0.3s var(--ease); }
+  .navtoggle span { display: block; height: 1.5px; width: 22px; background: var(--ink); transition: transform 200ms ease-out; }
   .navtoggle[aria-expanded='true'] span:first-child { transform: translateY(3.75px) rotate(45deg); }
   .navtoggle[aria-expanded='true'] span:last-child { transform: translateY(-3.75px) rotate(-45deg); }
 
@@ -81,9 +82,12 @@ const links = nav.filter((n) => n.id !== 'home' && n.id !== 'contact');
     padding: 4px var(--pad) 18px;
   }
   .navmobile a {
-    font-size: 16px; font-weight: 500; padding: 13px 0; border-bottom: 1px solid var(--line);
+    font-size: 17px; font-weight: 500; padding: 13px 0; border-bottom: 1px solid var(--line);
   }
-  .navmobile a:last-child { border-bottom: 0; color: var(--muted); font-size: 12px; letter-spacing: 0.14em; }
+  .navmobile a:last-child {
+    border-bottom: 0; color: var(--faint);
+    font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em;
+  }
 
   @media (max-width: 900px) {
     .navlinks { display: none; }

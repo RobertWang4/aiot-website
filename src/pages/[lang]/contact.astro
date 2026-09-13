@@ -83,27 +83,33 @@ const subject = encodeURIComponent(t(lang, 'Zapytanie ze strony', 'Enquiry from 
   dl { margin: 26px 0 0; }
   dl > div { border-top: 1px solid var(--line); padding: 22px 0; }
   dl > div:last-child { border-bottom: 1px solid var(--line); }
-  dt { font-size: 11px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); }
+  dt {
+    font-family: var(--mono); font-size: 12px; font-weight: 400;
+    letter-spacing: 0.12em; text-transform: uppercase; color: var(--faint);
+  }
   dd { margin: 12px 0 0; }
   .big {
     display: inline-block;
-    font-size: clamp(17px, 1.7vw, 23px); font-weight: 700; letter-spacing: -0.024em; line-height: 1.25;
-    transition: color 0.25s;
+    font-family: var(--display); font-size: clamp(18px, 1.7vw, 24px); font-weight: 700;
+    letter-spacing: -0.02em; line-height: 1.2; transition: color 0.2s;
   }
   .big:hover { color: var(--blue); }
 
   form { margin-top: 26px; }
   .field + .field { margin-top: 24px; }
-  label { display: block; font-size: 11px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); }
+  label {
+    display: block; font-family: var(--mono); font-size: 12px; font-weight: 400;
+    letter-spacing: 0.12em; text-transform: uppercase; color: var(--faint);
+  }
   input, textarea {
     margin-top: 8px; width: 100%;
     border: 0; border-bottom: 1px solid var(--line); background: transparent;
     padding: 11px 0; font: inherit; font-size: 16px; color: var(--ink);
-    outline: none; transition: border-color 0.25s;
+    transition: border-color 0.2s;
   }
   textarea { resize: vertical; }
-  input::placeholder, textarea::placeholder { color: #b4b9c2; }
-  input:focus, textarea:focus { border-color: var(--blue); }
-  form .btn { margin-top: 30px; border: 0; cursor: pointer; font: inherit; font-size: 14px; font-weight: 600; }
-  .note { margin: 14px 0 0; font-size: 12.5px; color: var(--muted); }
+  input::placeholder, textarea::placeholder { color: var(--faint); }
+  input:focus, textarea:focus { border-color: var(--ink); }
+  form .btn { margin-top: 32px; cursor: pointer; font: inherit; font-size: 15px; font-weight: 600; }
+  .note { margin: 16px 0 0; font-size: 14px; color: var(--muted); }
 </style>

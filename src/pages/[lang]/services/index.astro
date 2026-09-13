@@ -33,7 +33,7 @@ const total = cats.reduce((n, c) => n + c.count, 0);
       {cats.map((c, i) => (
         <a href={`/${lang}/services/c/${c.id}/`} class="cell reveal">
           <span class="num">{num(i)}</span>
-          <h2>{c.label}</h2>
+          <h2 class="h3">{c.label}</h2>
           <p>{c.lead}</p>
           <span class="meta">
             {c.count} {t(lang, c.count === 1 ? 'usługa' : 'usług', c.count === 1 ? 'service' : 'services')}
@@ -54,26 +54,26 @@ const total = cats.reduce((n, c) => n + c.count, 0);
     display: flex; flex-direction: column;
     padding: clamp(26px, 3vw, 40px) 0;
     border-top: 1px solid var(--line);
-    transition: color 0.25s;
+    transition: color 0.2s;
   }
-  .num { font-size: 12px; font-weight: 600; letter-spacing: 0.1em; color: #b4b9c2; font-variant-numeric: tabular-nums; }
-  .cell h2 {
-    margin: 14px 0 0; font-size: clamp(19px, 1.7vw, 24px); font-weight: 700;
-    letter-spacing: -0.022em; line-height: 1.2; max-width: 18ch;
+  .num {
+    font-family: var(--mono); font-size: 12px; font-weight: 500; letter-spacing: 0.12em;
+    color: var(--faint); font-variant-numeric: tabular-nums;
   }
+  .cell h2 { margin: 14px 0 0; max-width: 18ch; }
   .cell p {
-    margin: 10px 0 0; font-size: 14.5px; line-height: 1.6; color: var(--muted); max-width: 32ch;
+    margin: 10px 0 0; font-size: 15px; line-height: 1.6; color: var(--muted); max-width: 32ch;
     display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden;
   }
   .meta {
-    display: inline-flex; align-items: center; gap: 8px; margin-top: 18px;
-    font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted);
-    transition: color 0.25s;
+    display: inline-flex; align-items: center; gap: 8px; margin-top: auto; padding-top: 18px;
+    font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--faint); transition: color 0.2s;
   }
-  .meta i { font-style: normal; transition: transform 0.3s var(--ease); }
+  .meta i { font-style: normal; }
   .cell:hover h2 { color: var(--blue); }
+  .cell:hover .num { color: var(--blue); }
   .cell:hover .meta { color: var(--blue); }
-  .cell:hover .meta i { transform: translateX(4px); }
   @media (max-width: 980px) { .grid { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 620px) { .grid { grid-template-columns: 1fr; } .cell p { max-width: none; } }
 </style>

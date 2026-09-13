@@ -28,12 +28,13 @@ const areas = AREAS.map((a) => ({ ...a, href: `/${lang}/services/c/${a.categorie
 const hero = '/img/gallery/robot-welding-technology-in-factory-2026-01-08-00-11-27-utc.jpg';
 ---
 <Base lang={lang} title={h.title} description={h.description}>
-  <!-- hero band -->
+  <!-- hero -->
   <section class="hero">
     <img src={hero} alt={t(lang, 'Zrobotyzowane stanowisko spawalnicze', 'Robotic welding cell')} />
     <div class="hero-veil"></div>
     <div class="hero-in wrap">
-      <h1 class="hero-title">{h.hero.headline}</h1>
+      <h1 class="h1 hero-title">{h.hero.headline}</h1>
+      <p class="hero-lede">{t(lang, 'Bezpieczeństwo, zgodność i ludzie — od 2008 roku.', 'Safety, compliance and people — since 2008.')}</p>
       <a href={`/${lang}/contact/`} class="btn btn-p">{t(lang, 'Porozmawiajmy', "Let's talk")}<i>→</i></a>
     </div>
   </section>
@@ -43,7 +44,7 @@ const hero = '/img/gallery/robot-welding-technology-in-factory-2026-01-08-00-11-
     <div class="wrap creds-grid">
       {credentials.map((c) => (
         <div class="cred">
-          <p class="cred-k">{c.k}</p>
+          <p class="eyebrow">{c.k}</p>
           <p class="cred-v">{c.v}</p>
         </div>
       ))}
@@ -53,36 +54,41 @@ const hero = '/img/gallery/robot-welding-technology-in-factory-2026-01-08-00-11-
   <!-- what we do -->
   <section class="sec">
     <div class="wrap">
-      <div class="head reveal">
-        <p class="eyebrow">{t(lang, 'Zakres', 'What we do')}</p>
+      <div class="sechead reveal">
+        <span class="secnum">01</span>
         <h2 class="h2">{t(lang, 'Trzy obszary, dziesięć dziedzin.', 'Three areas, ten disciplines.')}</h2>
       </div>
       <div class="tiles">
         {areas.map((a) => (
           <a href={a.href} class="tile reveal">
             <span class="tile-shot"><img src={a.photo} alt="" loading="lazy" /></span>
-            <h3>{a.title(lang)}</h3>
+            <h3 class="h3">{a.title(lang)}</h3>
             <p>{a.line(lang)}</p>
             <span class="tile-more">{t(lang, 'Zobacz', 'View')}<i>→</i></span>
           </a>
         ))}
       </div>
-      <a href={`/${lang}/services/`} class="all">{t(lang, 'Cała oferta', 'All services')}<i>→</i></a>
+      <a href={`/${lang}/services/`} class="ul all">{t(lang, 'Cała oferta', 'All services')}<i>→</i></a>
     </div>
   </section>
 
   <!-- about teaser -->
   <section class="about">
-    <div class="wrap about-in reveal">
-      <p class="eyebrow">{t(lang, 'O nas', 'About us')}</p>
-      <p class="about-line">{t(
-        lang,
-        'Od 2008 roku prowadzimy zakłady przemysłowe przez bezpieczeństwo maszyn, BHP i kulturę bezpieczeństwa.',
-        'Since 2008 we have guided industrial plants through machine safety, OHS and safety culture.',
-      )}</p>
-      <div class="about-links">
-        <a href={`/${lang}/about/`} class="ul">{t(lang, 'O firmie', 'About us')}<i>→</i></a>
-        <a href={`/${lang}/safety-culture/`} class="ul">{t(lang, 'Kultura bezpieczeństwa', 'Safety culture')}<i>→</i></a>
+    <div class="wrap">
+      <div class="sechead reveal">
+        <span class="secnum">02</span>
+        <h2 class="h2">{t(lang, 'O nas', 'About us')}</h2>
+      </div>
+      <div class="reveal">
+        <p class="about-line">{t(
+          lang,
+          'Od 2008 roku prowadzimy zakłady przemysłowe przez bezpieczeństwo maszyn, BHP i kulturę bezpieczeństwa.',
+          'Since 2008 we have guided industrial plants through machine safety, OHS and safety culture.',
+        )}</p>
+        <div class="about-links">
+          <a href={`/${lang}/about/`} class="ul">{t(lang, 'O firmie', 'About us')}<i>→</i></a>
+          <a href={`/${lang}/safety-culture/`} class="ul">{t(lang, 'Kultura bezpieczeństwa', 'Safety culture')}<i>→</i></a>
+        </div>
       </div>
     </div>
   </section>
@@ -90,14 +96,14 @@ const hero = '/img/gallery/robot-welding-technology-in-factory-2026-01-08-00-11-
   <!-- clients -->
   <section class="sec clients">
     <div class="wrap">
-      <div class="head reveal">
-        <p class="eyebrow">{t(lang, 'Zaufali nam', 'Trusted by')}</p>
-        <h2 class="h2">{t(lang, `${allLogos.length} organizacji`, `${allLogos.length} organisations`)}</h2>
+      <div class="sechead reveal">
+        <span class="secnum">03</span>
+        <h2 class="h2">{t(lang, `Zaufało nam ${allLogos.length} organizacji.`, `Trusted by ${allLogos.length} organisations.`)}</h2>
       </div>
       <div class="logos reveal">
         {logos.map((l) => <span class="logo"><img src={l.src} alt={l.alt} loading="lazy" /></span>)}
       </div>
-      <a href={`/${lang}/clients/`} class="all">{t(lang, 'Wszyscy klienci', 'All clients')}<i>→</i></a>
+      <a href={`/${lang}/clients/`} class="ul all">{t(lang, 'Wszyscy klienci', 'All clients')}<i>→</i></a>
     </div>
   </section>
 
@@ -111,26 +117,32 @@ const hero = '/img/gallery/robot-welding-technology-in-factory-2026-01-08-00-11-
 </Base>
 
 <style>
-  /* hero */
-  .hero { position: relative; height: clamp(460px, 78vh, 820px); overflow: hidden; background: #f4f5f7; }
+  /* hero — full-bleed photograph, text overlaid bottom-left */
+  .hero { position: relative; height: clamp(480px, 80vh, 860px); overflow: hidden; background: var(--surface); }
   .hero > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
   .hero-veil {
     position: absolute; inset: 0;
-    background: linear-gradient(100deg, rgba(255, 255, 255, 0.96) 0%, rgba(255, 255, 255, 0.88) 34%, rgba(255, 255, 255, 0.1) 74%, rgba(255, 255, 255, 0) 100%);
+    background:
+      linear-gradient(90deg, rgba(14, 17, 22, 0.55) 0%, rgba(14, 17, 22, 0.55) 42%, rgba(14, 17, 22, 0.3) 68%, rgba(14, 17, 22, 0) 100%),
+      linear-gradient(0deg, rgba(14, 17, 22, 0.55) 0%, rgba(14, 17, 22, 0.3) 38%, rgba(14, 17, 22, 0) 70%);
   }
   .hero-in {
     position: relative; z-index: 2; height: 100%;
-    display: flex; flex-direction: column; justify-content: center; align-items: flex-start;
-    gap: clamp(30px, 4vw, 46px);
+    display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-start;
+    padding-bottom: clamp(40px, 6vw, 88px);
+    color: #fff;
   }
-  .hero-title {
-    margin: 0; max-width: 15ch;
-    font-size: clamp(34px, 5.4vw, 76px); font-weight: 700;
-    letter-spacing: -0.036em; line-height: 1.02; text-wrap: balance;
+  .hero-title { max-width: 16ch; color: #fff; text-wrap: balance; }
+  .hero-lede {
+    margin: clamp(18px, 2vw, 26px) 0 0; max-width: 44ch;
+    font-size: clamp(17px, 1.4vw, 20px); line-height: 1.55; color: rgba(255, 255, 255, 0.9);
   }
+  .hero .btn { margin-top: clamp(26px, 3vw, 40px); }
   @media (max-width: 700px) {
-    .hero { height: clamp(420px, 64vh, 560px); }
-    .hero-veil { background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.93) 55%, rgba(255, 255, 255, 0.72) 100%); }
+    .hero { height: clamp(460px, 74vh, 620px); }
+    .hero-veil {
+      background: linear-gradient(0deg, rgba(14, 17, 22, 0.72) 0%, rgba(14, 17, 22, 0.45) 45%, rgba(14, 17, 22, 0.12) 100%);
+    }
     .hero-title { max-width: none; }
   }
 
@@ -138,18 +150,14 @@ const hero = '/img/gallery/robot-welding-technology-in-factory-2026-01-08-00-11-
   .creds { border-bottom: 1px solid var(--line); }
   .creds-grid { display: grid; grid-template-columns: repeat(4, 1fr); }
   .cred {
-    padding: clamp(24px, 2.6vw, 38px) clamp(16px, 2vw, 34px) clamp(24px, 2.6vw, 38px) 0;
+    padding: clamp(24px, 2.6vw, 34px) clamp(16px, 2vw, 32px) clamp(24px, 2.6vw, 34px) 0;
     border-right: 1px solid var(--line);
   }
   .cred:last-child { border-right: 0; }
-  .cred + .cred { padding-left: clamp(16px, 2vw, 34px); }
-  .cred-k {
-    margin: 0; font-size: 11px; font-weight: 600;
-    letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted);
-  }
+  .cred + .cred { padding-left: clamp(16px, 2vw, 32px); }
   .cred-v {
-    margin: 12px 0 0; font-size: clamp(15px, 1.35vw, 19px); font-weight: 700;
-    letter-spacing: -0.018em; line-height: 1.25;
+    margin: 8px 0 0; font-family: var(--display); font-weight: 700;
+    font-size: clamp(16px, 1.5vw, 22px); letter-spacing: -0.02em; line-height: 1.2;
   }
   @media (max-width: 760px) {
     .creds-grid { grid-template-columns: 1fr 1fr; }
@@ -160,53 +168,37 @@ const hero = '/img/gallery/robot-welding-technology-in-factory-2026-01-08-00-11-
   }
 
   /* what we do */
-  .head { margin-bottom: clamp(42px, 5vw, 72px); }
-  .head .h2 { margin-top: 18px; max-width: 18ch; }
-  .tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(20px, 2.6vw, 40px); }
+  .sechead { margin-bottom: clamp(42px, 5vw, 72px); }
+  .sechead .h2 { max-width: 18ch; }
+  .tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(20px, 2.6vw, 32px); }
   .tile { display: block; }
-  .tile-shot { display: block; overflow: hidden; background: #f4f5f7; aspect-ratio: 3 / 2; }
-  .tile-shot img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.7s var(--ease); }
-  .tile:hover .tile-shot img { transform: scale(1.04); }
-  .tile h3 {
-    margin: 26px 0 0; font-size: clamp(19px, 1.8vw, 25px); font-weight: 700;
-    letter-spacing: -0.02em; line-height: 1.2;
+  .tile-shot {
+    display: block; overflow: hidden; background: var(--surface);
+    aspect-ratio: 3 / 2; border-radius: var(--r-sm);
   }
-  .tile p { margin: 9px 0 0; font-size: 14.5px; line-height: 1.6; color: var(--muted); max-width: 32ch; }
+  .tile-shot img { width: 100%; height: 100%; object-fit: cover; transition: transform 350ms ease-out; }
+  .tile:hover .tile-shot img { transform: scale(1.03); }
+  .tile .h3 { margin: 20px 0 0; }
+  .tile p { margin: 8px 0 0; font-size: 15px; line-height: 1.6; color: var(--muted); max-width: 32ch; }
   .tile-more {
-    display: inline-flex; align-items: center; gap: 7px; margin-top: 16px;
-    font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);
-    transition: color 0.25s;
+    display: inline-flex; align-items: center; gap: 8px; margin-top: 16px;
+    font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--faint); transition: color 0.2s;
   }
-  .tile-more i { font-style: normal; transition: transform 0.3s var(--ease); }
+  .tile-more i { font-style: normal; }
   .tile:hover .tile-more { color: var(--blue); }
-  .tile:hover .tile-more i { transform: translateX(4px); }
   @media (max-width: 860px) { .tiles { grid-template-columns: 1fr; } .tile p { max-width: none; } }
 
-  .all {
-    display: inline-flex; align-items: center; gap: 8px;
-    margin-top: clamp(36px, 4vw, 56px);
-    font-size: 13.5px; font-weight: 600; border-bottom: 1px solid var(--line); padding-bottom: 4px;
-    transition: color 0.25s, border-color 0.25s;
-  }
-  .all i { font-style: normal; transition: transform 0.3s var(--ease); }
-  .all:hover { color: var(--blue); border-color: var(--blue); }
-  .all:hover i { transform: translateX(4px); }
+  .all { margin-top: clamp(36px, 4vw, 56px); }
 
   /* about teaser */
-  .about { border-block: 1px solid var(--line); padding-block: clamp(72px, 10vw, 150px); }
+  .about { border-block: 1px solid var(--line); padding-block: clamp(72px, 10vw, 144px); }
   .about-line {
-    margin: 22px 0 0; max-width: 24ch;
-    font-size: clamp(24px, 3.2vw, 44px); font-weight: 700; letter-spacing: -0.032em; line-height: 1.14;
+    margin: 0; max-width: 24ch;
+    font-family: var(--display); font-weight: 700;
+    font-size: clamp(24px, 3.2vw, 44px); letter-spacing: -0.025em; line-height: 1.1;
   }
-  .about-links { display: flex; flex-wrap: wrap; gap: 28px; margin-top: 28px; }
-  .ul {
-    display: inline-flex; align-items: center; gap: 7px;
-    font-size: 13.5px; font-weight: 600; border-bottom: 1px solid var(--line); padding-bottom: 4px;
-    transition: color 0.25s, border-color 0.25s;
-  }
-  .ul i { font-style: normal; transition: transform 0.3s var(--ease); }
-  .ul:hover { color: var(--blue); border-color: var(--blue); }
-  .ul:hover i { transform: translateX(4px); }
+  .about-links { display: flex; flex-wrap: wrap; gap: 32px; margin-top: 32px; }
 
   /* clients */
   .clients .logos {
@@ -222,13 +214,13 @@ const hero = '/img/gallery/robot-welding-technology-in-factory-2026-01-08-00-11-
   .logo img {
     max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain;
     mix-blend-mode: multiply; filter: grayscale(1) opacity(0.55);
-    transition: filter 0.35s;
+    transition: filter 350ms ease-out;
   }
   .logo:hover img { filter: none; }
   @media (max-width: 900px) { .clients .logos { grid-template-columns: repeat(3, 1fr); } }
 
   /* contact band */
-  .cta-band { border-top: 1px solid var(--line); padding-block: clamp(72px, 10vw, 140px); }
-  .cta-in { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 26px; }
+  .cta-band { border-top: 1px solid var(--line); padding-block: clamp(72px, 10vw, 144px); }
+  .cta-in { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 28px; }
   .cta-in .h2 { max-width: 16ch; }
 </style>

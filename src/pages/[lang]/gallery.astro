@@ -38,11 +38,11 @@ const lede = p.description || (sub && sub.type === 'heading' ? sub.text : undefi
 <style>
   .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(12px, 1.6vw, 22px); }
   .tile {
-    display: block; width: 100%; padding: 0; border: 0; background: #f4f5f7;
-    aspect-ratio: 4 / 3; overflow: hidden; cursor: zoom-in;
+    display: block; width: 100%; padding: 0; border: 0; background: var(--surface);
+    aspect-ratio: 4 / 3; overflow: hidden; cursor: zoom-in; border-radius: var(--r-sm);
   }
-  .tile img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.7s var(--ease); }
-  .tile:hover img, .tile:focus-visible img { transform: scale(1.04); }
+  .tile img { width: 100%; height: 100%; object-fit: cover; transition: transform 350ms ease-out; }
+  .tile:hover img, .tile:focus-visible img { transform: scale(1.03); }
   @media (max-width: 900px) { .grid { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 560px) { .grid { grid-template-columns: 1fr; } }
 
@@ -50,12 +50,12 @@ const lede = p.description || (sub && sub.type === 'heading' ? sub.text : undefi
     width: min(94vw, 1400px); max-width: none; max-height: 92vh;
     padding: 0; border: 0; background: transparent; overflow: visible;
   }
-  #lb::backdrop { background: rgba(17, 18, 20, 0.88); }
+  #lb::backdrop { background: rgba(14, 17, 22, 0.9); }
   #lb img { width: 100%; max-height: 92vh; object-fit: contain; }
   #lb-close {
     position: absolute; top: -36px; right: 0;
     font-size: 28px; line-height: 1; color: rgba(255, 255, 255, 0.75);
-    background: none; border: 0; cursor: pointer; transition: color 0.25s;
+    background: none; border: 0; cursor: pointer; transition: color 0.2s;
   }
   #lb-close:hover { color: #fff; }
   @media (max-width: 640px) { #lb-close { top: 6px; right: 8px; color: #fff; } }

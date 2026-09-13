@@ -45,21 +45,22 @@ const alt = path.replace(`/${lang}/`, `/${otherLang(lang)}/`);
     margin: 0 auto; max-width: 1360px;
     display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: clamp(28px, 5vw, 72px); align-items: start;
   }
-  .fbrand p { font-size: 13.5px; line-height: 1.7; max-width: 32ch; margin-top: 18px; }
+  .fbrand p { font-size: 15px; line-height: 1.65; max-width: 32ch; margin-top: 20px; }
   .fgrid h4 {
-    font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.45); font-weight: 600; margin-bottom: 16px;
+    font-family: var(--mono); font-size: 12px; font-weight: 400;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5); margin-bottom: 18px;
   }
-  .fgrid ul { list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 13.5px; margin: 0; padding: 0; }
-  .fgrid a { transition: color 0.25s; }
+  .fgrid ul { list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 15px; margin: 0; padding: 0; }
+  .fgrid a { transition: color 0.2s; }
   .fgrid a:hover { color: #fff; }
-  .chip { background: #fff; padding: 7px 10px; line-height: 0; display: inline-block; }
+  .chip { background: #fff; padding: 7px 10px; line-height: 0; display: inline-block; border-radius: var(--r-sm); }
   .chip img { height: 28px; width: auto; }
   .fbot {
     margin: clamp(46px, 7vw, 80px) auto 0; max-width: 1360px;
     display: flex; flex-wrap: wrap; gap: 14px; justify-content: space-between;
     padding-top: 22px; border-top: 1px solid rgba(255, 255, 255, 0.16);
-    font-size: 12px; color: rgba(255, 255, 255, 0.45);
+    font-family: var(--mono); font-size: 12px; letter-spacing: 0.06em; color: rgba(255, 255, 255, 0.5);
   }
   @media (max-width: 800px) {
     .fgrid { grid-template-columns: 1fr 1fr; }
