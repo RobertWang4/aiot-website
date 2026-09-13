@@ -16,6 +16,7 @@ function rewriteBase() {
       'astro:build:done': ({ dir }) => {
         if (BASE === '/') return;
         const prefix = BASE.replace(/\/$/, '');
+        const skip = '(?!\\/)(?!' + prefix.slice(1) + '\\/)'; // not protocol-relative, not already prefixed
         const walk = (d) => {
           for (const f of readdirSync(d)) {
             const p = join(d, f);
@@ -23,10 +24,9 @@ function rewriteBase() {
             else if (/\.(html|css|js)$/.test(f)) {
               const src = readFileSync(p, 'utf8');
               const out = src
-                .replace(/(href|src|action|content|poster)="\/(?!\/)/g, `$1="${prefix}/`)
-                  .replace(/url=\/(?!\/)/g, `url=${prefix}/`)
-                .replace(/srcset="\/(?!\/)/g, `srcset="${prefix}/`)
-                .replace(/url\((['"]?)\/(?!\/)/g, `url($1${prefix}/`)
+                .replace(new RegExp('(href|src|action|content|poster|srcset)="/' + skip, 'g'), `$1="${prefix}/`)
+                .replace(new RegExp('url=/' + skip, 'g'), `url=${prefix}/`)
+                .replace(new RegExp("url\\((['\"]?)/" + skip, 'g'), `url($1${prefix}/`)
                 .replace(/(["'`])\/img\//g, `$1${prefix}/img/`)
                 .replace(new RegExp(SITE.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '/(?!' + prefix.slice(1) + '/)', 'g'), SITE + prefix + '/');
               if (out !== src) writeFileSync(p, out);
