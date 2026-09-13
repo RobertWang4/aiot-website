@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AIoT P.S.A. — Design System Preview</title>
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@500,700,900&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg:#ffffff; --surface:#F5F6F8; --line:#E5E7EB; --muted:#5B6270; --faint:#9AA0A9; --ink:#0E1116;
+    --navy:#0B1B4A; --blue:#2F6BFF; --blue-hover:#1F55DB;
+    --ok:#1F8A4C; --warn:#B7791F; --err:#C0392B; --info:#2F6BFF;
+    --display:'Satoshi',system-ui,sans-serif; --body:'Instrument Sans',system-ui,sans-serif; --mono:'IBM Plex Mono',ui-monospace,monospace;
+    --r-sm:2px; --r-md:4px; --r-full:9999px;
+  }
+  [data-theme="dark"]{ --bg:#0E1116; --surface:#151A22; --line:#252B36; --muted:#A3A9B4; --faint:#6B7280; --ink:#F3F4F6; --navy:#0B1B4A; }
+  *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1360px;margin:0 auto;padding:0 clamp(24px,5vw,88px)}
+  .sec{padding:clamp(72px,10vw,144px) 0;border-top:1px solid var(--line)}
+  .label{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint)}
+  h1,h2,h3{font-family:var(--display);letter-spacing:-.02em;line-height:1.02;margin:0}
+  .h1{font-size:clamp(40px,6vw,84px);font-weight:700} .h2{font-size:clamp(30px,3.8vw,52px);font-weight:700} .h3{font-size:24px;font-weight:700}
+  .lede{font-size:20px;color:var(--muted);max-width:52ch}
+  p{margin:0}
+  .btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--body);font-weight:600;font-size:15px;padding:14px 26px;border-radius:var(--r-md);border:1px solid transparent;cursor:pointer;text-decoration:none}
+  .btn-primary{background:var(--blue);color:#fff} .btn-primary:hover{background:var(--blue-hover)}
+  .btn-secondary{background:transparent;color:var(--ink);border-color:var(--ink)} .btn-ghost{background:transparent;color:var(--ink);padding-left:0}
+  .grid{display:grid;gap:32px} .g3{grid-template-columns:repeat(3,1fr)} .g4{grid-template-columns:repeat(4,1fr)} .g2{grid-template-columns:1fr 1fr}
+  @media(max-width:900px){.g3,.g4,.g2{grid-template-columns:1fr}}
+  .card{border:1px solid var(--line);padding:28px;border-radius:var(--r-md);background:var(--bg)}
+  .sw{height:96px;border:1px solid var(--line);border-radius:var(--r-md);display:flex;align-items:flex-end;padding:10px;font-family:var(--mono);font-size:12px}
+  input,textarea{width:100%;font:inherit;padding:12px 0;border:0;border-bottom:1px solid var(--line);background:transparent;color:var(--ink);outline:none} input:focus{border-color:var(--ink)}
+  .alert{border-left:3px solid;padding:12px 16px;background:var(--surface);font-size:14px}
+  table{width:100%;border-collapse:collapse;font-size:15px} td,th{padding:14px 0;border-bottom:1px solid var(--line);text-align:left} th{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);font-weight:500} td.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+  nav.site{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
+  nav.site a{color:var(--ink);text-decoration:none;font-weight:500;font-size:15px;margin-left:28px}
+  .hero{display:grid;grid-template-columns:55fr 45fr;gap:48px;align-items:center;padding:clamp(48px,7vw,112px) 0}
+  .hero img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--r-sm)}
+  @media(max-width:900px){.hero{grid-template-columns:1fr}}
+  .creds{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .creds div{padding:28px 24px 28px 0;border-right:1px solid var(--line)} .creds div:last-child{border-right:0} .creds div+div{padding-left:24px}
+  .creds b{display:block;font-family:var(--display);font-size:22px;font-weight:700;margin-top:6px}
+  .bignum{font-family:var(--mono);font-size:clamp(56px,8vw,120px);line-height:1;color:var(--line);font-weight:400}
+  .tile img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:var(--r-sm)}
+  .tile h3{margin-top:18px} .tile p{color:var(--muted);margin-top:6px}
+  .band{background:var(--navy);color:#fff;padding:clamp(56px,8vw,112px) 0}
+  .toggle{position:fixed;top:16px;right:16px;z-index:9;font-family:var(--mono);font-size:12px;padding:8px 12px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+  .logos{display:grid;grid-template-columns:repeat(6,1fr);gap:1px;background:var(--line);border:1px solid var(--line)} .logos div{background:var(--bg);aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:12px;color:var(--faint)}
+</style>
+</head>
+<body>
+<button class="toggle" onclick="document.documentElement.dataset.theme=document.documentElement.dataset.theme==='dark'?'':'dark'">LIGHT / DARK</button>
+
+<div class="wrap">
+  <section style="padding:96px 0 48px">
+    <p class="label">Design system preview · AIoT P.S.A.</p>
+    <h1 class="h1" style="margin-top:18px">Industrial modernism.<br>White, precise, quiet.</h1>
+    <p class="lede" style="margin-top:24px">Satoshi for headlines, Instrument Sans for reading, IBM Plex Mono for numbers. One accent colour, used rarely.</p>
+  </section>
+
+  <section class="sec">
+    <p class="label">01 — Typography</p>
+    <div class="grid g3" style="margin-top:32px">
+      <div><p class="label">Display · Satoshi 700</p><h2 class="h2" style="margin-top:12px">Your organisation's external force</h2></div>
+      <div><p class="label">Body · Instrument Sans 400</p><p style="margin-top:12px">We take over occupational safety, environmental compliance, machinery conformity and personnel — so your plant keeps its rhythm and your management keeps its focus. Since 2008, ISO-certified, PCA-accredited.</p></div>
+      <div><p class="label">Mono · IBM Plex Mono 400</p><p style="margin-top:12px;font-family:var(--mono);font-size:14px">01 MACHINERY, EQUIPMENT<br>02 ENVIRONMENT<br>07 HEALTH AND SAFETY<br>SINCE 2008 · ISO · PCA<br>10 DISCIPLINES · 37 SERVICES</p></div>
+    </div>
+    <div style="margin-top:56px;display:flex;flex-wrap:wrap;gap:40px;align-items:baseline">
+      <span class="h1">Aa 84</span><span class="h2">Aa 52</span><span class="h3">Aa 24</span><span style="font-size:20px;color:var(--muted)">Lede 20</span><span>Body 16</span><span class="label">Label 12</span>
+    </div>
+  </section>
+
+  <section class="sec">
+    <p class="label">02 — Colour</p>
+    <div class="grid g4" style="margin-top:32px">
+      <div class="sw" style="background:#fff;color:#0E1116">#FFFFFF bg</div>
+      <div class="sw" style="background:#F5F6F8;color:#0E1116">#F5F6F8 surface</div>
+      <div class="sw" style="background:#E5E7EB;color:#0E1116">#E5E7EB line</div>
+      <div class="sw" style="background:#9AA0A9;color:#fff">#9AA0A9 faint</div>
+      <div class="sw" style="background:#5B6270;color:#fff">#5B6270 muted</div>
+      <div class="sw" style="background:#0E1116;color:#fff">#0E1116 ink</div>
+      <div class="sw" style="background:#0B1B4A;color:#fff">#0B1B4A navy · footer only</div>
+      <div class="sw" style="background:#2F6BFF;color:#fff">#2F6BFF blue · CTA only</div>
+    </div>
+    <div class="grid g2" style="margin-top:48px">
+      <div>
+        <p class="label">Buttons</p>
+        <div style="display:flex;gap:16px;flex-wrap:wrap;margin-top:16px"><a class="btn btn-primary">Let's talk →</a><a class="btn btn-secondary">All services</a><a class="btn btn-ghost">View →</a></div>
+        <p class="label" style="margin-top:32px">Form</p>
+        <div style="margin-top:8px"><input placeholder="Name" /><input placeholder="Email" style="margin-top:8px" /></div>
+      </div>
+      <div style="display:grid;gap:10px;align-content:start">
+        <div class="alert" style="border-color:var(--ok)">Audit report delivered — 3 findings, all closed.</div>
+        <div class="alert" style="border-color:var(--warn)">ISO 45001 surveillance audit due in 30 days.</div>
+        <div class="alert" style="border-color:var(--err)">Machine 14 — emergency stop test failed.</div>
+        <div class="alert" style="border-color:var(--info)">New measurement protocol available.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <p class="label">03 — Home page mockup</p>
+  </section>
+</div>
+
+<!-- mockup -->
+<div style="border-top:1px solid var(--line)">
+  <div class="wrap">
+    <nav class="site"><b style="font-family:var(--display);font-size:18px">AIoT P.S.A.</b><div><a>About</a><a>Services</a><a>Gallery</a><a>Clients</a><a class="btn btn-secondary" style="padding:10px 18px">Contact</a></div></nav>
+    <div class="hero">
+      <div>
+        <p class="label">Comprehensive OHS outsourcing · Poland</p>
+        <h1 class="h1" style="margin-top:20px">Your organisation's external force.</h1>
+        <p class="lede" style="margin-top:24px">The flexibility your business needs — machinery safety, OHS, fire, environment and people, under one contract.</p>
+        <div style="margin-top:36px;display:flex;gap:16px"><a class="btn btn-primary">Let's talk →</a><a class="btn btn-ghost">All services →</a></div>
+      </div>
+      <img src="file:///Users/robert/Projects/AIOT/public/img/gallery/robot-welding-technology-in-factory-2026-01-08-00-11-27-utc.jpg" alt="" />
+    </div>
+    <div class="creds">
+      <div><span class="label">In business</span><b>Since 2008</b></div>
+      <div><span class="label">Management system</span><b>ISO certified</b></div>
+      <div><span class="label">Laboratory</span><b>PCA accredited</b></div>
+      <div><span class="label">Scope</span><b>10 disciplines · 37 services</b></div>
+    </div>
+    <section style="padding:clamp(72px,10vw,144px) 0">
+      <div style="display:flex;align-items:flex-end;gap:32px"><span class="bignum">01</span><h2 class="h2" style="padding-bottom:12px">Three areas,<br>ten disciplines.</h2></div>
+      <div class="grid g3" style="margin-top:56px">
+        <div class="tile"><img src="file:///Users/robert/Projects/AIOT/public/img/gallery/53732-machinery-in-laboratory-2026-01-09-11-39-55-utc.jpg" alt=""><h3 class="h3">Machinery and measurements</h3><p>Audits, compliance and measurement of machine parks.</p><a class="btn btn-ghost" style="margin-top:8px">View →</a></div>
+        <div class="tile"><img src="file:///Users/robert/Projects/AIOT/public/img/gallery/scientists-working-in-the-laboratory-2026-01-08-23-49-36-utc.jpg" alt=""><h3 class="h3">Health, safety and fire</h3><p>OHS outsourcing, fire protection and transport.</p><a class="btn btn-ghost" style="margin-top:8px">View →</a></div>
+        <div class="tile"><img src="file:///Users/robert/Projects/AIOT/public/img/gallery/science-laboratory-and-microscope-for-research-or-2026-01-09-11-13-53-utc.jpg" alt=""><h3 class="h3">Environment, people and systems</h3><p>Laboratory, occupational medicine, staffing and ISO.</p><a class="btn btn-ghost" style="margin-top:8px">View →</a></div>
+      </div>
+    </section>
+    <section style="padding:0 0 clamp(72px,10vw,144px)">
+      <div style="display:flex;align-items:flex-end;gap:32px"><span class="bignum">02</span><h2 class="h2" style="padding-bottom:12px">Trusted by 134 organisations.</h2></div>
+      <div class="logos" style="margin-top:48px"><div>ALPLA</div><div>COLGATE</div><div>DRAEXLMAIER</div><div>BOWMAN</div><div>DIORA</div><div>—</div></div>
+    </section>
+    <section style="padding:0 0 clamp(72px,10vw,144px)">
+      <table><thead><tr><th>#</th><th>Discipline</th><th>Services</th></tr></thead>
+      <tbody><tr><td class="num">01</td><td>Machinery, equipment</td><td class="num">16</td></tr><tr><td class="num">02</td><td>Environment</td><td class="num">5</td></tr><tr><td class="num">07</td><td>Health and safety</td><td class="num">8</td></tr></tbody></table>
+    </section>
+  </div>
+  <div class="band"><div class="wrap" style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:24px"><h2 class="h2">Your business without<br>risk and downtime.</h2><a class="btn btn-primary">Let's talk →</a></div></div>
+</div>
+</body>
+</html>
