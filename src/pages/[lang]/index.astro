@@ -1,50 +1,47 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { LANGS, getHome, type Lang } from '../../lib/content';
+import Hero from '../../components/home/Hero.astro';
+import PinBand from '../../components/home/PinBand.astro';
+import Stats from '../../components/home/Stats.astro';
+import AsiaInvite from '../../components/home/AsiaInvite.astro';
+import ServicesRail from '../../components/home/ServicesRail.astro';
+import Maturity from '../../components/home/Maturity.astro';
+import NoBlame from '../../components/home/NoBlame.astro';
+import Clients from '../../components/home/Clients.astro';
+import Closing from '../../components/home/Closing.astro';
+import { LANGS, getHome, getPage, site, t, type Lang } from '../../lib/content';
+
 export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
 const lang = Astro.params.lang as Lang;
 const h = getHome(lang);
+
+const clients = getPage(lang, 'clients');
+const logos = clients.blocks.filter((b): b is Extract<typeof b, { type: 'image' }> => b.type === 'image').slice(0, 14);
+const clientsHeading =
+  clients.blocks.find((b) => b.type === 'heading')?.text ?? clients.title;
 ---
 <Base lang={lang} title={h.title} description={h.description} transparentNav>
-  <section class="flex min-h-screen items-end bg-navy px-6 pb-24 pt-40 text-white">
-    <div class="mx-auto w-full max-w-7xl">
-      <h1 class="max-w-4xl text-5xl font-bold tracking-tight md:text-7xl">{h.hero.headline}</h1>
-      <div class="mt-10 flex gap-4">
-        {h.hero.ctas.map((c, i) => <a href={c.href} class:list={['rounded-full px-6 py-3 font-medium', i === 0 ? 'bg-blue text-white' : 'border border-white/40']}>{c.label}</a>)}
-      </div>
-    </div>
-  </section>
-  <section class="mx-auto max-w-7xl px-6 py-24">
-    <p class="text-xs font-semibold uppercase tracking-[0.2em] text-blue">{h.services.eyebrow}</p>
-    <h2 class="mt-3 text-4xl font-bold tracking-tight text-navy">{h.services.headline}</h2>
-    <div class="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-      {h.services.cards.map((c, i) => (
-        <div class="reveal rounded-2xl bg-mist p-8">
-          <span class="text-xs text-blue">{String(i + 1).padStart(2, '0')}</span>
-          <h3 class="mt-2 text-xl font-semibold text-navy">{c.title}</h3>
-          <p class="mt-3 text-ink/70">{c.text}</p>
-        </div>
-      ))}
-    </div>
-  </section>
-  <section class="bg-navy px-6 py-24 text-white">
-    <div class="mx-auto max-w-7xl">
-      <p class="text-xs font-semibold uppercase tracking-[0.2em] text-blue">{h.maturity.eyebrow}</p>
-      <h2 class="mt-3 text-4xl font-bold tracking-tight">{h.maturity.headline}</h2>
-      <ol class="mt-12 grid gap-6 md:grid-cols-5">
-        {h.maturity.stages.map((s, i) => (
-          <li class="reveal border-t border-white/20 pt-4" style={`transition-delay:${i * 120}ms`}>
-            <h3 class="font-semibold">{s.name}</h3>
-            <p class="mt-2 text-sm text-white/70">{s.text}</p>
-            <p class="mt-2 text-sm italic text-white/50">{s.management}</p>
-          </li>
-        ))}
-      </ol>
-    </div>
-  </section>
-  <section class="mx-auto max-w-7xl px-6 py-24 text-center">
-    <p class="text-xs font-semibold uppercase tracking-[0.2em] text-blue">{h.closing.eyebrow}</p>
-    <h2 class="mt-3 text-4xl font-bold tracking-tight text-navy">{h.closing.headline}</h2>
-    <p class="mt-8 font-display text-2xl italic text-ink/60">{h.closing.chain.join(' → ')}</p>
-  </section>
+  <Hero
+    lang={lang}
+    eyebrow={`${site.brand.name} — ${t(lang, 'od 2008', 'since 2008')}`}
+    headline={h.hero.headline}
+    ctas={h.hero.ctas}
+    img="/img/gallery/robot-welding-technology-in-factory-2026-01-08-00-11-27-utc.jpg"
+    alt={t(lang, 'Zrobotyzowane stanowisko spawalnicze w fabryce', 'Robotic welding cell in a factory')}
+  />
+
+  <PinBand
+    eyebrow={h.services.eyebrow}
+    headline={h.services.headline}
+    img="/img/gallery/automated-drilling-machines-2026-01-08-23-40-57-utc.jpg"
+    alt={t(lang, 'Zautomatyzowana wiertarka podczas pracy', 'Automated drilling machine at work')}
+  />
+
+  <Stats lang={lang} />
+  <AsiaInvite lang={lang} asia={h.asia} />
+  <ServicesRail lang={lang} cards={h.services.cards} />
+  <Maturity maturity={h.maturity} />
+  <NoBlame noBlame={h.noBlame} />
+  <Clients lang={lang} heading={clientsHeading} logos={logos} />
+  <Closing lang={lang} closing={h.closing} />
 </Base>

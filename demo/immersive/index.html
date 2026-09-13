@@ -98,7 +98,7 @@ header.solid .navcta{border-color:var(--navy);color:var(--navy) !important}
 .hero .lede{color:rgba(255,255,255,.76);max-width:46ch}
 .hero-row{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-top:34px}
 .btn{
-  display:inline-flex;align-items:center;gap:10px;border-radius:100px;
+  display:inline-flex;width:fit-content;align-items:center;gap:10px;border-radius:100px;
   padding:14px 26px;font-size:14px;font-weight:600;letter-spacing:.01em;
   transition:transform .45s var(--ease),background .35s,box-shadow .45s var(--ease);
 }
@@ -168,6 +168,7 @@ header.solid .navcta{border-color:var(--navy);color:var(--navy) !important}
 .rail{
   display:flex;gap:clamp(12px,1.4vw,22px);overflow-x:auto;scroll-snap-type:x mandatory;
   padding:44px var(--pad) 10px;scrollbar-width:none;cursor:grab;
+  scroll-padding-inline:var(--pad);
 }
 .rail::-webkit-scrollbar{display:none}
 .rail.drag{cursor:grabbing;scroll-snap-type:none}
@@ -252,8 +253,9 @@ header.solid .navcta{border-color:var(--navy);color:var(--navy) !important}
 .logos{display:flex;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}
 .logos>div{display:flex;flex:none;align-items:center;animation:slide 46s linear infinite}
 .logos:hover>div{animation-play-state:paused}
-.logos img{height:clamp(30px,3.4vw,46px);width:auto;margin:0 clamp(26px,3.6vw,58px);
-  filter:grayscale(1) opacity(.5) contrast(.9);transition:filter .5s var(--ease)}
+.logos img{height:clamp(30px,3.4vw,44px);width:clamp(96px,11vw,148px);object-fit:contain;
+  margin:0 clamp(20px,2.6vw,40px);mix-blend-mode:multiply;
+  filter:grayscale(1) opacity(.55) contrast(.95);transition:filter .5s var(--ease)}
 .logos img:hover{filter:none}
 
 /* ---------- closing ---------- */

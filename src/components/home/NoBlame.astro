@@ -1,0 +1,34 @@
+---
+interface Props { noBlame: { headline: string; phrases: string[] } }
+const { noBlame } = Astro.props;
+const half = Math.ceil(noBlame.phrases.length / 2);
+const rowA = noBlame.phrases.slice(0, half);
+const rowB = noBlame.phrases.slice(half);
+---
+<section class="blame">
+  <div class="bg">
+    <img src="/img/gallery/team-and-portrait-of-engineering-employees-standin-2026-03-09-03-24-39-utc.jpg" alt="" loading="lazy" />
+  </div>
+  <div class="lbl"><span class="eyebrow eyebrow-l">{noBlame.headline}</span></div>
+  <div class="mq" style="--dur:62s">
+    <div>{rowA.map((p) => <em>{p}</em>)}</div>
+    <div aria-hidden="true">{rowA.map((p) => <em>{p}</em>)}</div>
+  </div>
+  <div class="mq rev" style="--dur:74s;margin-top:6px;opacity:.55">
+    <div>{rowB.map((p) => <em>{p}</em>)}</div>
+    <div aria-hidden="true">{rowB.map((p) => <em>{p}</em>)}</div>
+  </div>
+</section>
+
+<style>
+  .blame { position: relative; overflow: hidden; background: var(--navy); padding: clamp(70px, 11vh, 140px) 0; }
+  .bg { position: absolute; inset: 0; }
+  .bg img { width: 100%; height: 100%; object-fit: cover; opacity: 0.22; }
+  .bg::after { content: ''; position: absolute; inset: 0; background: rgba(11, 27, 74, 0.62); }
+  .lbl { position: relative; z-index: 2; padding: 0 var(--pad); margin-bottom: 34px; }
+  .mq :global(em) {
+    font-family: var(--serif); font-style: italic; font-size: clamp(26px, 4.2vw, 58px);
+    color: #fff; white-space: nowrap; padding: 0 0.45em; line-height: 1.3; opacity: 0.92;
+  }
+  .mq :global(em::after) { content: '·'; color: var(--blue); margin-left: 0.45em; font-style: normal; }
+</style>

@@ -1,27 +1,121 @@
 ---
 /** Renders a generic block array (about / contact / service pages). */
 import type { Block } from '../lib/content';
-interface Props { blocks: Block[] }
-const { blocks } = Astro.props;
+interface Props { blocks: Block[]; class?: string }
+const { blocks: raw, class: cls = '' } = Astro.props;
+
+// The scraped content sometimes stacks two section headings in a row. Read the
+// first one as the label of the second instead of rendering an orphan title.
+const blocks: Block[] = [];
+for (let i = 0; i < raw.length; i++) {
+  const b = raw[i];
+  const nxt = raw[i + 1];
+  if (b.type === 'heading' && b.level <= 2 && !b.eyebrow && nxt?.type === 'heading' && nxt.level <= 2 && !nxt.eyebrow) {
+    blocks.push({ ...nxt, eyebrow: b.text });
+    i++;
+    continue;
+  }
+  blocks.push(b);
+}
+// a heading with nothing under it is a scraping artefact, not a section
+while (blocks.length && blocks[blocks.length - 1].type === 'heading') blocks.pop();
 const H = (l: number) => (l <= 2 ? 'h2' : l === 3 ? 'h3' : 'h4') as 'h2' | 'h3' | 'h4';
 ---
-<div class="prose-blocks mx-auto max-w-3xl px-6">
+<div class:list={['blocks', cls]}>
   {blocks.map((b) => {
     if (b.type === 'heading') {
       const Tag = H(b.level);
       return (
-        <div class="reveal mt-14 first:mt-0">
-          {b.eyebrow && <p class="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-blue">{b.eyebrow}</p>}
-          <Tag class:list={['font-semibold tracking-tight text-navy', b.level <= 2 ? 'text-3xl md:text-4xl' : 'text-xl']}>{b.text}</Tag>
+        <div class="reveal b-head">
+          {b.eyebrow && <p class="b-eyebrow">{b.eyebrow}</p>}
+          <Tag>{b.text}</Tag>
         </div>
       );
     }
-    if (b.type === 'paragraph') return <p class="reveal mt-5 text-lg leading-relaxed text-ink/80">{b.text}</p>;
+    if (b.type === 'paragraph') return <p class="reveal b-p">{b.text}</p>;
     if (b.type === 'list') {
       const Tag = b.ordered ? 'ol' : 'ul';
-      return <Tag class:list={['reveal mt-5 space-y-2 pl-6 text-lg text-ink/80', b.ordered ? 'list-decimal' : 'list-disc']}>{b.items.map((i) => <li>{i}</li>)}</Tag>;
+      return (
+        <Tag class:list={['reveal b-list', b.ordered ? 'b-ol' : 'b-ul']}>
+          {b.items.map((i) => <li>{i}</li>)}
+        </Tag>
+      );
     }
-    if (b.type === 'image') return <img src={b.src} alt={b.alt} loading="lazy" class="reveal mt-8 w-full rounded-2xl object-cover" />;
-    if (b.type === 'cta') return <a href={b.href} class="reveal mt-6 inline-block rounded-full bg-blue px-6 py-3 font-medium text-white">{b.label}</a>;
+    if (b.type === 'image') return <img src={b.src} alt={b.alt} loading="lazy" class="reveal b-img" />;
+    if (b.type === 'cta') return <a href={b.href} class="reveal b-cta">{b.label}<i>→</i></a>;
   })}
 </div>
+
+<style>
+  .blocks { color: #080b14; }
+  .blocks > * + * { margin-top: 20px; }
+
+  .b-head { margin-top: clamp(52px, 7vw, 88px); }
+  .b-head:first-child { margin-top: 0; }
+  .b-eyebrow {
+    margin-bottom: 14px;
+    font-size: 11px; font-weight: 600;
+    letter-spacing: .22em; text-transform: uppercase;
+    color: #2f6bff;
+  }
+  .b-head :global(h2) {
+    font-size: clamp(28px, 3.5vw, 50px);
+    font-weight: 300; letter-spacing: -.035em; line-height: 1.02;
+    color: #0b1b4a; max-width: 20ch; text-wrap: balance;
+  }
+  .b-head :global(h3) {
+    font-size: clamp(19px, 1.8vw, 25px);
+    font-weight: 500; letter-spacing: -.02em; line-height: 1.2;
+    color: #0b1b4a;
+  }
+  .b-head :global(h4) {
+    font-size: 13px; font-weight: 700;
+    letter-spacing: .14em; text-transform: uppercase;
+    color: #2f6bff;
+  }
+  /* tighten the gap between a heading and the paragraph it introduces */
+  .b-head + .b-p { margin-top: 18px; }
+  .b-head:has(h3) + .b-p, .b-head:has(h4) + .b-p { margin-top: 10px; }
+  .b-head:has(h3), .b-head:has(h4) { margin-top: clamp(30px, 3.4vw, 44px); }
+
+  .b-p {
+    font-size: clamp(15.5px, 1.2vw, 17.5px);
+    line-height: 1.72; color: #5a6280; max-width: 68ch;
+  }
+
+  .b-list { max-width: 68ch; list-style: none; counter-reset: b; }
+  .b-list li {
+    position: relative;
+    padding-left: 34px; padding-block: 11px;
+    font-size: clamp(15px, 1.15vw, 17px); line-height: 1.65; color: #5a6280;
+    border-top: 1px solid rgba(11,27,74,.1);
+  }
+  .b-list li:last-child { border-bottom: 1px solid rgba(11,27,74,.1); }
+  .b-ul li::before {
+    content: ""; position: absolute; left: 0; top: 1.05em;
+    width: 18px; height: 1px; background: #2f6bff;
+  }
+  .b-ol li { counter-increment: b; }
+  .b-ol li::before {
+    content: counter(b, decimal-leading-zero);
+    position: absolute; left: 0; top: 11px;
+    font-size: 12px; font-weight: 600; letter-spacing: .06em; color: #2f6bff;
+  }
+
+  .b-img {
+    margin-top: clamp(36px, 5vw, 64px);
+    width: 100%; border-radius: 3px; object-fit: cover;
+  }
+
+  .b-cta {
+    display: inline-flex; align-items: center; gap: 10px;
+    margin-top: 32px; padding: 14px 26px; border-radius: 100px;
+    background: #2f6bff; color: #fff;
+    font-size: 14px; font-weight: 600;
+    box-shadow: 0 10px 34px rgba(47,107,255,.34);
+    transition: transform .45s cubic-bezier(.16,1,.3,1), box-shadow .45s cubic-bezier(.16,1,.3,1);
+  }
+  .b-cta i { font-style: normal; transition: transform .45s cubic-bezier(.16,1,.3,1); }
+  .b-cta:hover { transform: translateY(-2px); box-shadow: 0 16px 44px rgba(47,107,255,.46); }
+  .b-cta:hover i { transform: translateX(4px); }
+</style>

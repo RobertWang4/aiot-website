@@ -1,7 +1,9 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import Blocks from '../../../components/Blocks.astro';
-import { LANGS, listServices, getServiceIndex, getService, type Lang } from '../../../lib/content';
+import PageHeader from '../../../components/inner/PageHeader.astro';
+import { categoryPhoto } from '../../../components/inner/photos';
+import { LANGS, listServices, getServiceIndex, getService, t, type Lang } from '../../../lib/content';
 
 export const getStaticPaths = () =>
   LANGS.flatMap((lang) => listServices(lang).map((s) => ({ params: { lang, slug: s.id }, props: { service: s } })));
@@ -10,21 +12,97 @@ const lang = Astro.params.lang as Lang;
 const { service: s } = Astro.props;
 const cat = getServiceIndex(lang).categories.find((c) => c.id === s.category)!;
 const siblings = cat.services.map((id) => getService(lang, id)).filter((x) => x.hasPage);
+
+// "next service" — next sibling in the category, otherwise the first of the next category
+const cats = getServiceIndex(lang).categories;
+const all = listServices(lang);
+const here = all.findIndex((x) => x.id === s.id);
+const next = all[(here + 1) % all.length];
+const nextCat = cats.find((c) => c.id === next.category)!;
 ---
-<Base lang={lang} title={s.title} description={s.description}>
-  <section class="mx-auto grid max-w-7xl gap-16 px-6 pb-24 pt-36 lg:grid-cols-[1fr_280px]">
-    <article>
-      <p class="text-xs font-semibold uppercase tracking-[0.2em] text-blue"><a href={`/${lang}/services/#${cat.id}`}>{cat.label}</a></p>
-      <h1 class="mt-3 mb-12 text-4xl font-bold tracking-tight text-navy md:text-5xl">{s.title}</h1>
-      <Blocks blocks={s.blocks} />
-    </article>
-    <aside class="lg:sticky lg:top-28 lg:self-start">
-      <p class="text-xs font-semibold uppercase tracking-[0.2em] text-ink/50">{cat.label}</p>
-      <ul class="mt-4 space-y-2 text-sm">
-        {siblings.map((x) => (
-          <li><a href={`/${lang}/services/${x.id}/`} class:list={['hover:text-blue', x.id === s.id && 'font-semibold text-blue']}>{x.menuLabel ?? x.title}</a></li>
-        ))}
-      </ul>
-    </aside>
-  </section>
+<Base lang={lang} title={s.title} description={s.description} transparentNav>
+  <PageHeader
+    eyebrow={cat.label}
+    eyebrowHref={`/${lang}/services/#${cat.id}`}
+    title={s.title}
+    image={categoryPhoto(cat.id)}
+    alt={cat.label}
+    accent="none"
+  />
+
+  <div class="bg-paper">
+    <div class="mx-auto grid max-w-[1400px] gap-x-[clamp(32px,6vw,96px)] px-6 pb-[clamp(70px,11vh,130px)] pt-[clamp(50px,8vh,100px)] sm:px-10 lg:grid-cols-[1fr_260px] lg:px-16 xl:px-24">
+      <article>
+        <Blocks blocks={s.blocks} />
+        <a href={`/${lang}/contact/`} class="cta">{t(lang, 'Zapytaj o tę usługę', 'Ask about this service')}<i>→</i></a>
+      </article>
+
+      <aside class="order-first mb-14 lg:order-none lg:mb-0 lg:sticky lg:top-28 lg:self-start">
+        <p class="text-[11px] font-semibold uppercase tracking-[.22em] text-blue">{cat.label}</p>
+        <ul class="mt-5 space-y-[9px]">
+          {siblings.map((x) => (
+            <li>
+              <a href={`/${lang}/services/${x.id}/`}
+                 class:list={[
+                   'block text-[13.5px] leading-snug transition-colors hover:text-blue',
+                   x.id === s.id ? 'font-semibold text-navy' : 'text-muted',
+                 ]}>
+                {x.id === s.id && <span class="mr-2 inline-block h-px w-3 align-middle bg-blue"></span>}
+                {x.menuLabel ?? x.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+        <a href={`/${lang}/services/`} class="mt-8 inline-block border-b border-muted/30 pb-[2px] text-[12px] font-semibold uppercase tracking-[.16em] text-muted transition-colors hover:text-blue">
+          {t(lang, 'Cała oferta', 'All services')}
+        </a>
+      </aside>
+    </div>
+  </div>
+
+  <!-- next service -->
+  <a href={`/${lang}/services/${next.id}/`} class="nextlink group">
+    <img src={categoryPhoto(nextCat.id)} alt="" loading="lazy" />
+    <div class="scrim"></div>
+    <div class="relative z-10 w-full px-6 py-[clamp(56px,9vh,110px)] sm:px-10 lg:px-16 xl:px-24">
+      <p class="text-[11px] font-semibold uppercase tracking-[.22em] text-[#9fbbff]">
+        {t(lang, 'Następna usługa', 'Next service')} · {nextCat.label}
+      </p>
+      <h2 class="mt-4 flex max-w-[22ch] items-baseline gap-4 text-[clamp(24px,3.6vw,52px)] font-light leading-[1.02] tracking-[-.035em] text-white">
+        {next.menuLabel ?? next.title}
+        <i class="arrow">→</i>
+      </h2>
+    </div>
+  </a>
 </Base>
+
+<style>
+  .cta {
+    display: inline-flex; align-items: center; gap: 10px;
+    margin-top: clamp(44px, 6vh, 72px);
+    padding: 14px 26px; border-radius: 100px; background: #2f6bff; color: #fff;
+    font-size: 14px; font-weight: 600;
+    box-shadow: 0 10px 34px rgba(47,107,255,.34);
+    transition: transform .45s cubic-bezier(.16,1,.3,1), box-shadow .45s cubic-bezier(.16,1,.3,1);
+  }
+  .cta i { font-style: normal; transition: transform .45s cubic-bezier(.16,1,.3,1); }
+  .cta:hover { transform: translateY(-2px); box-shadow: 0 16px 44px rgba(47,107,255,.46); }
+  .cta:hover i { transform: translateX(4px); }
+
+  .nextlink { position: relative; display: flex; align-items: center; overflow: hidden; background: #080b14; }
+  .nextlink img {
+    position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
+    filter: saturate(.5) contrast(1.05);
+    transition: transform 1.2s cubic-bezier(.16,1,.3,1), filter .8s cubic-bezier(.16,1,.3,1);
+  }
+  .nextlink:hover img { transform: scale(1.05); filter: saturate(1); }
+  .nextlink .scrim {
+    position: absolute; inset: 0;
+    background: linear-gradient(100deg, rgba(8,11,20,.93) 0%, rgba(11,27,74,.72) 58%, rgba(8,11,20,.6) 100%);
+  }
+  .arrow {
+    font-style: normal; font-size: .6em; color: #9fbbff;
+    transition: transform .5s cubic-bezier(.16,1,.3,1);
+  }
+  .nextlink:hover .arrow { transform: translateX(10px); }
+</style>

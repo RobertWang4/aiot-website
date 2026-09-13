@@ -4,7 +4,7 @@
   "menuLabel": "User instructions",
   "hasPage": true,
   "title": "User manuals for machinery and equipment",
-  "description": "The main objectives of creating a user manual from RECON’s perspective:",
+  "description": "The main objectives of creating a user manual from AIoT P.S.A.’s perspective:",
   "sourceUrl": "https://recon.org.pl/en/user-manuals-for-machinery-and-equipment-2/",
   "blocks": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The main objectives of creating a user manual from RECON’s perspective:"
+      "text": "The main objectives of creating a user manual from AIoT P.S.A.’s perspective:"
     },
     {
       "type": "list",

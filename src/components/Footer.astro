@@ -1,21 +1,57 @@
 ---
-import { site, type Lang } from '../lib/content';
+import { site, otherLang, t, type Lang } from '../lib/content';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
+const path = Astro.url.pathname;
+const alt = path.replace(`/${lang}/`, `/${otherLang(lang)}/`);
 ---
-<footer class="bg-navy-900 text-white/80">
-  <div class="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:grid-cols-3">
+<footer class="site-footer">
+  <div class="fgrid">
     <div>
-      <img src={site.brand.logo} alt={site.brand.name} class="h-10 rounded bg-white p-1" />
-      <p class="mt-4 text-sm">{site.contact.address}</p>
+      <span class="chip"><img src={site.brand.logo} alt={site.brand.name} /></span>
+      <p>{t(lang,
+        'AIoT P.S.A. — zewnętrzna siła Twojej organizacji. Pełne odciążenie operacyjne, partnerstwo w rozwoju, kultura bezpieczeństwa i pragmatyczne rozwiązania dla przemysłu.',
+        "AIoT P.S.A. — your organisation's external force. Complete operational relief, development partnership, safety culture and pragmatic solutions for industry.")}</p>
     </div>
-    <nav class="flex flex-col gap-2 text-sm">
-      {site.nav[lang].map((n) => <a href={n.href} class="hover:text-white">{n.label}</a>)}
-    </nav>
-    <div class="text-sm">
-      <a href={`mailto:${site.contact.email}`} class="block hover:text-white">{site.contact.email}</a>
-      <a href={`tel:${site.contact.phone.replace(/\s/g, '')}`} class="block hover:text-white">{site.contact.phone}</a>
+    <div>
+      <h4>{t(lang, 'Nawigacja', 'Navigate')}</h4>
+      <ul>{site.nav[lang].map((n) => <li><a href={n.href}>{n.label}</a></li>)}</ul>
+    </div>
+    <div>
+      <h4>{t(lang, 'Kontakt', 'Contact')}</h4>
+      <ul>
+        <li><a href={`mailto:${site.contact.email}`}>{site.contact.email}</a></li>
+        <li><a href={`tel:${site.contact.phone.replace(/\s/g, '')}`}>{site.contact.phone}</a></li>
+        <li>{site.contact.address}</li>
+        <li><a href={alt}>{lang.toUpperCase()} / {otherLang(lang).toUpperCase()}</a></li>
+      </ul>
     </div>
   </div>
-  <p class="border-t border-white/10 px-6 py-6 text-center text-xs">© {new Date().getFullYear()} {site.brand.name}</p>
+  <div class="fbot">
+    <span>© {new Date().getFullYear()} {site.brand.name}</span>
+    <span>{t(lang, 'Certyfikat ISO · Akredytowane laboratorium PCA', 'ISO certified · PCA accredited laboratory')}</span>
+  </div>
 </footer>
+
+<style>
+  .site-footer { background: var(--ink); color: rgba(255, 255, 255, 0.5);
+    padding: clamp(54px, 8vh, 90px) var(--pad) 34px; border-top: 1px solid rgba(255, 255, 255, 0.1); }
+  .fgrid { display: grid; grid-template-columns: 1.6fr 1fr 1fr; gap: clamp(28px, 5vw, 70px); align-items: start; }
+  .fgrid p { font-size: 13.5px; line-height: 1.7; max-width: 34ch; margin-top: 18px; }
+  .fgrid h4 { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.35); font-weight: 600; margin-bottom: 16px; }
+  .fgrid ul { list-style: none; display: flex; flex-direction: column; gap: 9px; font-size: 13.5px;
+    margin: 0; padding: 0; }
+  .fgrid a { transition: color 0.3s var(--ease); }
+  .fgrid a:hover { color: #fff; }
+  .chip { background: #fff; border-radius: 11px; padding: 6px 9px; line-height: 0;
+    display: inline-block; box-shadow: 0 2px 14px rgba(8, 11, 20, 0.16); }
+  .chip img { height: 30px; width: auto; }
+  .fbot { display: flex; flex-wrap: wrap; gap: 14px; justify-content: space-between;
+    margin-top: clamp(44px, 7vh, 78px); padding-top: 24px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1); font-size: 12px; color: rgba(255, 255, 255, 0.34); }
+  @media (max-width: 800px) {
+    .fgrid { grid-template-columns: 1fr 1fr; }
+    .fgrid > div:first-child { grid-column: 1 / -1; }
+  }
+</style>

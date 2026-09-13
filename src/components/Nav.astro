@@ -1,34 +1,97 @@
 ---
-import { site, otherLang, type Lang } from '../lib/content';
+import { site, otherLang, t, type Lang } from '../lib/content';
 interface Props { lang: Lang; altHref: string; transparent?: boolean }
 const { lang, altHref, transparent = false } = Astro.props;
 const nav = site.nav[lang];
 const current = Astro.url.pathname;
 ---
-<header id="site-nav" class:list={['fixed inset-x-0 top-0 z-50 transition-colors duration-300', transparent ? 'text-white' : 'bg-white/90 backdrop-blur text-ink shadow-sm']} data-transparent={transparent}>
-  <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-    <a href={`/${lang}/`} class="flex items-center gap-3">
-      <img src={site.brand.logo} alt={site.brand.name} class="h-9 rounded bg-white p-1" />
-      <span class="font-semibold tracking-tight">{site.brand.name}</span>
-    </a>
-    <nav class="hidden items-center gap-7 text-sm font-medium md:flex">
-      {nav.map((n) => <a href={n.href} class:list={['hover:text-blue transition', current === n.href && 'text-blue']}>{n.label}</a>)}
-      <a href={altHref} class="rounded-full border border-current/30 px-3 py-1 text-xs uppercase tracking-wider">{otherLang(lang)}</a>
-    </nav>
-    <button id="nav-toggle" class="md:hidden" aria-label="Menu">☰</button>
-  </div>
-  <nav id="nav-mobile" hidden class="flex flex-col gap-4 bg-white px-6 pb-6 text-ink md:hidden">
+<header id="site-nav" class:list={['site-nav', !transparent && 'solid']} data-transparent={String(transparent)}>
+  <a href={`/${lang}/`} class="brand">
+    <span class="chip"><img src={site.brand.logo} alt={site.brand.name} /></span>
+    <span class="wordmark">{site.brand.name}</span>
+  </a>
+  <nav class="navlinks">
+    {nav.filter((n) => n.id !== 'home' && n.id !== 'contact').map((n) => (
+      <a href={n.href} class:list={[current === n.href && 'current']}>{n.label}</a>
+    ))}
+    <a href={altHref} class="lang">{otherLang(lang)}</a>
+    <a href={`/${lang}/contact/`} class="navcta">{t(lang, 'Kontakt', 'Contact')}</a>
+  </nav>
+  <button id="nav-toggle" class="navtoggle" aria-label="Menu" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+  <nav id="nav-mobile" class="navmobile" hidden>
     {nav.map((n) => <a href={n.href}>{n.label}</a>)}
-    <a href={altHref} class="text-xs uppercase tracking-wider">{otherLang(lang)}</a>
+    <a href={altHref} class="lang">{lang.toUpperCase()} / {otherLang(lang).toUpperCase()}</a>
   </nav>
 </header>
+
+<style>
+  .site-nav {
+    position: fixed; inset: 0 0 auto 0; z-index: 60;
+    display: flex; align-items: center; gap: 24px;
+    padding: 14px var(--pad);
+    transition: background 0.5s var(--ease), box-shadow 0.5s var(--ease), padding 0.5s var(--ease);
+  }
+  .site-nav.solid {
+    background: rgba(246, 244, 240, 0.86); backdrop-filter: blur(18px) saturate(1.4);
+    box-shadow: 0 1px 0 var(--line); padding: 9px var(--pad);
+  }
+  .brand { display: flex; align-items: center; gap: 14px; flex: none; }
+  .chip { background: #fff; border-radius: 11px; padding: 6px 9px; line-height: 0;
+    box-shadow: 0 2px 14px rgba(8, 11, 20, 0.16); flex: none; }
+  .chip img { height: 28px; width: auto; }
+  .wordmark { font-size: 14px; font-weight: 800; letter-spacing: 0.04em; color: #fff;
+    transition: color 0.5s var(--ease); white-space: nowrap; }
+  .site-nav.solid .wordmark { color: var(--navy); }
+
+  .navlinks { margin-left: auto; display: flex; gap: clamp(12px, 1.7vw, 28px); align-items: center; }
+  .navlinks a { font-size: 13px; font-weight: 500; color: rgba(255, 255, 255, 0.82);
+    transition: color 0.5s var(--ease), opacity 0.25s; white-space: nowrap; }
+  .site-nav.solid .navlinks a { color: var(--navy); opacity: 0.7; }
+  .navlinks a:hover { opacity: 1; color: var(--blue); }
+  .navlinks a.current { color: var(--blue); opacity: 1; }
+  .lang { text-transform: uppercase; letter-spacing: 0.14em; font-size: 11px; font-weight: 600; }
+  .navcta { border: 1px solid rgba(255, 255, 255, 0.4); border-radius: 100px; padding: 8px 17px;
+    color: #fff !important; opacity: 1 !important; transition: all 0.4s var(--ease); }
+  .site-nav.solid .navcta { border-color: var(--navy); color: var(--navy) !important; }
+  .navcta:hover { background: var(--blue); border-color: var(--blue); color: #fff !important; }
+
+  .navtoggle { display: none; margin-left: auto; background: none; border: 0; cursor: pointer;
+    width: 34px; height: 26px; flex-direction: column; justify-content: center; gap: 6px; padding: 0; }
+  .navtoggle span { display: block; height: 1.5px; width: 24px; background: #fff;
+    transition: background 0.5s var(--ease), transform 0.4s var(--ease); }
+  .site-nav.solid .navtoggle span { background: var(--navy); }
+  .navtoggle[aria-expanded='true'] span:first-child { transform: translateY(3.75px) rotate(45deg); }
+  .navtoggle[aria-expanded='true'] span:last-child { transform: translateY(-3.75px) rotate(-45deg); }
+
+  .navmobile { display: none; position: absolute; inset: 100% 0 auto 0;
+    background: rgba(246, 244, 240, 0.97); backdrop-filter: blur(18px);
+    box-shadow: 0 12px 30px rgba(8, 11, 20, 0.14);
+    flex-direction: column; gap: 0; padding: 6px var(--pad) 20px; }
+  .navmobile a { color: var(--navy); font-size: 16px; font-weight: 500; padding: 11px 0;
+    border-bottom: 1px solid var(--line); }
+  .navmobile a:last-child { border-bottom: 0; color: var(--blue); }
+
+  @media (max-width: 900px) {
+    .navlinks { display: none; }
+    .navtoggle { display: flex; }
+    .navmobile:not([hidden]) { display: flex; }
+    .wordmark { font-size: 13px; }
+  }
+</style>
+
 <script>
   const h = document.getElementById('site-nav')!;
-  const m = document.getElementById('nav-mobile')!;
-  document.getElementById('nav-toggle')!.addEventListener('click', () => { m.hidden = !m.hidden; });
+  const m = document.getElementById('nav-mobile')! as HTMLElement;
+  const btn = document.getElementById('nav-toggle')!;
+  btn.addEventListener('click', () => {
+    m.hidden = !m.hidden;
+    btn.setAttribute('aria-expanded', String(!m.hidden));
+  });
   if (h.dataset.transparent === 'true') {
-    const solid = ['bg-white/90', 'backdrop-blur', 'text-ink', 'shadow-sm'];
-    const onScroll = () => { const on = window.scrollY > 40; solid.forEach((c) => h.classList.toggle(c, on)); h.classList.toggle('text-white', !on); };
-    addEventListener('scroll', onScroll, { passive: true }); onScroll();
+    const onScroll = () => h.classList.toggle('solid', window.scrollY > window.innerHeight * 0.72);
+    addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
   }
 </script>

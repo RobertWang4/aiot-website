@@ -1,11 +1,78 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Blocks from '../../components/Blocks.astro';
-import { LANGS, getPage, type Lang } from '../../lib/content';
+import PageHeader from '../../components/inner/PageHeader.astro';
+import { pagePhoto } from '../../components/inner/photos';
+import { LANGS, getPage, t, type Lang } from '../../lib/content';
+import type { Block } from '../../lib/content';
 export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
+
 const lang = Astro.params.lang as Lang;
 const p = getPage(lang, 'about');
+
+type ImageBlock = Extract<Block, { type: 'image' }>;
+const marks = p.blocks.filter((b): b is ImageBlock => b.type === 'image');
+const text = p.blocks.filter((b) => b.type !== 'image');
+// drop the leading heading that only repeats the page title
+while (text.length) {
+  const first = text[0];
+  if (first.type === 'heading' && first.text.trim() === p.title.trim()) text.shift();
+  else break;
+}
+
+// the header already carries the description — don't print it twice
+const key = p.description.replace(/[….]+$/, '').trim().slice(0, 45);
+if (key.length > 25) {
+  const dup = text.findIndex((b) => b.type === 'paragraph' && b.text.startsWith(key));
+  if (dup !== -1) text.splice(dup, 1);
+}
+
+// split the article around one full-bleed photo break, at the first major
+// heading past the halfway mark
+const major = (b: Block) => b.type === 'heading' && b.level <= 2;
+let cut = text.findIndex((b, i) => i >= Math.floor(text.length / 2) && major(b));
+if (cut < 1) cut = text.length;
+const before = text.slice(0, cut);
+const after = text.slice(cut);
+
+const breakShot = '/img/gallery/leading-his-team-to-greatness-2026-03-25-06-32-55-utc.jpg';
+const wrap = 'mx-auto max-w-[1400px] px-6 sm:px-10 lg:px-16 xl:px-24';
 ---
-<Base lang={lang} title={p.title} description={p.description}>
-  <section class="pb-24 pt-36"><Blocks blocks={p.blocks} /></section>
+<Base lang={lang} title={p.title} description={p.description} transparentNav>
+  <PageHeader
+    eyebrow={t(lang, 'Od 2008 roku', 'Since 2008')}
+    title={p.title}
+    lede={p.description}
+    image={pagePhoto.about}
+    alt={t(lang, 'Kierownik zakładu z zespołem produkcyjnym', 'Plant manager with the production team')}
+  />
+
+  <div class="bg-paper pb-[clamp(60px,9vh,110px)] pt-[clamp(56px,9vh,110px)]">
+    <div class={wrap}><Blocks blocks={before} class="max-w-[72ch]" /></div>
+  </div>
+
+  {after.length > 0 && (
+    <>
+      <figure class="relative h-[clamp(300px,52vh,560px)] overflow-hidden bg-ink">
+        <img src={breakShot} alt={t(lang, 'Zespół inżynierów na hali produkcyjnej', 'Engineering team on the shop floor')}
+             loading="lazy" class="h-full w-full object-cover opacity-80" />
+        <div class="absolute inset-0 bg-[linear-gradient(100deg,rgba(11,27,74,.7),rgba(8,11,20,.25))]"></div>
+      </figure>
+
+      <div class="bg-paper pb-[clamp(70px,11vh,130px)] pt-[clamp(60px,9vh,110px)]">
+        <div class={wrap}><Blocks blocks={after} class="max-w-[72ch]" /></div>
+      </div>
+    </>
+  )}
+
+  {marks.length > 0 && (
+    <section class="border-t border-navy/12 bg-paper px-6 py-[clamp(44px,7vh,80px)] sm:px-10 lg:px-16 xl:px-24">
+      <div class="reveal flex flex-wrap items-center gap-x-[clamp(28px,4vw,64px)] gap-y-8">
+        {marks.map((m) => (
+          <img src={m.src} alt={m.alt} loading="lazy"
+               class="h-[clamp(34px,4vw,54px)] w-auto max-w-[150px] object-contain opacity-45 mix-blend-multiply grayscale transition-all duration-500 hover:opacity-100 hover:grayscale-0" />
+        ))}
+      </div>
+    </section>
+  )}
 </Base>
